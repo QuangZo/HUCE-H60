@@ -41,7 +41,26 @@
 
 ---
 
-## 2. QUY TRÌNH PHỐI HỢP TÁC NGHIỆP & PHÊ DUYỆT
+## 2. LỘ TRÌNH TRIỂN KHAI DỰ ÁN TỔNG THỂ (6 GIAI ĐOẠN)
+
+Lộ trình triển khai được thiết kế tối ưu xoay quanh cột mốc quan trọng là Đại lễ H60 ngày 14/11/2026, với mốc thời gian thực được xác lập cụ thể như sau:
+
+*   **Giai đoạn 1: Khảo sát & Đánh giá Thực trạng truyền thông HUCE (20/05/2026 - 19/06/2026):**
+    *   *Nội dung:* Tiếp cận, khảo sát thực tế di sản hình ảnh tại 13+ đơn vị khoa/phòng ban HUCE, đo lường độ phân mảnh màu sắc và đánh giá rủi ro pháp lý sở hữu trí tuệ của nhãn hiệu (giai đoạn khảo sát trước mốc thời gian thực 20/06/2026).
+*   **Giai đoạn 2: Chuẩn hóa Nhận diện & Nộp hồ sơ bảo hộ SHTT (20/06/2026 - 15/07/2026):**
+    *   *Nội dung:* Tinh chỉnh lưới hình học logo gốc, thiết kế bộ cẩm nang thương hiệu (Brand Guidelines), in ấn 15 cuốn cao cấp lưu hành nội bộ, soạn thảo hồ sơ nộp đơn đăng ký bảo hộ độc quyền nhãn hiệu tại Cục Sở hữu Trí tuệ.
+*   **Giai đoạn 3: Thiết kế Hệ thống Ấn phẩm & UI/UX Kênh số (16/07/2026 - 15/08/2026):**
+    *   *Nội dung:* Thiết kế chi tiết 10 hạng mục ấn phẩm văn phòng (Office Stationery), bộ tài sản số (Digital Assets), giao diện hệ thống website Portal/Admissions (Web UI/UX Redesign Figma Kit) và thiết lập quy chuẩn hệ thống bảng biển chỉ dẫn toàn trường.
+*   **Giai đoạn 4: Quy trình Quản lý SOPs & Đóng gói Quà tặng VIP (Phục vụ trước Đại lễ) (16/08/2026 - 15/09/2026):**
+    *   *Nội dung:* Xây dựng quy trình tác nghiệp truyền thông chuẩn (SOPs), kịch bản ứng phó sự cố truyền thông, thiết kế khung tiêu chuẩn quà tặng thương hiệu phân cấp (Lãnh đạo, khách hàng, sinh viên...) để chuẩn bị sản xuất trước thềm Đại lễ H60.
+*   **Giai đoạn 5: Đồng hành Vận hành & Duy trì Kênh số (Hỗ trợ Đại lễ & Hậu H60) (16/09/2026 - 15/11/2026):**
+    *   *Nội dung:* Triển khai và lập trình cổng thông tin Brand Portal trực tuyến để quản trị tài nguyên số. Đồng hành cùng nhà trường vận hành kỹ thuật, bảo trì bảo mật máy chủ website, cập nhật nội dung tin tức chuẩn SEO và thiết kế banner vận hành phục vụ trực tiếp cho chiến dịch Đại lễ H60 (ngày 14/11/2026).
+*   **Giai đoạn 6: Bảo trì, Gia hạn & Đồng hành Pháp lý (Dài Hạn) (16/11/2026 - 15/06/2027):**
+    *   *Nội dung:* Tiếp tục đồng hành chăm sóc kỹ thuật website Portal trong thời hạn 12 tháng, theo dõi tiến trình thẩm định đơn đăng ký bảo hộ độc quyền nhãn hiệu tại Cục Sở hữu Trí tuệ và chuyển giao năng lực tự vận hành cho Ban truyền thông trường.
+
+---
+
+## 3. QUY TRÌNH PHỐI HỢP TÁC NGHIỆP & PHÊ DUYỆT
 
 Để đảm bảo tính chuẩn xác của thông tin hành chính, quy trình phối hợp duyệt nội dung giữa ConsMedia và HUCE được thiết lập như sau:
 
@@ -66,7 +85,7 @@ sequenceDiagram
 
 ---
 
-## 3. CƠ CHẾ PHÒNG NGỪA & XỬ LÝ KHỦNG HOẢNG TRUYỀN THÔNG
+## 4. CƠ CHẾ PHÒNG NGỪA & XỬ LÝ KHỦNG HOẢNG TRUYỀN THÔNG
 
 *   **Tổ phản ứng nhanh:** Thành lập nhóm chat điều phối khẩn cấp gồm Trưởng phòng Truyền thông & Tuyển sinh HUCE và Giám đốc điều hành dự án ConsMedia.
 *   **Quét thông tin tự động:** Sử dụng các công cụ lắng nghe mạng xã hội (Social Listening) để phát hiện sớm các bài đăng, bình luận tiêu cực liên quan đến HUCE trên các hội nhóm sinh viên tự phát.
@@ -77,7 +96,7 @@ sequenceDiagram
 
 ---
 
-## 4. BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ VÀ GIÁ TRỊ THU LẠI DỰ KIẾN (ROI & SYSTEM EFFICIENCY)
+## 5. BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ VÀ GIÁ TRỊ THU LẠI DỰ KIẾN (ROI & SYSTEM EFFICIENCY)
 
 Đầu tư vào Nhận diện thương hiệu và Quy trình Vận hành Website không chỉ đơn thuần là chi phí truyền thông ngắn hạn, mà là một khoản **đầu tư chiến lược dài hạn** mang lại các giá trị thặng dư đo lường được cụ thể cho trường HUCE:
 
@@ -106,7 +125,7 @@ sequenceDiagram
 
 ---
 
-## 5. KẾT LUẬN & HÀNH ĐỘNG NGAY (IMMEDIATE ACTIONS)
+## 6. KẾT LUẬN & HÀNH ĐỘNG NGAY (IMMEDIATE ACTIONS)
 
 Để đảm bảo tiến độ triển khai kịp thời, hai bên thống nhất:
 1.  **Triển khai trước các đầu việc thiết kế qua MOU:** Ký kết Biên bản ghi nhớ để ConsMedia bắt tay ngay vào việc tinh chỉnh logo, làm đăng ký bảo hộ sở hữu trí tuệ sớm nhằm tránh rủi ro mất quyền đăng ký nhãn hiệu.
