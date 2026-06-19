@@ -39,7 +39,7 @@
         }
 
         body {
-            font-family: 'UTM Avo', 'Segoe UI', Arial, sans-serif;
+            font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif;
             background-color: var(--bg-dark);
             color: var(--text-light);
             line-height: 1.6;
@@ -51,7 +51,7 @@
         }
 
         h1, h2, h3, h4, h5, h6 {
-            font-family: 'UTM Avo', 'Segoe UI', Arial, sans-serif;
+            font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif;
             font-weight: 600; letter-spacing: -0.5px;
         }
 
@@ -216,7 +216,7 @@
             color: var(--accent);
             padding: 2px 6px;
             border-radius: 4px;
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Inter', sans-serif;
         }
 
         /* Sidebar Footer */
@@ -754,7 +754,7 @@
             font-size: 1.5rem;
             font-weight: 700;
             color: var(--primary);
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Inter', sans-serif;
         }
 
         .metric-mini-lbl {
@@ -905,7 +905,7 @@
             font-weight: 600;
             color: var(--primary);
             font-size: 1.1rem;
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Inter', sans-serif;
             text-align: right;
             min-width: 140px;
         }
@@ -973,7 +973,7 @@
             font-weight: 700;
             color: var(--primary);
             margin: 0.5rem 0;
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Inter', sans-serif;
         }
         .maint-price span {
             font-size: 0.7rem;
@@ -1098,7 +1098,7 @@
             font-size: 0.82rem;
             font-weight: 600;
             color: var(--primary);
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Inter', sans-serif;
             margin-left: 6px;
         }
 
@@ -1123,7 +1123,7 @@
             font-size: 1.95rem;
             font-weight: 700;
             color: var(--primary);
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Inter', sans-serif;
             letter-spacing: 0.5px;
         }
 
@@ -2165,22 +2165,28 @@
         }
         #print-preview-container {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
             padding: 40px 20px;
             background: #1e293b;
             min-height: calc(100vh - 54px);
+            gap: 20px;
         }
         .a4-page-print {
-            width: 210mm;
-            min-height: 297mm;
+            width: 297mm;
+            height: 210mm;
             background: #ffffff;
-            padding: 20mm;
+            padding: 10mm 15mm;
             box-shadow: 0 10px 25px rgba(0,0,0,0.5);
             border-radius: 4px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             box-sizing: border-box;
+            position: relative;
+            page-break-after: always;
+            page-break-inside: avoid;
+            overflow: hidden;
         }
         
         .print-nav-item {
@@ -2200,8 +2206,52 @@
             color: var(--primary);
         }
 
+        /* Screen Preview Overrides to strip borders and boxed styling */
+        #print-preview-container .panel-card,
+        #print-preview-container .brand-health-dashboard,
+        #print-preview-container .bh-metrics-section,
+        #print-preview-container .info-callout {
+            border: none !important;
+            background: transparent !important;
+            padding: 0 !important;
+            margin: 0.3rem 0 !important;
+            box-shadow: none !important;
+            border-radius: 0 !important;
+        }
+        #print-preview-container .panel-card::after {
+            display: none !important;
+        }
+        #print-preview-container .panel-card h3 {
+            margin-top: 0 !important;
+            padding-bottom: 2px !important;
+            margin-bottom: 4px !important;
+            font-size: 0.95rem !important;
+        }
+        #print-preview-container .collapsible-content {
+            max-height: none !important;
+            display: block !important;
+            padding: 0.3rem 0 !important;
+            opacity: 1 !important;
+            overflow: visible !important;
+            border: none !important;
+            background: transparent !important;
+        }
+        #print-preview-container button, 
+        #print-preview-container .vault-btn,
+        #print-preview-container .collapsible-btn,
+        #print-preview-container .btn-main {
+            display: none !important;
+        }
+        #print-preview-container .document-vault-bar {
+            display: none !important;
+        }
+
         /* Print media styles */
         @media print {
+            @page {
+                size: A4 landscape;
+                margin: 0;
+            }
             body * {
                 display: none !important;
             }
@@ -2228,16 +2278,14 @@
                 display: block !important;
             }
             .a4-page-print {
-                width: 210mm !important;
-                min-height: 297mm !important;
-                padding: 20mm !important;
+                width: 297mm !important;
+                height: 210mm !important;
+                padding: 10mm 15mm !important;
                 box-shadow: none !important;
                 border-radius: 0 !important;
-                border: none !important;
+                margin-bottom: 0 !important;
                 page-break-after: always !important;
-                display: flex !important;
-                flex-direction: column !important;
-                justify-content: space-between !important;
+                page-break-inside: avoid !important;
                 box-sizing: border-box !important;
                 background: #ffffff !important;
                 color: #000000 !important;
@@ -2246,13 +2294,34 @@
                 page-break-before: always !important;
             }
             
-            /* Expand collapse blocks for high fidelity A4 printing */
+            .a4-page-print .panel-card,
+            .a4-page-print .brand-health-dashboard,
+            .a4-page-print .bh-metrics-section,
+            .a4-page-print .info-callout {
+                border: none !important;
+                background: transparent !important;
+                padding: 0 !important;
+                margin: 0.3rem 0 !important;
+                box-shadow: none !important;
+                border-radius: 0 !important;
+            }
+            .a4-page-print .panel-card::after {
+                display: none !important;
+            }
+            .a4-page-print .panel-card h3 {
+                margin-top: 0 !important;
+                padding-bottom: 2px !important;
+                margin-bottom: 4px !important;
+                font-size: 0.95rem !important;
+            }
             .a4-page-print .collapsible-content {
                 max-height: none !important;
                 display: block !important;
-                padding: 1rem 0 !important;
+                padding: 0.3rem 0 !important;
                 opacity: 1 !important;
                 overflow: visible !important;
+                border: none !important;
+                background: transparent !important;
             }
             .a4-page-print button, 
             .a4-page-print .vault-btn,
@@ -2261,8 +2330,7 @@
                 display: none !important;
             }
         }
-
-    </style>
+        </style>
 </head>
 <body>
 
@@ -2385,7 +2453,7 @@
                         <div class="info-flow-card">
                             <div class="info-flow-num">03</div>
                             <h4><svg class="svg-icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.82v-1.91c-2.09-.23-3.63-1.67-3.83-3.7h2.24c.18 1.02.94 1.67 2.14 1.67 1.34 0 1.95-.69 1.95-1.51 0-.96-.75-1.46-2.28-1.96-1.74-.58-3.63-1.25-3.63-3.52 0-1.84 1.25-3.13 3.17-3.41V4h2.82v1.89c1.78.22 3.03 1.41 3.25 3.32h-2.18c-.2-1.01-.84-1.56-1.98-1.56-1.12 0-1.71.55-1.71 1.33 0 .84.7 1.31 2.12 1.83 1.99.71 3.79 1.46 3.79 3.82 0 2.05-1.43 3.19-3.46 3.47z"/></svg> 3. Chào Giá &amp; Đặc Tả</h4>
-                            <p>Báo giá chi tiết các gói (Gói 1: Nhận diện &amp; SHTT, Gói 2: Tư vấn &amp; Vận hành Web) cùng menu dịch vụ lẻ sự kiện gia tăng.</p>
+                            <p>Báo giá chi tiết các gói (Cấu phần A: Nhận diện &amp; SHTT, Gói 2: Tư vấn &amp; Vận hành Web) cùng menu dịch vụ lẻ sự kiện gia tăng.</p>
                         </div>
                     </div>
                 </div>
@@ -2521,29 +2589,13 @@
                             <div>
                                 <div class="checklist-group-title" style="font-size:0.8rem; font-weight:700; color:var(--primary); margin-bottom:8px; text-transform:uppercase; letter-spacing:0.5px;">Gói Dự Án Trọn Gói (I + II)</div>
                                 <div class="checklist-scroll" style="margin-bottom: 1.2rem; display:flex; flex-direction:column; gap:8px;">
-                                    <div class="check-card checked" onclick="toggleBudgetCheckbox(this, 500000000)" style="background:#eff6ff; border-color:var(--primary);">
+                                    <div class="check-card checked" onclick="toggleBudgetCheckbox(this, 800000000)" style="background:#eff6ff; border-color:var(--primary);">
                                         <div class="check-box-wrapper">
                                             <div class="check-indicator" style="background:var(--accent); border-color:var(--accent); display:flex; align-items:center; justify-content:center; border-radius:4px; width:16px; height:16px; flex-shrink:0;">
                                             </div>
-                                            <div class="check-label" style="font-size:0.78rem; font-weight:700; color:var(--text-light); margin-left:8px;">Gói 1: Nhận diện &amp; SHTT <span style="font-size:0.7rem; font-weight:400; color:var(--text-muted); display:block;">Tinh chỉnh logo, Website UI, Thiết kế quà tặng, Bảo hộ nhãn hiệu</span></div>
+                                            <div class="check-label" style="font-size:0.78rem; font-weight:700; color:var(--text-light); margin-left:8px;">Gói Tổng Thể: Chuẩn hóa &amp; Vận hành truyền thông đồng hành <span style="font-size:0.7rem; font-weight:400; color:var(--text-muted); display:block;">Trọn gói thiết kế thương hiệu, nộp đơn bảo hộ SHTT, Landing Page, xây quy trình SOPs và vận hành website 12 tháng</span></div>
                                         </div>
-                                        <div class="check-val" style="font-weight:700; font-size:0.8rem; color:var(--primary);">500M</div>
-                                    </div>
-                                    <div class="check-card checked" onclick="toggleBudgetCheckbox(this, 120000000)" style="background:#eff6ff; border-color:var(--primary);">
-                                        <div class="check-box-wrapper">
-                                            <div class="check-indicator" style="background:var(--accent); border-color:var(--accent); display:flex; align-items:center; justify-content:center; border-radius:4px; width:16px; height:16px; flex-shrink:0;">
-                                            </div>
-                                            <div class="check-label" style="font-size:0.78rem; font-weight:700; color:var(--text-light); margin-left:8px;">Gói 2.1: Tư vấn quản lý truyền thông <span style="font-size:0.7rem; font-weight:400; color:var(--text-muted); display:block;">Quy trình tác nghiệp SOPs, kịch bản khủng hoảng, tập huấn nhân sự</span></div>
-                                        </div>
-                                        <div class="check-val" style="font-weight:700; font-size:0.8rem; color:var(--primary);">120M</div>
-                                    </div>
-                                    <div class="check-card checked" onclick="toggleBudgetCheckbox(this, 180000000)" style="background:#eff6ff; border-color:var(--primary);">
-                                        <div class="check-box-wrapper">
-                                            <div class="check-indicator" style="background:var(--accent); border-color:var(--accent); display:flex; align-items:center; justify-content:center; border-radius:4px; width:16px; height:16px; flex-shrink:0;">
-                                            </div>
-                                            <div class="check-label" style="font-size:0.78rem; font-weight:700; color:var(--text-light); margin-left:8px;">Gói 2.2: Chăm sóc website đồng hành <span style="font-size:0.7rem; font-weight:400; color:var(--text-muted); display:block;">Chăm sóc kỹ thuật, cập nhật tin bài chuẩn SEO 12 tháng</span></div>
-                                        </div>
-                                        <div class="check-val" style="font-weight:700; font-size:0.8rem; color:var(--primary);">180M</div>
+                                        <div class="check-val" style="font-weight:700; font-size:0.8rem; color:var(--primary);">800M</div>
                                     </div>
                                 </div>
 
@@ -2665,7 +2717,7 @@
                     <a href="javascript:void(0)" onclick="scrollToSection('p1-sec6')" class="vault-btn">6. Khuyến Nghị</a>
                 </div>
 
-                <div class="panel-card" id="p1-sec0">
+                <div class="print-page-section"><div class="panel-card" id="p1-sec0">
                     <h3>🎯 4 MỤC TIÊU CHIẾN LƯỢC CỦA HỆ THỐNG THƯƠNG HIỆU HUCE</h3>
                     <p style="margin-bottom: 1.5rem;">Qua khảo sát chuyên sâu di sản và kiểm toán tài sản truyền thông trực tuyến, ConsMedia đề xuất kế hoạch hành động tập trung vào việc đạt được 4 mục tiêu thương hiệu trọng tâm sau:</p>
                     
@@ -2700,7 +2752,7 @@
                     <p>Hiện tại, Trường Đại học Xây dựng Hà Nội (HUCE) đang đứng trước 3 nhóm nhu cầu cấp thiết về mặt thương hiệu và truyền thông: chuẩn hóa nhận diện thương hiệu đi kèm bảo hộ pháp lý sở hữu trí tuệ, xây dựng quy trình tác nghiệp điều phối truyền thông thống nhất, và các dịch vụ truyền thông sự kiện gia tăng. Cột mốc Đại lễ Kỷ niệm 60 năm đóng vai trò là động lực thúc đẩy nhằm giải quyết dứt điểm các vấn đề gốc rễ này.</p>
                 </div>
 
-                <div class="info-callout danger" style="background: rgba(239, 68, 68, 0.04); border-left: 4px solid #ef4444; padding: 1.25rem; margin: 1.5rem 0; border-radius: 8px;">
+                </div><div class="print-page-section"><div class="info-callout danger" style="background: rgba(239, 68, 68, 0.04); border-left: 4px solid #ef4444; padding: 1.25rem; margin: 1.5rem 0; border-radius: 8px;">
                     <strong style="color: #ef4444; font-size: 0.95rem; display: block; margin-bottom: 0.5rem; text-transform: uppercase;">⚠️ CẢNH BÁO PHÁP LÝ KHẨN CẤP: CHƯA ĐĂNG KÝ BẢO HỘ SỞ HỮU TRÍ TUỆ</strong>
                     <p style="font-size: 0.8rem; margin: 0; color: var(--text-light); line-height: 1.55;">
                         Qua kiểm tra hệ thống dữ liệu sở hữu trí tuệ quốc gia, thương hiệu viết tắt <strong>"HUCE"</strong> cùng biểu trưng <strong>Logo mới (tinh chỉnh lưới cẩu tháp - quyển sách)</strong> áp dụng từ năm 2021 đến nay <strong>CHƯA ĐƯỢC ĐĂNG KÝ BẢO HỘ NHÃN HIỆU ĐỘC QUYỀN</strong> tại Cục Sở hữu Trí tuệ Việt Nam.
@@ -2714,7 +2766,7 @@
                     </p>
                 </div>
 
-                <div class="panel-card">
+                </div></div><div class="print-page-section"><div class="panel-card">
                     <h3 id="p1-sec2">2. ĐỊNH VỊ THƯƠNG HIỆU và ĐỊNH HƯỚNG MỚI</h3>
                     <p>Định vị hiện tại của nhà trường đang hướng tới một <strong>Đại học nghiên cứu ứng dụng đa ngành, đạt chuẩn quốc tế</strong>. Tuy nhiên, hình ảnh HUCE trong nhận thức xã hội vẫn còn mang nặng định kiến "thô ráp, công trường" truyền thống. Việc trẻ hóa thương hiệu, làm nổi bật tính công nghệ, kiến trúc xanh và chuyển đổi số là cấp bách để thu hút Gen Z.</p>
                     <div class="collapsible-container">
@@ -2963,7 +3015,7 @@
                         }
                     </style>
 
-                    <div class="brand-health-dashboard" id="bh-dashboard-section">
+                    </div><div class="print-page-section"><div class="brand-health-dashboard" id="bh-dashboard-section">
                         <div class="bh-title-container">
                             <h3 class="bh-main-title"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M5 19.29V5h2v14.29H5zm4-6V5h2v8.29H9zm4 6V5h2v14.29h-2zm4-10V5h2v8.29h-2z"/></svg> Bản Đồ Chỉ Số Sức Khỏe Thương Hiệu HUCE</h3>
                             <span class="bh-subtitle">Dữ Liệu Đo Lường và Phân Tích Thương Hiệu HUCE</span>
@@ -3276,7 +3328,7 @@
                     </ul>
                 </div>
 
-                <div class="panel-card">
+                </div><div class="print-page-section"><div class="panel-card">
                     <h3 id="p1-sec4">4. PHÂN TÍCH BỐI CẢNH ĐỔI TÊN NĂM 2021 và KHOẢNG CÁCH NHẬN THỨC</h3>
                     <p>Năm 2021, trường chuyển đổi tên gọi tiếng Việt thành <strong>"Trường Đại học Xây dựng Hà Nội"</strong> và tên viết tắt tiếng Anh là <strong>HUCE</strong> (thay thế cho <strong>NUCE</strong>). Sự chuyển đổi này mang lại lợi thế địa lý nhưng cũng tạo ra khoảng cách nhận thức đối với công chúng cần được giải quyết bằng các chiến dịch tái định vị tích hợp.</p>
                     <div class="collapsible-container">
@@ -3385,7 +3437,7 @@
                     </div>
                 </div>
 
-                <div class="panel-card">
+                </div><div class="print-page-section"><div class="panel-card">
                     <h3 id="p1-sec6">6. ĐỀ XUẤT CÁC TRỤ CỘT CỐT LÕI ĐỂ TRẺ HÓA, NÂNG TẦM và QUỐC TẾ HÓA THƯƠNG HIỆU</h3>
                     <p style="margin-bottom: 1.5rem;">Để chuẩn hóa và bảo vệ hệ thống thương hiệu HUCE lâu dài, chúng tôi đề xuất chiến lược phát triển dựa trên <strong>4 giải pháp cốt lõi</strong> sau:</p>
 
@@ -3446,7 +3498,7 @@
                     </div>
                 </div>
 
-                <div class="panel-card">
+                </div><div class="print-page-section"><div class="panel-card">
                     <h3 id="p1-sec7">7. KẾT LUẬN và KHUYẾN NGHỊ VỀ THƯƠNG HIỆU HUCE</h3>
                     <p>Cột mốc Đại lễ Kỷ niệm 60 năm vào năm 2026 là một <strong>điểm rơi phong độ</strong> hoàn hảo để HUCE chuyển mình. Bản đánh giá sức khỏe thương hiệu này chỉ ra rằng: Tuy trường đang gặp một số khoảng cách nhất định về nhận diện sau khi đổi tên và sự thay đổi thị hiếu ngành học, nhưng <strong>nguồn lực di sản học thuật và mạng lưới cựu sinh viên hùng hậu</strong> của trường là một kho báu khổng lồ mà không một trường đại học nào khác có được.</p>
                     <div class="info-callout success">
@@ -3456,6 +3508,7 @@
                 </div>
             </div>
 
+            </div>
             <!-- --------------------------------------------------------------- -->
             <!-- PAGE 2: 02. ACTION IMC PLAN & RACI REPORT (INTEGRATED) -->
             <!-- --------------------------------------------------------------- -->
@@ -3471,7 +3524,7 @@
                     <a href="javascript:void(0)" onclick="scrollToSection('p2-sec6')" class="vault-btn">6. Hành Động Ngay</a>
                 </div>
 
-                <div class="panel-card">
+                <div class="print-page-section"><div class="panel-card">
                     <h3 id="p2-sec1">1. KHUNG HỢP TÁC CHIẾN LƯỢC HUCE - CONSMEDIA (DỰA TRÊN MOU 2025)</h3>
                     <p>Cơ sở pháp lý và định hướng hành động của Bản đề xuất này dựa trên <strong>Thỏa thuận hợp tác chiến lược (MOU) đã được ký kết ngày 19/06/2025</strong> giữa:</p>
                     <ul>
@@ -3877,7 +3930,7 @@
                     </div>
                 </div>
 
-                <div class="panel-card">
+                </div><div class="print-page-section"><div class="panel-card">
                     <h3 id="p2-sec4">4. QUY TRÌNH PHỐI HỢP TÁC NGHIỆP và DUYỆT NỘI DUNG</h3>
                     <p>Để đảm bảo tính nhất quán và tốc độ phản ứng truyền thông nhanh nhạy, hai bên thiết lập quy trình phối hợp 4 bước tác nghiệp khép kín, được đồ họa hóa thông minh dưới đây:</p>
                     
@@ -3970,7 +4023,7 @@
                     </div>
                 </div>
 
-                <div class="panel-card">
+                </div><div class="print-page-section"><div class="panel-card">
                     <h3 id="p2-sec5">5. CƠ CHẾ ỨNG PHÓ VÀ XỬ LÝ KHỦNG HOẢNG TRUYỀN THÔNG 30 PHÚT</h3>
                     <p>Trong suốt quá trình triển khai và vận hành truyền thông, đặc biệt trên không gian mạng xã hội, hai bên thiết lập cơ chế kiểm soát rủi ro chặt chẽ thông qua sơ đồ phản ứng khẩn cấp:</p>
                     
@@ -4077,7 +4130,7 @@
                     </div>
                 </div>
 
-                <div class="panel-card">
+                </div><div class="print-page-section"><div class="panel-card">
                     <h3 id="p2-sec6">6. KẾT LUẬN và ĐỀ XUẤT HÀNH ĐỘNG NGAY (IMMEDIATE ACTIONS)</h3>
                     <p>Để đảm bảo tiến độ triển khai diễn ra trôi chảy, đúng nhịp truyền thông và phù hợp với cơ chế tài chính đặc thù của nhà trường, chúng tôi kính đề xuất phương án phối hợp linh hoạt sau:</p>
                     <ol>
@@ -4096,8 +4149,7 @@
                 <!-- Anchor Bar -->
                 <div class="document-vault-bar" style="margin-bottom: 1.5rem;">
                     <span>🔗 CUỘN NHANH ĐẾN PHẦN:</span>
-                    <a href="javascript:void(0)" onclick="scrollToSection('p3-sec1')" class="vault-btn">1. Đặc Tả Gói 1</a>
-                    <a href="javascript:void(0)" onclick="scrollToSection('p3-sec2')" class="vault-btn">2. Đặc Tả Gói 2</a>
+                    <a href="javascript:void(0)" onclick="scrollToSection('p3-sec1')" class="vault-btn">1. Đặc Tả Gói Tổng Thể (I)</a>
                     <a href="javascript:void(0)" onclick="scrollToSection('p3-sec3')" class="vault-btn">3. Bảng Giá Trọn Gói</a>
                     <a href="javascript:void(0)" onclick="scrollToSection('p3-sec4')" class="vault-btn">4. Bộ Tính Dự Toán</a>
                     <a href="javascript:void(0)" onclick="scrollToSection('p3-sec5')" class="vault-btn">5. Deliverables Hub</a>
@@ -4105,57 +4157,26 @@
                     <a href="javascript:void(0)" onclick="scrollToSection('p3-sec7')" class="vault-btn">7. Chi Phí Duy Trì sau 2026</a>
                 </div>
 
-                <div class="panel-card">
-                    <h3 id="p3-sec1">1. GÓI 1: CHUẨN HÓA NHẬN DIỆN THƯƠNG HIỆU và BẢO HỘ PHÁP LÝ SHTT (500.000.000 VND)</h3>
-                    <p>Giải pháp tập trung chuẩn hóa hệ thống hình ảnh nhận diện thương hiệu, thiết kế quà tặng đồng bộ, thiết kế lại giao diện hệ thống website Portal/Admissions và nộp hồ sơ đăng ký bảo hộ độc quyền tên/logo HUCE tại Cục Sở hữu Trí tuệ làm "lá chắn pháp lý".</p>
+                <div class="print-page-section"><div class="panel-card" id="p3-sec1">
+                    <h3 style="text-transform: uppercase;">I. GÓI TỔNG THỂ: CHUẨN HÓA HỆ THỐNG THƯƠNG HIỆU &amp; VẬN HÀNH TRUYỀN THÔNG ĐỒNG HÀNH (800.000.000 VND)</h3>
+                    <p>Giải pháp tổng thể tích hợp toàn bộ hai cấu phần cốt lõi: Chuẩn hóa hệ thống nhận diện hình ảnh thương hiệu (bảo vệ bằng lá chắn pháp lý SHTT) và Xây dựng quy trình tác nghiệp truyền thông số kèm dịch vụ biên tập vận hành đồng hành website trường 12 tháng.</p>
                     
-                    <h4>A. Triết lý Thiết kế và Định hướng Sáng tạo</h4>
-                    <ul>
-                        <li><strong>Logo Refinement (Tinh chỉnh Logo di sản):</strong> Khóa lưới hình học và độ dày nét của biểu trưng cẩu tháp - quyển sách để logo không bị nhòe vỡ khi thu nhỏ favicon 16x16px trên web/app hoặc khi hiển thị phóng lớn màn hình sự kiện.</li>
-                        <li><strong>Hệ thống màu sắc (Color Palette):</strong> Đồng bộ hóa mã màu HSL Cobalt Blue chủ đạo, Gold và White nhũ khánh tiết. Chấm dứt tình trạng in lệch màu tại các khoa và ấn phẩm tự phát.</li>
-                        <li><strong>Hệ thống lưới đồ họa (Graphic Grid System):</strong> Module hóa các họa tiết hoa văn kết cấu thép giàn không gian làm pattern ứng dụng.</li>
-                    </ul>
+                    <h4 style="margin-top: 1.5rem; color: var(--primary); font-size: 1.05rem;">Cấu phần A: Chuẩn hóa nhận diện thương hiệu &amp; Bảo hộ pháp lý SHTT (Trị giá: 500,000,000 VND)</h4>
+                    <p style="font-size: 0.8rem; margin-bottom: 0.8rem;">Bao gồm nghiên cứu di sản thương hiệu, thiết lập quy chuẩn cẩm nang Brand Guidelines, thiết kế bộ ấn phẩm văn phòng và quà tặng, thiết kế giao diện website (Figma UI Kit), sản xuất Landing Page giới thiệu và đại diện đăng ký độc quyền nhãn hiệu HUCE tại Cục SHTT.</p>
+                    
+                    <div style="padding-left: 1rem; border-left: 3px solid var(--primary); margin-bottom: 1.5rem;">
+                        <p style="font-size: 0.8rem; margin-bottom: 0.4rem;"><strong>Quy trình triển khai 4 giai đoạn:</strong></p>
+                        <p style="font-size: 0.78rem; margin-bottom: 0.3rem;">• <strong>Giai đoạn 1 (02 tuần):</strong> Nghiên cứu di sản, kiểm toán thương hiệu &amp; tinh chỉnh logo gốc.</p>
+                        <p style="font-size: 0.78rem; margin-bottom: 0.3rem;">• <strong>Giai đoạn 2 (03 tuần):</strong> Thiết kế nhận diện văn phòng, digital assets &amp; nộp đơn pháp lý bảo hộ nhãn hiệu.</p>
+                        <p style="font-size: 0.78rem; margin-bottom: 0.3rem;">• <strong>Giai đoạn 3 (03 tuần):</strong> Thiết kế UI/UX hệ thống website Portal/Admissions và khung quy chuẩn quà tặng.</p>
+                        <p style="font-size: 0.78rem; margin-bottom: 0.3rem;">• <strong>Giai đoạn 4 (02 tuần):</strong> Biên soạn Playbook, Media Kit, in ấn xuất bản cẩm nang lưu hành nội bộ &amp; nghiệm thu.</p>
+                    </div>
 
-                    <h4>B. Quy trình triển khai chuẩn hóa (4 Giai đoạn)</h4>
-                    <ol>
-                        <li><strong>Giai đoạn 1: Nghiên cứu di sản &amp; Kiểm toán thương hiệu (02 tuần):</strong> Thu thập mẫu logo sai lệch màu sắc tại 13+ khoa, phòng ban làm dữ liệu tinh chỉnh hình học.</li>
-                        <li><strong>Giai đoạn 2: Tinh chỉnh Logo gốc &amp; Thiết kế Nhận diện (03 tuần):</strong> Hoàn thiện logo vector lưới geometric grid, thiết kế bộ ấn phẩm văn phòng và bộ tài sản số truyền thông chuẩn.</li>
-                        <li><strong>Giai đoạn 3: Thiết kế Hệ thống website &amp; Quà tặng (03 tuần):</strong> Thiết kế UI/UX hệ thống website trường (Portal, Admissions, các Khoa/Viện) bàn giao Figma UI Kit. Thiết kế bộ quà tặng thương hiệu HUCE (Polo thêu logo, ô dù, sổ da dập chìm, bút ký, cúp pha lê).</li>
-                        <li><strong>Giai đoạn 4: Biên soạn Playbook, Đăng ký bảo hộ sở hữu trí tuệ &amp; Nghiệm thu (02 tuần):</strong> Biên soạn toàn diện cuốn Brand Guidelines &amp; Playbook, thực hiện in ấn sản xuất 15 cuốn cao cấp lưu hành nội bộ, hoàn thiện hồ sơ pháp lý đăng ký độc quyền tại Cục Sở hữu Trí tuệ và tổ chức workshop bàn giao.</li>
-                    </ol>
+                    <h4 style="color: var(--primary); font-size: 1.05rem; margin-top: 1.5rem;">Cấu phần B: Quy trình quản lý &amp; Dịch vụ vận hành website đồng hành 12 tháng (Trị giá: 300,000,000 VND)</h4>
+                    <p style="font-size: 0.8rem; margin-bottom: 0.8rem;">Bao gồm tư vấn quy trình truyền thông SOPs (120,000,000 VND) nhằm chuyên nghiệp hóa công tác phối hợp tác nghiệp, tập huấn nhân sự, xây dựng kịch bản ứng phó khủng hoảng; và gói dịch vụ biên tập, chăm sóc kỹ thuật website Portal/Admissions (180,000,000 VND - 15 Triệu/tháng) đồng hành trong 12 tháng.</p>
                 </div>
 
-                <div class="panel-card">
-                    <h3 id="p3-sec2">2. GÓI 2: TƯ VẤN QUY TRÌNH QUẢN LÝ và DỊCH VỤ VẬN HÀNH WEBSITE ĐỒNG HÀNH (TỔNG CỘNG: 300,000,000 VND)</h3>
-                    <p>Để đảm bảo hiệu quả tối đa cho hoạt động truyền thông và sự nhất quán lâu dài của nhà trường, ConsMedia đề xuất hai cấu phần tư vấn và vận hành đồng hành:</p>
-                    
-                    <h4>2.1. Hạng mục II.1: Tư vấn quy trình quản lý truyền thông và Nền tảng hoạt động chuẩn hóa (120,000,000 VND)</h4>
-                    <ul>
-                        <li><strong>Mục tiêu:</strong> Thiết lập quy chế phối hợp và quy trình phê duyệt tin bài bài bản, loại bỏ sự tự phát và nâng cao năng lực phản ứng nhanh của Ban truyền thông nhà trường.</li>
-                        <li><strong>Chi tiết giải pháp:</strong>
-                            <ul>
-                                <li>Biên soạn bộ quy trình tác nghiệp truyền thông chuẩn (SOPs) đa phòng ban, phân quyền duyệt bài nhanh.</li>
-                                <li>Thiết lập khung lịch biên tập truyền thông (Editorial Calendar) tổng thể đa kênh (Website, Facebook).</li>
-                                <li>Xây dựng quy chế kịch bản phòng ngừa, phản ứng nhanh với khủng hoảng truyền thông mạng xã hội trong 30 phút.</li>
-                                <li>Tổ chức 02 buổi tập huấn nâng cao năng lực viết tin bài chuẩn SEO và đồ họa số cho cán bộ, giảng viên và Đoàn thanh niên trường.</li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <h4>2.2. Hạng mục II.2: Dịch vụ chăm sóc, cập nhật nội dung và Điều hành hệ thống website HUCE (180,000,000 VND - Giai đoạn 1: 12 tháng năm 2026)</h4>
-                    <ul>
-                        <li><strong>Mục tiêu:</strong> Đảm bảo hệ thống website của trường luôn cập nhật tin tức kịp thời, sinh động, an toàn và tối ưu hóa SEO thường nhật.</li>
-                        <li><strong>Chi tiết giải pháp:</strong>
-                            <ul>
-                                <li>Phí chăm sóc kỹ thuật thường nhật: Tối ưu bảo mật, chứng chỉ SSL, sao lưu dữ liệu hàng tuần, sửa lỗi hiển thị phát sinh.</li>
-                                <li>Quản trị nội dung: Biên tập và đăng tải tin tức hoạt động, thông báo đào tạo, sự kiện khoa/phòng ban lên website Portal chính của trường đúng chuẩn SEO.</li>
-                                <li>Thiết kế banner &amp; đồ họa số: Cung cấp tối đa 15 banner trang chủ hoặc ảnh bìa sự kiện thường nhật của trường trên website mỗi tháng.</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="panel-card">
+                </div><div class="print-page-section"><div class="panel-card">
                     <h3 id="p3-sec3">3. BẢNG BÁO GIÁ TRỌN GÓI THIẾT KẾ NHẬN DIỆN VÀ VẬN HÀNH THƯƠNG HIỆU HUCE</h3>
                     
                     <div class="info-callout success">
@@ -4180,7 +4201,7 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td colspan="6" style="background: rgba(0, 42, 92, 0.05); font-weight: 800; color:var(--text-light);">I. GÓI 1: CHUẨN HÓA NHẬN DIỆN THƯƠNG HIỆU và BẢO HỘ PHÁP LÝ SHTT</td>
+                                    <td colspan="6" style="background: rgba(0, 42, 92, 0.05); font-weight: 800; color:var(--text-light); text-transform: uppercase;">I. GÓI TỔNG THỂ: CHUẨN HÓA HỆ THỐNG THƯƠNG HIỆU &amp; VẬN HÀNH TRUYỀN THÔNG ĐỒNG HÀNH</td>
                                 </tr>
                                 <tr>
                                     <td>1</td>
@@ -4240,8 +4261,8 @@
                                 </tr>
                                 <tr>
                                     <td>8</td>
-                                    <td><strong>Gói Thiết kế Quà tặng Thương hiệu HUCE (Brand Gift Design)</strong></td>
-                                    <td>Quy chuẩn thiết kế và kiểu dáng công nghiệp hệ thống quà tặng VIP (sổ da dập chìm, bút ký laser, cúp pha lê), quà tặng đối tác (ô cầm tay Cobalt, bình giữ nhiệt, cốc sứ), quà sinh viên (áo polo thêu logo, mũ) và bao bì túi hộp.</td>
+                                    <td><strong>Thiết kế Khung Quy chuẩn Quà tặng Thương hiệu (Brand Gift Design Framework)</strong></td>
+                                    <td>Thiết lập tiêu chuẩn và định hướng mỹ thuật quà tặng theo phân cấp đối tượng: 1. Quà tặng Lãnh đạo cao cấp (đối ngoại VIP, lễ khánh tiết); 2. Quà tặng theo chiến dịch chuyên biệt; 3. Quà tặng Khách hàng &amp; Cán bộ, giảng viên; 4. Quà tặng Sinh viên &amp; Ứng viên tuyển dụng. Bàn giao file thiết kế khung quy chuẩn định hướng định dạng PDF.</td>
                                     <td>1</td>
                                     <td>Gói</td>
                                     <td style="font-weight: 700; color: var(--primary);">50,000,000</td>
@@ -4271,14 +4292,7 @@
                                     <td style="font-weight: 700; color: var(--primary);">25,000,000</td>
                                 </tr>
                                 <tr>
-                                    <td colspan="5" style="text-align: right; font-weight: 800;">TỔNG PHÍ GÓI 1</td>
-                                    <td style="font-weight: 900; color: var(--primary); font-size: 1.05rem;">500,000,000</td>
-                                </tr>
-                                <tr>
-                                    <td colspan="6" style="background: rgba(0, 42, 92, 0.05); font-weight: 800; color:var(--text-light);">II. GÓI 2: TƯ VẤN QUY TRÌNH QUẢN LÝ và DỊCH VỤ VẬN HÀNH WEBSITE ĐỒNG HÀNH</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
+                                    <td>12</td>
                                     <td><strong>Tư vấn quy trình quản lý truyền thông và Nền tảng hoạt động chuẩn hóa</strong></td>
                                     <td>Xây dựng quy trình tác nghiệp truyền thông chuẩn (SOPs), thiết lập khung lịch biên tập nội dung, xây dựng quy chế và kịch bản phòng ngừa khủng hoảng truyền thông mạng xã hội, tập huấn kỹ năng viết bài và ảnh số cho cán bộ trường.</td>
                                     <td>1</td>
@@ -4286,19 +4300,15 @@
                                     <td style="font-weight: 700; color: var(--primary);">120,000,000</td>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
+                                    <td>13</td>
                                     <td><strong>Dịch vụ chăm sóc, cập nhật nội dung và Điều hành hệ thống website HUCE</strong></td>
                                     <td>Bảo trì kỹ thuật máy chủ, tối ưu tốc độ, cập nhật bảo mật SSL, sao lưu hàng tuần. Biên tập tin bài, văn bản, ảnh đăng website trường chuẩn SEO. Thiết kế đồ họa banner trang chủ thường nhật (tối đa 15 banner/tháng).</td>
                                     <td>12</td>
                                     <td>Tháng</td>
                                     <td style="font-weight: 700; color: var(--primary);">180,000,000</td>
                                 </tr>
-                                <tr>
-                                    <td colspan="5" style="text-align: right; font-weight: 800;">TỔNG PHÍ GÓI 2</td>
-                                    <td style="font-weight: 900; color: var(--primary); font-size: 1.05rem;">300,000,000</td>
-                                </tr>
                                 <tr style="background: rgba(0, 42, 92, 0.08);">
-                                    <td colspan="5" style="text-align: right; font-weight: 900; font-size: 1.05rem; color:var(--text-light);">TỔNG CỘNG KINH PHÍ ĐỀ XUẤT TRỌN GÓI (I + II)</td>
+                                    <td colspan="5" style="text-align: right; font-weight: 900; font-size: 1.05rem; color:var(--text-light);">TỔNG CỘNG KINH PHÍ GÓI TỔNG THỂ CỐ ĐỊNH TRỌN GÓI (I)</td>
                                     <td style="font-weight: 900; color: var(--primary); font-size: 1.15rem; text-shadow:none;">800,000,000</td>
                                 </tr>
                             </tbody>
@@ -4428,8 +4438,8 @@
 
                     <div class="deliverables-tabs">
                         <div class="del-tab active" id="del-tab-g1" onclick="switchDeliverableTab('del-g1')">Gói 1: Nhận diện &amp; SHTT</div>
-                        <div class="del-tab" id="del-tab-g21" onclick="switchDeliverableTab('del-g21')">Gói 2.1: Quy trình truyền thông</div>
-                        <div class="del-tab" id="del-tab-g22" onclick="switchDeliverableTab('del-g22')">Gói 2.2: Vận hành website</div>
+                        <div class="del-tab" id="del-tab-g21" onclick="switchDeliverableTab('del-g21')">Cấu phần B.1: Quy trình truyền thông</div>
+                        <div class="del-tab" id="del-tab-g22" onclick="switchDeliverableTab('del-g22')">Cấu phần B.2: Vận hành website</div>
                     </div>
 
                     <!-- Tab G1 -->
@@ -4499,12 +4509,13 @@
                                 </ul>
                             </div>
                             <div class="del-card">
-                                <h5>Phân nhóm 8: Brand Gift Design <span>QUÀ TẶNG</span></h5>
-                                <p>Quy chuẩn kiểu dáng hệ quà tặng thương hiệu:</p>
+                                <h5>Phân nhóm 8: Brand Gift Design (Khung Quy chuẩn &amp; Định hướng) <span>QUÀ TẶNG</span></h5>
+                                <p>Thiết lập khung tiêu chuẩn và định hướng mỹ thuật quà tặng phân cấp đối tượng:</p>
                                 <ul>
-                                    <li><strong>Quà tặng VIP:</strong> Sổ da dập chìm, bút ký khắc laser, kỷ niệm chương pha lê cẩu tháp.</li>
-                                    <li><strong>Quà tặng đối ngoại &amp; Sinh viên:</strong> Ô cầm tay Cobalt, bình giữ nhiệt, cốc sứ, áo polo thêu logo trường.</li>
-                                    <li><strong>Bao bì &amp; Túi hộp:</strong> Thiết kế túi giấy, hộp đựng quà tặng VIP đồng bộ nhận diện.</li>
+                                    <li><strong>Quà tặng Lãnh đạo cao cấp:</strong> Thiết kế mẫu quà tặng lễ khánh tiết, đối ngoại VIP (sổ da dập chìm nhũ vàng, kỷ niệm chương pha lê cẩu tháp chế tác tinh xảo).</li>
+                                    <li><strong>Quà tặng Khách hàng &amp; Cán bộ:</strong> Bộ quà tặng hội thảo, sự kiện thường niên (bút ký laser, bình giữ nhiệt, ô cầm tay Cobalt Blue).</li>
+                                    <li><strong>Quà tặng Sinh viên &amp; Tuyển dụng:</strong> Các ấn phẩm quảng bá diện rộng (áo thun Polo cotton thêu logo trường, cốc sứ, túi vải canvas thân thiện môi trường).</li>
+                                    <li><strong>Quà tặng theo Chiến dịch:</strong> Khung hướng dẫn thiết kế các ấn phẩm quà tặng chuyên biệt theo từng mốc kỷ niệm.</li>
                                 </ul>
                             </div>
                             <div class="del-card">
@@ -5145,33 +5156,89 @@
         /* PRINT PREVIEW LOGIC */
         function openPrintPreview(reportId) {
             const overlay = document.getElementById('print-preview-overlay');
-            const previewBody = document.getElementById('print-preview-body');
+            const container = document.getElementById('print-preview-container');
             const selector = document.getElementById('print-report-selector');
             
-            // Set active report in dropdown selector
             selector.value = reportId;
+            renderPrintPages(reportId);
             
-            // Get source report content
-            const sourceContent = document.getElementById(reportId + '-content');
-            if (sourceContent) {
-                // Copy HTML content
-                let contentHTML = sourceContent.innerHTML;
-                
-                // Set content to preview area
-                previewBody.innerHTML = contentHTML;
-                
-                // Show print preview overlay
-                overlay.style.display = 'block';
-                document.body.style.overflow = 'hidden'; // Disable background scroll
-            }
+            overlay.style.display = 'block';
+            document.body.style.overflow = 'hidden'; // Disable background scroll
         }
         
         function loadPrintReport(reportId) {
-            const previewBody = document.getElementById('print-preview-body');
+            renderPrintPages(reportId);
+        }
+
+        function renderPrintPages(reportId) {
+            const container = document.getElementById('print-preview-container');
             const sourceContent = document.getElementById(reportId + '-content');
-            if (sourceContent) {
-                previewBody.innerHTML = sourceContent.innerHTML;
+            if (!sourceContent) return;
+            
+            const sections = sourceContent.querySelectorAll('.print-page-section');
+            let pagesHTML = '';
+            
+            if (sections.length > 0) {
+                sections.forEach((section, index) => {
+                    pagesHTML += `
+                    <div class="a4-page-print">
+                        <!-- Page Header -->
+                        <div class="print-report-header" style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #002a5c; padding-bottom: 6px; margin-bottom: 8px; box-sizing: border-box; width: 100%;">
+                            <div style="display: flex; align-items: center; gap: 8px;">
+                                <img src="brand-assets/huce_logo.png" style="height: 28px; width: auto; object-fit: contain;" alt="HUCE Logo">
+                                <div style="text-align: left;">
+                                    <div style="font-size: 0.65rem; font-weight: 800; color: #002a5c; letter-spacing: 0.3px; font-family: 'Plus Jakarta Sans', sans-serif;">TRƯỜNG ĐẠI HỌC XÂY DỰNG HÀ NỘI</div>
+                                    <div style="font-size: 0.5rem; color: #64748b; font-weight: 600; font-family: 'Plus Jakarta Sans', sans-serif;">Hệ Thống Nhận Diện &amp; Vận Hành Truyền Thông</div>
+                                </div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div style="font-size: 0.65rem; font-weight: 800; color: #002a5c; font-family: 'Plus Jakarta Sans', sans-serif;">HỒ SƠ ĐỀ XUẤT PHƯƠNG ÁN</div>
+                                <div style="font-size: 0.5rem; color: #64748b; font-weight: 600; font-family: 'Plus Jakarta Sans', sans-serif;">Khổ Ngang A4 • ConsMedia</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Page Body -->
+                        <div class="print-report-body" style="flex-grow: 1; font-size: 0.7rem; line-height: 1.45; color: #0f172a; overflow: hidden; box-sizing: border-box; width: 100%;">
+                            ${section.innerHTML}
+                        </div>
+                        
+                        <!-- Page Footer -->
+                        <div class="print-report-footer" style="margin-top: 6px; border-top: 1px solid #cbd5e1; padding-top: 4px; display: flex; justify-content: space-between; align-items: center; font-size: 0.55rem; color: #64748b; box-sizing: border-box; width: 100%;">
+                            <span>Hồ sơ Đề xuất Phương án Tư vấn HUCE - Bảo mật nội bộ</span>
+                            <span style="font-weight: 700; color: #002a5c;">Trang ${index + 1} / ${sections.length}</span>
+                            <span>ConsMedia © 2026</span>
+                        </div>
+                    </div>
+                    `;
+                });
+            } else {
+                pagesHTML = `
+                <div class="a4-page-print">
+                    <div class="print-report-header" style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #002a5c; padding-bottom: 6px; margin-bottom: 8px; box-sizing: border-box; width: 100%;">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <img src="brand-assets/huce_logo.png" style="height: 28px; width: auto; object-fit: contain;" alt="HUCE Logo">
+                            <div style="text-align: left;">
+                                <div style="font-size: 0.65rem; font-weight: 800; color: #002a5c; letter-spacing: 0.3px; font-family: 'Plus Jakarta Sans', sans-serif;">TRƯỜNG ĐẠI HỌC XÂY DỰNG HÀ NỘI</div>
+                                <div style="font-size: 0.5rem; color: #64748b; font-weight: 600; font-family: 'Plus Jakarta Sans', sans-serif;">Hệ Thống Nhận Diện &amp; Vận Hành Truyền Thông</div>
+                            </div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: 0.65rem; font-weight: 800; color: #002a5c; font-family: 'Plus Jakarta Sans', sans-serif;">HỒ SƠ ĐỀ XUẤT PHƯƠNG ÁN</div>
+                            <div style="font-size: 0.5rem; color: #64748b; font-weight: 600; font-family: 'Plus Jakarta Sans', sans-serif;">Khổ Ngang A4 • ConsMedia</div>
+                        </div>
+                    </div>
+                    <div class="print-report-body" style="flex-grow: 1; font-size: 0.7rem; line-height: 1.45; color: #0f172a; overflow: hidden; box-sizing: border-box; width: 100%;">
+                        ${sourceContent.innerHTML}
+                    </div>
+                    <div class="print-report-footer" style="margin-top: 6px; border-top: 1px solid #cbd5e1; padding-top: 4px; display: flex; justify-content: space-between; align-items: center; font-size: 0.55rem; color: #64748b; box-sizing: border-box; width: 100%;">
+                        <span>Hồ sơ Đề xuất Phương án Tư vấn HUCE - Bảo mật nội bộ</span>
+                        <span style="font-weight: 700; color: #002a5c;">Trang 1 / 1</span>
+                        <span>ConsMedia © 2026</span>
+                    </div>
+                </div>
+                `;
             }
+            container.innerHTML = pagesHTML;
         }
         
         function closePrintPreview() {
@@ -5846,31 +5913,7 @@
             </div>
         </div>
         <div id="print-preview-container">
-            <div class="a4-page-print">
-                <!-- Cover / Header Page for Print -->
-                <div>
-                    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #002a5c; padding-bottom: 12px; margin-bottom: 20px;">
-                        <div style="display: flex; align-items: center; gap: 8px;">
-                            <img src="brand-assets/huce_logo.png" style="height: 48px; object-fit: contain;" alt="HUCE Logo">
-                            <div style="text-align: left;">
-                                <div style="font-size: 0.8rem; font-weight: 800; color: #002a5c; letter-spacing: 0.5px;">TRƯỜNG ĐẠI HỌC XÂY DỰNG HÀ NỘI</div>
-                                <div style="font-size: 0.65rem; color: #64748b; font-weight: 600;">Hệ Thống Nhận Diện &amp; Vận Hành Truyền Thông</div>
-                            </div>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: 0.8rem; font-weight: 800; color: #002a5c;">TÀI LIỆU ĐỀ XUẤT</div>
-                            <div style="font-size: 0.65rem; color: #64748b; font-weight: 600;">Đối tác Tư vấn: ConsMedia</div>
-                        </div>
-                    </div>
-                    <div id="print-preview-body">
-                        <!-- Report content will be copied here -->
-                    </div>
-                </div>
-                <div class="print-report-footer" style="margin-top: 40px; border-top: 1px solid #cbd5e1; padding-top: 10px; display: flex; justify-content: space-between; align-items: center; font-size: 0.68rem; color: #64748b;">
-                    <span>Hồ sơ Đề xuất Phương án Tư vấn HUCE - Bảo mật nội bộ</span>
-                    <span>ConsMedia © 2026</span>
-                </div>
-            </div>
+            <!-- Rendered dynamically by JS into multiple pages -->
         </div>
     </div>
 
