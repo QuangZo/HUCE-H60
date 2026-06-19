@@ -60,30 +60,22 @@ Lộ trình triển khai được thiết kế tối ưu xoay quanh cột mốc 
 
 ---
 
-## 3. QUY TRÌNH PHỐI HỢP TÁC NGHIỆP & PHÊ DUYỆT
+## 3. MA TRẬN PHÂN ĐỊNH TRÁCH NHIỆM PHỐI HỢP (RACI MATRIX)
 
-Để đảm bảo tính chuẩn xác của thông tin hành chính, quy trình phối hợp duyệt nội dung giữa ConsMedia và HUCE được thiết lập như sau:
+Để đảm bảo chiến dịch diễn ra trơn tru, không chồng chéo công việc, dưới đây là ma trận phân định trách nhiệm RACI chi tiết giữa các phòng ban HUCE và đối tác chiến lược ConsMedia (Đã cập nhật loại bỏ hạng mục phim truyền thống/tài trợ chung và thay bằng triển khai gói sự kiện thành phần lẻ):
 
-```mermaid
-sequenceDiagram
-    participant B as ConsMedia (Bên B)
-    participant P as Phòng Truyền thông & Tuyển sinh (Đầu mối HUCE)
-    participant VP as Văn phòng Trường (Tham mưu)
-    participant T as PGS.TS. Hoàng Tùng (Hiệu trưởng/Phê duyệt)
-    
-    B->>P: Đề xuất nội dung/Ý tưởng thiết kế/Kịch bản chi tiết
-    P->>P: Kiểm tra chuyên môn & tính học đường
-    alt Nội dung thường nhật (Tin bài CLB, thể thao, tin vặt)
-        P->>B: Phê duyệt trực tiếp & Cho phép xuất bản ngay (<2 giờ)
-    else Nội dung chiến lược (Kỷ yếu, phim truyền thống, thông báo chính thức)
-        P->>VP: Trình Văn phòng Trường xem xét nội dung
-        VP->>T: Tham mưu trình Hiệu trưởng phê duyệt cuối
-        T->>P: Chỉ đạo phê duyệt bằng văn bản/tin nhắn
-        P->>B: Chuyển kết quả phê duyệt để xuất bản
-    end
-```
+| Hạng mục công việc chính | BGH (PGS.TS. Hoàng Tùng) | Văn phòng Trường | Phòng TT&TS (Đầu mối HUCE) | Phòng Đối ngoại HTQT | Các Phòng Ban khác | ConsMedia (Đối tác) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Phê duyệt Kế hoạch & Ngân sách Xây dựng Thương hiệu HUCE** | A (Duyệt) | R | C | I | I | C |
+| **Thiết kế Nhận diện (KV, Logo chuẩn)** | A (Duyệt) | I | R | I | I | R (Chính) |
+| **Quan hệ Báo chí & Xử lý Khủng hoảng** | A (Duyệt) | C | R (Chính) | I | I | R (Tư vấn PR) |
+| **Triển khai sự kiện tiêu biểu (Demo): Hội nghị KHCN và Triển lãm thành tựu KHCN, Đổi mới sáng tạo** | A (Duyệt) | I | C | I | R (KHCN) | R (Chính) |
 
----
+*Chú thích:*
+- **R (Responsible):** Người trực tiếp thực hiện công việc.
+- **A (Accountable):** Người chịu trách nhiệm cao nhất về kết quả công việc (chỉ phê duyệt hoặc quyết định cuối cùng).
+- **C (Consulted):** Người đóng góp ý kiến chuyên môn, tư vấn cho công việc.
+- **I (Informed):** Người nhận thông tin sau khi công việc đã hoàn thành hoặc có tiến triển.
 
 ## 4. BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ VÀ GIÁ TRỊ THU LẠI DỰ KIẾN (ROI & SYSTEM EFFICIENCY)
 
