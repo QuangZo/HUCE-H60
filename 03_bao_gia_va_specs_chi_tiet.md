@@ -19,7 +19,7 @@ Giải pháp tập trung chuẩn hóa hệ thống hình ảnh, nâng cao chất
 *   **Giai đoạn 4: Biên soạn Playbook, Media Kit, Đăng ký SHTT & Bàn giao (03 tuần):** Hoàn thiện hồ sơ pháp lý nộp đơn đăng ký bảo hộ nhãn hiệu lên Cục Sở hữu Trí tuệ, in ấn xuất bản cẩm nang lưu hành nội bộ và bàn giao.
 
 ### 2. Danh mục bàn giao chi tiết (Deliverables List)
-*   **Logo Refinement & Brand Guidelines (Tinh chỉnh Logo & Cẩm nang Quy chuẩn):** 01 Logo gốc hoàn chỉnh tối ưu lưới hình học và 04 phiên bản ứng dụng chuẩn (.Ai, .Eps, .Svg). Thiết lập quy cách chuẩn hóa thiết kế nhận diện thương hiệu HUCE, bao gồm: Logo grid, khoảng cách an toàn, bảng màu chuẩn Cobalt Blue, kiểu chữ (typography) tiêu biểu, quy chuẩn ứng dụng trên các chất liệu và kịch bản sử dụng do's/don'ts. Bàn giao file cẩm nang thiết kế định dạng PDF tương tác.
+*   **Tinh chỉnh số hóa logo & Thiết kế bộ cẩm nang thương hiệu:** 01 Logo gốc hoàn chỉnh tối ưu lưới hình học và 04 phiên bản ứng dụng chuẩn (.Ai, .Eps, .Svg). Thiết lập quy cách chuẩn hóa thiết kế nhận diện thương hiệu HUCE, bao gồm: Logo grid, khoảng cách an toàn, bảng màu chuẩn Cobalt Blue, kiểu chữ (typography) tiêu biểu, quy chuẩn ứng dụng trên các chất liệu và kịch bản sử dụng do's/don'ts. Bàn giao file cẩm nang thiết kế định dạng PDF tương tác.
 *   **Office Stationery (Ấn phẩm văn phòng):** Thiết kế danh thiếp, letterhead (bản in & file Word), phong bì thư (A4, A5, DL), kẹp file tài liệu, Slide Template PowerPoint thương hiệu HUCE (30 layout chuyên nghiệp).
 *   **Digital Assets (Tài sản số):** Thiết kế hệ thống 05 Social Media Grids templates phục vụ đăng tải mạng xã hội (Facebook/Zalo/YouTube), 03 mẫu chữ ký email chuẩn HTML cho các chức danh, và 05 hình nền Zoom/Teams phục vụ họp trực tuyến và hội thảo quốc tế.
 *   **Thiết kế Khung Quy chuẩn Quà tặng Thương hiệu (Brand Gift Design Framework):** Thiết lập tiêu chuẩn và định hướng mỹ thuật quà tặng theo phân cấp đối tượng:
@@ -57,7 +57,7 @@ Giải pháp xây dựng quy trình tác nghiệp truyền thông chuyên nghi�
 | STT | Hạng mục / Nội dung công việc | Số lượng | ĐVT | Đơn giá (VND) | Thành tiền (VND) |
 | :---: | :--- | :---: | :---: | :---: | :---: |
 | **I** | **GÓI 1: CHUẨN HÓA NHẬN DIỆN THƯƠNG HIỆU & BẢO HỘ PHÁP LÝ SHTT** | | | | **500,000,000** |
-| 1 | Nghiên cứu di sản, Tinh chỉnh Logo & Biên soạn Cẩm nang (Logo Refinement & Guidelines) | 1 | Gói | 75,000,000 | 75,000,000 |
+| 1 | Tinh chỉnh số hóa logo, thiết kế bộ cẩm nang thương hiệu | 1 | Gói | 75,000,000 | 75,000,000 |
 | 2 | Thiết kế Bộ ấn phẩm văn phòng (Office Stationery) | 1 | Gói | 45,000,000 | 45,000,000 |
 | 3 | Thiết kế Bộ tài sản truyền thông số (Digital Assets) | 1 | Gói | 35,000,000 | 35,000,000 |
 | 4 | Thiết kế lại Giao diện hệ thống Website trường (Web UI/UX Redesign) | 1 | Gói | 90,000,000 | 90,000,000 |
