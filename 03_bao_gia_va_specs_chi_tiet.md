@@ -16,7 +16,7 @@ Giải pháp tập trung chuẩn hóa hệ thống hình ảnh, nâng cao chất
 *   **Giai đoạn 1: Khảo sát hiện trạng & Kiểm toán thương hiệu (02 tuần):** Thu thập toàn bộ dữ liệu lịch sử logo, đo lường các sai lệch màu sắc tại 13+ đơn vị khoa/phòng ban.
 *   **Giai đoạn 2: Tinh chỉnh hình học Logo & Thiết kế Cẩm nang (02 tuần):** Tinh chỉnh lưới hình học biểu trưng gốc (tay nâng sách + hoa cách điệu X + cẩu tháp) và thiết lập quy cách chuẩn hóa thiết kế nhận diện thương hiệu HUCE.
 *   **Giai đoạn 3: Thiết kế Hệ thống website, Quy chuẩn bảng biển & Khung quà tặng (03 tuần):** Redesign giao diện Portal/Admissions, thiết kế quy chuẩn hệ thống bảng biển chỉ dẫn toàn trường và đóng gói thiết kế khung quà tặng.
-*   **Giai đoạn 4: Xây dựng Thư viện số, Đăng ký SHTT & Biên soạn Playbook (03 tuần):** Hoàn thiện hồ sơ pháp lý đăng ký bảo hộ nhãn hiệu lên Cục Sở hữu Trí tuệ, xây dựng cổng thông tin Brand Portal, in ấn xuất bản cẩm nang lưu hành nội bộ và bàn giao.
+*   **Giai đoạn 4: Xây dựng Thư viện số & Nộp đơn SHTT (03 tuần):** Hoàn thiện hồ sơ pháp lý đăng ký bảo hộ nhãn hiệu lên Cục Sở hữu Trí tuệ, lập trình cổng thông tin Brand Portal trực tuyến và bàn giao bộ tài nguyên số (Digital Media Kit).
 
 ### 2. Danh mục bàn giao chi tiết (Deliverables List)
 *   **Tinh chỉnh số hóa logo & Thiết kế bộ cẩm nang thương hiệu:** 01 Logo gốc hoàn chỉnh tối ưu lưới hình học và 04 phiên bản ứng dụng chuẩn (.Ai, .Eps, .Svg). Thiết lập quy cách chuẩn hóa thiết kế nhận diện thương hiệu HUCE, bao gồm: Logo grid, khoảng cách an toàn, bảng màu chuẩn Cobalt Blue, kiểu chữ (typography) tiêu biểu, quy chuẩn ứng dụng trên các chất liệu và kịch bản sử dụng do's/don'ts. Bàn giao file cẩm nang thiết kế định dạng PDF tương tác.
@@ -49,26 +49,23 @@ Giải pháp tập trung chuẩn hóa hệ thống hình ảnh, nâng cao chất
     1.  *Chức năng lưu trữ:* Chứa file PDF tương tác cuốn Brand Guidelines, cuốn Brand Playbook, kịch bản truyền thông và toàn bộ tài nguyên số Digital Media Kit.
     2.  *Đối tượng sử dụng:* Phân quyền tài khoản đăng nhập nội bộ cho cán bộ giảng viên và sinh viên trường để tải tài nguyên chuẩn phục vụ công tác và học tập; cung cấp giao diện công khai một phần để các cơ quan báo chí, đối tác truyền thông tải logo gốc và tài liệu giới thiệu chuẩn của trường.
     3.  *Đặc tính kỹ thuật:* Website thiết kế hiện đại, responsive hoàn toàn trên di động, hỗ trợ tải tài nguyên nhanh chóng (file .Ai, .Png, .Pdf) kèm mã QR hướng dẫn truy cập nhanh.
-*   **Biên soạn tổng hợp PlayBook - Media Kit & Dịch vụ xuất bản in ấn tài liệu:** Sự khác biệt và định nghĩa rõ ràng giữa hai tài liệu:
-    1.  *Brand Playbook (Sổ tay tác nghiệp thương hiệu):* Là cẩm nang hướng dẫn cách thức triển khai, vận hành và quản lý truyền thông thực tế. Nó bao gồm quy trình tác nghiệp truyền thông (SOPs), kịch bản ứng phó sự cố dư luận trực tuyến, định hướng tông giọng (tone of voice), quy cách tổ chức sự kiện và cách thức phối hợp đa phòng ban. Đây là tài liệu nghiệp vụ hành chính phục vụ vận hành, được in ấn xuất bản thành 15 cuốn cao cấp bìa cứng khổ ngang, giấy mỹ thuật chuyên dụng, bìa ép nhũ lưu hành nội bộ.
-    2.  *Digital Media Kit (Bộ tài nguyên truyền thông số):* Là bộ tài nguyên đồ họa số đã được chuẩn hóa và đóng gói sẵn để sử dụng ngay (ready-to-use). Nó bao gồm các file thiết kế logo gốc ở các định dạng đồ họa (.Ai, .Eps, .Svg, .Png), hệ thống icon đơn sắc, font chữ chuẩn, slide template, mẫu chữ ký email, và các tài liệu hướng dẫn nhanh dạng PDF để cung cấp trực tiếp cho các đối tác truyền thông, báo chí khi cần truyền thông ngoài.
+*   **Đóng gói Bộ tài nguyên truyền thông số (Digital Media Kit):** Đóng gói sẵn sàng các tài sản đồ họa số đã được chuẩn hóa của Gói 1 phục vụ việc sử dụng ngay (ready-to-use). Bộ kit bao gồm: các file thiết kế logo gốc ở nhiều định dạng đồ họa (.Ai, .Eps, .Svg, .Png), hệ thống icon đơn sắc, font chữ thương hiệu, mẫu Slide template thuyết trình, và các mẫu chữ ký email. Bàn giao trọn gói dạng số qua cổng Brand Portal để HUCE cung cấp trực tiếp cho các đối tác truyền thông, báo chí khi cần thiết.
 
 ---
 
-## GÓI 2: TƯ VẤN QUY TRÌNH QUẢN LÝ & VẬN HÀNH WEBSITE ĐỒNG HÀNH (300.000.000 VND)
+## GÓI 2: TƯ VẤN QUY TRÌNH QUẢN LÝ & DỊCH VỤ VẬN HÀNH TRUYỀN THÔNG ĐỒNG HÀNH (300.000.000 VND)
 
-Giải pháp xây dựng quy trình tác nghiệp truyền thông chuyên nghiệp và trực tiếp đồng hành vận hành hệ thống thông tin của HUCE.
+Giải pháp xây dựng hệ thống quy trình vận hành truyền thông chuyên nghiệp cho toàn trường HUCE, tập huấn chuyển giao năng lực tự vận hành và đồng hành duy trì hoạt động nội dung số chuẩn hóa.
 
-### 1. Cấu phần II.1: Tư vấn quy trình quản lý & Nền tảng hoạt động chuẩn hóa (120.000.000 VND)
-*   Xây dựng quy trình tác nghiệp truyền thông chuẩn (SOPs) từ khâu tiếp nhận thông tin, viết bài, thiết kế banner đến quy trình phê duyệt đa cấp di động.
-*   Thiết lập khung lịch biên tập truyền thông (Editorial Calendar) tổng thể đa kênh (Website, Facebook).
-*   Xây dựng Quy chế & Kịch bản phản ứng nhanh phòng ngừa khủng hoảng truyền thông trực tuyến trong 30 phút.
-*   Tập huấn nâng cao năng lực (02 buổi) cho Ban Truyền thông trường và cán bộ Đoàn thanh niên.
+### 1. Cấu phần II.1: Tư vấn xây dựng Hệ thống Quy trình vận hành truyền thông & Biên soạn, In ấn Playbook chuyển giao (120.000.000 VND)
+*   **Xây dựng Hệ thống Quy trình:** Tư vấn xây dựng Hệ thống Quy trình vận hành truyền thông toàn diện cho toàn hệ thống truyền thông của nhà trường (chứ không chỉ riêng Website). Biên soạn bộ quy trình tác nghiệp truyền thông chuẩn (SOPs) đa kênh (từ viết bài, thiết kế banner đến quy trình phê duyệt đa cấp di động), thiết lập khung lịch biên tập truyền thông (Editorial Calendar) tổng thể đa kênh, và xây dựng quy chế & kịch bản phản ứng nhanh phòng ngừa khủng hoảng truyền thông trực tuyến trong vòng 30 phút.
+*   **Biên soạn & In ấn Brand Playbook:** Tổng hợp toàn bộ hệ thống quy trình tác nghiệp chuẩn hóa trên để biên soạn thành cuốn **Brand Playbook (Sổ tay tác nghiệp truyền thông)** hoàn chỉnh. Hỗ trợ in ấn xuất bản trọn gói **15 cuốn Playbook cao cấp bìa cứng khổ ngang, ép nhũ logo** lưu hành nội bộ để phục vụ trực tiếp cho công tác quản trị và đào tạo của nhà trường.
+*   **Tập huấn & Chuyển giao quy trình:** Tổ chức đào tạo nâng cao năng lực và chuyển giao quy trình tác nghiệp (02 buổi) cho Ban Truyền thông trường và lực lượng Đoàn thanh niên để nhà trường chủ động tự điều phối vận hành dài hạn.
 
-### 2. Cấu phần II.2: Dịch vụ chăm sóc, bảo trì và điều hành Website HUCE (180.000.000 VND - Thời hạn 12 tháng)
-*   Bảo trì kỹ thuật máy chủ, tối ưu tốc độ tải trang, cập nhật bảo mật SSL định kỳ, sao lưu dữ liệu hàng tuần.
-*   Biên tập nội dung, đăng tải tin tức, văn bản thông báo hoạt động lên website Portal chính của trường chuẩn SEO.
-*   Thiết kế banner trang chủ và các đồ họa minh họa hoạt động thường nhật của trường trên website (tối đa 15 banner/tháng).
+### 2. Cấu phần II.2: Dịch vụ đồng hành điều hành nội dung Website HUCE chuẩn hóa (180.000.000 VND - Thời hạn 12 tháng)
+*   **Hỗ trợ nội dung & Tin bài:** Nhân sự ConsMedia đồng hành cập nhật nội dung hoạt động, biên tập và đăng tải tin tức, văn bản thông báo lên website Portal chính của trường chuẩn SEO, kiểm soát chất lượng nội dung tác nghiệp.
+*   **Thiết kế đồ họa vận hành:** Thiết kế banner trang chủ và các đồ họa minh họa hoạt động thường nhật của trường trên website (tối đa 15 banner/tháng). Dịch vụ này không bao gồm trực tiếp sản xuất các tư liệu media gốc (như quay chụp ảnh sự kiện hoặc dựng video chuyên đề).
+*   **Ngoại trừ hạ tầng kỹ thuật:** Dịch vụ hoàn toàn không bao gồm việc quản trị, bảo trì máy chủ vật lý/hosting và duy trì tên miền (hạ tầng kỹ thuật này do Phòng Công nghệ thông tin của HUCE chịu trách nhiệm đảm bảo hoạt động trực tiếp).
 
 ---
 
@@ -94,6 +91,10 @@ Giải pháp xây dựng quy trình tác nghiệp truyền thông chuyên nghi�
 
 ## GÓI 3: DỊCH VỤ TRUYỀN THÔNG SỰ KIỆN GIA TĂNG (ON-DEMAND / BOOK-BY-EVENT MENU)
 *Dành cho các sự kiện cụ thể hoặc các sự kiện thường niên của trường, HUCE có thể lựa chọn đăng ký lẻ theo nhu cầu.*
+
+> [!IMPORTANT]
+> **CƠ CHẾ HỢP TÁC HẠN CHẾ RÀO CẢN HÀNH CHÍNH:**
+> Để kịp thời đáp ứng các hoạt động truyền thông khẩn cấp và các sự kiện diễn ra nhanh chóng của nhà trường, ConsMedia đề xuất cơ chế hợp tác mở cho phép cung ứng linh hoạt các dịch vụ lẻ sự kiện. Cơ chế này loại bỏ các rào cản về hợp đồng phức tạp trước mỗi sự kiện, đơn giản hóa quy trình thanh toán hoặc phê duyệt hành chính kéo dài, đảm bảo đội ngũ kỹ thuật và sản xuất của ConsMedia có thể vào cuộc hỗ trợ HUCE tức thời dựa trên đặt lịch trực tuyến.
 
 ### BẢNG 2: MENU DỊCH VỤ LẺ TRUYỀN THÔNG SỰ KIỆN
 

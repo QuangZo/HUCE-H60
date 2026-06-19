@@ -42,13 +42,13 @@ ConsMedia trân trọng gửi tới Trường Đại học Xây dựng Hà Nội
 
 ## 4. ĐỀ XUẤT HÀNH ĐỘNG VÀ LỘ TRÌNH TRIỂN KHAI (ĐẠI DIỆN PHẦN 2)
 
-### 4.1. Ba Nhóm Hành Động Trọng Tâm (Bỏ từ Trụ cột)
+### 4.1. Ba Nhóm Hành Động Trọng Tâm
 1.  **Nhóm hành động 1: Chuẩn hóa Nhận diện & Bảo hộ SHTT**  
     *Chi tiết:* Tinh chỉnh logo, Guidelines, thiết kế ấn phẩm văn phòng & tài sản truyền thông số, redesign UI/UX website, đại diện nộp đơn đăng ký bảo hộ SHTT cho nhãn hiệu HUCE (Nhóm 41, 16, 25, 35).
-2.  **Nhóm hành động 2: Quy trình quản lý & Vận hành website**  
-    *Chi tiết:* Biên soạn quy trình tác nghiệp truyền thông (SOPs), kịch bản khủng hoảng, cung cấp dịch vụ chăm sóc và biên tập web Portal 12 tháng.
-3.  **Nhóm hành động 3: Truyền thông sự kiện gia tăng lẻ (On-demand)**  
-    *Chi tiết:* Cung cấp dịch vụ media khánh tiết lẻ như quay phim 4K, chụp ảnh, livestream sự kiện, cung cấp nhân sự MC/Lễ tân khi có yêu cầu.
+2.  **Nhóm hành động 2: Quy trình vận hành truyền thông & Dịch vụ nội dung Website**  
+    *Chi tiết:* Tư vấn xây dựng Hệ thống Quy trình vận hành truyền thông toàn diện (SOPs, lịch biên tập, kịch bản khủng hoảng), tập huấn chuyển giao quy trình cho trường và đồng hành hỗ trợ nội dung website chuẩn hóa (không gồm sản xuất media và hạ tầng hosting/tên miền do CNTT đảm nhiệm).
+3.  **Nhóm hành động 3: Cơ chế hợp tác cung ứng dịch vụ truyền thông gia tăng (On-demand)**  
+    *Chi tiết:* Thiết lập cơ chế hợp tác mở loại bỏ rào cản hợp đồng và thủ tục phê duyệt hành chính kéo dài, sẵn sàng cung cấp nhanh các dịch vụ khánh tiết lẻ (quay phim, livestream, MC, lễ tân) nhằm hỗ trợ kịp thời hoạt động truyền thông khẩn cấp của trường.
 
 ### 4.2. Lộ trình Triển khai (6 Giai đoạn)
 *   **Giai đoạn 1:** Khảo sát & Đánh giá Thực trạng (20/05/2026 - 19/06/2026)
@@ -64,8 +64,8 @@ ConsMedia trân trọng gửi tới Trường Đại học Xây dựng Hà Nội
 
 | STT | Cấu phần giải pháp / Phạm vi công việc | Thời gian triển khai | Kinh phí dự kiến (VND) |
 | :--- | :--- | :--- | :--- |
-| **I** | **GÓI 1: CHUẨN HÓA NHẬN DIỆN THƯƠNG HIỆU & BẢO HỘ PHÁP LÝ SHTT**<br>• Tinh chỉnh logo, lập Guidelines, thiết kế ấn phẩm văn phòng & tài sản truyền thông số.<br>• Thiết kế giao diện Portal trường (Web Redesign UI Kit) & bảng chỉ dẫn bảng hiệu.<br>• Quy chuẩn quà tặng, biên soạn Playbook & nộp đơn bảo hộ nhãn hiệu tại Cục SHTT. | Cuốn chiếu theo các giai đoạn 1, 2, 3, 4 | **500,000,000** *(Cố định trọn gói)* |
-| **II** | **GÓI 2: TƯ VẤN QUY TRÌNH QUẢN LÝ & VẬN HÀNH WEBSITE ĐỒNG HÀNH**<br>• Xây dựng bộ SOPs tác nghiệp truyền thông & kịch bản khủng hoảng trực tuyến.<br>• Đồng hành chăm sóc kỹ thuật, bảo mật SSL, cập nhật tin bài chuẩn SEO website Portal. | 12 tháng liên tục (Giai đoạn 5 & 6) | **300,000,000** *(25,000,000 / tháng)* |
+| **I** | **GÓI 1: CHUẨN HÓA NHẬN DIỆN THƯƠNG HIỆU & BẢO HỘ PHÁP LÝ SHTT**<br>• Tinh chỉnh logo, lập Guidelines, thiết kế ấn phẩm văn phòng & tài sản truyền thông số.<br>• Thiết kế giao diện Portal trường (Web Redesign UI Kit) & bảng chỉ dẫn bảng hiệu.<br>• Quy chuẩn quà tặng & nộp đơn đăng ký bảo hộ nhãn hiệu tại Cục SHTT. | Cuốn chiếu theo các giai đoạn 1, 2, 3, 4 | **500,000,000** *(Cố định trọn gói)* |
+| **II** | **GÓI 2: TƯ VẤN QUY TRÌNH QUẢN LÝ & DỊCH VỤ VẬN HÀNH TRUYỀN THÔNG ĐỒNG HÀNH**<br>• Tư vấn xây dựng Hệ thống Quy trình truyền thông toàn trường, biên soạn & in ấn 15 cuốn Playbook.<br>• Đồng hành cập nhật nội dung website Portal chính chuẩn SEO (không gồm hạ tầng máy chủ & media). | 12 tháng liên tục (Giai đoạn 4, 5 & 6) | **300,000,000** *(Cố định trọn gói)* |
 | | **TỔNG CỘNG KINH PHÍ CỐ ĐỊNH DỰ ÁN (GÓI 1 + GÓI 2)** | **Thời gian dự án** | **800,000,000** *(Chưa bao gồm VAT)* |
 
 ---

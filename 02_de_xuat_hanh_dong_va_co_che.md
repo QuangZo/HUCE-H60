@@ -3,21 +3,21 @@
 
 ---
 
-## 1. BA TRỤ CỘT HÀNH ĐỘNG TRỌNG TÂM
+## 1. BA NHÓM HÀNH ĐỘNG TRỌNG TÂM
 
-Để giải quyết triệt để các vấn đề của HUCE, ConsMedia đề xuất lộ trình hành động tập trung vào 3 trụ cột cốt lõi dưới đây:
+Để giải quyết triệt để các vấn đề của HUCE, ConsMedia đề xuất lộ trình hành động tập trung vào 3 nhóm công việc cốt lõi dưới đây:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                             BA TRỤ CỘT HÀNH ĐỘNG THƯƠNG HIỆU HUCE                      │
+│                             BA NHÓM HÀNH ĐỘNG THƯƠNG HIỆU HUCE                         │
 ├────────────────────┬────────────────────────────────────┬──────────────────────────────┤
-│     TRỤ CỘT 1      │             TRỤ CỘT 2              │          TRỤ CỘT 3           │
-│ Chuẩn hóa Nhận diện│  Quy trình điều phối & Vận hành   │    Dịch vụ truyền thông      │
-│   & Bảo hộ SHTT    │        kênh truyền thông           │   sự kiện gia tăng (On-demand)│
+│      NHÓM 1        │               NHÓM 2               │            NHÓM 3            │
+│ Chuẩn hóa Nhận diện│ Xây dựng quy trình vận hành & Dịch │  Hợp tác cung ứng dịch vụ    │
+│   & Bảo hộ SHTT    │   vụ nội dung Website chuẩn hóa    │   truyền thông (On-demand)   │
 └────────────────────┴────────────────────────────────────┴──────────────────────────────┘
 ```
 
-### Trụ cột 1: Chuẩn hóa Nhận diện thương hiệu & Đăng ký bảo hộ sở hữu trí tuệ
+### Nhóm hành động 1: Chuẩn hóa Nhận diện thương hiệu & Đăng ký bảo hộ sở hữu trí tuệ
 *   **Mục tiêu:** Xây dựng hệ thống hình ảnh đồng bộ chuyên nghiệp và thiết lập "lá chắn pháp lý" bảo vệ tài sản trí tuệ của nhà trường.
 *   **Hành động chủ chốt:**
     1.  Khảo sát và Tinh chỉnh hình lưới hình học logo HUCE mới, khóa mã màu chuẩn HSL Cobalt Blue.
@@ -25,19 +25,20 @@
     3.  **Thiết kế lại toàn bộ giao diện hệ thống website của trường** (gồm trang chủ Portal, trang tuyển sinh, và các template dùng chung cho Khoa/Viện).
     4.  **Thực hiện trọn gói thủ tục đăng ký bảo hộ nhãn hiệu độc quyền** đối với tên viết tắt "HUCE" và logo mới tại Cục Sở hữu trí tuệ (Nhóm 41, 16, 25, 35).
 
-### Trụ cột 2: Quy trình quản lý truyền thông & Dịch vụ vận hành website đồng hành
-*   **Mục tiêu:** Thiết lập quy trình làm việc chuẩn hóa, tăng tốc độ xuất bản thông tin và đảm bảo hệ thống website hoạt động sinh động, an toàn.
+### Nhóm hành động 2: Tư vấn xây dựng Quy trình vận hành truyền thông & Dịch vụ nội dung Website chuẩn hóa
+*   **Mục tiêu:** Xây dựng hệ thống Quy trình vận hành truyền thông tổng thể cho cả hệ thống truyền thông HUCE, chuyển giao năng lực tự vận hành và đồng hành duy trì hoạt động nội dung website Portal chính của trường ổn định, chuẩn hóa.
 *   **Hành động chủ chốt:**
-    1.  Biên soạn bộ quy trình tác nghiệp truyền thông (SOPs) chuẩn từ khâu viết bài, thiết kế banner đến phê duyệt đa cấp di động.
-    2.  Lập khung lịch biên tập (Editorial Calendar) tổng thể định hướng nội dung đa kênh.
-    3.  Cung cấp dịch vụ **chăm sóc và vận hành website đồng hành 12 tháng** (Kỹ thuật bảo trì máy chủ, biên tập tin bài chuẩn SEO, thiết kế banner vận hành thường nhật).
+    1.  **Xây dựng Hệ thống Quy trình vận hành truyền thông toàn diện cho HUCE:** Biên soạn bộ quy trình tác nghiệp truyền thông chuẩn (SOPs) đa kênh, thiết lập khung lịch biên tập truyền thông (Editorial Calendar) tổng thể đa kênh, và biên soạn kịch bản ứng phó phòng ngừa khủng hoảng truyền thông trực tuyến.
+    2.  **Đào tạo chuyển giao quy trình:** Tổ chức tập huấn, đào tạo chuyển giao hệ thống quy trình vận hành và tài liệu tác nghiệp mới cho Ban Truyền thông và lực lượng truyền thông phong trào Đoàn thanh niên trường để sẵn sàng tự vận hành.
+    3.  **Dịch vụ điều hành nội dung website Portal:** Cung cấp nhân sự điều phối, đăng tải bài viết và cập nhật nội dung hoạt động chuẩn hóa, kiểm soát chất lượng thông tin, hỗ trợ đăng bài (không bao gồm trực tiếp sản xuất các tư liệu media gốc như ảnh chụp nghệ thuật hay dựng video lẻ).
+    4.  **Phân định phạm vi hạ tầng:** Dịch vụ không bao gồm việc quản trị, bảo trì máy chủ vật lý/hosting và tên miền (hạ tầng kỹ thuật này do Phòng Công nghệ thông tin của HUCE chịu trách nhiệm đảm bảo hoạt động trực tiếp).
 
-### Trụ cột 3: Các dịch vụ truyền thông sự kiện gia tăng (On-demand Services)
-*   **Mục tiêu:** Đáp ứng nhu cầu truyền thông các sự kiện học thuật, đối ngoại và ngày lễ lớn của trường.
+### Nhóm hành động 3: Cơ chế hợp tác cung ứng các dịch vụ truyền thông gia tăng (On-demand Services)
+*   **Mục tiêu:** Thiết lập cơ chế hợp tác mở để cung cấp linh hoạt các dịch vụ truyền thông sự kiện gia tăng, tạo kênh sản xuất khánh tiết hiệu quả, đáp ứng tức thời nhu cầu của nhà trường.
 *   **Hành động chủ chốt:**
-    1.  Cung cấp dịch vụ quay phim Highlight 4K, chụp ảnh sự kiện lấy nhanh phục vụ đăng bài mạng xã hội tức thời.
-    2.  Cung cấp dịch vụ livestream đa góc máy chất lượng cao phát trực tiếp lên Fanpage & YouTube trường.
-    3.  Cung cấp nhân sự chuyên nghiệp phục vụ sự kiện: Tổng đạo diễn, dẫn chương trình (MC), đội ngũ lễ tân mặc áo dài nhận diện Cobalt Blue.
+    1.  **Cơ chế hợp tác linh hoạt:** Loại bỏ các rào cản hành chính phức tạp về mặt ký kết hợp đồng sự kiện đơn lẻ trước mắt, đơn giản hóa thủ tục phê duyệt hành chính hay duyệt thanh toán chậm trễ. Thiết lập đường dây nóng phản ứng nhanh để hỗ trợ kịp thời các sự kiện và chiến dịch truyền thông khẩn cấp của trường.
+    2.  **Cung ứng dịch vụ lẻ chuyên nghiệp (On-demand):** Sẵn sàng cung cấp dịch vụ chụp ảnh sự kiện lấy nhanh, quay phim Highlight 4K sự kiện, livestream đa góc máy chất lượng cao phát trực tiếp đa kênh, thiết kế hệ thống nhận diện sự kiện trọn gói (Key Visual, backdrop, khánh tiết) và cung cấp nhân sự chuyên trách (Tổng đạo diễn sự kiện, MC song ngữ, Lễ tân đồng phục Cobalt Blue).
+
 
 ---
 
@@ -45,18 +46,18 @@
 
 Lộ trình triển khai được thiết kế tối ưu xoay quanh cột mốc quan trọng là Đại lễ H60 ngày 14/11/2026, với mốc thời gian thực được xác lập cụ thể như sau:
 
-*   **Giai đoạn 1: Khảo sát & Đánh giá Thực trạng truyền thông HUCE (20/05/2026 - 19/06/2026):**
+*   **Giai đoạn 1: Khảo sát & Đánh giá Thực trạng (20/05/2026 - 19/06/2026):**
     *   *Nội dung:* Tiếp cận, khảo sát thực tế di sản hình ảnh tại 13+ đơn vị khoa/phòng ban HUCE, đánh giá độ lệch chuẩn màu sắc nhận diện và phân tích rủi ro pháp lý sở hữu trí tuệ hiện tại.
-*   **Giai đoạn 2: Tinh chỉnh Nhận diện & Biên soạn Cẩm nang số (20/06/2026 - 15/07/2026):**
-    *   *Nội dung:* Tinh chỉnh chi tiết lưới hình học biểu trưng logo gốc, khóa hệ thống mã màu chuẩn Cobalt Blue và thiết lập cẩm nang thương hiệu điện tử (Brand Guidelines PDF) quy định cách ứng dụng chuẩn.
+*   **Giai đoạn 2: Chuẩn hóa Nhận diện & Nộp hồ sơ bảo hộ SHTT (20/06/2026 - 15/07/2026):**
+    *   *Nội dung:* Tinh chỉnh chi tiết lưới hình học biểu trưng logo gốc, khóa hệ thống mã màu chuẩn Cobalt Blue, thiết lập cẩm nang thương hiệu điện tử (Brand Guidelines PDF) và soạn thảo hồ sơ nộp đơn đăng ký bảo hộ độc quyền nhãn hiệu tại Cục Sở hữu Trí tuệ.
 *   **Giai đoạn 3: Thiết kế Hệ thống Ấn phẩm & UI/UX Kênh số (16/07/2026 - 15/08/2026):**
     *   *Nội dung:* Thiết kế chi tiết 10 hạng mục ấn phẩm văn phòng (Office Stationery), bộ tài sản số (Digital Assets), giao diện hệ thống website Portal/Admissions (Web UI/UX Redesign Figma Kit) và thiết lập quy chuẩn hệ thống bảng biển chỉ dẫn toàn trường.
-*   **Giai đoạn 4: Đóng gói Playbook, Quà tặng VIP & Nộp đơn bảo hộ SHTT (16/08/2026 - 15/09/2026):**
-    *   *Nội dung:* Thiết kế khung quy chuẩn quà tặng thương hiệu, biên soạn hoàn chỉnh sổ tay tác nghiệp truyền thông (Brand Playbook & SOPs), in ấn sản xuất cẩm nang và thực hiện nộp đơn bảo hộ nhãn hiệu độc quyền.
-*   **Giai đoạn 5: Triển khai Brand Portal & Đồng hành Vận hành Chiến dịch H60 (16/09/2026 - 15/11/2026):**
-    *   *Nội dung:* Lập trình và đưa vào hoạt động cổng thông tin Brand Portal trực tuyến phục vụ chia sẻ tài nguyên số. Đồng hành hỗ trợ kỹ thuật máy chủ và cập nhật biên tập nội dung, banner phục vụ chiến dịch Đại lễ H60 (ngày 14/11/2026).
-*   **Giai đoạn 6: Bảo trì, Chuyển giao Năng lực & Theo dõi văn bằng SHTT (16/11/2026 - 15/06/2027):**
-    *   *Nội dung:* Dịch vụ chăm sóc kỹ thuật website Portal dài hạn 12 tháng, tổ chức buổi tập huấn chuyển giao SOPs tác nghiệp cho cán bộ trường và theo dõi tiến trình cấp văn bằng bảo hộ nhãn hiệu độc quyền.
+*   **Giai đoạn 4: Quy trình Quản lý SOPs & Đóng gói Quà tặng VIP (16/08/2026 - 15/09/2026):**
+    *   *Nội dung:* Xây dựng Hệ thống Quy trình vận hành truyền thông toàn diện (SOPs, lịch biên tập, kịch bản khủng hoảng), biên soạn thiết kế và in ấn 15 cuốn Playbook bìa cứng lưu hành nội bộ của trường; thiết kế khung tiêu chuẩn quà tặng thương hiệu phục vụ Đại lễ H60.
+*   **Giai đoạn 5: Đồng hành Vận hành & Duy trì Kênh số (16/09/2026 - 15/11/2026):**
+    *   *Nội dung:* Vận hành hỗ trợ kỹ thuật máy chủ và cập nhật biên tập nội dung, banner website Portal phục vụ trực tiếp cho chiến dịch Đại lễ H60 (ngày 14/11/2026).
+*   **Giai đoạn 6: Bảo trì, Gia hạn & Đồng hành Pháp lý (16/11/2026 - 15/06/2027):**
+    *   *Nội dung:* Dịch vụ chăm sóc kỹ thuật website Portal dài hạn 12 tháng, bàn giao tài nguyên, tập huấn chuyển giao vận hành và theo dõi nhận văn bằng bảo hộ nhãn hiệu từ Cục Sở hữu Trí tuệ.
 
 ---
 
