@@ -12,19 +12,25 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp và tái cơ 
 *   [02_de_xuat_hanh_dong_va_co_che.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/02_de_xuat_hanh_dong_va_co_che.md): Cập nhật cơ chế hợp tác dài hạn, ba trụ cột truyền thông và quy trình quản trị khủng hoảng nhãn hiệu.
 *   [03_bao_gia_va_specs_chi_tiet.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/03_bao_gia_va_specs_chi_tiet.md): Chuẩn hóa danh mục bàn giao và cơ cấu báo giá trọn gói 800M (Gói 1: 500M - Thiết kế nhận diện & bảo hộ SHTT; Gói 2.1: 120M - Quy trình quản lý truyền thông; Gói 2.2: 180M - Dịch vụ chăm sóc website).
 
-### 2. Tái cấu trúc giao diện HTML (`index.html` và `huce_h60_proposal.html`) - Giai đoạn 2
-Đã loại bỏ toàn bộ định danh chiến dịch H60 và thay thế bằng các thuật ngữ định vị thương hiệu cốt lõi:
-*   **Thanh Sidebar Điều hướng:** Thay đổi tiêu đề dự án từ "HUCE H60" thành "THƯƠNG HIỆU HUCE" và mô tả dưới logo thành "Đề xuất tư vấn xây dựng hệ thống thương hiệu".
-*   **Trang chủ (Page 0):** Cập nhật tiêu đề chính thành "Xây Dựng và Bảo Vệ Hệ Thống Thương Hiệu HUCE" và phụ đề thành "Hồ sơ tư vấn & Chuẩn hóa thương hiệu".
-*   **Interactive Calculator (Page 3):** Cập nhật các nhãn checkbox và công thức tính toán ngân sách tự động theo các gói thương hiệu mới (Gói 1: 500M, Gói 2.1: 120M, Gói 2.2: 180M) với tổng tiền mặc định 800M trọn gói.
-*   **Đồng bộ hóa Mã nguồn:** Dọn dẹp triệt để tất cả 21/21 điểm xuất hiện của từ khóa "H60" không phù hợp trong `index.html` và sao chép đồng bộ sang `huce_h60_proposal.html`.
+### 2. Tái cấu trúc và Đơn giản hóa giao diện HTML (`index.html` và `huce_h60_proposal.html`) - Giai đoạn 2 & 3
+Đã loại bỏ toàn bộ định danh chiến dịch H60 và tối giản hóa, trực quan hóa giao diện:
+*   **Xây dựng Cấu trúc Trang trực quan:**
+    *   **Trang 1: 01. Tổng quan & Khái quát Chào giá (Page 0):** Chứa thông tin chào mừng,Stakeholders (BÊN A / BÊN B), **Bộ tính toán dự toán tương tác (Interactive Calculator)** được đưa lên đầu trang, danh mục báo cáo rút gọn (Reports Vault) và siêu dữ liệu mốc thời gian.
+    *   **Trang 2: 02. Đánh giá Sức khỏe Thương hiệu (Page 1):** Bắt đầu bằng 🎯 4 Mục Tiêu Chiến Lược, theo sau là SWOT, Bản đồ Giao diện chỉ số và Cảnh báo Sở hữu trí tuệ độc quyền khẩn cấp.
+    *   **Trang 3: 03. Lộ trình & Cơ chế Phối hợp (Page 2):** Lộ trình triển khai, Ma trận RACI phối hợp và Quy chế ứng phó xử lý khủng hoảng.
+    *   **Trang 4: 04. Báo giá Chi tiết & Đặc tả (Page 3):** Thuyết minh chi tiết các gói, Bảng báo giá tĩnh, Deliverables Hub và Menu dịch vụ lẻ.
+*   **Cô đọng thông tin bằng Collapsible Section:**
+    *   Tất cả các báo cáo văn bản dài được ẩn mặc định sau nút **📂 Xem báo cáo chi tiết**. Người dùng có thể nhấn nút để mở rộng và đọc chi tiết mà không làm loãng cấu trúc tổng quan trực quan của trang.
+*   **Chuẩn hóa Hệ màu & Tương phản:**
+    *   Sửa lỗi dìm chữ trên nút sẫm: Các nút Vault Report và Primary Buttons chuyển sang màu trắng rõ nét trên nền xanh Royal Blue đậm.
+    *   Sửa lỗi checkbox: Dấu checkmark hiển thị màu trắng rõ ràng trên nền ô xanh Royal Blue khi được chọn.
+    *   Thay đổi nền hộp Calculator từ xám tối sẫm sang màu xám nhạt (`#f8fafc`) có viền zinc tinh giản, làm cho bảng tính nhẹ nhàng và ăn khớp hoàn toàn với trang web.
+    *   Chuyển các card Report Vault sang nền xanh nhạt sang trọng (`rgba(0, 42, 92, 0.03)`) giúp dễ đọc.
 
-### 3. Cân chỉnh Báo giá Chi tiết & In ấn Cẩm nang (Brand Playbook)
-Theo phản hồi của Ban Giám hiệu và người dùng về việc cân đối báo giá của Gói 1:
-*   **Điều chỉnh Mục 1 (Logo Refinement):** Giảm từ 60.000.000 VND xuống **30.000.000 VND** để cân đối và phù hợp hơn với thực tế tinh chỉnh hình học.
-*   **Bổ sung biên soạn & in ấn Playbook (Mục 2):** Chuyển phần ngân sách chênh lệch (30.000.000 VND) sang Mục 2, tăng từ 55.000.000 VND lên **85.000.000 VND** và đổi tên thành **Biên soạn và In ấn Cẩm nang thương hiệu (Brand Guidelines & Playbook)**.
-*   **Quy cách in ấn Playbook:** Hạng mục này hiện bao gồm biên soạn toàn diện nội dung quy chuẩn thương hiệu tích hợp (Brand Playbook) và in ấn sản xuất **15 cuốn cao cấp bìa cứng ép nhũ, ruột giấy mỹ thuật in màu chất lượng cao** để lưu hành nội bộ và làm quà tặng VIP đối ngoại.
-*   Tổng ngân sách của Gói 1 vẫn được giữ nguyên ở mức **500.000.000 VND** và tổng dự toán trọn gói là **800.000.000 VND**.
+### 3. Đẩy code lên Git và Triển khai trực tuyến
+*   Đã thực hiện dọn dẹp các script phân tích tạm thời.
+*   Staged, Committed và Pushed thành công tất cả thay đổi lên nhánh `main` của repository GitHub: `https://github.com/QuangZo/HUCE-H60.git`.
+*   Trang web đã được cập nhật và triển khai trực tiếp tại: `https://huce-proposal.consmedia.com/`.
 
 ---
 
@@ -32,10 +38,10 @@ Theo phản hồi của Ban Giám hiệu và người dùng về việc cân đ�
 
 | Tiêu chí kiểm tra | Trạng thái | Chi tiết kỹ thuật |
 | :--- | :---: | :--- |
-| **Loại bỏ H60 không phù hợp** | **ĐẠT** | Số lượng xuất hiện của "H60" trong tiêu đề, phụ đề và các gói đề xuất giảm về **0**. |
+| **Cấu trúc Trang mới** | **ĐẠT** | Trang 1 hiển thị Calculator và Stakeholders; Trang 2 bắt đầu bằng 4 Mục tiêu chiến lược. |
+| **Nút Collapsible** | **ĐẠT** | Các báo cáo chi tiết được xếp gọn gàng trong các collapsible divs và có thể click toggle hoạt động tốt. |
+| **Màu sắc & Tương phản** | **ĐẠT** | Độ tương phản của văn bản trên nút và ô checkmark đáp ứng tiêu chuẩn WCAG, chữ hiển thị rõ ràng, sắc nét. |
 | **Đồng bộ hóa 2 file HTML** | **ĐẠT** | `huce_h60_proposal.html` và `index.html` được đồng bộ hóa hoàn toàn chính xác. |
-| **Cân đối Giá Gói 1** | **ĐẠT** | Mục 1 giảm về 30M, Mục 2 tăng lên 85M; Tổng Gói 1 hiển thị đúng 500M trên cả web và tài liệu .md. |
-| **Interactive Calculator** | **ĐẠT** | Giá trị mặc định hiển thị đúng `800,000,000` VND; các checkbox hoạt động bình thường. |
 | **Git & Deployment** | **ĐẠT** | Code đã được push lên GitHub và host tự động cập nhật trực tuyến. |
 
 ---
