@@ -60,32 +60,15 @@ Lộ trình triển khai được thiết kế tối ưu xoay quanh cột mốc 
 
 ---
 
-## 3. MA TRẬN PHÂN ĐỊNH TRÁCH NHIỆM PHỐI HỢP (RACI MATRIX)
-
-Để đảm bảo chiến dịch diễn ra trơn tru, không chồng chéo công việc, dưới đây là ma trận phân định trách nhiệm RACI chi tiết giữa các phòng ban HUCE và đối tác chiến lược ConsMedia (Đã cập nhật loại bỏ hạng mục phim truyền thống/tài trợ chung và thay bằng triển khai gói sự kiện thành phần lẻ):
-
-| Hạng mục công việc chính | BGH (PGS.TS. Hoàng Tùng) | Văn phòng Trường | Phòng TT&TS (Đầu mối HUCE) | Phòng Đối ngoại HTQT | Các Phòng Ban khác | ConsMedia (Đối tác) |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Phê duyệt Kế hoạch & Ngân sách Xây dựng Thương hiệu HUCE** | A (Duyệt) | R | C | I | I | C |
-| **Thiết kế Nhận diện (KV, Logo chuẩn)** | A (Duyệt) | I | R | I | I | R (Chính) |
-| **Quan hệ Báo chí & Xử lý Khủng hoảng** | A (Duyệt) | C | R (Chính) | I | I | R (Tư vấn PR) |
-| **Triển khai sự kiện tiêu biểu (Demo): Hội nghị KHCN và Triển lãm thành tựu KHCN, Đổi mới sáng tạo** | A (Duyệt) | I | C | I | R (KHCN) | R (Chính) |
-
-*Chú thích:*
-- **R (Responsible):** Người trực tiếp thực hiện công việc.
-- **A (Accountable):** Người chịu trách nhiệm cao nhất về kết quả công việc (chỉ phê duyệt hoặc quyết định cuối cùng).
-- **C (Consulted):** Người đóng góp ý kiến chuyên môn, tư vấn cho công việc.
-- **I (Informed):** Người nhận thông tin sau khi công việc đã hoàn thành hoặc có tiến triển.
-
-## 4. BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ VÀ GIÁ TRỊ THU LẠI DỰ KIẾN (ROI & SYSTEM EFFICIENCY)
+## 3. BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ VÀ GIÁ TRỊ THU LẠI DỰ KIẾN (ROI & SYSTEM EFFICIENCY)
 
 Đầu tư vào Nhận diện thương hiệu và Quy trình Vận hành Website không chỉ đơn thuần là chi phí truyền thông ngắn hạn, mà là một khoản **đầu tư chiến lược dài hạn** mang lại các giá trị thặng dư đo lường được cụ thể cho trường HUCE:
 
-### 4.1. Nâng Tầm Giá Trị Thương Hiệu (Brand Equity Value-Add)
+### 3.1. Nâng Tầm Giá Trị Thương Hiệu (Brand Equity Value-Add)
 *   **Giải quyết khoảng cách nhận diện:** Khắc phục triệt để sự đứt gãy nhận diện công chúng giữa Trường Đại học Xây dựng Hà Nội (cũ) và HUCE (mới), định vị trường đa ngành hiện đại, mở rộng uy tín học thuật trong nước và quốc tế.
 *   **Tăng trưởng chỉ số tương tác số:** Dự kiến tăng trưởng **45% - 60%** lượt tiếp cận (reach) và tương tác (engagement) trên toàn bộ hệ thống kênh số trong suốt giai đoạn tiếp cận và vận hành.
 
-### 4.2. Hiệu Quả Vận Hành Hệ Thống (System Efficiency)
+### 3.2. Hiệu Quả Vận Hành Hệ Thống (System Efficiency)
 Áp dụng hệ thống quy trình số tự động giúp tối ưu hóa tối đa thời gian và công sức cán bộ:
 *   **Chu kỳ Phê duyệt Bài đăng & Media:** 
     *   *Phương thức thủ công cũ:* Mất 02 - 03 ngày gửi email đính kèm tệp nặng hoặc trình ký giấy xin duyệt nội dung.
@@ -100,15 +83,14 @@ Lộ trình triển khai được thiết kế tối ưu xoay quanh cột mốc 
     *   *Phương thức thủ công cũ:* Cán bộ nhập tay danh sách ủng hộ, đối chiếu sao kê thủ công, mất 1 - 2 tuần để cập nhật vinh danh.
     *   *Quy trình mới:* Tích hợp cổng VietQR đóng góp tự động, tự đối chiếu hiển thị danh sách vinh danh tức thời trên Cổng Brand Portal. Đạt tự động hóa **100%**, minh bạch dòng tiền ủng hộ Quỹ.
 
-### 4.3. Hiệu Quả Tài Chính và Tối Ưu Hóa Ngân Sách
+### 3.3. Hiệu Quả Tài Chính và Tối Ưu Hóa Ngân Sách
 *   **Tối ưu chi phí khánh tiết trực tiếp:** Tiết kiệm từ **35.000.000 VND - 50.000.000 VND** nhờ áp dụng hệ thống thư mời điện tử e-invite QR code cá nhân hóa gửi khách thay thế cho in ấn thiệp giấy cứng đắt đỏ.
 *   **Cơ chế đối lưu tài trợ linh hoạt:** Quy chuẩn spec hiển thị thương hiệu của nhà tài trợ trên Cổng thông tin, giúp nhà trường dễ dàng vận động cựu sinh viên doanh nghiệp trực tiếp tài trợ từng sự kiện lẻ đối lưu truyền thông, giảm thiểu tối đa áp lực chi ngân sách công của nhà trường.
 
 ---
 
-## 5. KẾT LUẬN & HÀNH ĐỘNG NGAY (IMMEDIATE ACTIONS)
+## 4. KẾT LUẬN & HÀNH ĐỘNG NGAY (IMMEDIATE ACTIONS)
 
 Để đảm bảo tiến độ triển khai kịp thời, hai bên thống nhất:
 1.  **Triển khai trước các đầu việc thiết kế qua MOU:** Ký kết Biên bản ghi nhớ để ConsMedia bắt tay ngay vào việc tinh chỉnh logo, làm đăng ký bảo hộ sở hữu trí tuệ sớm nhằm tránh rủi ro mất quyền đăng ký nhãn hiệu.
 2.  **Nghiệm thu thanh toán theo giai đoạn:** Thực hiện ký kết hợp đồng và nghiệm thu cuốn chiếu theo từng cấu phần của Gói Tổng Thể (Cấu phần A hoàn thành nghiệm thu bàn giao file thiết kế gốc & nộp đơn bảo hộ SHTT, Cấu phần B nghiệm thu dịch vụ vận hành hàng tháng).
-
