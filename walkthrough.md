@@ -8,9 +8,9 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp, đồng bộ
 
 ### 1. Thống nhất tên gọi 03 Báo cáo Chiến lược
 Đã chuẩn hóa và đồng bộ hóa tuyệt đối tên gọi của 03 báo cáo chính ở tất cả các vị trí (trong file Markdown tiêu đề đầu trang, menu điều hướng sidebar HTML, menu xem trước bản in A4, các thẻ tóm tắt trang chủ Page 0, và script JS hiển thị tiêu đề động):
-*   **Báo cáo 01:** *Đánh giá Sức khỏe Thương hiệu & Cảnh báo Bảo hộ Pháp lý HUCE*
-*   **Báo cáo 02:** *Đề xuất Hành động theo Cơ chế Đối tác Truyền thông*
-*   **Báo cáo 03:** *Đề xuất Giải pháp & Bảng báo giá Chi tiết Hệ thống Thương hiệu*
+*   **Báo cáo 01:** *Đánh giá sơ bộ Sức khỏe thương hiệu HUCE*
+*   **Báo cáo 02:** *Đề xuất Hành động &amp; Lộ trình triển khai*
+*   **Báo cáo 03:** *Đề xuất Chào giá*
 
 ### 2. Tách biệt các Gói ngân sách trong Interactive Calculator
 *   **Calculator Checkboxes:** Đã hủy bỏ checkbox gộp chung 800M cũ. Thay vào đó, thiết lập 03 checkbox tách biệt hoạt động trơn tru:
@@ -38,6 +38,11 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp, đồng bộ
 ### 5. Cập nhật Menu Dịch Vụ Lẻ (Bảng 2)
 *   Chèn thêm hạng mục **1.5 | Thiết kế Hệ thống nhận diện Sự kiện &amp; Lễ kỷ niệm trọn gói (Event Branding Kit) | Trị giá 55.000.000 VND** vào bảng giá dịch vụ lẻ sự kiện.
 *   Đánh số lại hạng mục Thiết kế Slide thuyết trình sự kiện lẻ thành **1.6** (Đơn giá 350.000 VND/slide).
+
+### 6. Cập nhật Menu Sidebar & Tái cấu trúc Trang 1
+*   **Số thứ tự Menu Sidebar:** Thay đổi ký hiệu số thứ tự vòng tròn từ `01, 02, 03, 04` thành `00` cho Trang Tổng quan, và `01, 02, 03` tương ứng với Báo cáo 01, Báo cáo 02, Báo cáo 03. Việc này giải quyết triệt để sự trùng lặp và lệch số thứ tự báo cáo (tránh tình trạng Badge 02 đi kèm với Báo cáo 01).
+*   **Tái cấu trúc nội dung Trang 1:** Tái cấu trúc nội dung Trang 1 từ 7 phần cũ thành đúng 5 phần tương thích hoàn toàn với tệp nghiên cứu `01_danh_gia_suc_khoe_thuong_hieu.md` (bao gồm: 1. Nhu cầu cấp thiết, 2. Cảnh báo pháp lý, 3. Khảo sát thực trạng, 4. Phân tích SWOT rút gọn, và 5. Đề xuất giải pháp trọng tâm), đồng thời bảo toàn trọn vẹn Bản đồ Chỉ số Sức khỏe Thương hiệu (Interactive Dashboard) hoạt động động.
+*   **Lộ trình Giai đoạn 3, 4, 5, 6:** Cập nhật ngày tháng chuẩn hóa và tên Giai đoạn 4 phục vụ trước Đại lễ trên cả sơ đồ Page 2 và timeline Page 0.
 
 ---
 
