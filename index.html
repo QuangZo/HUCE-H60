@@ -1028,7 +1028,7 @@
         }
 
         .check-card {
-            background: #f8fafc;
+            background: #ffffff;
             border: 1px solid #cbd5e1;
             border-radius: 8px;
             padding: 0.65rem 0.8rem;
@@ -1040,10 +1040,10 @@
         }
         .check-card:hover {
             border-color: var(--primary);
-            background: #cbd5e1;
+            background: #f1f5f9;
         }
         .check-card.checked {
-            background: #e2e8f0;
+            background: #eff6ff;
             border-color: var(--primary);
         }
         .check-box-wrapper {
@@ -1070,7 +1070,7 @@
         }
         .check-indicator::after {
             content: '✓';
-            color: var(--primary-dark);
+            color: var(--white);
             font-weight: 700;
             font-size: 0.7rem;
             display: none;
@@ -1104,7 +1104,7 @@
 
         /* LCD Approved Budget Display */
         .total-lcd-box {
-            background: #f1f5f9;
+            background: #ffffff;
             border: 2px solid var(--primary);
             border-radius: 12px;
             padding: 1.1rem 1.4rem;
@@ -1529,7 +1529,7 @@
             cursor: pointer;
             transition: var(--transition);
         }
-        .app-btn.primary { background: var(--accent); color: var(--primary-dark); }
+        .app-btn.primary { background: var(--primary); color: var(--white); }
         .app-btn.primary:hover { background: var(--white); }
         .app-btn.secondary { background: rgba(15,23,42,0.06); color: var(--white); border: 1px solid rgba(255,255,255,0.1); }
         .app-btn.secondary:hover { background: rgba(255,255,255,0.12); }
@@ -1922,6 +1922,50 @@
         }
         /* --- End Mockup Simulator Overrides --- */
         
+    
+        /* COLLAPSIBLE SECTION DESIGN */
+        .collapsible-container {
+            margin-top: 1rem;
+            width: 100%;
+        }
+        .collapsible-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+            background: #f8fafc;
+            border-radius: 8px;
+            border: 1px solid transparent;
+            padding: 0 1.25rem;
+        }
+        .collapsible-content.expanded {
+            max-height: 4000px;
+            padding: 1.25rem;
+            border-color: #cbd5e1;
+            margin-top: 0.75rem;
+            transition: max-height 0.35s ease-in-out;
+            overflow-y: auto;
+        }
+        .btn-detail-toggle {
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
+            color: var(--primary);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 0.75rem;
+        }
+        .btn-detail-toggle:hover {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: var(--white);
+        }
+
     </style>
 </head>
 <body>
@@ -1948,19 +1992,19 @@
             <ul class="nav-list">
                 <li class="nav-item active" onclick="switchPageView('page0')">
                     <span class="nav-item-num">00</span>
-                    Trang chủ Đề xuất Thương hiệu
+                    01. Tổng quan &amp; Khái quát Chào giá
                 </li>
                 <li class="nav-item" onclick="switchPageView('page1')">
                     <span class="nav-item-num">01</span>
-                    Đánh giá sức khỏe thương hiệu
+                    02. Đánh giá Sức khỏe Thương hiệu
                 </li>
                 <li class="nav-item" onclick="switchPageView('page2')">
                     <span class="nav-item-num">02</span>
-                    Đề xuất hành động và cơ chế
+                    03. Lộ trình &amp; Cơ chế Phối hợp
                 </li>
                 <li class="nav-item" onclick="switchPageView('page3')">
                     <span class="nav-item-num">03</span>
-                    Báo giá và thuyết minh kỹ thuật
+                    04. Báo giá Chi tiết &amp; Đặc tả
                 </li>
             </ul>
 
@@ -2028,7 +2072,154 @@
                     </div>
                 </div>
 
+                <div class="panel-card" id="p3-sec4">
+                    <h3>🧮 BỘ TÍNH TOÁN DỰ TOÁN KINH PHÍ TƯƠNG TÁC (SCORING ESTIMATOR)</h3>
+                    <p style="font-size:0.88rem; margin-bottom:1.2rem;">Sử dụng bộ công cụ dưới đây để chọn/bỏ chọn các gói giải pháp trọn gói hoặc gói lẻ nhằm xem tổng kinh phí cập nhật thời gian thực:</p>
+                    
+                    <div class="interactive-calculator-card" style="border-radius: 16px; padding: 1.8rem; background: #f8fafc; border: 1px solid #cbd5e1; color: var(--text-light);">
+                        <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 1.8rem;">
+                            <!-- Left check list -->
+                            <div>
+                                <div class="checklist-group-title">Gói Dự Án Trọn Gói (I + II)</div>
+                                <div class="checklist-scroll" style="margin-bottom: 1.2rem;">
+                                    <div class="check-card checked" onclick="toggleBudgetCheckbox(this, 500000000)">
+                                        <div class="check-box-wrapper">
+                                            <div class="check-indicator"></div>
+                                            <div class="check-label">Gói 1: Nhận diện &amp; SHTT <span>Tinh chỉnh logo, Website UI, Thiết kế quà tặng, Bảo hộ nhãn hiệu</span></div>
+                                        </div>
+                                        <div class="check-val">500M</div>
+                                    </div>
+                                    <div class="check-card checked" onclick="toggleBudgetCheckbox(this, 120000000)">
+                                        <div class="check-box-wrapper">
+                                            <div class="check-indicator"></div>
+                                            <div class="check-label">Gói 2.1: Tư vấn quản lý truyền thông <span>Quy trình tác nghiệp SOPs, kịch bản khủng hoảng, tập huấn nhân sự</span></div>
+                                        </div>
+                                        <div class="check-val">120M</div>
+                                    </div>
+                                    <div class="check-card checked" onclick="toggleBudgetCheckbox(this, 180000000)">
+                                        <div class="check-box-wrapper">
+                                            <div class="check-indicator"></div>
+                                            <div class="check-label">Gói 2.2: Chăm sóc website đồng hành <span>Chăm sóc kỹ thuật, cập nhật tin bài chuẩn SEO 12 tháng</span></div>
+                                        </div>
+                                        <div class="check-val">180M</div>
+                                    </div>
+                                </div>
+
+                                <div class="checklist-group-title">Dịch Vụ Lẻ Sự Kiện (Book-by-event Menu)</div>
+                                <div class="checklist-scroll">
+                                    <div class="check-card" onclick="toggleBudgetCheckbox(this, 2500000)">
+                                        <div class="check-box-wrapper">
+                                            <div class="check-indicator"></div>
+                                            <div class="check-label">Thiết kế Banner/Poster lẻ <span>1 Key visual in ấn</span></div>
+                                        </div>
+                                        <div class="check-val">2.5M</div>
+                                    </div>
+                                    <div class="check-card" onclick="toggleBudgetCheckbox(this, 1500000)">
+                                        <div class="check-box-wrapper">
+                                            <div class="check-indicator"></div>
+                                            <div class="check-label">Biên tập bài PR chuẩn SEO <span>Hành văn báo chí chuyên nghiệp</span></div>
+                                        </div>
+                                        <div class="check-val">1.5M</div>
+                                    </div>
+                                    <div class="check-card" onclick="toggleBudgetCheckbox(this, 18000000)">
+                                        <div class="check-box-wrapper">
+                                            <div class="check-indicator"></div>
+                                            <div class="check-label">Dựng video Highlight 4K (Fx3) <span>Bàn giao sau 3 ngày</span></div>
+                                        </div>
+                                        <div class="check-val">18M</div>
+                                    </div>
+                                    <div class="check-card" onclick="toggleBudgetCheckbox(this, 22000000)">
+                                        <div class="check-box-wrapper">
+                                            <div class="check-indicator"></div>
+                                            <div class="check-label">Livestream sự kiện đa góc <span>03 camera 4K, 4G chuyên dụng</span></div>
+                                        </div>
+                                        <div class="check-val">22M</div>
+                                    </div>
+                                    <div class="check-card" onclick="toggleBudgetCheckbox(this, 25000000)">
+                                        <div class="check-box-wrapper">
+                                            <div class="check-indicator"></div>
+                                            <div class="check-label">Tổng đạo diễn sự kiện lẻ <span>Xây timeline/Chạy khánh tiết</span></div>
+                                        </div>
+                                        <div class="check-val">25M</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Right LCD -->
+                            <div style="display:flex; flex-direction:column; justify-content:space-between;">
+                                <div class="total-lcd-box" style="background: #ffffff; border: 2px solid var(--primary);">
+                                    <span>Tổng Kinh Phí Ước Tính (VND)</span>
+                                    <h2 id="grand-total">800,000,000</h2>
+                                </div>
+                                <div class="directives-box" style="margin-top:15px;">
+                                    <label for="proposal-notes">Ý kiến chỉ đạo / Ghi chú của BGH:</label>
+                                    <textarea id="proposal-notes" placeholder="Nhập ý chỉ đạo ngân sách tại đây để gửi lưu trữ..."></textarea>
+                                </div>
+                                <button class="btn-main primary" style="margin-top: 15px;" onclick="saveProposalEstimation()">💾 Lưu Phương Án Dự Toán</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="panel-card" style="margin-top: 1.5rem; border: 1px solid rgba(56, 189, 248, 0.25); background:#ffffff; color:#002a5c; border-bottom:1px solid #e4e4e7;">
+                    <h3 style="display: flex; align-items: center; gap: 8px; color: var(--primary);"><span style="font-size: 1.3rem;">📚</span> HỆ THỐNG BÁO CÁO THƯƠNG HIỆU TOÀN DIỆN (INTEGRATED BRAND REPORTS VAULT)</h3>
+                    <p style="margin-bottom: 1.5rem; font-size: 0.9rem; color: var(--text-muted);">Toàn bộ nội dung chi tiết từ 3 văn bản báo cáo thương hiệu gốc của Tổ Tư vấn đã được tích hợp đầy đủ, không cắt xén, trình bày theo chuẩn UI trực tiếp bên trong ứng dụng. Nhấp vào nút bên dưới các thẻ để xem nhanh từng báo cáo chuyên sâu:</p>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; margin-bottom: 0.5rem;">
+                        <div class="objective-card" style="border: 1px solid rgba(56, 189, 248, 0.15); background: rgba(0, 42, 92, 0.03); border: 1px solid rgba(0, 42, 92, 0.08); cursor: pointer; padding: 1.5rem; border-radius: 12px; transition: var(--transition);" onclick="switchPageView('page1')">
+                            <div class="objective-icon-num" style="color: var(--primary); font-size: 1.8rem; font-weight: 800; margin-bottom: 0.5rem;">01</div>
+                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--primary);">📄 01. Đánh giá sức khỏe thương hiệu</h3>
+                            <p style="font-size: 0.82rem; margin-bottom: 1.2rem; color: var(--text-muted); line-height: 1.5; height: 75px; overflow: hidden;">Nghiên cứu hiện trạng định vị, bối cảnh đổi tên trường năm 2021, khảo sát tài sản thương hiệu, SWOT chi tiết và đề xuất giải pháp nhằm chuẩn hóa thương hiệu HUCE.</p>
+                            <button class="btn-main" style="padding: 0.45rem 0.9rem; font-size: 0.75rem; width: auto; border-radius: 6px; background: var(--primary); color: var(--white); cursor: pointer; border: none; font-weight: 600; transition: var(--transition);" onclick="event.stopPropagation(); switchPageView('page1')">📖 Đọc Báo Cáo</button>
+                        </div>
+                        
+                        <div class="objective-card" style="border: 1px solid rgba(56, 189, 248, 0.15); background: rgba(0, 42, 92, 0.03); border: 1px solid rgba(0, 42, 92, 0.08); cursor: pointer; padding: 1.5rem; border-radius: 12px; transition: var(--transition);" onclick="switchPageView('page2')">
+                            <div class="objective-icon-num" style="color: var(--primary); font-size: 1.8rem; font-weight: 800; margin-bottom: 0.5rem;">02</div>
+                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--primary);">📄 02. Đề Xuất và Cơ Chế Hợp Tác Thương Hiệu</h3>
+                            <p style="font-size: 0.82rem; margin-bottom: 1.2rem; color: var(--text-muted); line-height: 1.5; height: 75px; overflow: hidden;">Khung hợp tác theo MOU 2025, ba trụ cột hành động chính, ma trận phối hợp trách nhiệm RACI chi tiết, quy trình phê duyệt tin bài và cơ chế phòng ngừa xử lý khủng hoảng nhãn hiệu.</p>
+                            <button class="btn-main" style="padding: 0.45rem 0.9rem; font-size: 0.75rem; width: auto; border-radius: 6px; background: var(--primary); color: var(--white); cursor: pointer; border: none; font-weight: 600; transition: var(--transition);" onclick="event.stopPropagation(); switchPageView('page2')">📖 Đọc Báo Cáo</button>
+                        </div>
+                        
+                        <div class="objective-card" style="border: 1px solid rgba(56, 189, 248, 0.15); background: rgba(0, 42, 92, 0.03); border: 1px solid rgba(0, 42, 92, 0.08); cursor: pointer; padding: 1.5rem; border-radius: 12px; transition: var(--transition);" onclick="switchPageView('page3')">
+                            <div class="objective-icon-num" style="color: var(--primary); font-size: 1.8rem; font-weight: 800; margin-bottom: 0.5rem;">03</div>
+                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--primary);">📄 03. Thuyết Minh Specs và Báo Giá</h3>
+                            <p style="font-size: 0.82rem; margin-bottom: 1.2rem; color: var(--text-muted); line-height: 1.5; height: 75px; overflow: hidden;">Báo giá thiết kế nhận diện &amp; bảo hộ SHTT (Gói 1), gói tư vấn quy trình và vận hành website đồng hành (Gói 2), cơ cấu hợp tác và menu dịch vụ truyền thông sự kiện lẻ (Gói 3).</p>
+                            <button class="btn-main" style="padding: 0.45rem 0.9rem; font-size: 0.75rem; width: auto; border-radius: 6px; background: var(--primary); color: var(--white); cursor: pointer; border: none; font-weight: 600; transition: var(--transition);" onclick="event.stopPropagation(); switchPageView('page3')">📖 Đọc Báo Cáo</button>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="panel-card">
+                    <h3>📅 THÔNG TIN CHUNG VÀ MỐC TRIỂN KHAI CHIẾN DỊCH</h3>
+                    <ul style="list-style: none; margin-left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                        <li>🚀 <strong>Tên Dự Án:</strong> Dự án Chuẩn hóa Nhận diện và Xây dựng Hệ thống Thương hiệu HUCE.</li>
+                        <li>📅 <strong>Ngày Hoàn Thành Dự Thảo:</strong> Ngày 26 tháng 05 năm 2026.</li>
+                        <li>🏆 <strong>Cột mốc Đại lễ Kỷ niệm 60 năm:</strong> Ngày 13/11 - 14/11/2026.</li>
+                        <li>📂 <strong>Phạm Vi Tư Vấn:</strong> Nhận diện thương hiệu, bảo hộ SHTT, quy trình truyền thông và vận hành website.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- --------------------------------------------------------------- -->
+            <!-- PAGE 1: 01. BRAND HEALTH ASSESSMENT REPORT (INTEGRATED) -->
+            <!-- --------------------------------------------------------------- -->
+            <div id="page1-content" class="tab-view">
+                <!-- Anchor Bar -->
+                <div class="document-vault-bar" style="margin-bottom: 1.5rem;">
+                    <span>🔗 CUỘN NHANH ĐẾN PHẦN:</span>
+                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec0')" class="vault-btn">🎯 Mục Tiêu Chiến Lược</a>
+                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec1')" class="vault-btn">1. Đặt Vấn Đề</a>
+                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec2')" class="vault-btn">2. Định Vị Hiện Tại</a>
+                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec3')" class="vault-btn">3. Brand Audit</a>
+                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec3-2')" class="vault-btn">3.2. Khảo Sát Kênh</a>
+                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec3-4')" class="vault-btn">3.4. Kiểm Kê Chỉ Số</a>
+                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec4')" class="vault-btn">4. Ma trận SWOT thương hiệu</a>
+                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec5')" class="vault-btn">5. Bốn trụ cột cốt lõi</a>
+                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec6')" class="vault-btn">6. Khuyến Nghị</a>
+                </div>
+
+                <div class="panel-card" id="p1-sec0">
                     <h3>🎯 4 MỤC TIÊU CHIẾN LƯỢC CỦA HỆ THỐNG THƯƠNG HIỆU HUCE</h3>
                     <p style="margin-bottom: 1.5rem;">Qua khảo sát chuyên sâu di sản và kiểm toán tài sản truyền thông trực tuyến, ConsMedia đề xuất kế hoạch hành động tập trung vào việc đạt được 4 mục tiêu thương hiệu trọng tâm sau:</p>
                     
@@ -2056,61 +2247,7 @@
                     </div>
                 </div>
 
-                <div class="panel-card" style="margin-top: 1.5rem; border: 1px solid rgba(56, 189, 248, 0.25); background:#ffffff; color:#002a5c; border-bottom:1px solid #e4e4e7;">
-                    <h3 style="display: flex; align-items: center; gap: 8px; color: var(--primary);"><span style="font-size: 1.3rem;">📚</span> HỆ THỐNG BÁO CÁO THƯƠNG HIỆU TOÀN DIỆN (INTEGRATED BRAND REPORTS VAULT)</h3>
-                    <p style="margin-bottom: 1.5rem; font-size: 0.9rem; color: var(--text-muted);">Toàn bộ nội dung chi tiết từ 3 văn bản báo cáo thương hiệu gốc của Tổ Tư vấn đã được tích hợp đầy đủ, không cắt xén, trình bày theo chuẩn UI trực tiếp bên trong ứng dụng. Nhấp vào nút bên dưới các thẻ để xem nhanh từng báo cáo chuyên sâu:</p>
-                    
-                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; margin-bottom: 0.5rem;">
-                        <div class="objective-card" style="border: 1px solid rgba(56, 189, 248, 0.15); background: rgba(0, 42, 92, 0.25); cursor: pointer; padding: 1.5rem; border-radius: 12px; transition: var(--transition);" onclick="switchPageView('page1')">
-                            <div class="objective-icon-num" style="color: var(--primary); font-size: 1.8rem; font-weight: 800; margin-bottom: 0.5rem;">01</div>
-                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--primary);">📄 01. Đánh giá sức khỏe thương hiệu</h3>
-                            <p style="font-size: 0.82rem; margin-bottom: 1.2rem; color: var(--text-muted); line-height: 1.5; height: 75px; overflow: hidden;">Nghiên cứu hiện trạng định vị, bối cảnh đổi tên trường năm 2021, khảo sát tài sản thương hiệu, SWOT chi tiết và đề xuất giải pháp nhằm chuẩn hóa thương hiệu HUCE.</p>
-                            <button class="btn-main" style="padding: 0.45rem 0.9rem; font-size: 0.75rem; width: auto; border-radius: 6px; background: var(--accent); color: var(--primary-dark); cursor: pointer; border: none; font-weight: 600; transition: var(--transition);" onclick="event.stopPropagation(); switchPageView('page1')">📖 Đọc Báo Cáo</button>
-                        </div>
-                        
-                        <div class="objective-card" style="border: 1px solid rgba(56, 189, 248, 0.15); background: rgba(0, 42, 92, 0.25); cursor: pointer; padding: 1.5rem; border-radius: 12px; transition: var(--transition);" onclick="switchPageView('page2')">
-                            <div class="objective-icon-num" style="color: var(--primary); font-size: 1.8rem; font-weight: 800; margin-bottom: 0.5rem;">02</div>
-                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--primary);">📄 02. Đề Xuất và Cơ Chế Hợp Tác Thương Hiệu</h3>
-                            <p style="font-size: 0.82rem; margin-bottom: 1.2rem; color: var(--text-muted); line-height: 1.5; height: 75px; overflow: hidden;">Khung hợp tác theo MOU 2025, ba trụ cột hành động chính, ma trận phối hợp trách nhiệm RACI chi tiết, quy trình phê duyệt tin bài và cơ chế phòng ngừa xử lý khủng hoảng nhãn hiệu.</p>
-                            <button class="btn-main" style="padding: 0.45rem 0.9rem; font-size: 0.75rem; width: auto; border-radius: 6px; background: var(--accent); color: var(--primary-dark); cursor: pointer; border: none; font-weight: 600; transition: var(--transition);" onclick="event.stopPropagation(); switchPageView('page2')">📖 Đọc Báo Cáo</button>
-                        </div>
-                        
-                        <div class="objective-card" style="border: 1px solid rgba(56, 189, 248, 0.15); background: rgba(0, 42, 92, 0.25); cursor: pointer; padding: 1.5rem; border-radius: 12px; transition: var(--transition);" onclick="switchPageView('page3')">
-                            <div class="objective-icon-num" style="color: var(--primary); font-size: 1.8rem; font-weight: 800; margin-bottom: 0.5rem;">03</div>
-                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--primary);">📄 03. Thuyết Minh Specs và Báo Giá</h3>
-                            <p style="font-size: 0.82rem; margin-bottom: 1.2rem; color: var(--text-muted); line-height: 1.5; height: 75px; overflow: hidden;">Báo giá thiết kế nhận diện &amp; bảo hộ SHTT (Gói 1), gói tư vấn quy trình và vận hành website đồng hành (Gói 2), cơ cấu hợp tác và menu dịch vụ truyền thông sự kiện lẻ (Gói 3).</p>
-                            <button class="btn-main" style="padding: 0.45rem 0.9rem; font-size: 0.75rem; width: auto; border-radius: 6px; background: var(--accent); color: var(--primary-dark); cursor: pointer; border: none; font-weight: 600; transition: var(--transition);" onclick="event.stopPropagation(); switchPageView('page3')">📖 Đọc Báo Cáo</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="panel-card">
-                    <h3>📅 THÔNG TIN CHUNG VÀ MỐC TRIỂN KHAI CHIẾN DỊCH</h3>
-                    <ul style="list-style: none; margin-left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-                        <li>🚀 <strong>Tên Dự Án:</strong> Dự án Chuẩn hóa Nhận diện và Xây dựng Hệ thống Thương hiệu HUCE.</li>
-                        <li>📅 <strong>Ngày Hoàn Thành Dự Thảo:</strong> Ngày 26 tháng 05 năm 2026.</li>
-                        <li>🏆 <strong>Cột mốc Đại lễ Kỷ niệm 60 năm:</strong> Ngày 13/11 - 14/11/2026.</li>
-                        <li>📂 <strong>Phạm Vi Tư Vấn:</strong> Nhận diện thương hiệu, bảo hộ SHTT, quy trình truyền thông và vận hành website.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- --------------------------------------------------------------- -->
-            <!-- PAGE 1: 01. BRAND HEALTH ASSESSMENT REPORT (INTEGRATED) -->
-            <!-- --------------------------------------------------------------- -->
-            <div id="page1-content" class="tab-view">
-                <!-- Anchor Bar -->
-                <div class="document-vault-bar" style="margin-bottom: 1.5rem;">
-                    <span>🔗 CUỘN NHANH ĐẾN PHẦN:</span>
-                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec1')" class="vault-btn">1. Đặt Vấn Đề</a>
-                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec2')" class="vault-btn">2. Định Vị Hiện Tại</a>
-                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec3')" class="vault-btn">3. Brand Audit</a>
-                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec3-2')" class="vault-btn">3.2. Khảo Sát Kênh</a>
-                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec3-4')" class="vault-btn">3.4. Kiểm Kê Chỉ Số</a>
-                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec4')" class="vault-btn">4. Ma trận SWOT thương hiệu</a>
-                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec5')" class="vault-btn">5. Bốn trụ cột cốt lõi</a>
-                    <a href="javascript:void(0)" onclick="scrollToSection('p1-sec6')" class="vault-btn">6. Khuyến Nghị</a>
-                </div>
+                
 
                 <div class="panel-card">
                     <h3 id="p1-sec1">1. NHU CẦU CẤP THIẾT và ĐỊNH HƯỚNG TIẾP CẬN</h3>
@@ -2133,19 +2270,30 @@
 
                 <div class="panel-card">
                     <h3 id="p1-sec2">2. ĐỊNH VỊ THƯƠNG HIỆU và ĐỊNH HƯỚNG MỚI</h3>
-                    <p>Định vị hiện tại của nhà trường đang hướng tới một <strong>Đại học nghiên cứu ứng dụng đa ngành, đạt chuẩn quốc tế, đi đầu trong đổi mới sáng tạo và kiến tạo phát triển bền vững</strong>.</p>
-                    <p>Tuy nhiên, hình ảnh HUCE trong nhận thức công chúng ngoài xã hội vẫn còn mang nặng định kiến "thô ráp, phong trần" gắn với công trường xây dựng truyền thống. Do đó, việc trẻ hóa thương hiệu, làm nổi bật tính công nghệ, kiến trúc, đô thị xanh và tính chuyển đổi số thông qua các kênh truyền thông hiện đại là nhiệm vụ cấp bách nhằm thu hút học sinh giỏi thế hệ Gen Z và quốc tế hóa uy tín học thuật của trường.</p>
+                    <p>Định vị hiện tại của nhà trường đang hướng tới một <strong>Đại học nghiên cứu ứng dụng đa ngành, đạt chuẩn quốc tế</strong>. Tuy nhiên, hình ảnh HUCE trong nhận thức xã hội vẫn còn mang nặng định kiến "thô ráp, công trường" truyền thống. Việc trẻ hóa thương hiệu, làm nổi bật tính công nghệ, kiến trúc xanh và chuyển đổi số là cấp bách để thu hút Gen Z.</p>
+                    <div class="collapsible-container">
+                        <button class="btn-detail-toggle" onclick="toggleDetailSection(this, 'p1-sec2-detail')">📂 Xem báo cáo chi tiết</button>
+                        <div id="p1-sec2-detail" class="collapsible-content">
+                            <p>Tuy nhiên, hình ảnh HUCE trong nhận thức công chúng ngoài xã hội vẫn còn mang nặng định kiến "thô ráp, phong trần" gắn với công trường xây dựng truyền thống. Do đó, việc trẻ hóa thương hiệu, làm nổi bật tính công nghệ, kiến trúc, đô thị xanh và tính chuyển đổi số thông qua các kênh truyền thông hiện đại là nhiệm vụ cấp bách nhằm thu hút học sinh giỏi thế hệ Gen Z và quốc tế hóa uy tín học thuật của trường.</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="panel-card">
                     <h3 id="p1-sec3">3. KHẢO SÁT THỰC TRẠNG VÀ PHÂN MẢNH NHẬN DIỆN THƯƠNG HIỆU</h3>
                     <p>Qua rà soát và đối chiếu bộ nhận diện chính thức <strong>"BỘ NHẬN DIỆN MÀU MỚI 27_02.pdf"</strong> với thực tế hiển thị trên các kênh truyền thông của HUCE, chúng tôi ghi nhận những khoảng cách thực thi (Compliance Gaps) cấp bách sau:</p>
-                    <ul>
-                        <li><strong>Độ phân mảnh và Lệch tông màu sắc:</strong> <strong>85% ấn phẩm tự phát</strong> của các Khoa, câu lạc bộ sử dụng lệch mã màu Cobalt Blue chủ đạo (<code>#002a5c</code>), dùng các tông xanh dương tự phát gây mất đồng bộ.</li>
-                        <li><strong>Nhòe vỡ Logo trên môi trường số:</strong> Logo chính thức hiện tại của trường khi hiển thị dưới dạng Favicon website, Avatar ứng dụng di động hoặc in ấn siêu nhỏ thường bị nhòe, mất chi tiết do các đường nét hình học cẩu tháp và quyển sách quá mảnh, chưa được tinh chuẩn lưới geometric grid dành riêng cho digital.</li>
-                        <li><strong>Bất nhất địa chỉ tên miền:</strong> Ngay trong cẩm nang hướng dẫn hiện tại (trang 18, 25) vẫn đan xen địa chỉ email và website cũ <code>nuce.edu.vn</code> bên cạnh domain mới <code>huce.edu.vn</code>, gây rối loạn cho công tác hành chính và liên kết số.</li>
-                        <li><strong>Độ mỏi mắt của phông chữ hành chính:</strong> Phông chữ chính thức UTM Avo thích hợp làm tiêu đề nhưng khi làm văn bản nội dung dài (body text) trên website/thiết bị di động có độ cao ký tự thấp, gây khó đọc.</li>
-                    </ul>
+                    <p>Khảo sát đối chiếu cẩm nang nhận diện chính thức với thực tế triển khai phát hiện một số khoảng cách thực thi (Compliance Gaps) cấp bách cần giải quyết để đảm bảo tính đồng bộ của thương hiệu.</p>
+                    <div class="collapsible-container">
+                        <button class="btn-detail-toggle" onclick="toggleDetailSection(this, 'p1-sec3-detail')">📂 Xem báo cáo chi tiết</button>
+                        <div id="p1-sec3-detail" class="collapsible-content">
+                            <ul>
+                                <li><strong>Độ phân mảnh và Lệch tông màu sắc:</strong> <strong>85% ấn phẩm tự phát</strong> của các Khoa, câu lạc bộ sử dụng lệch mã màu Cobalt Blue chủ đạo (<code>#002a5c</code>).</li>
+                                <li><strong>Nhòe vỡ Logo trên môi trường số:</strong> Logo chính thức hiện tại của trường khi hiển thị dạng Favicon hoặc in siêu nhỏ bị nhòe nét cẩu tháp/quyển sách.</li>
+                                <li><strong>Bất nhất địa chỉ tên miền:</strong> Đan xen địa chỉ email và website cũ <code>nuce.edu.vn</code> bên cạnh tên miền mới <code>huce.edu.vn</code>.</li>
+                                <li><strong>Độ mỏi mắt của phông chữ hành chính:</strong> Phông chữ chính thức UTM Avo thích hợp làm tiêu đề nhưng gây mỏi mắt khi đọc văn bản nội dung dài (body text) trên web/di động.</li>
+                            </ul>
+                        </div>
+                    </div>
 
                     <!-- =================================================================== -->
                     <!-- BẢN ĐỒ CHỈ SỐ SỨC KHỎE THƯƠNG HIỆU HUCE - DASHBOARD ĐỘNG SIÊU TO -->
@@ -2684,7 +2832,10 @@
 
                 <div class="panel-card">
                     <h3 id="p1-sec4">4. PHÂN TÍCH BỐI CẢNH ĐỔI TÊN NĂM 2021 và KHOẢNG CÁCH NHẬN THỨC</h3>
-                    <p>Năm 2021, nhà trường chính thức chuyển đổi tên gọi tiếng Việt từ <strong>"Trường Đại học Xây dựng"</strong> thành <strong>"Trường Đại học Xây dựng Hà Nội"</strong> và sử dụng tên viết tắt tiếng Anh chính thức là <strong>HUCE</strong> (Hanoi University of Civil Engineering) thay thế cho tên gọi <strong>NUCE</strong> trước đây. Sự chuyển đổi này mang lại nhiều lợi thế pháp lý và địa lý nhưng cũng tạo ra những khoảng cách (gap) truyền thông rất lớn cần được giải quyết triệt để.</p>
+                    <p>Năm 2021, trường chuyển đổi tên gọi tiếng Việt thành <strong>"Trường Đại học Xây dựng Hà Nội"</strong> và tên viết tắt tiếng Anh là <strong>HUCE</strong> (thay thế cho <strong>NUCE</strong>). Sự chuyển đổi này mang lại lợi thế địa lý nhưng cũng tạo ra khoảng cách nhận thức đối với công chúng cần được giải quyết bằng các chiến dịch tái định vị tích hợp.</p>
+                    <div class="collapsible-container">
+                        <button class="btn-detail-toggle" onclick="toggleDetailSection(this, 'p1-sec4-detail')">📂 Xem báo cáo chi tiết</button>
+                        <div id="p1-sec4-detail" class="collapsible-content">
                     
                     <h4>4.1. Khoảng cách nhận thức công chúng (Public Perception Gap)</h4>
                     <ul>
@@ -2744,6 +2895,8 @@
                 </div>
 
                 <div class="panel-card">
+                        </div>
+                    </div>
                     <h3 id="p1-sec5">5. PHÂN TÍCH SWOT THƯƠNG HIỆU TÍCH HỢP CHI TIẾT</h3>
                     <div class="swot-panel-grid">
                         <div class="swot-box s">
@@ -2923,8 +3076,7 @@
                             gap: 0.8rem;
                         }
                         .tld-badge {
-                            background: var(--accent);
-                            color: var(--primary-dark);
+                            background: var(--primary); color: var(--white);
                             font-weight: 800;
                             padding: 0.25rem 0.7rem;
                             border-radius: 6px;
@@ -3744,94 +3896,6 @@
                 </div>
 
                 <!-- Calculator inside contextual section -->
-                <div class="panel-card" id="p3-sec4">
-                    <h3>🧮 BỘ TÍNH TOÁN DỰ TOÁN KINH PHÍ TƯƠNG TÁC (SCORING ESTIMATOR)</h3>
-                    <p style="font-size:0.88rem; margin-bottom:1.2rem;">Sử dụng bộ công cụ dưới đây để chọn/bỏ chọn các gói giải pháp trọn gói hoặc gói lẻ nhằm xem tổng kinh phí cập nhật thời gian thực:</p>
-                    
-                    <div class="interactive-calculator-card" style="border-radius: 16px; padding: 1.8rem; background: rgba(4,16,38,0.5);">
-                        <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 1.8rem;">
-                            <!-- Left check list -->
-                            <div>
-                                <div class="checklist-group-title">Gói Dự Án Trọn Gói (I + II)</div>
-                                <div class="checklist-scroll" style="margin-bottom: 1.2rem;">
-                                    <div class="check-card checked" onclick="toggleBudgetCheckbox(this, 500000000)">
-                                        <div class="check-box-wrapper">
-                                            <div class="check-indicator"></div>
-                                            <div class="check-label">Gói 1: Nhận diện &amp; SHTT <span>Tinh chỉnh logo, Website UI, Thiết kế quà tặng, Bảo hộ nhãn hiệu</span></div>
-                                        </div>
-                                        <div class="check-val">500M</div>
-                                    </div>
-                                    <div class="check-card checked" onclick="toggleBudgetCheckbox(this, 120000000)">
-                                        <div class="check-box-wrapper">
-                                            <div class="check-indicator"></div>
-                                            <div class="check-label">Gói 2.1: Tư vấn quản lý truyền thông <span>Quy trình tác nghiệp SOPs, kịch bản khủng hoảng, tập huấn nhân sự</span></div>
-                                        </div>
-                                        <div class="check-val">120M</div>
-                                    </div>
-                                    <div class="check-card checked" onclick="toggleBudgetCheckbox(this, 180000000)">
-                                        <div class="check-box-wrapper">
-                                            <div class="check-indicator"></div>
-                                            <div class="check-label">Gói 2.2: Chăm sóc website đồng hành <span>Chăm sóc kỹ thuật, cập nhật tin bài chuẩn SEO 12 tháng</span></div>
-                                        </div>
-                                        <div class="check-val">180M</div>
-                                    </div>
-                                </div>
-
-                                <div class="checklist-group-title">Dịch Vụ Lẻ Sự Kiện (Book-by-event Menu)</div>
-                                <div class="checklist-scroll">
-                                    <div class="check-card" onclick="toggleBudgetCheckbox(this, 2500000)">
-                                        <div class="check-box-wrapper">
-                                            <div class="check-indicator"></div>
-                                            <div class="check-label">Thiết kế Banner/Poster lẻ <span>1 Key visual in ấn</span></div>
-                                        </div>
-                                        <div class="check-val">2.5M</div>
-                                    </div>
-                                    <div class="check-card" onclick="toggleBudgetCheckbox(this, 1500000)">
-                                        <div class="check-box-wrapper">
-                                            <div class="check-indicator"></div>
-                                            <div class="check-label">Biên tập bài PR chuẩn SEO <span>Hành văn báo chí chuyên nghiệp</span></div>
-                                        </div>
-                                        <div class="check-val">1.5M</div>
-                                    </div>
-                                    <div class="check-card" onclick="toggleBudgetCheckbox(this, 18000000)">
-                                        <div class="check-box-wrapper">
-                                            <div class="check-indicator"></div>
-                                            <div class="check-label">Dựng video Highlight 4K (Fx3) <span>Bàn giao sau 3 ngày</span></div>
-                                        </div>
-                                        <div class="check-val">18M</div>
-                                    </div>
-                                    <div class="check-card" onclick="toggleBudgetCheckbox(this, 22000000)">
-                                        <div class="check-box-wrapper">
-                                            <div class="check-indicator"></div>
-                                            <div class="check-label">Livestream sự kiện đa góc <span>03 camera 4K, 4G chuyên dụng</span></div>
-                                        </div>
-                                        <div class="check-val">22M</div>
-                                    </div>
-                                    <div class="check-card" onclick="toggleBudgetCheckbox(this, 25000000)">
-                                        <div class="check-box-wrapper">
-                                            <div class="check-indicator"></div>
-                                            <div class="check-label">Tổng đạo diễn sự kiện lẻ <span>Xây timeline/Chạy khánh tiết</span></div>
-                                        </div>
-                                        <div class="check-val">25M</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Right LCD -->
-                            <div style="display:flex; flex-direction:column; justify-content:space-between;">
-                                <div class="total-lcd-box">
-                                    <span>Tổng Kinh Phí Ước Tính (VND)</span>
-                                    <h2 id="grand-total">800,000,000</h2>
-                                </div>
-                                <div class="directives-box" style="margin-top:15px;">
-                                    <label for="proposal-notes">Ý kiến chỉ đạo / Ghi chú của BGH:</label>
-                                    <textarea id="proposal-notes" placeholder="Nhập ý chỉ đạo ngân sách tại đây để gửi lưu trữ..."></textarea>
-                                </div>
-                                <button class="btn-main primary" style="margin-top: 15px;" onclick="saveProposalEstimation()">💾 Lưu Phương Án Dự Toán</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="panel-card" id="p3-sec5">
                     <h3>5. DANH MỤC TRA CỨU SẢN PHẨM BÀN GIAO CHI TIẾT (DELIVERABLES HUB)</h3>
                     <p style="margin-bottom: 1.5rem;">Dưới đây là đặc tả sản phẩm bàn giao đầy đủ chi tiết cho từng gói giải pháp y hệt như tài liệu thuyết minh. Click chọn các Tab để tra cứu nhanh:</p>
@@ -4435,6 +4499,20 @@
     <!-- =================================================================== -->
     <script>
         // Page view navigation tabs switcher
+        
+        function toggleDetailSection(btn, targetId) {
+            const el = document.getElementById(targetId);
+            if (el) {
+                el.classList.toggle('expanded');
+                const isExpanded = el.classList.contains('expanded');
+                btn.innerHTML = isExpanded ? '📁 Thu gọn báo cáo chi tiết' : '📂 Xem báo cáo chi tiết';
+                btn.style.background = isExpanded ? 'var(--primary)' : '#eff6ff';
+                btn.style.color = isExpanded ? 'var(--white)' : 'var(--primary)';
+                btn.style.borderColor = isExpanded ? 'var(--primary)' : '#bfdbfe';
+            }
+        }
+
+
         function switchPageView(pageId) {
             // Deactivate all nav items
             document.querySelectorAll('.nav-item').forEach(item => {
