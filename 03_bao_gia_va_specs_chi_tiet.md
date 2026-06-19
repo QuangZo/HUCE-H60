@@ -20,7 +20,7 @@ Giải pháp tập trung chuẩn hóa hệ thống hình ảnh, nâng cao chất
 
 ### 2. Danh mục bàn giao chi tiết (Deliverables List)
 *   **Logo Refinement:** 01 Logo gốc hoàn chỉnh tối ưu lưới hình học và 04 phiên bản ứng dụng chuẩn (.Ai, .Eps, .Svg).
-*   **Brand Guidelines:** Hệ thống quy chuẩn kiểu chữ (Typography), bảng màu chuẩn HSL Cobalt Blue di sản, hệ lưới đồ họa họa tiết pattern, hướng dẫn sử dụng.
+*   **Brand Guidelines & Playbook:** Biên soạn toàn diện tài liệu hướng dẫn, quy chuẩn ứng dụng thương hiệu tích hợp (Brand Playbook) bao gồm quy cách thiết kế, tone of voice, quy trình áp dụng. Bàn giao File PDF tương tác độ phân giải cao và in ấn sản xuất 15 cuốn Playbook cao cấp bìa cứng ép nhũ, ruột giấy mỹ thuật in màu chất lượng cao để lưu hành nội bộ và làm quà tặng VIP.
 *   **Office Stationery (Ấn phẩm văn phòng):** Thiết kế danh thiếp, letterhead (bản in & file Word), phong bì thư (A4, A5, DL), kẹp file tài liệu, Slide Template PowerPoint thương hiệu HUCE (30 layout chuyên nghiệp).
 *   **Digital Assets (Tài sản số):** 05 khung ảnh bài đăng Facebook, email signature, 05 virtual backgrounds cho Zoom/Teams.
 *   **Thiết kế quà tặng thương hiệu (Gift Design):** Sổ da dập chìm, bút ký kim loại khắc laser, kỷ niệm chương pha lê đúc nổi, ô cầm tay gấp ngược Cobalt Blue, bình giữ nhiệt, áo thun Polo thương hiệu HUCE (cotton cao cấp thêu logo), túi giấy kraft thân thiện môi trường, hộp quà tặng VIP lót nhung.
@@ -53,8 +53,8 @@ Giải pháp xây dựng quy trình tác nghiệp truyền thông chuyên nghi�
 | STT | Hạng mục / Nội dung công việc | Số lượng | ĐVT | Đơn giá (VND) | Thành tiền (VND) |
 | :---: | :--- | :---: | :---: | :---: | :---: |
 | **I** | **GÓI 1: CHUẨN HÓA NHẬN DIỆN THƯƠNG HIỆU & BẢO HỘ PHÁP LÝ SHTT** | | | | **500,000,000** |
-| 1 | Nghiên cứu di sản & Tinh chỉnh hình học Logo gốc (Logo Refinement) | 1 | Gói | 60,000,000 | 60,000,000 |
-| 2 | Xây dựng Cẩm nang thương hiệu (Brand Guidelines) | 1 | Gói | 55,000,000 | 55,000,000 |
+| 1 | Nghiên cứu di sản & Tinh chỉnh hình học Logo gốc (Logo Refinement) | 1 | Gói | 30,000,000 | 30,000,000 |
+| 2 | Biên soạn toàn diện & In ấn Cẩm nang thương hiệu (Brand Guidelines & Playbook) | 1 | Gói | 85,000,000 | 85,000,000 |
 | 3 | Thiết kế Bộ ấn phẩm văn phòng (Office Stationery) | 1 | Gói | 45,000,000 | 45,000,000 |
 | 4 | Thiết kế Bộ tài sản truyền thông số (Digital Assets) | 1 | Gói | 20,000,000 | 20,000,000 |
 | 5 | Thiết kế lại Giao diện hệ thống Website trường (Web UI/UX Redesign) | 1 | Gói | 90,000,000 | 90,000,000 |

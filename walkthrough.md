@@ -19,10 +19,12 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp và tái cơ 
 *   **Interactive Calculator (Page 3):** Cập nhật các nhãn checkbox và công thức tính toán ngân sách tự động theo các gói thương hiệu mới (Gói 1: 500M, Gói 2.1: 120M, Gói 2.2: 180M) với tổng tiền mặc định 800M trọn gói.
 *   **Đồng bộ hóa Mã nguồn:** Dọn dẹp triệt để tất cả 21/21 điểm xuất hiện của từ khóa "H60" không phù hợp trong `index.html` và sao chép đồng bộ sang `huce_h60_proposal.html`.
 
-### 3. Đẩy code lên Git và Triển khai trực tuyến
-*   Đã thực hiện dọn dẹp các script phân tích tạm thời (`check_failed_matches.js`, `update_brand_focus.js`, v.v.).
-*   Staged, Committed và Pushed thành công tất cả thay đổi lên nhánh `main` của repository GitHub: `https://github.com/QuangZo/HUCE-H60.git`.
-*   Trang web đã được cập nhật và triển khai trực tiếp tại: `https://huce-proposal.consmedia.com/`.
+### 3. Cân chỉnh Báo giá Chi tiết & In ấn Cẩm nang (Brand Playbook)
+Theo phản hồi của Ban Giám hiệu và người dùng về việc cân đối báo giá của Gói 1:
+*   **Điều chỉnh Mục 1 (Logo Refinement):** Giảm từ 60.000.000 VND xuống **30.000.000 VND** để cân đối và phù hợp hơn với thực tế tinh chỉnh hình học.
+*   **Bổ sung biên soạn & in ấn Playbook (Mục 2):** Chuyển phần ngân sách chênh lệch (30.000.000 VND) sang Mục 2, tăng từ 55.000.000 VND lên **85.000.000 VND** và đổi tên thành **Biên soạn và In ấn Cẩm nang thương hiệu (Brand Guidelines & Playbook)**.
+*   **Quy cách in ấn Playbook:** Hạng mục này hiện bao gồm biên soạn toàn diện nội dung quy chuẩn thương hiệu tích hợp (Brand Playbook) và in ấn sản xuất **15 cuốn cao cấp bìa cứng ép nhũ, ruột giấy mỹ thuật in màu chất lượng cao** để lưu hành nội bộ và làm quà tặng VIP đối ngoại.
+*   Tổng ngân sách của Gói 1 vẫn được giữ nguyên ở mức **500.000.000 VND** và tổng dự toán trọn gói là **800.000.000 VND**.
 
 ---
 
@@ -32,6 +34,7 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp và tái cơ 
 | :--- | :---: | :--- |
 | **Loại bỏ H60 không phù hợp** | **ĐẠT** | Số lượng xuất hiện của "H60" trong tiêu đề, phụ đề và các gói đề xuất giảm về **0**. |
 | **Đồng bộ hóa 2 file HTML** | **ĐẠT** | `huce_h60_proposal.html` và `index.html` được đồng bộ hóa hoàn toàn chính xác. |
+| **Cân đối Giá Gói 1** | **ĐẠT** | Mục 1 giảm về 30M, Mục 2 tăng lên 85M; Tổng Gói 1 hiển thị đúng 500M trên cả web và tài liệu .md. |
 | **Interactive Calculator** | **ĐẠT** | Giá trị mặc định hiển thị đúng `800,000,000` VND; các checkbox hoạt động bình thường. |
 | **Git & Deployment** | **ĐẠT** | Code đã được push lên GitHub và host tự động cập nhật trực tuyến. |
 
