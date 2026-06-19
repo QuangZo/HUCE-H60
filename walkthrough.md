@@ -41,7 +41,12 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp, đồng bộ
 
 ### 6. Cập nhật Menu Sidebar & Tái cấu trúc Trang 1
 *   **Số thứ tự Menu Sidebar:** Thay đổi ký hiệu số thứ tự vòng tròn từ `01, 02, 03, 04` thành `00` cho Trang Tổng quan, và `01, 02, 03` tương ứng với Báo cáo 01, Báo cáo 02, Báo cáo 03. Việc này giải quyết triệt để sự trùng lặp và lệch số thứ tự báo cáo (tránh tình trạng Badge 02 đi kèm với Báo cáo 01).
-*   **Tái cấu trúc nội dung Trang 1:** Tái cấu trúc nội dung Trang 1 thành đúng **4 phần chính** bằng cách ghép phần Cảnh báo pháp lý khẩn cấp vào dưới mục *1. Nhu cầu cấp thiết* (thành mục *1.2. Cảnh báo pháp lý khẩn cấp*, còn nhu cầu là mục *1.1. Các nhu cầu cấp thiết*). Các phần tiếp theo (Khảo sát thực trạng, SWOT, Đề xuất giải pháp) được đánh số lại thành 2, 3, 4 tương thích hoàn toàn với tệp nghiên cứu `01_danh_gia_suc_khoe_thuong_hieu.md`, đồng thời bảo toàn trọn vẹn Bản đồ Chỉ số Sức khỏe Thương hiệu hoạt động động.
+*   **Đổi tên Trang tổng quan:** Trang đầu tiên trong mục lục (Page 0) đã được rút gọn tên từ "Tổng quan &amp; Khái quát Chào giá" thành **Tổng Quan** thống nhất ở cả menu sidebar và JavaScript tiêu đề trang.
+*   **Tái cấu trúc nội dung Trang 1 (Báo cáo 01):** Ghép phần Cảnh báo pháp lý khẩn cấp vào dưới mục *1. Nhu cầu cấp thiết* (thành mục *1.2. Cảnh báo pháp lý khẩn cấp*, còn nhu cầu là mục *1.1. Các nhu cầu cấp thiết*). Các phần tiếp theo (Khảo sát thực trạng, SWOT, Đề xuất giải pháp) được đánh số lại thành 2, 3, 4 tương thích hoàn toàn với tệp nghiên cứu `01_danh_gia_suc_khoe_thuong_hieu.md`.
+*   **Sửa lỗi Trang 2 và 3 bị trắng:** Khắc phục triệt để lỗi unclosed tags (thừa/thiếu thẻ `div` khi trích xuất Dashboard tự động) bằng thuật toán đếm thẻ mở/đóng lồng nhau, giúp giao diện phân trang hiển thị chuẩn xác 100%.
+*   **Căn chỉnh thông tin chung dự án:** Nâng cấp grid layout phần thông tin dự án trên Trang Tổng Quan thành dạng lưới 2 cột co giãn cân đối (Item Tên dự án chiếm trọn 2 cột ở đầu để tránh wrap chữ, 4 cụm thông tin còn lại phân bổ đều đặn).
+*   **Bê nguyên Dashboard Sức khỏe Thương hiệu sang Trang Tổng Quan:** Thay thế phần health grid cũ trên Trang Tổng Quan (Page 0) bằng toàn bộ **Bản Đồ Chỉ Số Sức Khỏe Thương Hiệu HUCE** (bao gồm cả Style CSS & markup HTML hoàn chỉnh) giúp người dùng tương tác ngay từ trang đầu.
+*   **Đổi tên Lộ trình báo giá tích hợp:** Đổi tên tiêu đề thành **NỘI DUNG ĐỀ XUẤT** và liệt kê chuẩn tên 3 báo cáo tương ứng.
 *   **Định dạng ngày tháng đầu trang:** Loại bỏ chữ "Ngày", đưa ngày tháng năm động lên cùng hàng với "Hà Nội" sau ký tự `|` (Ví dụ: `Hà Nội | 19/06/2026`).
 *   **Lộ trình Giai đoạn 3, 4, 5, 6:** Cập nhật ngày tháng chuẩn hóa và tên Giai đoạn 4 phục vụ trước Đại lễ trên cả sơ đồ Page 2 và timeline Page 0.
 
