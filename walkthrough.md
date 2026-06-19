@@ -32,7 +32,19 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp và tái cơ 
 *   Staged, Committed và Pushed thành công tất cả thay đổi lên nhánh `main` của repository GitHub: `https://github.com/QuangZo/HUCE-H60.git`.
 *   Trang web đã được cập nhật và triển khai trực tiếp tại: `https://huce-proposal.consmedia.com/`.
 
+### 4. Tái cơ cấu Gói 1 - Chuẩn hóa Nhận diện & SHTT (Yêu cầu mới)
+Đã thực hiện cập nhật lại cơ cấu giá của Gói 1 nhằm tách bạch phần in ấn và cân chỉnh ngân sách Digital Assets hợp lý hơn:
+*   **Chi tiết điều chỉnh:**
+    *   **Tách hạng mục in ấn:** Hạng mục *Biên soạn và In ấn Cẩm nang thương hiệu* (85M) được tách làm 2 phần: Thiết kế Cẩm nang thương hiệu thuần túy (45M) và Biên soạn tổng hợp PlayBook - Media Kit & Dịch vụ xuất bản in ấn thực tế (25M).
+    *   **Tăng ngân sách Digital Assets:** Tăng từ 20M lên 35M để đảm bảo chất lượng thiết kế chuẩn và chuyên nghiệp (bao gồm các mẫu Social Media Grids, Email Signature HTML, và Zoom Virtual Backgrounds).
+    *   **Duy trì tổng ngân sách:** Tổng chi phí Gói 1 được giữ nguyên ở mức **500.000.000 VND** và tổng dự án ở mức **800.000.000 VND**.
+*   **Giải thích chi tiết về các tài sản số (Digital Assets):**
+    *   *Social Media Grids:* File nguồn (Figma/PSD) thiết kế bài đăng chia lưới đồng bộ cho fanpage trường, giúp bài đăng luôn đẹp mắt và không bị vụn vặt.
+    *   *Email Signatures:* Mẫu chữ ký thư điện tử HTML chuẩn hóa thông tin cá nhân và định dạng thương hiệu HUCE cho giảng viên và cán bộ trường.
+    *   *Zoom/Teams Backgrounds:* Hình nền ảo chất lượng cao phục vụ các buổi họp và giảng dạy trực tuyến, hội thảo khoa học đồng bộ thương hiệu.
+
 ---
+
 
 ## 🛠️ Kết Quả Thử Nghiệm Kỹ Thuật
 

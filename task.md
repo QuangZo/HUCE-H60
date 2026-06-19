@@ -36,3 +36,19 @@
 - `[x]` **Xác minh hiển thị & Kiểm thử:**
   - `[x]` Kiểm tra tính toàn vẹn cấu trúc file HTML (div balance, logic JS).
   - `[x]` Đẩy lên Git và kiểm tra hiển thị trực tuyến.
+
+---
+
+## Giai đoạn 3: Tái cơ cấu Gói 1 trong Bảng giá và Danh mục bàn giao (Yêu cầu mới)
+
+- `[x]` **Tách phần in ấn của Brand Guidelines:**
+  - `[x]` Chuyển Cẩm nang thương hiệu thành thiết kế quy chuẩn thuần túy (45.000.000 VND).
+  - `[x]` Tách phần in ấn PlayBook - Media Kit & Dịch vụ xuất bản ra hạng mục số 11 riêng biệt (25.000.000 VND).
+- `[x]` **Điều chỉnh giá của Bộ tài sản truyền thông số (Digital Assets):**
+  - `[x]` Tăng từ 20.000.000 VND lên 35.000.000 VND để phản ánh đúng giá trị và quy mô.
+- `[x]` **Đồng bộ các tài liệu và HTML:**
+  - `[x]` Đồng bộ hóa bảng giá trong [03_bao_gia_va_specs_chi_tiet.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/03_bao_gia_va_specs_chi_tiet.md).
+  - `[x]` Đồng bộ hóa bảng giá tĩnh trong `index.html` và `huce_h60_proposal.html`.
+  - `[x]` Đồng bộ hóa Deliverables Hub của Gói 1 (thêm Phân nhóm 11: Playbook & Ấn phẩm in ấn).
+  - `[x]` Kiểm tra tổng ngân sách Gói 1 (500M) và tổng dự án (800M) không đổi.
+

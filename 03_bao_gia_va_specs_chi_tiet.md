@@ -20,13 +20,14 @@ Giải pháp tập trung chuẩn hóa hệ thống hình ảnh, nâng cao chất
 
 ### 2. Danh mục bàn giao chi tiết (Deliverables List)
 *   **Logo Refinement:** 01 Logo gốc hoàn chỉnh tối ưu lưới hình học và 04 phiên bản ứng dụng chuẩn (.Ai, .Eps, .Svg).
-*   **Brand Guidelines & Playbook:** Biên soạn toàn diện tài liệu hướng dẫn, quy chuẩn ứng dụng thương hiệu tích hợp (Brand Playbook) bao gồm quy cách thiết kế, tone of voice, quy trình áp dụng. Bàn giao File PDF tương tác độ phân giải cao và in ấn sản xuất 15 cuốn Playbook cao cấp bìa cứng ép nhũ, ruột giấy mỹ thuật in màu chất lượng cao để lưu hành nội bộ và làm quà tặng VIP.
+*   **Brand Guidelines (Thiết kế & Quy chuẩn):** Thiết lập quy cách chuẩn hóa thiết kế nhận diện thương hiệu HUCE, bao gồm: Logo grid, khoảng cách an toàn, bảng màu chuẩn Cobalt Blue, kiểu chữ (typography) tiêu biểu, quy chuẩn ứng dụng trên các chất liệu và kịch bản sử dụng do's/don'ts. Bàn giao file cẩm nang thiết kế định dạng PDF tương tác.
 *   **Office Stationery (Ấn phẩm văn phòng):** Thiết kế danh thiếp, letterhead (bản in & file Word), phong bì thư (A4, A5, DL), kẹp file tài liệu, Slide Template PowerPoint thương hiệu HUCE (30 layout chuyên nghiệp).
-*   **Digital Assets (Tài sản số):** 05 khung ảnh bài đăng Facebook, email signature, 05 virtual backgrounds cho Zoom/Teams.
+*   **Digital Assets (Tài sản số):** Thiết kế hệ thống 05 Social Media Grids templates phục vụ đăng tải mạng xã hội (Facebook/Zalo/YouTube), 03 mẫu chữ ký email chuẩn HTML cho các chức danh, và 05 hình nền Zoom/Teams phục vụ họp trực tuyến và hội thảo quốc tế.
 *   **Thiết kế quà tặng thương hiệu (Gift Design):** Sổ da dập chìm, bút ký kim loại khắc laser, kỷ niệm chương pha lê đúc nổi, ô cầm tay gấp ngược Cobalt Blue, bình giữ nhiệt, áo thun Polo thương hiệu HUCE (cotton cao cấp thêu logo), túi giấy kraft thân thiện môi trường, hộp quà tặng VIP lót nhung.
 *   **Thiết kế lại Giao diện Website (Web UI/UX Redesign):** Thiết kế UI/UX hiện đại (bàn giao Figma UI Kit) cho trang chủ Portal trường, trang tuyển sinh, và khung giao diện (template) dùng chung cho website 13+ Khoa và Viện nghiên cứu. Tối ưu hiển thị Responsive cho di động.
 *   **Bảo hộ sở hữu trí tuệ (IP Protection):** Đại diện thực hiện toàn bộ thủ tục pháp lý, soạn thảo hồ sơ nộp đơn đăng ký bảo hộ độc quyền nhãn hiệu và logo HUCE tại Cục Sở hữu Trí tuệ cho 4 nhóm sản phẩm/dịch vụ cốt lõi (Nhóm 41, 16, 25, 35).
 *   **Landing Page Giới thiệu:** Thiết kế và lập trình Landing Page giới thiệu thương hiệu HUCE tích hợp theo dõi lượt truy cập và cổng VietQR tự động.
+*   **Biên soạn tổng hợp PlayBook - Media Kit & Dịch vụ xuất bản in ấn:** Tổng hợp và đóng gói bộ Brand Playbook hoàn chỉnh, đóng gói Digital Media Kit (bao gồm các file thiết kế gốc chuẩn, logo, icons, templates ready-to-use). Đảm bảo dịch vụ in ấn xuất bản 15 cuốn Playbook cao cấp bìa cứng khổ ngang, giấy mỹ thuật chuyên dụng, bìa ép nhũ lưu hành nội bộ.
 
 ---
 
@@ -54,15 +55,16 @@ Giải pháp xây dựng quy trình tác nghiệp truyền thông chuyên nghi�
 | :---: | :--- | :---: | :---: | :---: | :---: |
 | **I** | **GÓI 1: CHUẨN HÓA NHẬN DIỆN THƯƠNG HIỆU & BẢO HỘ PHÁP LÝ SHTT** | | | | **500,000,000** |
 | 1 | Nghiên cứu di sản & Tinh chỉnh hình học Logo gốc (Logo Refinement) | 1 | Gói | 30,000,000 | 30,000,000 |
-| 2 | Biên soạn toàn diện & In ấn Cẩm nang thương hiệu (Brand Guidelines & Playbook) | 1 | Gói | 85,000,000 | 85,000,000 |
+| 2 | Biên soạn Cẩm nang quy chuẩn thương hiệu (Brand Guidelines - Thiết kế & Quy chuẩn) | 1 | Gói | 45,000,000 | 45,000,000 |
 | 3 | Thiết kế Bộ ấn phẩm văn phòng (Office Stationery) | 1 | Gói | 45,000,000 | 45,000,000 |
-| 4 | Thiết kế Bộ tài sản truyền thông số (Digital Assets) | 1 | Gói | 20,000,000 | 20,000,000 |
+| 4 | Thiết kế Bộ tài sản truyền thông số (Digital Assets) | 1 | Gói | 35,000,000 | 35,000,000 |
 | 5 | Thiết kế lại Giao diện hệ thống Website trường (Web UI/UX Redesign) | 1 | Gói | 90,000,000 | 90,000,000 |
 | 6 | Thiết kế Bộ nhận diện khuôn viên trường (Campus Branding) | 1 | Gói | 65,000,000 | 65,000,000 |
 | 7 | Thiết kế Bộ nhận diện Sự kiện và Lễ kỷ niệm (Event Branding) | 1 | Gói | 55,000,000 | 55,000,000 |
 | 8 | Gói Thiết kế Quà tặng Thương hiệu HUCE (Brand Gift Design) | 1 | Gói | 50,000,000 | 50,000,000 |
 | 9 | Dịch vụ tư vấn pháp lý & Nộp đơn Đăng ký bảo hộ độc quyền nhãn hiệu (SHTT) | 1 | Gói | 30,000,000 | 30,000,000 |
 | 10 | Sản xuất Landing Page Giới thiệu Thương hiệu HUCE | 1 | Gói | 30,000,000 | 30,000,000 |
+| 11 | Biên soạn tổng hợp PlayBook - Media Kit và dịch vụ xuất bản in ấn tài liệu lưu hành | 1 | Gói | 25,000,000 | 25,000,000 |
 | **II** | **GÓI 2: TƯ VẤN QUY TRÌNH QUẢN LÝ & DỊCH VỤ VẬN HÀNH WEBSITE ĐỒNG HÀNH** | | | | **300,000,000** |
 | 1 | Tư vấn quy trình quản lý truyền thông & Nền tảng hoạt động chuẩn hóa | 1 | Gói | 120,000,000 | 120,000,000 |
 | 2 | Dịch vụ chăm sóc, cập nhật nội dung & Điều hành hệ thống website HUCE | 12 | Tháng | 15,000,000 | 180,000,000 |
