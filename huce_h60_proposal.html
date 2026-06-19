@@ -212,7 +212,7 @@
         .nav-item-num {
             font-size: 0.65rem;
             font-weight: 600;
-            background: rgba(56, 189, 248, 0.12);
+            background: rgba(0, 42, 92, 0.08);
             color: var(--accent);
             padding: 2px 6px;
             border-radius: 4px;
@@ -679,7 +679,7 @@
         .audit-table-wrapper {
             overflow-x: auto;
             border-radius: 12px;
-            border: 1px solid rgba(56, 189, 248, 0.15);
+            border: 1px solid rgba(0, 42, 92, 0.1);
             margin-bottom: 1.5rem;
             margin-top: 1rem;
         }
@@ -694,7 +694,7 @@
             background: var(--primary);
             color: var(--white);
             padding: 12px 14px;
-            border-bottom: 2px solid rgba(56, 189, 248, 0.25);
+            border-bottom: 2px solid rgba(0, 42, 92, 0.15);
             font-weight: 700;
             text-transform: uppercase;
             font-size: 0.75rem;
@@ -719,7 +719,7 @@
             display: inline-block;
         }
         .score-tag.high { color: var(--green); background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.2); }
-        .score-tag.med { color: var(--accent); background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.2); }
+        .score-tag.med { color: var(--accent); background: rgba(0, 42, 92, 0.06); border: 1px solid rgba(0, 42, 92, 0.12); }
         .score-tag.low { color: var(--red); background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.2); }
 
         /* Dynamic Channel Metrics Block */
@@ -1056,7 +1056,7 @@
         .check-indicator {
             width: 16px;
             height: 16px;
-            border: 1px solid rgba(56, 189, 248, 0.4);
+            border: 1px solid rgba(0, 42, 92, 0.25);
             border-radius: 4px;
             display: flex;
             align-items: center;
@@ -1155,7 +1155,7 @@
         }
         .directives-box textarea:focus {
             border-color: var(--accent);
-            box-shadow: 0 0 8px rgba(56, 189, 248, 0.15);
+            box-shadow: 0 0 8px rgba(0, 42, 92, 0.1);
         }
 
         /* Action Buttons */
@@ -1195,16 +1195,16 @@
         .btn-main.secondary {
             background: rgba(255, 255, 255, 0.02);
             color: var(--text-light);
-            border: 1px solid rgba(56, 189, 248, 0.15);
+            border: 1px solid rgba(0, 42, 92, 0.1);
         }
         .btn-main.secondary:hover {
-            background: rgba(56, 189, 248, 0.08);
+            background: rgba(0, 42, 92, 0.05);
             border-color: var(--accent);
         }
         .btn-mini-action {
-            background: rgba(56, 189, 248, 0.12);
+            background: rgba(0, 42, 92, 0.08);
             color: var(--primary);
-            border: 1px solid rgba(56, 189, 248, 0.25);
+            border: 1px solid rgba(0, 42, 92, 0.15);
             padding: 2px 8px;
             border-radius: 4px;
             font-size: 0.68rem;
@@ -1468,12 +1468,12 @@
         .app-body::-webkit-scrollbar { display: none; }
         .app-card {
             background: rgba(4, 16, 38, 0.95);
-            border: 1px solid rgba(56, 189, 248, 0.12);
+            border: 1px solid rgba(0, 42, 92, 0.08);
             border-radius: 8px;
             padding: 0.65rem;
         }
         .app-card.actionable {
-            border-color: rgba(56, 189, 248, 0.3);
+            border-color: rgba(0, 42, 92, 0.18);
             box-shadow: 0 4px 10px rgba(0, 42, 92, 0.2);
         }
         .app-card h5 {
@@ -1708,7 +1708,7 @@
             width: 36px;
             height: 36px;
             border-radius: 8px;
-            background: rgba(56, 189, 248, 0.12);
+            background: rgba(0, 42, 92, 0.08);
             color: var(--accent);
             display: flex;
             align-items: center;
@@ -1799,7 +1799,7 @@
         .del-card h5 span {
             font-size: 0.72rem;
             color: var(--accent);
-            background: rgba(56, 189, 248, 0.12);
+            background: rgba(0, 42, 92, 0.08);
             padding: 1px 6px;
             border-radius: 4px;
             font-weight: 600;
@@ -2127,6 +2127,141 @@
             border: 1px solid #cbd5e1;
         }
 
+    
+        /* SVG Icon styling */
+        .svg-icon {
+            display: inline-block;
+            width: 1.15em;
+            height: 1.15em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            flex-shrink: 0;
+            margin-right: 4px;
+        }
+
+        /* PRINT PREVIEW OVERLAY */
+        #print-preview-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: #0f172a;
+            z-index: 10000;
+            overflow-y: auto;
+            color: #0f172a;
+        }
+        .print-control-panel {
+            background: #002a5c;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 10002;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        #print-preview-container {
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            background: #1e293b;
+            min-height: calc(100vh - 54px);
+        }
+        .a4-page-print {
+            width: 210mm;
+            min-height: 297mm;
+            background: #ffffff;
+            padding: 20mm;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-sizing: border-box;
+        }
+        
+        .print-nav-item {
+            padding: 0.6rem 0.8rem;
+            margin: 2px 0;
+            border-radius: 8px;
+            font-size: 0.78rem;
+            color: var(--text-light);
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .print-nav-item:hover {
+            background: #f1f5f9;
+            color: var(--primary);
+        }
+
+        /* Print media styles */
+        @media print {
+            body * {
+                display: none !important;
+            }
+            #print-preview-overlay, #print-preview-overlay * {
+                display: block !important;
+            }
+            #print-preview-overlay {
+                position: absolute !important;
+                left: 0 !important;
+                top: 0 !important;
+                width: 100% !important;
+                height: auto !important;
+                background: #ffffff !important;
+                overflow: visible !important;
+                color: #000000 !important;
+            }
+            .print-control-panel {
+                display: none !important;
+            }
+            #print-preview-container {
+                padding: 0 !important;
+                background: #ffffff !important;
+                min-height: auto !important;
+                display: block !important;
+            }
+            .a4-page-print {
+                width: 210mm !important;
+                min-height: 297mm !important;
+                padding: 20mm !important;
+                box-shadow: none !important;
+                border-radius: 0 !important;
+                border: none !important;
+                page-break-after: always !important;
+                display: flex !important;
+                flex-direction: column !important;
+                justify-content: space-between !important;
+                box-sizing: border-box !important;
+                background: #ffffff !important;
+                color: #000000 !important;
+            }
+            .page-break {
+                page-break-before: always !important;
+            }
+            
+            /* Expand collapse blocks for high fidelity A4 printing */
+            .a4-page-print .collapsible-content {
+                max-height: none !important;
+                display: block !important;
+                padding: 1rem 0 !important;
+                opacity: 1 !important;
+                overflow: visible !important;
+            }
+            .a4-page-print button, 
+            .a4-page-print .vault-btn,
+            .a4-page-print .collapsible-btn,
+            .a4-page-print .btn-main {
+                display: none !important;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -2169,6 +2304,23 @@
                 </li>
             </ul>
 
+
+            <div class="section-title-small" style="margin-top: 1.5rem;">🖨️ Xuất Bản PDF Khổ A4</div>
+            <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem 0;">
+                <li class="print-nav-item" onclick="openPrintPreview('page1')">
+                    <svg class="svg-icon" style="color: var(--primary);" viewBox="0 0 24 24"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg>
+                    01. Báo cáo Sức khỏe
+                </li>
+                <li class="print-nav-item" onclick="openPrintPreview('page2')">
+                    <svg class="svg-icon" style="color: var(--primary);" viewBox="0 0 24 24"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg>
+                    02. Cơ chế &amp; Lộ trình
+                </li>
+                <li class="print-nav-item" onclick="openPrintPreview('page3')">
+                    <svg class="svg-icon" style="color: var(--primary);" viewBox="0 0 24 24"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg>
+                    03. Báo giá &amp; Đặc tả
+                </li>
+            </ul>
+
             <div class="sidebar-footer">
                 <div class="section-title-small" style="margin-bottom: 0.3rem;">MOU Hợp tác</div>
                 <div class="status-badge">
@@ -2191,7 +2343,7 @@
                     <h1 id="page-title-top">Hồ sơ Đề xuất Phương án Tư vấn: Chuẩn hóa Thương hiệu &amp; Tái cấu trúc Hệ thống Vận hành Truyền thông</h1>
                 </div>
                 <div style="display: flex; align-items: center; gap: 12px;">
-                    <button id="back-to-home-btn" class="btn-main secondary" style="width: auto; padding: 0.45rem 1rem; font-size: 0.75rem; display: none; align-items: center; gap: 6px; margin: 0; cursor: pointer; border-radius: 8px; border: 1px solid var(--accent); background: rgba(56, 189, 248, 0.08); color: var(--primary);" onclick="goBackToHome()">
+                    <button id="back-to-home-btn" class="btn-main secondary" style="width: auto; padding: 0.45rem 1rem; font-size: 0.75rem; display: none; align-items: center; gap: 6px; margin: 0; cursor: pointer; border-radius: 8px; border: 1px solid var(--accent); background: rgba(0, 42, 92, 0.05); color: var(--primary);" onclick="goBackToHome()">
                         🏠 Quay Lại Trang Chủ
                     </button>
                     <span class="status-tag">Đề Xuất Thương Hiệu HUCE</span>
@@ -2209,30 +2361,30 @@
                         ConsMedia trân trọng gửi tới Trường Đại học Xây dựng Hà Nội (HUCE) phương án tư vấn đồng hành chuẩn hóa hệ thống hình ảnh nhận diện thương hiệu và tái cấu trúc quy trình vận hành truyền thông. Đề xuất này thiết lập nền tảng thương hiệu vững chắc và an toàn pháp lý cho nhà trường, lấy cột mốc Đại lễ Kỷ niệm 60 năm làm động lực thúc đẩy triển khai.
                     </p>
                     <div style="list-style: none; margin-left: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; border-top: 1px solid #e4e4e7; padding-top: 1rem; font-size: 0.78rem; color: var(--text-muted);">
-                        <div>🚀 <strong>Tên Dự Án:</strong> Dự án Chuẩn hóa Nhận diện và Xây dựng Hệ thống Thương hiệu HUCE</div>
-                        <div>📅 <strong>Bản Dự Thảo:</strong> Ngày 26 tháng 05 năm 2026</div>
-                        <div>🏆 <strong>Cột mốc Động lực:</strong> Đại lễ Kỷ niệm 60 năm thành lập</div>
-                        <div>📂 <strong>Phạm Vi:</strong> Nhận diện thương hiệu, bảo hộ SHTT, quy trình SOPs và vận hành website</div>
+                        <div><svg class="svg-icon" viewBox="0 0 24 24"><path d="M12 2s4 2 4 8c0 2.08.31 3.3 1 4.5V17H7v-2.5c.69-1.2 1-2.42 1-4.5 0-6 4-8 4-8zm0 17h3v2h-3v-2zm-6.27.56c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l.71.71c.39.39.39 1.02 0 1.41-.39.39-1.02.39-1.41 0l-.71-.71zm12.54 0-.71-.71c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l.71.71c.39.39.39 1.02 0 1.41-.39.39-1.02.39-1.41 0z"/></svg> <strong>Tên Dự Án:</strong> Dự án Chuẩn hóa Nhận diện và Xây dựng Hệ thống Thương hiệu HUCE</div>
+                        <div><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> <strong>Bản Dự Thảo:</strong> Ngày 26 tháng 05 năm 2026</div>
+                        <div><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v3c0 2.44 1.72 4.44 4.01 4.89C7.79 16.3 9.7 18 12 18s4.21-1.7 4.99-4.11C19.28 13.44 21 11.44 21 10V7c0-1.1-.9-2-2-2zM5 10V7h2v3c0 .72-.1 1.41-.27 2.06C5.7 11.66 5 10.91 5 10zm14 0c0 .91-.7 1.66-1.73 2.06-.17-.65-.27-1.34-.27-2.06V7h2v3zm-7 10c-1.1 0-2-.9-2-2h4c0 1.1-.9 2-2 2z"/></svg> <strong>Cột mốc Động lực:</strong> Đại lễ Kỷ niệm 60 năm thành lập</div>
+                        <div><svg class="svg-icon" viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg> <strong>Phạm Vi:</strong> Nhận diện thương hiệu, bảo hộ SHTT, quy trình SOPs và vận hành website</div>
                     </div>
                 </div>
 
                 <!-- 2. LỘ TRÌNH BÁO GIÁ TÍCH HỢP (The 3-Step Valuation Flow - Infographic) -->
                 <div class="panel-card">
-                    <h3 style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.8px; color: var(--primary); margin-bottom: 0.8rem;">📋 LỘ TRÌNH BÁO GIÁ TÍCH HỢP</h3>
+                    <h3 style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.8px; color: var(--primary); margin-bottom: 0.8rem;"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm2 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg> LỘ TRÌNH BÁO GIÁ TÍCH HỢP</h3>
                     <div class="info-flow-grid">
                         <div class="info-flow-card">
                             <div class="info-flow-num">01</div>
-                            <h4>🔍 1. Phân Tích &amp; Đánh Giá</h4>
+                            <h4><svg class="svg-icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg> 1. Phân Tích &amp; Đánh Giá</h4>
                             <p>Kiểm toán di sản thương hiệu, đo lường sai lệch màu sắc tại 13+ đơn vị và cảnh báo rủi ro pháp lý nhãn hiệu chưa được bảo hộ sở hữu trí tuệ.</p>
                         </div>
                         <div class="info-flow-card">
                             <div class="info-flow-num">02</div>
-                            <h4>⚙️ 2. Đề Xuất &amp; Cơ Thế</h4>
+                            <h4><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.63 3.6-3.6 3.6z"/></svg> 2. Đề Xuất &amp; Cơ Thế</h4>
                             <p>Xây dựng quy trình tác nghiệp truyền thông chuẩn (SOPs), phân định trách nhiệm RACI và kịch bản ứng phó khủng hoảng trực tuyến.</p>
                         </div>
                         <div class="info-flow-card">
                             <div class="info-flow-num">03</div>
-                            <h4>💰 3. Chào Giá &amp; Đặc Tả</h4>
+                            <h4><svg class="svg-icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.82v-1.91c-2.09-.23-3.63-1.67-3.83-3.7h2.24c.18 1.02.94 1.67 2.14 1.67 1.34 0 1.95-.69 1.95-1.51 0-.96-.75-1.46-2.28-1.96-1.74-.58-3.63-1.25-3.63-3.52 0-1.84 1.25-3.13 3.17-3.41V4h2.82v1.89c1.78.22 3.03 1.41 3.25 3.32h-2.18c-.2-1.01-.84-1.56-1.98-1.56-1.12 0-1.71.55-1.71 1.33 0 .84.7 1.31 2.12 1.83 1.99.71 3.79 1.46 3.79 3.82 0 2.05-1.43 3.19-3.46 3.47z"/></svg> 3. Chào Giá &amp; Đặc Tả</h4>
                             <p>Báo giá chi tiết các gói (Gói 1: Nhận diện &amp; SHTT, Gói 2: Tư vấn &amp; Vận hành Web) cùng menu dịch vụ lẻ sự kiện gia tăng.</p>
                         </div>
                     </div>
@@ -2240,11 +2392,11 @@
 
                 <!-- 3. TÓM TẮT BẢN ĐỒ SỨC KHỎE THƯƠNG HIỆU (Simplified Brand Health Map) -->
                 <div class="panel-card">
-                    <h3 style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.8px; color: var(--primary); margin-bottom: 0.8rem;">📊 KHÁI QUÁT SỨC KHỎE THƯƠNG HIỆU HUCE</h3>
+                    <h3 style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.8px; color: var(--primary); margin-bottom: 0.8rem;"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M5 19.29V5h2v14.29H5zm4-6V5h2v8.29H9zm4 6V5h2v14.29h-2zm4-10V5h2v8.29h-2z"/></svg> KHÁI QUÁT SỨC KHỎE THƯƠNG HIỆU HUCE</h3>
                     <div class="simple-health-grid">
                         <div class="simple-health-card">
                             <div class="sh-card-header">
-                                <span>⚖️ 1. An toàn Pháp lý (SHTT)</span>
+                                <span><svg class="svg-icon" viewBox="0 0 24 24"><path d="M12 2v2.05c2.83.21 5.18 2.22 5.79 4.95H22v2h-4.07c-.45 2.01-1.92 3.63-3.87 4.29l1.88 3.76H17.8c-.83 0-1.5-.67-1.5-1.5 0-.08.01-.17.02-.25L15 13.5H9l-1.32 4.8c.01.08.02.17.02.25 0 .83-.67 1.5-1.5 1.5H4.06l1.88-3.76C4 15.63 2.53 14.01 2.07 12H0v-2h4.21c.61-2.73 2.96-4.74 5.79-4.95V3h2zm0 4.05c-1.93.18-3.5 1.63-3.9 3.45H15.9c-.4-1.82-1.97-3.27-3.9-3.45zM6 13.5H4v1.5h2v-1.5zm14 0h-2v1.5h2v-1.5z"/></svg> 1. An toàn Pháp lý (SHTT)</span>
                                 <span class="sh-badge danger">Nguy Cấp</span>
                             </div>
                             <div class="sh-progress-bar">
@@ -2254,7 +2406,7 @@
                         </div>
                         <div class="simple-health-card">
                             <div class="sh-card-header">
-                                <span>🎨 2. Nhất quán Nhận diện</span>
+                                <span><svg class="svg-icon" viewBox="0 0 24 24"><path d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10c1.38 0 2.5-1.12 2.5-2.5 0-.61-.22-1.19-.57-1.68-.09-.13-.16-.27-.16-.44 0-.38.31-.69.69-.69H16c3.31 0 6-2.69 6-6 0-4.97-4.03-9-10-9zm-4 9c-.83 0-1.5-.67-1.5-1.5S7.17 8 8 8s1.5.67 1.5 1.5S8.83 11 8 11zm3-3c-.83 0-1.5-.67-1.5-1.5S10.17 5 11 5s1.5.67 1.5 1.5S11.83 8 11 8zm4 0c-.83 0-1.5-.67-1.5-1.5S14.17 5 15 5s1.5.67 1.5 1.5S15.83 8 15 8zm3 3c-.83 0-1.5-.67-1.5-1.5S17.17 8 18 8s1.5.67 1.5 1.5S18.83 11 18 11z"/></svg> 2. Nhất quán Nhận diện</span>
                                 <span class="sh-badge warning">Yếu</span>
                             </div>
                             <div class="sh-progress-bar">
@@ -2264,7 +2416,7 @@
                         </div>
                         <div class="simple-health-card">
                             <div class="sh-card-header">
-                                <span>🏛️ 3. Nguồn lực Di sản</span>
+                                <span><svg class="svg-icon" viewBox="0 0 24 24"><path d="M12 2 1 7v2h22V7L12 2zm1 10h3v7h-3v-7zm-5 0h3v7H8v-7zm-5 0h3v7H3v-7zm16 0h3v7h-3v-7zM2 20v2h20v-2H2z"/></svg> 3. Nguồn lực Di sản</span>
                                 <span class="sh-badge success">Mạnh</span>
                             </div>
                             <div class="sh-progress-bar">
@@ -2274,7 +2426,7 @@
                         </div>
                         <div class="simple-health-card">
                             <div class="sh-card-header">
-                                <span>⚡ 4. Hiệu năng Vận hành</span>
+                                <span><svg class="svg-icon" viewBox="0 0 24 24"><path d="M11 21h-1l1-7H5.5L14 3h1l-1 7h5.5L11 21z"/></svg> 4. Hiệu năng Vận hành</span>
                                 <span class="sh-badge warning">Trung Bình</span>
                             </div>
                             <div class="sh-progress-bar">
@@ -2287,64 +2439,82 @@
 
                 <!-- 4. LỘ TRÌNH SẢN XUẤT SẢN PHẨM & DUY TRÌ (Product Delivery Roadmap) -->
                 <div class="panel-card">
-                    <h3 style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.8px; color: var(--primary); margin-bottom: 0.8rem;">📅 LỘ TRÌNH SẢN XUẤT SẢN PHẨM &amp; DUY TRÌ DÀI HẠN</h3>
+                    <h3 style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.8px; color: var(--primary); margin-bottom: 0.8rem;"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> LỘ TRÌNH SẢN XUẤT SẢN PHẨM &amp; DUY TRÌ DÀI HẠN</h3>
                     <div class="simple-roadmap-list">
+                        <!-- PRE-PHASE -->
+                        <div class="simple-roadmap-item" style="border-left: 4px solid var(--primary);">
+                            <div class="sr-badge" style="background: #e2e8f0; color: var(--primary); font-size: 0.65rem; font-weight: 800;">KS</div>
+                            <div class="sr-content">
+                                <div class="sr-info">
+                                    <h5>Giai đoạn Khảo sát &amp; Đánh giá Thực trạng truyền thông HUCE</h5>
+                                    <p>Tiếp cận, khảo sát thực tế di sản hình ảnh tại 13+ đơn vị khoa/phòng ban HUCE, đo lường độ phân mảnh màu sắc và đánh giá rủi ro pháp lý sở hữu trí tuệ của nhãn hiệu.</p>
+                                </div>
+                                <span class="sr-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> 20/05/2026 - 19/06/2026</span>
+                            </div>
+                        </div>
+                        <!-- PHASE 1 -->
                         <div class="simple-roadmap-item">
                             <div class="sr-badge">01</div>
                             <div class="sr-content">
                                 <div class="sr-info">
-                                    <h5>Giai đoạn 1: Chuẩn hóa Nhận diện &amp; Nộp đơn bảo hộ SHTT</h5>
+                                    <h5>Giai đoạn 1: Chuẩn hóa Nhận diện &amp; Nộp hồ sơ bảo hộ SHTT</h5>
                                     <p>Tinh chỉnh lưới hình học logo gốc, thiết kế bộ Brand Guidelines &amp; Playbook, in ấn 15 cuốn cao cấp lưu hành nội bộ, nộp hồ sơ bảo hộ tại Cục SHTT.</p>
                                 </div>
-                                <span class="sr-time">📅 Tháng 1 - Tháng 2</span>
+                                <span class="sr-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> Từ 20/06/2026 - 31/07/2026</span>
                             </div>
                         </div>
+                        <!-- PHASE 2 -->
                         <div class="simple-roadmap-item">
                             <div class="sr-badge">02</div>
                             <div class="sr-content">
                                 <div class="sr-info">
-                                    <h5>Giai đoạn 2: Thiết kế Hệ thống Ấn phẩm &amp; Giao diện Web UI/UX</h5>
+                                    <h5>Giai đoạn 2: Thiết kế Hệ thống Ấn phẩm &amp; UI/UX Kênh số</h5>
                                     <p>Thiết kế bộ văn phòng, bộ tài sản số truyền thông và thiết kế Figma UI Kit trang chủ Portal trường/Admissions/Khoa.</p>
                                 </div>
-                                <span class="sr-time">📅 Tháng 3 - Tháng 4</span>
+                                <span class="sr-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> 01/08/2026 - 30/09/2026</span>
                             </div>
                         </div>
+                        <!-- PHASE 3 -->
                         <div class="simple-roadmap-item">
                             <div class="sr-badge">03</div>
                             <div class="sr-content">
                                 <div class="sr-info">
-                                    <h5>Giai đoạn 3: Tư vấn Quy trình SOPs &amp; Đóng gói Thiết kế Quà tặng</h5>
+                                    <h5>Giai đoạn 3: Quy trình Quản lý SOPs &amp; Đóng gói Quà tặng VIP</h5>
                                     <p>Biên soạn bộ quy trình truyền thông chuẩn (SOPs), kịch bản phản ứng nhanh khủng hoảng, thiết kế hệ thống quà tặng thương hiệu VIP.</p>
                                 </div>
-                                <span class="sr-time">📅 Tháng 5 - Tháng 6</span>
+                                <span class="sr-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> 01/10/2026 - 30/11/2026</span>
                             </div>
                         </div>
+                        <!-- PHASE 4 -->
                         <div class="simple-roadmap-item">
                             <div class="sr-badge">04</div>
                             <div class="sr-content">
                                 <div class="sr-info">
-                                    <h5>Giai đoạn 4: Vận hành Đồng hành &amp; Chăm sóc Kênh số</h5>
-                                    <p>Bảo trì kỹ thuật website trường, tối ưu SEO tin bài, biên tập bài viết hoạt động và thiết kế banner thường nhật trong 12 tháng.</p>
+                                    <h5>Giai đoạn 4: Đồng hành Vận hành &amp; Duy trì Kênh số</h5>
+                                    <p>Bảo trì kỹ thuật website trường, tối ưu SEO tin bài, biên tập bài viết hoạt động và thiết kế banner thường nhật trong 6 tháng.</p>
                                 </div>
-                                <span class="sr-time">📅 12 Tháng Năm 2026</span>
+                                <span class="sr-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> 01/12/2026 - 31/05/2027</span>
                             </div>
                         </div>
+                        <!-- LONG-TERM -->
                         <div class="simple-roadmap-item" style="border-left: 4px solid var(--green);">
                             <div class="sr-badge" style="background: var(--green);">99</div>
                             <div class="sr-content">
                                 <div class="sr-info">
-                                    <h5>Giai đoạn Sau năm 2026: Duy trì, Bảo trì &amp; Gia hạn</h5>
+                                    <h5>Giai đoạn Sau Dự án: Bảo trì, Gia hạn &amp; Đồng hành Pháp lý</h5>
                                     <p>Dịch vụ duy trì máy chủ, gia hạn SSL, cập nhật bảo mật kỹ thuật thường niên và đồng hành hỗ trợ bảo vệ nhãn hiệu độc quyền.</p>
                                 </div>
-                                <span class="sr-time">📅 Dài Hạn sau 2026</span>
+                                <span class="sr-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> Dài hạn sau khi bàn giao</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                
+
                 <!-- 5. BÀN TÍNH TOÁN DỰ TOÁN KINH PHÍ TƯƠNG TÁC (SCORING ESTIMATOR) -->
                 <div class="panel-card" id="p3-sec4">
-                    <h3 style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.8px; color: var(--primary); margin-bottom: 0.8rem;">🧮 BỘ TÍNH TOÁN DỰ TOÁN KINH PHÍ TƯƠNG TÁC (SCORING ESTIMATOR)</h3>
+                    <h3 style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.8px; color: var(--primary); margin-bottom: 0.8rem;"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10H7v-2h10v2zm0-4H7V7h10v2zm0 8H7v-2h10v2z"/></svg> BỘ TÍNH TOÁN DỰ TOÁN KINH PHÍ TƯƠNG TÁC (SCORING ESTIMATOR)</h3>
                     <p style="font-size:0.82rem; margin-bottom:1.2rem; color: var(--text-muted);">Sử dụng bộ công cụ dưới đây để chọn/bỏ chọn các gói giải pháp trọn gói hoặc gói lẻ nhằm xem tổng kinh phí cập nhật thời gian thực:</p>
                     
                     <div class="interactive-calculator-card" style="border-radius: 16px; padding: 1.8rem; background: #f8fafc; border: 1px solid #cbd5e1; color: var(--text-light);">
@@ -2433,35 +2603,35 @@
                                     <label for="proposal-notes" style="font-size:0.78rem; font-weight:700; color:var(--primary);">Ý kiến chỉ đạo / Ghi chú của BGH:</label>
                                     <textarea id="proposal-notes" placeholder="Nhập ý chỉ đạo ngân sách tại đây để gửi lưu trữ..." style="width:100%; min-height:80px; padding:8px; border-radius:6px; border:1px solid #cbd5e1; font-family:inherit; font-size:0.8rem; resize:vertical;"></textarea>
                                 </div>
-                                <button class="btn-main primary" style="margin-top: 15px; background:var(--primary); color:#ffffff; border:none; padding:0.6rem; border-radius:6px; font-weight:700; cursor:pointer;" onclick="saveProposalEstimation()">💾 Lưu Phương Án Dự Toán</button>
+                                <button class="btn-main primary" style="margin-top: 15px; background:var(--primary); color:#ffffff; border:none; padding:0.6rem; border-radius:6px; font-weight:700; cursor:pointer;" onclick="saveProposalEstimation()"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg> Lưu Phương Án Dự Toán</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="panel-card" style="margin-top: 1.5rem; border: 1px solid rgba(56, 189, 248, 0.25); background:#ffffff; color:#002a5c; border-bottom:1px solid #e4e4e7;">
-                    <h3 style="display: flex; align-items: center; gap: 8px; color: var(--primary);"><span style="font-size: 1.3rem;">📚</span> HỆ THỐNG BÁO CÁO THƯƠNG HIỆU TOÀN DIỆN (INTEGRATED BRAND REPORTS VAULT)</h3>
+                <div class="panel-card" style="margin-top: 1.5rem; border: 1px solid rgba(0, 42, 92, 0.15); background:#ffffff; color:#002a5c; border-bottom:1px solid #e4e4e7;">
+                    <h3 style="display: flex; align-items: center; gap: 8px; color: var(--primary);"><span style="font-size: 1.3rem;"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg></span> HỆ THỐNG BÁO CÁO THƯƠNG HIỆU TOÀN DIỆN (INTEGRATED BRAND REPORTS VAULT)</h3>
                     <p style="margin-bottom: 1.5rem; font-size: 0.9rem; color: var(--text-muted);">Toàn bộ nội dung chi tiết từ 3 văn bản báo cáo thương hiệu gốc của Tổ Tư vấn đã được tích hợp đầy đủ, không cắt xén, trình bày theo chuẩn UI trực tiếp bên trong ứng dụng. Nhấp vào nút bên dưới các thẻ để xem nhanh từng báo cáo chuyên sâu:</p>
                     
                     <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; margin-bottom: 0.5rem;">
-                        <div class="objective-card" style="border: 1px solid rgba(56, 189, 248, 0.15); background: rgba(0, 42, 92, 0.03); border: 1px solid rgba(0, 42, 92, 0.08); cursor: pointer; padding: 1.5rem; border-radius: 12px; transition: var(--transition);" onclick="switchPageView('page1')">
+                        <div class="objective-card" style="border: 1px solid rgba(0, 42, 92, 0.1); background: rgba(0, 42, 92, 0.03); border: 1px solid rgba(0, 42, 92, 0.08); cursor: pointer; padding: 1.5rem; border-radius: 12px; transition: var(--transition);" onclick="switchPageView('page1')">
                             <div class="objective-icon-num" style="color: var(--primary); font-size: 1.8rem; font-weight: 800; margin-bottom: 0.5rem;">01</div>
-                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--primary);">📄 01. Đánh giá sức khỏe thương hiệu</h3>
+                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--primary);"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> 01. Đánh giá sức khỏe thương hiệu</h3>
                             <p style="font-size: 0.82rem; margin-bottom: 1.2rem; color: var(--text-muted); line-height: 1.5; height: 75px; overflow: hidden;">Nghiên cứu hiện trạng định vị, bối cảnh đổi tên trường năm 2021, khảo sát tài sản thương hiệu, SWOT chi tiết và đề xuất giải pháp nhằm chuẩn hóa thương hiệu HUCE.</p>
                             <button class="btn-main" style="padding: 0.45rem 0.9rem; font-size: 0.75rem; width: auto; border-radius: 6px; background: var(--primary); color: var(--white); cursor: pointer; border: none; font-weight: 600; transition: var(--transition);" onclick="event.stopPropagation(); switchPageView('page1')">📖 Đọc Báo Cáo</button>
                         </div>
                         
-                        <div class="objective-card" style="border: 1px solid rgba(56, 189, 248, 0.15); background: rgba(0, 42, 92, 0.03); border: 1px solid rgba(0, 42, 92, 0.08); cursor: pointer; padding: 1.5rem; border-radius: 12px; transition: var(--transition);" onclick="switchPageView('page2')">
+                        <div class="objective-card" style="border: 1px solid rgba(0, 42, 92, 0.1); background: rgba(0, 42, 92, 0.03); border: 1px solid rgba(0, 42, 92, 0.08); cursor: pointer; padding: 1.5rem; border-radius: 12px; transition: var(--transition);" onclick="switchPageView('page2')">
                             <div class="objective-icon-num" style="color: var(--primary); font-size: 1.8rem; font-weight: 800; margin-bottom: 0.5rem;">02</div>
-                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--primary);">📄 02. Đề Xuất và Cơ Chế Hợp Tác Thương Hiệu</h3>
+                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--primary);"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> 02. Đề Xuất và Cơ Chế Hợp Tác Thương Hiệu</h3>
                             <p style="font-size: 0.82rem; margin-bottom: 1.2rem; color: var(--text-muted); line-height: 1.5; height: 75px; overflow: hidden;">Khung hợp tác theo MOU 2025, ba trụ cột hành động chính, ma trận phối hợp trách nhiệm RACI chi tiết, quy trình phê duyệt tin bài và cơ chế phòng ngừa xử lý khủng hoảng nhãn hiệu.</p>
                             <button class="btn-main" style="padding: 0.45rem 0.9rem; font-size: 0.75rem; width: auto; border-radius: 6px; background: var(--primary); color: var(--white); cursor: pointer; border: none; font-weight: 600; transition: var(--transition);" onclick="event.stopPropagation(); switchPageView('page2')">📖 Đọc Báo Cáo</button>
                         </div>
                         
-                        <div class="objective-card" style="border: 1px solid rgba(56, 189, 248, 0.15); background: rgba(0, 42, 92, 0.03); border: 1px solid rgba(0, 42, 92, 0.08); cursor: pointer; padding: 1.5rem; border-radius: 12px; transition: var(--transition);" onclick="switchPageView('page3')">
+                        <div class="objective-card" style="border: 1px solid rgba(0, 42, 92, 0.1); background: rgba(0, 42, 92, 0.03); border: 1px solid rgba(0, 42, 92, 0.08); cursor: pointer; padding: 1.5rem; border-radius: 12px; transition: var(--transition);" onclick="switchPageView('page3')">
                             <div class="objective-icon-num" style="color: var(--primary); font-size: 1.8rem; font-weight: 800; margin-bottom: 0.5rem;">03</div>
-                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--primary);">📄 03. Thuyết Minh Specs và Báo Giá</h3>
+                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--primary);"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> 03. Thuyết Minh Specs và Báo Giá</h3>
                             <p style="font-size: 0.82rem; margin-bottom: 1.2rem; color: var(--text-muted); line-height: 1.5; height: 75px; overflow: hidden;">Báo giá thiết kế nhận diện &amp; bảo hộ SHTT (Gói 1), gói tư vấn quy trình và vận hành website đồng hành (Gói 2), cơ cấu hợp tác và menu dịch vụ truyền thông sự kiện lẻ (Gói 3).</p>
                             <button class="btn-main" style="padding: 0.45rem 0.9rem; font-size: 0.75rem; width: auto; border-radius: 6px; background: var(--primary); color: var(--white); cursor: pointer; border: none; font-weight: 600; transition: var(--transition);" onclick="event.stopPropagation(); switchPageView('page3')">📖 Đọc Báo Cáo</button>
                         </div>
@@ -2469,12 +2639,12 @@
                 </div>
 
                 <div class="panel-card">
-                    <h3>📅 THÔNG TIN CHUNG VÀ MỐC TRIỂN KHAI CHIẾN DỊCH</h3>
+                    <h3><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> THÔNG TIN CHUNG VÀ MỐC TRIỂN KHAI CHIẾN DỊCH</h3>
                     <ul style="list-style: none; margin-left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-                        <li>🚀 <strong>Tên Dự Án:</strong> Dự án Chuẩn hóa Nhận diện và Xây dựng Hệ thống Thương hiệu HUCE.</li>
-                        <li>📅 <strong>Ngày Hoàn Thành Dự Thảo:</strong> Ngày 26 tháng 05 năm 2026.</li>
-                        <li>🏆 <strong>Cột mốc Đại lễ Kỷ niệm 60 năm:</strong> Ngày 13/11 - 14/11/2026.</li>
-                        <li>📂 <strong>Phạm Vi Tư Vấn:</strong> Nhận diện thương hiệu, bảo hộ SHTT, quy trình truyền thông và vận hành website.</li>
+                        <li><svg class="svg-icon" viewBox="0 0 24 24"><path d="M12 2s4 2 4 8c0 2.08.31 3.3 1 4.5V17H7v-2.5c.69-1.2 1-2.42 1-4.5 0-6 4-8 4-8zm0 17h3v2h-3v-2zm-6.27.56c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l.71.71c.39.39.39 1.02 0 1.41-.39.39-1.02.39-1.41 0l-.71-.71zm12.54 0-.71-.71c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l.71.71c.39.39.39 1.02 0 1.41-.39.39-1.02.39-1.41 0z"/></svg> <strong>Tên Dự Án:</strong> Dự án Chuẩn hóa Nhận diện và Xây dựng Hệ thống Thương hiệu HUCE.</li>
+                        <li><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> <strong>Ngày Hoàn Thành Dự Thảo:</strong> Ngày 26 tháng 05 năm 2026.</li>
+                        <li><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v3c0 2.44 1.72 4.44 4.01 4.89C7.79 16.3 9.7 18 12 18s4.21-1.7 4.99-4.11C19.28 13.44 21 11.44 21 10V7c0-1.1-.9-2-2-2zM5 10V7h2v3c0 .72-.1 1.41-.27 2.06C5.7 11.66 5 10.91 5 10zm14 0c0 .91-.7 1.66-1.73 2.06-.17-.65-.27-1.34-.27-2.06V7h2v3zm-7 10c-1.1 0-2-.9-2-2h4c0 1.1-.9 2-2 2z"/></svg> <strong>Cột mốc Đại lễ Kỷ niệm 60 năm:</strong> Ngày 13/11 - 14/11/2026.</li>
+                        <li><svg class="svg-icon" viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg> <strong>Phạm Vi Tư Vấn:</strong> Nhận diện thương hiệu, bảo hộ SHTT, quy trình truyền thông và vận hành website.</li>
                     </ul>
                 </div>
             </div>
@@ -2550,7 +2720,7 @@
                     <h3 id="p1-sec2">2. ĐỊNH VỊ THƯƠNG HIỆU và ĐỊNH HƯỚNG MỚI</h3>
                     <p>Định vị hiện tại của nhà trường đang hướng tới một <strong>Đại học nghiên cứu ứng dụng đa ngành, đạt chuẩn quốc tế</strong>. Tuy nhiên, hình ảnh HUCE trong nhận thức xã hội vẫn còn mang nặng định kiến "thô ráp, công trường" truyền thống. Việc trẻ hóa thương hiệu, làm nổi bật tính công nghệ, kiến trúc xanh và chuyển đổi số là cấp bách để thu hút Gen Z.</p>
                     <div class="collapsible-container">
-                        <button class="btn-detail-toggle" onclick="toggleDetailSection(this, 'p1-sec2-detail')">📂 Xem báo cáo chi tiết</button>
+                        <button class="btn-detail-toggle" onclick="toggleDetailSection(this, 'p1-sec2-detail')"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg> Xem báo cáo chi tiết</button>
                         <div id="p1-sec2-detail" class="collapsible-content">
                             <p>Tuy nhiên, hình ảnh HUCE trong nhận thức công chúng ngoài xã hội vẫn còn mang nặng định kiến "thô ráp, phong trần" gắn với công trường xây dựng truyền thống. Do đó, việc trẻ hóa thương hiệu, làm nổi bật tính công nghệ, kiến trúc, đô thị xanh và tính chuyển đổi số thông qua các kênh truyền thông hiện đại là nhiệm vụ cấp bách nhằm thu hút học sinh giỏi thế hệ Gen Z và quốc tế hóa uy tín học thuật của trường.</p>
                         </div>
@@ -2562,7 +2732,7 @@
                     <p>Qua rà soát và đối chiếu bộ nhận diện chính thức <strong>"BỘ NHẬN DIỆN MÀU MỚI 27_02.pdf"</strong> với thực tế hiển thị trên các kênh truyền thông của HUCE, chúng tôi ghi nhận những khoảng cách thực thi (Compliance Gaps) cấp bách sau:</p>
                     <p>Khảo sát đối chiếu cẩm nang nhận diện chính thức với thực tế triển khai phát hiện một số khoảng cách thực thi (Compliance Gaps) cấp bách cần giải quyết để đảm bảo tính đồng bộ của thương hiệu.</p>
                     <div class="collapsible-container">
-                        <button class="btn-detail-toggle" onclick="toggleDetailSection(this, 'p1-sec3-detail')">📂 Xem báo cáo chi tiết</button>
+                        <button class="btn-detail-toggle" onclick="toggleDetailSection(this, 'p1-sec3-detail')"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg> Xem báo cáo chi tiết</button>
                         <div id="p1-sec3-detail" class="collapsible-content">
                             <ul>
                                 <li><strong>Độ phân mảnh và Lệch tông màu sắc:</strong> <strong>85% ấn phẩm tự phát</strong> của các Khoa, câu lạc bộ sử dụng lệch mã màu Cobalt Blue chủ đạo (<code>#002a5c</code>).</li>
@@ -2797,7 +2967,7 @@
 
                     <div class="brand-health-dashboard" id="bh-dashboard-section">
                         <div class="bh-title-container">
-                            <h3 class="bh-main-title">📊 Bản Đồ Chỉ Số Sức Khỏe Thương Hiệu HUCE</h3>
+                            <h3 class="bh-main-title"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M5 19.29V5h2v14.29H5zm4-6V5h2v8.29H9zm4 6V5h2v14.29h-2zm4-10V5h2v8.29h-2z"/></svg> Bản Đồ Chỉ Số Sức Khỏe Thương Hiệu HUCE</h3>
                             <span class="bh-subtitle">Dữ Liệu Đo Lường và Phân Tích Thương Hiệu HUCE</span>
                         </div>
 
@@ -2834,7 +3004,7 @@
                             <!-- OPPORTUNITIES -->
                             <div class="bh-card bh-swot-o">
                                 <div class="bh-card-title o-title">
-                                    <span>🚀 Cơ Hội (Opportunities)</span>
+                                    <span><svg class="svg-icon" viewBox="0 0 24 24"><path d="M12 2s4 2 4 8c0 2.08.31 3.3 1 4.5V17H7v-2.5c.69-1.2 1-2.42 1-4.5 0-6 4-8 4-8zm0 17h3v2h-3v-2zm-6.27.56c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l.71.71c.39.39.39 1.02 0 1.41-.39.39-1.02.39-1.41 0l-.71-.71zm12.54 0-.71-.71c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l.71.71c.39.39.39 1.02 0 1.41-.39.39-1.02.39-1.41 0z"/></svg> Cơ Hội (Opportunities)</span>
                                     <span style="font-size: 0.75rem; background: rgba(59, 130, 246, 0.1); padding: 0.1rem 0.4rem; border-radius: 4px;">Đòn Bẩy Chiến Lược</span>
                                 </div>
                                 <ul class="bh-list">
@@ -2848,7 +3018,7 @@
                             <!-- THREATS -->
                             <div class="bh-card bh-swot-t">
                                 <div class="bh-card-title t-title">
-                                    <span>⚡ Thách Thức (Threats)</span>
+                                    <span><svg class="svg-icon" viewBox="0 0 24 24"><path d="M11 21h-1l1-7H5.5L14 3h1l-1 7h5.5L11 21z"/></svg> Thách Thức (Threats)</span>
                                     <span style="font-size: 0.75rem; background: rgba(239, 68, 68, 0.1); padding: 0.1rem 0.4rem; border-radius: 4px;">Rủi Ro Bên Ngoài</span>
                                 </div>
                                 <ul class="bh-list">
@@ -2953,7 +3123,7 @@
 
                             <!-- METRIC BOX 3: ACADEMIC CREDENTIALS -->
                             <div class="bh-metric-box">
-                                <div class="bh-metric-header">🏆 Uy Tín Học Thuật & Đỉnh Cao Đối Ngoại</div>
+                                <div class="bh-metric-header"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v3c0 2.44 1.72 4.44 4.01 4.89C7.79 16.3 9.7 18 12 18s4.21-1.7 4.99-4.11C19.28 13.44 21 11.44 21 10V7c0-1.1-.9-2-2-2zM5 10V7h2v3c0 .72-.1 1.41-.27 2.06C5.7 11.66 5 10.91 5 10zm14 0c0 .91-.7 1.66-1.73 2.06-.17-.65-.27-1.34-.27-2.06V7h2v3zm-7 10c-1.1 0-2-.9-2-2h4c0 1.1-.9 2-2 2z"/></svg> Uy Tín Học Thuật & Đỉnh Cao Đối Ngoại</div>
                                 <div style="font-size: 0.8rem; margin-bottom: 0.8rem; color:#64748b;">Các cổng kết nối và chứng nhận chất lượng giáo dục danh giá:</div>
                                 
                                 <div class="bh-badges-grid">
@@ -3112,7 +3282,7 @@
                     <h3 id="p1-sec4">4. PHÂN TÍCH BỐI CẢNH ĐỔI TÊN NĂM 2021 và KHOẢNG CÁCH NHẬN THỨC</h3>
                     <p>Năm 2021, trường chuyển đổi tên gọi tiếng Việt thành <strong>"Trường Đại học Xây dựng Hà Nội"</strong> và tên viết tắt tiếng Anh là <strong>HUCE</strong> (thay thế cho <strong>NUCE</strong>). Sự chuyển đổi này mang lại lợi thế địa lý nhưng cũng tạo ra khoảng cách nhận thức đối với công chúng cần được giải quyết bằng các chiến dịch tái định vị tích hợp.</p>
                     <div class="collapsible-container">
-                        <button class="btn-detail-toggle" onclick="toggleDetailSection(this, 'p1-sec4-detail')">📂 Xem báo cáo chi tiết</button>
+                        <button class="btn-detail-toggle" onclick="toggleDetailSection(this, 'p1-sec4-detail')"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg> Xem báo cáo chi tiết</button>
                         <div id="p1-sec4-detail" class="collapsible-content">
                     
                     <h4>4.1. Khoảng cách nhận thức công chúng (Public Perception Gap)</h4>
@@ -3424,15 +3594,50 @@
                             font-size: 0.8rem;
                         }
                     </style>
+                    
                     <div class="timeline-roadmap-dynamic">
+                        <!-- GIAI ĐOẠN KHẢO SÁT & ĐÁNH GIÁ (PRE-PHASE) -->
+                        <div class="tld-step-card" style="border-left: 4px solid #64748b;">
+                            <div class="tld-header">
+                                <div style="display:flex; align-items:center; gap:0.6rem;">
+                                    <span class="tld-badge" style="background:#e2e8f0; color:#475569;">GĐ KS</span>
+                                    <h4 class="tld-title">Khảo sát &amp; Đánh giá Thực trạng truyền thông HUCE</h4>
+                                </div>
+                                <span class="tld-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> 20/05/2026 - 19/06/2026</span>
+                            </div>
+                            <div class="tld-content-grid">
+                                <div class="tld-column">
+                                    <div class="tld-col-title">🎯 Mục Tiêu Chiến Lược</div>
+                                    <ul class="tld-col-list">
+                                        <li>Tiếp cận, khảo sát thực tế di sản hình ảnh tại 13+ đơn vị trực thuộc.</li>
+                                        <li>Đánh giá rủi ro pháp lý sở hữu trí tuệ của toàn bộ thương hiệu HUCE.</li>
+                                    </ul>
+                                </div>
+                                <div class="tld-column">
+                                    <div class="tld-col-title">📦 Sản Phẩm Bàn Giao</div>
+                                    <ul class="tld-col-list">
+                                        <li>Bản đồ số liệu khảo sát hiện trạng sử dụng màu sắc cobalt blue.</li>
+                                        <li>Báo cáo chi tiết phân mảnh nhận diện và lỗ hổng bảo hộ SHTT.</li>
+                                    </ul>
+                                </div>
+                                <div class="tld-column">
+                                    <div class="tld-col-title">🛠️ Hành Động ConsMedia</div>
+                                    <ul class="tld-col-list">
+                                        <li>Khảo sát thực địa và phỏng vấn đại diện các khoa/phòng ban.</li>
+                                        <li>Tra cứu tình trạng bảo hộ nhãn hiệu trên hệ thống Cục SHTT.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
                         <!-- GIAI ĐOẠN 1 -->
                         <div class="tld-step-card" style="border-left: 4px solid #3b82f6;">
                             <div class="tld-header">
                                 <div style="display:flex; align-items:center; gap:0.6rem;">
-                                    <span class="tld-badge" style="background:#3b82f6; color:#0f172a;">GĐ 01</span>
-                                    <h4 class="tld-title">Chuẩn hóa Nhận diện &amp; Nộp đơn bảo hộ SHTT</h4>
+                                    <span class="tld-badge" style="background:#3b82f6; color:#ffffff;">GĐ 01</span>
+                                    <h4 class="tld-title">Chuẩn hóa Nhận diện &amp; Nộp hồ sơ bảo hộ SHTT</h4>
                                 </div>
-                                <span class="tld-time">📅 Tháng 1 - Tháng 2</span>
+                                <span class="tld-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> Từ 20/06/2026 - 31/07/2026</span>
                             </div>
                             <div class="tld-content-grid">
                                 <div class="tld-column">
@@ -3466,9 +3671,9 @@
                             <div class="tld-header">
                                 <div style="display:flex; align-items:center; gap:0.6rem;">
                                     <span class="tld-badge" style="background:#eff6ff; color:#002a5c;">GĐ 02</span>
-                                    <h4 class="tld-title">Thiết kế Hệ thống Ấn phẩm &amp; Giao diện Web UI/UX</h4>
+                                    <h4 class="tld-title">Thiết kế Hệ thống Ấn phẩm &amp; UI/UX Kênh số</h4>
                                 </div>
-                                <span class="tld-time">📅 Tháng 3 - Tháng 4</span>
+                                <span class="tld-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> 01/08/2026 - 30/09/2026</span>
                             </div>
                             <div class="tld-content-grid">
                                 <div class="tld-column">
@@ -3501,10 +3706,10 @@
                         <div class="tld-step-card" style="border-left: 4px solid #ec4899;">
                             <div class="tld-header">
                                 <div style="display:flex; align-items:center; gap:0.6rem;">
-                                    <span class="tld-badge" style="background:#ec4899; color:#0f172a;">GĐ 03</span>
-                                    <h4 class="tld-title">Tư vấn Quy trình SOPs &amp; Đóng gói Thiết kế Quà tặng</h4>
+                                    <span class="tld-badge" style="background:#ec4899; color:#ffffff;">GĐ 03</span>
+                                    <h4 class="tld-title">Quy trình Quản lý SOPs &amp; Đóng gói Quà tặng VIP</h4>
                                 </div>
-                                <span class="tld-time">📅 Tháng 5 - Tháng 6</span>
+                                <span class="tld-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> 01/10/2026 - 30/11/2026</span>
                             </div>
                             <div class="tld-content-grid">
                                 <div class="tld-column">
@@ -3537,16 +3742,16 @@
                         <div class="tld-step-card" style="border-left: 4px solid #10b981;">
                             <div class="tld-header">
                                 <div style="display:flex; align-items:center; gap:0.6rem;">
-                                    <span class="tld-badge" style="background:#10b981; color:#0f172a;">GĐ 04</span>
-                                    <h4 class="tld-title">Vận hành Đồng hành &amp; Chăm sóc Kênh số</h4>
+                                    <span class="tld-badge" style="background:#10b981; color:#ffffff;">GĐ 04</span>
+                                    <h4 class="tld-title">Đồng hành Vận hành &amp; Duy trì Kênh số</h4>
                                 </div>
-                                <span class="tld-time">📅 12 Tháng Năm 2026</span>
+                                <span class="tld-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> 01/12/2026 - 31/05/2027</span>
                             </div>
                             <div class="tld-content-grid">
                                 <div class="tld-column">
                                     <div class="tld-col-title">🎯 Mục Tiêu Chiến Lược</div>
                                     <ul class="tld-col-list">
-                                        <li>Đảm bảo các kênh số luôn cập nhật tin tức kịp thời, an toàn bảo mật.</li>
+                                        <li>Đảm bảo các kênh số luôn cập nhật tin tức kịp thời, an sau bảo mật.</li>
                                         <li>Biên tập bài viết chuẩn SEO tăng cường thứ hạng trực tuyến Webometrics.</li>
                                     </ul>
                                 </div>
@@ -3569,6 +3774,7 @@
                             </div>
                         </div>
 
+
                         <!-- GIAI ĐOẠN SAU NĂM 2026 -->
                         <div class="tld-step-card" style="border-left: 4px solid #8b5cf6;">
                             <div class="tld-header">
@@ -3576,7 +3782,7 @@
                                     <span class="tld-badge" style="background:#8b5cf6; color:#0f172a;">GĐ SAU 2026</span>
                                     <h4 class="tld-title">Duy trì, Bảo trì &amp; Gia hạn (Dài Hạn)</h4>
                                 </div>
-                                <span class="tld-time">📅 Từ năm 2027 Trở Đi</span>
+                                <span class="tld-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> Từ năm 2027 Trở Đi</span>
                             </div>
                             <div class="tld-content-grid">
                                 <div class="tld-column">
@@ -3657,7 +3863,7 @@
                                     <td>I</td>
                                     <td>R (Tư vấn PR)</td>
                                 </tr>
-                                <tr style="background: rgba(56, 189, 248, 0.08);">
+                                <tr style="background: rgba(0, 42, 92, 0.05);">
                                     <td><strong>Triển khai sự kiện tiêu biểu (Demo): Hội nghị KHCN và Triển lãm thành tựu KHCN, Đổi mới sáng tạo</strong></td>
                                     <td><span class="score-tag low">A (Duyệt)</span></td>
                                     <td>I</td>
@@ -3974,7 +4180,7 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td colspan="6" style="background: rgba(56, 189, 248, 0.08); font-weight: 800; color:var(--text-light);">I. GÓI 1: CHUẨN HÓA NHẬN DIỆN THƯƠNG HIỆU và BẢO HỘ PHÁP LÝ SHTT</td>
+                                    <td colspan="6" style="background: rgba(0, 42, 92, 0.05); font-weight: 800; color:var(--text-light);">I. GÓI 1: CHUẨN HÓA NHẬN DIỆN THƯƠNG HIỆU và BẢO HỘ PHÁP LÝ SHTT</td>
                                 </tr>
                                 <tr>
                                     <td>1</td>
@@ -4061,7 +4267,7 @@
                                     <td style="font-weight: 900; color: var(--primary); font-size: 1.05rem;">500,000,000</td>
                                 </tr>
                                 <tr>
-                                    <td colspan="6" style="background: rgba(56, 189, 248, 0.08); font-weight: 800; color:var(--text-light);">II. GÓI 2: TƯ VẤN QUY TRÌNH QUẢN LÝ và DỊCH VỤ VẬN HÀNH WEBSITE ĐỒNG HÀNH</td>
+                                    <td colspan="6" style="background: rgba(0, 42, 92, 0.05); font-weight: 800; color:var(--text-light);">II. GÓI 2: TƯ VẤN QUY TRÌNH QUẢN LÝ và DỊCH VỤ VẬN HÀNH WEBSITE ĐỒNG HÀNH</td>
                                 </tr>
                                 <tr>
                                     <td>1</td>
@@ -4083,7 +4289,7 @@
                                     <td colspan="5" style="text-align: right; font-weight: 800;">TỔNG PHÍ GÓI 2</td>
                                     <td style="font-weight: 900; color: var(--primary); font-size: 1.05rem;">300,000,000</td>
                                 </tr>
-                                <tr style="background: rgba(56, 189, 248, 0.12);">
+                                <tr style="background: rgba(0, 42, 92, 0.08);">
                                     <td colspan="5" style="text-align: right; font-weight: 900; font-size: 1.05rem; color:var(--text-light);">TỔNG CỘNG KINH PHÍ ĐỀ XUẤT TRỌN GÓI (I + II)</td>
                                     <td style="font-weight: 900; color: var(--primary); font-size: 1.15rem; text-shadow:none;">800,000,000</td>
                                 </tr>
@@ -4164,7 +4370,7 @@
                         <!-- Card 1 -->
                         <div class="finance-flow-card">
                             <span class="ff-num">01</span>
-                            <div class="ff-title">🤝 MOU Triển Khai Sớm</div>
+                            <div class="ff-title"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.88 10.12-2-2a.996.996 0 1 0-1.41 1.41l2 2c.39.39 1.02.39 1.41 0zm2-2a.996.996 0 1 0-1.41-1.41l-2 2 1.41 1.41 2-2zm-8.88 3.5c-.39-.39-1.02-.39-1.41 0l-2 2c-.39.39-.39 1.02 0 1.41s1.02.39 1.41 0l2-2c.39-.39.39-1.02 0-1.41z"/></svg> MOU Triển Khai Sớm</div>
                             <div class="ff-desc">Cho phép triển khai trước các công việc cấp bách để kịp nhịp độ khẩn trương của trường; các thủ tục hồ sơ và chứng từ thanh toán nghiệm thu sẽ được bổ sung cuốn chiếu sau.</div>
                         </div>
 
@@ -4198,10 +4404,10 @@
                                 <strong style="color:#0f172a;">🛡️ Các sự kiện thành phần của trường:</strong> Đối với các sự kiện trong chuỗi kỷ niệm 60 năm (Sport Fest, Olympic Cơ học, Gala âm nhạc), nhà trường có thể đi vận động các doanh nghiệp/cựu sinh viên tài trợ.
                             </div>
                             <div>
-                                <strong style="color:#0f172a;">💰 Doanh nghiệp tài trợ trực tiếp:</strong> Doanh nghiệp tài trợ có thể trực tiếp book và chi trả kinh phí dịch vụ cho các gói lẻ thuộc Gói 3 (Menu dịch vụ lẻ quay chụp, livestream, MC, sân khấu...) với ConsMedia để tài trợ cho sự kiện của trường, giúp giảm gánh nặng ngân sách công cho HUCE.
+                                <strong style="color:#0f172a;"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.82v-1.91c-2.09-.23-3.63-1.67-3.83-3.7h2.24c.18 1.02.94 1.67 2.14 1.67 1.34 0 1.95-.69 1.95-1.51 0-.96-.75-1.46-2.28-1.96-1.74-.58-3.63-1.25-3.63-3.52 0-1.84 1.25-3.13 3.17-3.41V4h2.82v1.89c1.78.22 3.03 1.41 3.25 3.32h-2.18c-.2-1.01-.84-1.56-1.98-1.56-1.12 0-1.71.55-1.71 1.33 0 .84.7 1.31 2.12 1.83 1.99.71 3.79 1.46 3.79 3.82 0 2.05-1.43 3.19-3.46 3.47z"/></svg> Doanh nghiệp tài trợ trực tiếp:</strong> Doanh nghiệp tài trợ có thể trực tiếp book và chi trả kinh phí dịch vụ cho các gói lẻ thuộc Gói 3 (Menu dịch vụ lẻ quay chụp, livestream, MC, sân khấu...) với ConsMedia để tài trợ cho sự kiện của trường, giúp giảm gánh nặng ngân sách công cho HUCE.
                             </div>
                             <div>
-                                <strong style="color:#0f172a;">🤝 Vinh danh đối tác đồng hành:</strong> Nhà trường vinh danh nhà tài trợ doanh nghiệp và ghi nhận ConsMedia là "Đơn vị cung cấp giải pháp truyền thông và thương hiệu" của sự kiện.
+                                <strong style="color:#0f172a;"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.88 10.12-2-2a.996.996 0 1 0-1.41 1.41l2 2c.39.39 1.02.39 1.41 0zm2-2a.996.996 0 1 0-1.41-1.41l-2 2 1.41 1.41 2-2zm-8.88 3.5c-.39-.39-1.02-.39-1.41 0l-2 2c-.39.39-.39 1.02 0 1.41s1.02.39 1.41 0l2-2c.39-.39.39-1.02 0-1.41z"/></svg> Vinh danh đối tác đồng hành:</strong> Nhà trường vinh danh nhà tài trợ doanh nghiệp và ghi nhận ConsMedia là "Đơn vị cung cấp giải pháp truyền thông và thương hiệu" của sự kiện.
                             </div>
                         </div>
                     </div>
@@ -4565,7 +4771,7 @@
                                     <td style="font-weight: 700; color: var(--primary);">800,000</td>
                                     <td style="font-weight: 700; color: var(--primary);">8,000,000</td>
                                 </tr>
-                                <tr style="background: rgba(56, 189, 248, 0.12);">
+                                <tr style="background: rgba(0, 42, 92, 0.08);">
                                     <td colspan="6" style="text-align: right; font-weight: 900; font-size: 1.02rem; color:var(--text-light);">TỔNG KINH PHÍ DỰ TOÁN MẪU SỰ KIỆN TIÊU BIỂU (VND)</td>
                                     <td style="font-weight: 900; color: var(--primary); font-size: 1.05rem; text-shadow:none;">110,000,000</td>
                                 </tr>
@@ -4573,7 +4779,7 @@
                         </table>
                     </div>
 
-                    <div class="info-callout" style="background: rgba(56, 189, 248, 0.04); border-left-color: var(--primary);">
+                    <div class="info-callout" style="background: rgba(0, 42, 92, 0.03); border-left-color: var(--primary);">
                         <strong>CAM KẾT ĐỒNG HÀNH &amp; CHẤT LƯỢNG KỸ THUẬT:</strong>
                         <p><strong>1. Cam kết đóng góp Quỹ Cựu sinh viên HUCA (Hỗ trợ lâu dài):</strong> Để thể hiện tinh thần đồng hành thực chất và lâu dài cùng sự nghiệp giáo dục, khuyến học của HUCE, ConsMedia long trọng cam kết <strong>trích đóng góp 5% tổng doanh thu thực tế</strong> nhận được từ việc triển khai các Gói dự án (Gói 1, Gói 2.1, Gói 2.2 và mọi dịch vụ mở rộng lẻ phát sinh) để chuyển thẳng vào <strong>Quỹ Cựu sinh viên HUCA</strong>. Nguồn ngân sách trích đóng góp này sẽ được sử dụng trực tiếp để trao tặng học bổng cho sinh viên nghèo vượt khó của HUCE và hỗ trợ các hoạt động kết nối mạng lưới thế hệ cựu sinh viên của trường.
                         <br><strong>2. Cam kết kỹ thuật:</strong> Toàn bộ thiết kế nhận diện đều đăng ký bảo hộ thuộc sở hữu trọn đời của HUCE. Hệ thống web/app được cam kết bảo trì kỹ thuật miễn phí 24/7 trong năm 2026. Đội ngũ sản xuất quay chụp có mặt tại hiện trường trước ít nhất 02 giờ để set-up thiết bị.</p>
@@ -4636,7 +4842,7 @@
                         <!-- BAN GIAO FIGMA -->
                         <div class="repurpose-card">
                             <div class="rep-header">
-                                <span class="rep-icon">🎨</span>
+                                <span class="rep-icon"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10c1.38 0 2.5-1.12 2.5-2.5 0-.61-.22-1.19-.57-1.68-.09-.13-.16-.27-.16-.44 0-.38.31-.69.69-.69H16c3.31 0 6-2.69 6-6 0-4.97-4.03-9-10-9zm-4 9c-.83 0-1.5-.67-1.5-1.5S7.17 8 8 8s1.5.67 1.5 1.5S8.83 11 8 11zm3-3c-.83 0-1.5-.67-1.5-1.5S10.17 5 11 5s1.5.67 1.5 1.5S11.83 8 11 8zm4 0c-.83 0-1.5-.67-1.5-1.5S14.17 5 15 5s1.5.67 1.5 1.5S15.83 8 15 8zm3 3c-.83 0-1.5-.67-1.5-1.5S17.17 8 18 8s1.5.67 1.5 1.5S18.83 11 18 11z"/></svg></span>
                                 <span>Bàn giao Tài nguyên Thiết kế &amp; Website</span>
                             </div>
                             <div class="rep-item">
@@ -4656,7 +4862,7 @@
                         <!-- TAP HUAN -->
                         <div class="repurpose-card">
                             <div class="rep-header">
-                                <span class="rep-icon">🏫</span>
+                                <span class="rep-icon"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zM3.3 12.18l8.7 4.75 8.7-4.75V15l-8.7 4.75-8.7-4.75v-2.82z"/></svg></span>
                                 <span>Chuyển giao Năng lực Tác nghiệp (SOPs)</span>
                             </div>
                             <div class="rep-item">
@@ -4721,7 +4927,7 @@
 
                 <!-- Phân tích Hiệu quả Đầu tư & Giá trị Thu lại (ROI & Operation Efficiency) -->
                 <div class="panel-card" id="p3-sec8" style="margin-top: 1.5rem; border: 1px solid rgba(16, 185, 129, 0.25); background:#f8fafc; color:#52525b; border:1px solid #e4e4e7;">
-                    <h3 style="color: var(--green-light); display: flex; align-items: center; gap: 8px;"><span style="font-size: 1.3rem;">📊</span> BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ và GIÁ TRỊ THU LẠI DỰ KIẾN (ROI và SYSTEM EFFICIENCY)</h3>
+                    <h3 style="color: var(--green-light); display: flex; align-items: center; gap: 8px;"><span style="font-size: 1.3rem;"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M5 19.29V5h2v14.29H5zm4-6V5h2v8.29H9zm4 6V5h2v14.29h-2zm4-10V5h2v8.29h-2z"/></svg></span> BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ và GIÁ TRỊ THU LẠI DỰ KIẾN (ROI và SYSTEM EFFICIENCY)</h3>
                     <p style="margin-bottom: 1.5rem;">Đầu tư vào Nhận diện thương hiệu và Quy trình Vận hành Website không chỉ đơn thuần là chi phí tổ chức sự kiện, mà là một khoản <strong>đầu tư chiến lược dài hạn</strong> mang lại các giá trị thặng dư đo lường được cụ thể cho trường HUCE:</p>
                     
                     <h4 style="color:var(--text-light); margin-top: 1.2rem;">1. Nâng Tầm Giá Trị Thương Hiệu (Brand Equity value-add)</h4>
@@ -4817,7 +5023,7 @@
             if (el) {
                 el.classList.toggle('expanded');
                 const isExpanded = el.classList.contains('expanded');
-                btn.innerHTML = isExpanded ? '📁 Thu gọn báo cáo chi tiết' : '📂 Xem báo cáo chi tiết';
+                btn.innerHTML = isExpanded ? '📁 Thu gọn báo cáo chi tiết' : '<svg class="svg-icon" viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg> Xem báo cáo chi tiết';
                 btn.style.background = isExpanded ? 'var(--primary)' : '#eff6ff';
                 btn.style.color = isExpanded ? 'var(--white)' : 'var(--primary)';
                 btn.style.borderColor = isExpanded ? 'var(--primary)' : '#bfdbfe';
@@ -4886,6 +5092,50 @@
         function goBackToHome() {
             switchPageView('page0');
         }
+
+
+        /* PRINT PREVIEW LOGIC */
+        function openPrintPreview(reportId) {
+            const overlay = document.getElementById('print-preview-overlay');
+            const previewBody = document.getElementById('print-preview-body');
+            const selector = document.getElementById('print-report-selector');
+            
+            // Set active report in dropdown selector
+            selector.value = reportId;
+            
+            // Get source report content
+            const sourceContent = document.getElementById(reportId + '-content');
+            if (sourceContent) {
+                // Copy HTML content
+                let contentHTML = sourceContent.innerHTML;
+                
+                // Set content to preview area
+                previewBody.innerHTML = contentHTML;
+                
+                // Show print preview overlay
+                overlay.style.display = 'block';
+                document.body.style.overflow = 'hidden'; // Disable background scroll
+            }
+        }
+        
+        function loadPrintReport(reportId) {
+            const previewBody = document.getElementById('print-preview-body');
+            const sourceContent = document.getElementById(reportId + '-content');
+            if (sourceContent) {
+                previewBody.innerHTML = sourceContent.innerHTML;
+            }
+        }
+        
+        function closePrintPreview() {
+            const overlay = document.getElementById('print-preview-overlay');
+            overlay.style.display = 'none';
+            document.body.style.overflow = ''; // Restore background scroll
+        }
+        
+        function triggerBrowserPrint() {
+            window.print();
+        }
+
 
         // Scroll Workspace directly to a specific anchor tag ID
         function scrollToSection(secId) {
@@ -4957,7 +5207,7 @@
             btn.style.opacity = '0.7';
 
             setTimeout(() => {
-                btn.innerHTML = "💾 Đã Lưu Phương Án Thành Công";
+                btn.innerHTML = "<svg class="svg-icon" viewBox="0 0 24 24"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg> Đã Lưu Phương Án Thành Công";
                 btn.style.background = 'var(--green)';
                 btn.style.color = '#ffffff';
                 
@@ -4965,7 +5215,7 @@
 
                 setTimeout(() => {
                     toast.style.display = 'none';
-                    btn.innerHTML = "💾 Lưu Phương Án Dự Toán";
+                    btn.innerHTML = "<svg class="svg-icon" viewBox="0 0 24 24"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg> Lưu Phương Án Dự Toán";
                     btn.disabled = false;
                     btn.style.opacity = '1';
                     btn.style.background = 'var(--primary)';
@@ -5528,5 +5778,53 @@
         } else {
             initSwipeGestures();
         }</script>
+
+    <!-- PRINT PREVIEW OVERLAY -->
+    <div id="print-preview-overlay">
+        <div class="print-control-panel">
+            <div style="font-weight: 700; color: #ffffff; font-size: 0.95rem; display: flex; align-items: center; gap: 8px;">
+                <svg class="svg-icon" style="margin: 0; width: 1.4em; height: 1.4em;" viewBox="0 0 24 24"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg>
+                Xem Trước Bản In A4 (PDF Preview)
+            </div>
+            <div style="display: flex; gap: 10px; align-items: center;">
+                <label for="print-report-selector" style="color: #ffffff; font-size: 0.78rem; font-weight: 600;">Chọn Báo Cáo:</label>
+                <select id="print-report-selector" onchange="loadPrintReport(this.value)" style="padding: 4px 8px; border-radius: 4px; border: 1px solid #cbd5e1; font-family: inherit; font-size: 0.8rem; outline: none; background: #ffffff; color: #002a5c; font-weight: 700;">
+                    <option value="page1">01. Phân Tích Sức Khỏe Thương Hiệu</option>
+                    <option value="page2">02. Lộ Trình Triển Khai &amp; Cơ Chế</option>
+                    <option value="page3">03. Báo Giá Chi Tiết &amp; Đặc Tả</option>
+                </select>
+                <button class="btn-main primary" onclick="triggerBrowserPrint()" style="background: #16a34a; border-color: #16a34a; padding: 0.4rem 1rem; font-size: 0.78rem; margin: 0; color: #ffffff; cursor: pointer; border-radius: 4px; font-weight: 700;">🖨️ In / Lưu PDF A4</button>
+                <button class="btn-main secondary" onclick="closePrintPreview()" style="background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.3); color: #ffffff; padding: 0.4rem 1rem; font-size: 0.78rem; margin: 0; cursor: pointer; border-radius: 4px;">❌ Đóng</button>
+            </div>
+        </div>
+        <div id="print-preview-container">
+            <div class="a4-page-print">
+                <!-- Cover / Header Page for Print -->
+                <div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #002a5c; padding-bottom: 12px; margin-bottom: 20px;">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <img src="brand-assets/huce_logo.png" style="height: 48px; object-fit: contain;" alt="HUCE Logo">
+                            <div style="text-align: left;">
+                                <div style="font-size: 0.8rem; font-weight: 800; color: #002a5c; letter-spacing: 0.5px;">TRƯỜNG ĐẠI HỌC XÂY DỰNG HÀ NỘI</div>
+                                <div style="font-size: 0.65rem; color: #64748b; font-weight: 600;">Hệ Thống Nhận Diện &amp; Vận Hành Truyền Thông</div>
+                            </div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: 0.8rem; font-weight: 800; color: #002a5c;">TÀI LIỆU ĐỀ XUẤT</div>
+                            <div style="font-size: 0.65rem; color: #64748b; font-weight: 600;">Đối tác Tư vấn: ConsMedia</div>
+                        </div>
+                    </div>
+                    <div id="print-preview-body">
+                        <!-- Report content will be copied here -->
+                    </div>
+                </div>
+                <div class="print-report-footer" style="margin-top: 40px; border-top: 1px solid #cbd5e1; padding-top: 10px; display: flex; justify-content: space-between; align-items: center; font-size: 0.68rem; color: #64748b;">
+                    <span>Hồ sơ Đề xuất Phương án Tư vấn HUCE - Bảo mật nội bộ</span>
+                    <span>ConsMedia © 2026</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
