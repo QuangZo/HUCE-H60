@@ -1,111 +1,63 @@
-# Báo cáo Nghiệm thu Hoàn thành: Xây dựng & Tái cấu trúc Hệ thống Tài liệu Thương hiệu HUCE
+# Báo cáo Nghiệm thu Hoàn thành: Tinh chỉnh Cơ chế Quy trình Gói 2, Chuyển giao Playbook, Tái phân bổ Báo giá Gói 1 & Cập nhật Tab Sản phẩm Trang 4
 
-Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp, đồng bộ hóa và thống nhất toàn bộ hệ thống báo cáo, biểu phí cùng deliverables trong cả các tệp nghiên cứu (.md) và trang đề xuất tương tác HTML (`index.html` và `huce_h60_proposal.html`).
-
----
-
-## 🚀 Các Hạng Mục Đã Cập Nhật & Hoàn Thành
-
-### 1. Thống nhất tên gọi 03 Báo cáo Chiến lược
-Đã chuẩn hóa và đồng bộ hóa tuyệt đối tên gọi của 03 báo cáo chính ở tất cả các vị trí (trong file Markdown tiêu đề đầu trang, menu điều hướng sidebar HTML, menu xem trước bản in A4, các thẻ tóm tắt trang chủ Page 0, và script JS hiển thị tiêu đề động):
-*   **Phần 1:** *Đánh giá sơ bộ Sức khỏe thương hiệu HUCE*
-*   **Phần 2:** *Đề xuất Hành động &amp; Lộ trình triển khai*
-*   **Phần 3:** *Đề xuất Chào giá*
-
-### 2. Tách biệt các Gói ngân sách trong Interactive Calculator
-*   **Calculator Checkboxes:** Đã hủy bỏ checkbox gộp chung 800M cũ. Thay vào đó, thiết lập 03 checkbox tách biệt hoạt động trơn tru:
-    1.  **Gói 1: Chuẩn hóa Nhận diện &amp; Bảo hộ SHTT (Trị giá 500.000.000 VND)**
-    2.  **Gói 2.1: Tư vấn Quy trình quản lý truyền thông (Trị giá 120.000.000 VND)**
-    3.  **Gói 2.2: Dịch vụ vận hành website đồng hành (Trị giá 180.000.000 VND)**
-*   **LCD Display:** Hiển thị tổng cộng mặc định là **800,000,000** (cả 3 gói chọn mặc định) và cập nhật số liệu thời gian thực dạng `toLocaleString` khi người dùng click chọn/bỏ chọn.
-
-### 3. Tách biệt các Gói trong Bảng Báo giá Tĩnh (Bảng 1)
-*   Cơ cấu lại bảng báo giá tĩnh trên Page 3 hiển thị rõ rệt phân mục:
-    *   **I. GÓI 1: CHUẨN HÓA NHẬN DIỆN THƯƠNG HIỆU &amp; BẢO HỘ PHÁP LÝ SHTT** (Gồm 9 hạng mục chi tiết, tổng cộng 500,000,000 VND).
-    *   **II. GÓI 2: TƯ VẤN QUY TRÌNH QUẢN LÝ &amp; VẬN HÀNH WEBSITE ĐỒNG HÀNH** (Gồm 2 cấu phần chính, tổng cộng 300,000,000 VND).
-    *   **TỔNG CỘNG KINH PHÍ CỐ ĐỊNH DỰ ÁN (GÓI 1 + GÓI 2):** 800,000,000 VND.
-
-### 4. Tái cấu trúc Deliverables Hub Gói 1 (Từ 11 còn 9 Phân nhóm)
-*   **Gộp Phân nhóm 1 &amp; 2:** Tinh chỉnh lưới logo gốc và biên soạn Cẩm nang nhận diện thương hiệu thành một hạng mục thống nhất (Trị giá 75M).
-*   **Bộ ấn phẩm văn phòng (Phân nhóm 2):** Liệt kê chi tiết 10 hạng mục in ấn và file nguồn số hóa (Danh thiếp, Letterhead, 3 cỡ phong bì, Folder, Giấy mời sự kiện lẻ, bút viết, túi giấy, PowerPoint template 30 layout).
-*   **Digital Assets (Phân nhóm 3):** Cập nhật ngân sách nâng cấp 35M và quy chuẩn chi tiết (Social Grids, Email Signature HTML, Zoom backgrounds).
-*   **Bảng biển chỉ dẫn (Phân nhóm 5):** Đổi tên từ Campus Branding thành Quy chuẩn bảng biển chỉ dẫn nội khu và thông tin hành lang.
-*   **Quà tặng (Phân nhóm 6):** Cấu trúc lại theo Khung Quy chuẩn Quà tặng Thương hiệu 4 đối tượng.
-*   **Brand Portal (Phân nhóm 8):** Nâng cấp Landing Page thành Cổng thư viện số lưu trữ tài nguyên chuẩn hóa (Brand Portal &amp; Resource Hub) phân quyền truy cập.
-*   **Chuyển giao Event Branding (Phân nhóm 7 cũ):** Đưa Event Branding trọn gói (55M) ra khỏi Gói 1 sang Menu dịch vụ lẻ sự kiện.
-*   **Playbook &amp; Media Kit (Phân nhóm 9):** Định nghĩa rõ rệt sự khác nhau giữa Brand Playbook (Sách cẩm nang tác nghiệp hành chính in 15 cuốn cao cấp) và Digital Media Kit (Bộ file đồ họa số nén gửi nhanh đối ngoại).
-
-### 5. Cập nhật Menu Dịch Vụ Lẻ (Bảng 2)
-*   Chèn thêm hạng mục **1.5 | Thiết kế Hệ thống nhận diện Sự kiện &amp; Lễ kỷ niệm trọn gói (Event Branding Kit) | Trị giá 55.000.000 VND** vào bảng giá dịch vụ lẻ sự kiện.
-*   Đánh số lại hạng mục Thiết kế Slide thuyết trình sự kiện lẻ thành **1.6** (Đơn giá 350.000 VND/slide).
-
-### 6. Cập nhật Menu Sidebar & Tái cấu trúc Trang 1
-*   **Số thứ tự Menu Sidebar:** Thay đổi ký hiệu số thứ tự vòng tròn từ `01, 02, 03, 04` thành `00` cho Trang Tổng quan, và `01, 02, 03` tương ứng với Phần 1, Phần 2, Phần 3. Việc này giải quyết triệt để sự trùng lặp và lệch số thứ tự báo cáo (tránh tình trạng Badge 02 đi kèm với Phần 1).
-*   **Đổi tên Trang tổng quan:** Trang đầu tiên trong mục lục (Page 0) đã được rút gọn tên từ "Tổng quan &amp; Khái quát Chào giá" thành **Tổng Quan** thống nhất ở cả menu sidebar và JavaScript tiêu đề trang.
-*   **Tái cấu trúc nội dung Trang 1 (Phần 1):** Ghép phần Cảnh báo pháp lý khẩn cấp vào dưới mục *1. Nhu cầu cấp thiết* (thành mục *1.2. Cảnh báo pháp lý khẩn cấp*, còn nhu cầu là mục *1.1. Các nhu cầu cấp thiết*). Các phần tiếp theo (Khảo sát thực trạng, SWOT, Đề xuất giải pháp) được đánh số lại thành 2, 3, 4 tương thích hoàn toàn với tệp nghiên cứu `01_danh_gia_suc_khoe_thuong_hieu.md`.
-*   **Sửa lỗi Trang 2 và 3 bị trắng:** Khắc phục triệt để lỗi unclosed tags (thừa/thiếu thẻ `div` khi trích xuất Dashboard tự động) bằng thuật toán đếm thẻ mở/đóng lồng nhau, giúp giao diện phân trang hiển thị chuẩn xác 100%.
-*   **Căn chỉnh thông tin chung dự án:** Nâng cấp grid layout phần thông tin dự án trên Trang Tổng Quan thành dạng lưới 2 cột co giãn cân đối (Item Tên dự án chiếm trọn 2 cột ở đầu để tránh wrap chữ, 4 cụm thông tin còn lại phân bổ đều đặn).
-*   **Bê nguyên Dashboard Sức khỏe Thương hiệu sang Trang Tổng Quan:** Thay thế phần health grid cũ trên Trang Tổng Quan (Page 0) bằng toàn bộ **Bản Đồ Chỉ Số Sức Khỏe Thương Hiệu HUCE** (bao gồm cả Style CSS & markup HTML hoàn chỉnh) giúp người dùng tương tác ngay từ trang đầu.
-*   **Đổi tên Lộ trình báo giá tích hợp:** Đổi tên tiêu đề thành **NỘI DUNG ĐỀ XUẤT** và liệt kê chuẩn tên 3 báo cáo tương ứng.
-*   **Định dạng ngày tháng đầu trang:** Loại bỏ chữ "Ngày", đưa ngày tháng năm động lên cùng hàng với "Hà Nội" sau ký tự `|` (Ví dụ: `Hà Nội | 19/06/2026`).
-*   **Lộ trình Giai đoạn 3, 4, 5, 6:** Cập nhật ngày tháng chuẩn hóa và tên Giai đoạn 4 phục vụ trước Đại lễ trên cả sơ đồ Page 2 và timeline Page 0.
+Tài liệu này tổng hợp kết quả nghiệm thu điều chỉnh cơ cấu dịch vụ, phân bổ ngân sách, dịch chuyển bàn giao Playbook từ Gói 1 sang Gói 2 và tinh chỉnh giao diện chi tiết Trang 4 HTML của tài liệu Đề xuất Thương hiệu HUCE.
 
 ---
 
-## 🛠️ Trạng thái Triển khai Kỹ thuật
+## 🚀 Các Hạng Mục Đã Thực Hiện & Hoàn Thành
 
-*   **HTML Files:** Cả hai tệp [index.html](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/index.html) và [huce_h60_proposal.html](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/huce_h60_proposal.html) đã được cập nhật đồng bộ hoàn toàn và hoạt động ổn định không lỗi console.
-*   **Markdown Files:** Đã đồng bộ tiêu đề và nội dung cấu trúc mới sang cả thư mục làm việc và Brain artifacts.
+### 1. Tinh chỉnh Định hướng & Phạm vi Gói 2 (Quy trình & Vận hành Web)
+*   **Định vị Tư vấn Quy trình truyền thông**: Thay đổi từ "vận hành website riêng lẻ" thành **Tư vấn xây dựng Hệ thống Quy trình vận hành truyền thông cho toàn bộ hệ thống truyền thông của HUCE** (bao gồm các SOPs tác nghiệp truyền thông, lịch biên tập, kịch bản khủng hoảng), kèm tập huấn đào tạo chuyển giao.
+*   **Xác lập phạm vi kỹ thuật & nội dung Web**:
+    *   ConsMedia cung cấp dịch vụ vận hành trang Web theo hướng chuẩn hóa nội dung chuẩn SEO, thiết kế đồ họa banner trang chủ thường nhật.
+    *   **Ngoại trừ hạ tầng kỹ thuật**: Hoàn toàn không bao gồm việc quản trị, bảo trì máy chủ vật lý, hosting và tên miền (đảm bảo do Phòng CNTT của nhà trường chịu trách nhiệm trực tiếp).
+    *   **Ngoại trừ sản xuất media**: Không bao gồm việc sản xuất trực tiếp các tư liệu media gốc (như quay chụp ảnh sự kiện hoặc dựng video chuyên đề).
+
+### 2. Dịch chuyển Bàn giao Playbook sang Gói 2
+*   **Di chuyển Playbook**: Bộ sản phẩm Brand Playbook (thiết kế, biên soạn cẩm nang nghiệp vụ chứa các SOPs, kịch bản xử lý khủng hoảng) và in ấn trọn gói 15 cuốn Playbook bìa cứng ép nhũ lưu hành nội bộ đã được chuyển hoàn chỉnh từ Gói 1 sang **Cấu phần II.1 của Gói 2** (nhằm đảm bảo tính logic chặt chẽ, vì Playbook chính là sản phẩm đóng gói của quy trình vận hành ở Gói 2).
+
+### 3. Tái phân bổ Chi tiết Báo giá Gói 1 (Giữ nguyên Tổng 500,000,000 VND)
+Do rút sản phẩm Playbook khỏi Gói 1, giá trị các hạng mục trong Gói 1 đã được tái cấu trúc để duy trì tổng mức giá trị **500.000.000 VND** như định hướng chào giá:
+*   **Hạng mục 1 (Logo & Brand Guidelines)**: Tăng từ 75.000.000 VND lên **85.000.000 VND** (do mức độ chi tiết hóa nhận diện lưới).
+*   **Hạng mục 8 (Brand Portal)**: Tăng từ 85.000.000 VND lên **100.000.000 VND** (nền tảng này hiện tại đảm nhận việc đóng gói và bàn giao bộ tài nguyên số **Digital Media Kit** thay thế cho phần in ấn).
+*   **Loại bỏ Hạng mục 9 (Playbook)**: Rút gọn hoàn toàn khỏi danh mục Gói 1 (giảm 25.000.000 VND).
+*   *Gói 2 giữ nguyên tổng ngân sách 300.000.000 VND (Cấu phần II.1: 120M; Cấu phần II.2: 180M). Tổng dự án toàn phần là 800.000.000 VND.*
+
+### 4. Bổ sung Cơ chế Hợp tác Sự kiện lẻ Gói 3 (On-demand)
+*   Chèn một thẻ thông báo nổi bật (**Cooperation Mechanism Callout Card**) tại mục Gói 3 để làm rõ cơ chế hợp tác mở:
+    *   Cho phép HUCE đặt lịch lẻ dịch vụ media khánh tiết trực tuyến (quay chụp, livestream, MC, lễ tân).
+    *   Loại bỏ các rào cản hành chính về thủ tục ký kết hợp đồng phức tạp trước mỗi sự kiện nhỏ, đơn giản hóa và rút ngắn quy trình phê duyệt/thanh toán.
+
+### 5. Cập nhật & Đồng bộ hóa các Tabs Sản phẩm bàn giao Trang 4 HTML
+*   **Tab Gói 1 (`#del-g1-view`)**: 
+    *   Loại bỏ hoàn toàn Phân nhóm 9 (Brand Playbook & Media Kit).
+    *   Cập nhật Phân nhóm 8 thành "Nền tảng Thư viện số, Cổng thông tin Thương hiệu HUCE (Brand Portal) & Đóng gói Digital Media Kit", trong đó tích hợp việc lưu trữ PDF Guidelines và đóng gói bộ tài nguyên số Digital Media Kit.
+*   **Tab Gói 2.1 (`#del-g21-view`)**:
+    *   Đưa thêm card sản phẩm **Brand Playbook (Sổ tay nghiệp vụ truyền thông)** quy định rõ thiết kế, biên soạn và in ấn 15 bản cứng cao cấp ép nhũ chuyển giao cho trường.
+    *   Cập nhật nội dung các card khác thể hiện rõ phạm vi tư vấn quy trình truyền thông đa kênh toàn trường, lịch biên tập đa kênh, kịch bản khủng hoảng và tập huấn chuyển giao.
+*   **Tab Gói 2.2 (`#del-g22-view`)**:
+    *   Cập nhật card đầu tiên thành "Hỗ trợ kỹ thuật ứng dụng & Giám sát" làm rõ vai trò quản trị CMS mức ứng dụng và cơ chế phối hợp với Phòng CNTT của trường thay cho việc bảo trì máy chủ vật lý.
+    *   Cập nhật card "Biên tập nội dung chuẩn SEO" ghi rõ loại trừ sản xuất media gốc.
+
+### 6. Đồng bộ hóa Tên các Giai đoạn Lộ trình
+*   Khớp hoàn chỉnh tên gọi 6 giai đoạn lộ trình trong tất cả các tệp Markdown và hai file HTML:
+    *   *Giai đoạn 1: Khảo sát & Đánh giá Thực trạng*
+    *   *Giai đoạn 2: Chuẩn hóa Nhận diện & Nộp hồ sơ bảo hộ SHTT*
+    *   *Giai đoạn 3: Thiết kế Hệ thống Ấn phẩm & UI/UX Kênh số*
+    *   *Giai đoạn 4: Quy trình Quản lý SOPs & Đóng gói Quà tặng VIP*
+    *   *Giai đoạn 5: Đồng hành Vận hành & Duy trì Kênh số*
+    *   *Giai đoạn 6: Bảo trì, Gia hạn & Đồng hành Pháp lý*
 
 ---
 
-## 🚀 Cập nhật Ngày 19/06/2026: Tinh chỉnh Phần 2 & Đồng bộ Phần 3 theo Spec md
+## 🛠️ Trạng thái Triển khai Kỹ thuật & Xác minh
 
-### 1. Tinh chỉnh Phần 2 (Đề xuất Hành động & Lộ trình triển khai):
-*   **Loại bỏ Mục 4 (Xử lý khủng hoảng):** Xóa bỏ hoàn toàn "4. CƠ CHẾ PHÒNG NGỪA & XỬ XỬ LÝ KHỦNG HOẢNG TRUYỀN THÔNG (QUY TẮC 30 PHÚT)" khỏi giao diện HTML và tệp [02_de_xuat_hanh_dong_va_co_che.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/02_de_xuat_hanh_dong_va_co_che.md).
-*   **Renumber và Restyle Mục 5 (ROI):** 
-    - Tiêu đề chuyển từ Section 5 thành Section 4: `4. BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ và GIÁ TRỊ THU LẠI DỰ KIẾN (ROI & SYSTEM EFFICIENCY)`.
-    - Loại bỏ màu xanh nhạt (`color: var(--green-light)`) và đường viền xanh lá trên panel-card, chuyển về màu tiêu đề chính thống và giao diện card chuẩn cao cấp của hệ thống.
-    - Renumber các tiêu đề con thành `4.1`, `4.2`, `4.3`. Sửa lỗi chính tả "Tài Chỉ" thành "Tài Chính".
-*   **Renumber Mục 6 (Kết luận):** Chuyển tiêu đề thành `5. KẾT LUẬN và ĐỀ XUẤT HÀNH ĐỘNG NGAY (IMMEDIATE ACTIONS)`.
-*   **Cập nhật Anchor Bar Page 2:** Điều chỉnh các nút cuộn nhanh liên kết đúng theo cấu trúc 5 mục mới.
-
-### 2. Đồng bộ hóa Phần 3 (Đề xuất Chào giá) theo file md:
-*   **Dọn dẹp các phần dư thừa HTML-only:** Loại bỏ các phần không có trong file Markdown:
-    - *Gói 1:* Bỏ phần `A. Triết lý Thiết kế và Định hướng Sáng tạo`. Giữ lại đúng quy trình triển khai 4 giai đoạn và đặc tả.
-    - *Bảng giá:* Bỏ mục `3.4. Cơ sở tham chiếu...` và `3.5. Cơ cấu Tài chính Hỗn hợp...`.
-    - *Menu dịch vụ lẻ:* Bỏ bảng `BẢNG 3: BẢNG DỰ TOÁN DEMO MẪU CHO SỰ KIỆN TIÊU BIỂU`.
-*   **Cơ cấu thanh toán và Cam kết đồng hành mới:** Thay thế phần Chiến lược đồng hành (Mục 7 cũ) bằng: `6. CƠ CẤU THANH TOÁN VÀ CAM KẾT ĐỒNG HÀNH` chứa đúng 2 điều khoản theo file md (phân đoạn nghiệm thu và cam kết trích đóng góp 5% thực thu cho Quỹ Cựu sinh viên HUCA).
-*   **Cập nhật Anchor Bar Page 3:** Điều chỉnh các liên kết cuộn nhanh trên Page 3 tương ứng cấu trúc 6 mục mới.
-*   **Sửa lỗi Tag Balancing:** Di chuyển vị trí đóng thẻ `</main>` và `.app-container` về đúng cuối trang `page3-content` thay vì đóng sớm tại `page2-content`, khôi phục hiển thị hoàn hảo của toàn bộ ứng dụng đề xuất trên mọi trình duyệt.
-
----
-
-## 🚀 Cập nhật Ngày 19/06/2026 (Lần 2): Tái cấu trúc Trang 1 và Trang 2 theo Flow Tuyến tính Mới
-
-### 1. Tái cấu trúc Nội dung Trang 1 (Phần 1: Đánh giá sơ bộ & Đề xuất Giải pháp)
-Đã sắp xếp lại toàn bộ nội dung của Trang 1 thành một mạch tuyến tính liền mạch, hợp lý theo đúng yêu cầu mới:
-1.  **Mục 1: Nhu Cầu Cấp Thiết & Định Hướng Tiếp Cận** (Giữ nguyên mục 1.1 và cảnh báo pháp lý 1.2).
-2.  **Mục 2: Khảo Sát Thực Trạng** (Giữ nguyên phần 2.1 phân mảnh màu sắc, 2.2 hiệu suất kênh truyền thông, và Bản Đồ Chỉ Số Sức Khỏe Thương Hiệu HUCE).
-3.  **Mục 3: Đề xuất hành động** (Di chuyển phần "Ba Trụ Cột" từ Trang 2 sang). Đã thực hiện thay đổi tên mục thành **Đề xuất hành động**, đồng thời xóa bỏ hoàn toàn từ **"trụ cột"** (pillar) ở cả phần đầu sách, biểu đồ ASCII vẽ tay và các thẻ mô tả hành động (thay bằng cụm từ **Nhóm hành động**).
-4.  **Mục 4: Lộ trình triển khai** (Di chuyển phần sơ đồ 6 giai đoạn từ Trang 2 sang).
-5.  **Mục 5: Tổng hợp báo giá** (Di chuyển bảng biểu phí trọn gói Bảng 1 từ Trang 3 sang làm cấu phần tổng hợp kinh phí).
-6.  **Mục 6: Kết luận** (Di chuyển phần KẾT LUẬN & ĐỀ XUẤT HÀNH ĐỘNG NGAY từ cuối Trang 2 sang cuối Trang 1).
-
-### 2. Loại bỏ các Phần dư thừa & Omit ROI trên Trang 1
-*   **Loại bỏ SWOT & Giải pháp cũ:** Loại bỏ phần bảng SWOT (cũ) và cấu phần giải pháp A & B cũ trên Trang 1 để không bị trùng lặp thông tin sau khi chuyển đổi.
-*   **Loại bỏ ROI:** Xóa bỏ hoàn toàn phần **4. BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ và GIÁ TRỊ THU LẠI DỰ KIẾN (ROI & SYSTEM EFFICIENCY)** khi sao chép nội dung sang Trang 1.
-
-### 3. Giữ nguyên Trang 2 và Trang 3 làm các Báo cáo chi tiết độc lập
-*   **Không cắt xén hay đổi tên Trang 2:** Khôi phục hoàn toàn cấu trúc Trang 2 (tên gọi giữ nguyên **Phần 2: Đề xuất Hành động & Lộ trình triển khai**) chứa đầy đủ 5 mục gốc bao gồm: Ba Trụ Cột, Lộ trình, Quy trình & RACI, ROI, Kết luận.
-*   **Không cắt xén hay đổi tên Trang 3:** Khôi phục hoàn toàn Trang 3 (tên gọi giữ nguyên **Phần 3: Đề xuất Chào giá**) chứa đầy đủ thông tin đặc tả Gói 1, Gói 2, Bảng 1 pricing table, Deliverables, Dịch vụ lẻ, Thanh toán & Cam kết.
-*   **Lợi ích:** Đảm bảo toàn bộ hệ thống menu điều hướng sidebar và JavaScript trang hoạt động hoàn hảo, không bị trắng xóa hoặc mất nội dung khi người dùng chuyển tab.
-
-### 4. Loại bỏ Tiêu đề thừa Trang 0
-*   Đã xóa bỏ tiêu đề `KHÁI QUÁT SỨC KHỎE THƯƠNG HIỆU HUCE` thừa ở trên cùng phần Bản đồ chỉ số sức khỏe của trang chủ Page 0 (Tổng Quan). Giờ đây bản đồ hiển thị gọn gàng, tinh tế trực diện với tiêu đề nội bộ `Bản Đồ Chỉ Số Sức Khỏe Thương Hiệu HUCE`.
-
-### 5. Đồng bộ hóa tài liệu Markdown (.md)
-*   [01_danh_gia_suc_khoe_thuong_hieu.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/01_danh_gia_suc_khoe_thuong_hieu.md): Viết lại để tích hợp hoàn toàn 6 phần theo đúng cấu trúc tuyến tính mới của Trang 1 HTML.
-*   [02_de_xuat_hanh_dong_va_co_che.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/02_de_xuat_hanh_dong_va_co_che.md): Được giữ nguyên vẹn chứa đầy đủ các phần của Phần 2 để đồng bộ 100% với Trang 2 HTML.
-
-
+1.  **Xác minh Tag Nesting (Cân bằng Div)**:
+    *   Đã chạy kiểm tra tự động chiều sâu thẻ div trên hai file `index.html` và `huce_h60_proposal.html`.
+    *   Kết quả: Cả hai tệp đều đạt độ cân bằng tuyệt đối: **309 thẻ mở div, 309 thẻ đóng div**. Hoàn toàn không bị rò rỉ hay lỗi layout.
+2.  **Xác minh Báo giá & Con số**:
+    *   Gói 1: 500,000,000 VND (Logo: 85M, Guidelines: 40M, Office: 45M, Digital Assets: 35M, Signage: 65M, Gift Design: 50M, SHTT: 80M, Brand Portal: 100M).
+    *   Gói 2: 300,000,000 VND (Tư vấn & Playbook: 120M, Điều hành Web 12 tháng: 180M).
+    *   Tổng cộng: 800,000,000 VND.
+3.  **Đồng bộ Git & Live Deploy**:
+    *   Tất cả thay đổi đã được staged, commit và push thành công lên repository GitHub: `https://github.com/QuangZo/HUCE-H60.git` (commit `1fad27c`).
