@@ -34,37 +34,25 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp và tái cơ 
 
 ### 4. Tái cơ cấu Gói 1 - Chuẩn hóa Nhận diện & SHTT (Yêu cầu mới)
 Đã thực hiện cập nhật lại cơ cấu giá của Gói 1 nhằm tách bạch phần in ấn và cân chỉnh ngân sách Digital Assets hợp lý hơn:
-*   **Chi tiết điều chỉnh:**
-    *   **Tách hạng mục in ấn:** Hạng mục *Biên soạn và In ấn Cẩm nang thương hiệu* (85M) được tách làm 2 phần: Thiết kế Cẩm nang thương hiệu thuần túy (45M) và Biên soạn tổng hợp PlayBook - Media Kit & Dịch vụ xuất bản in ấn thực tế (25M).
-    *   **Tăng ngân sách Digital Assets:** Tăng từ 20M lên 35M để đảm bảo chất lượng thiết kế chuẩn và chuyên nghiệp (bao gồm các mẫu Social Media Grids, Email Signature HTML, và Zoom Virtual Backgrounds).
-    *   **Duy trì tổng ngân sách:** Tổng chi phí Gói 1 được giữ nguyên ở mức **500.000.000 VND** và tổng dự án ở mức **800.000.000 VND**.
+*   **Tách hạng mục in ấn:** Hạng mục *Biên soạn và In ấn Cẩm nang thương hiệu* (85M) được tách làm 2 phần: Thiết kế Cẩm nang thương hiệu thuần túy (45M) và Biên soạn tổng hợp PlayBook - Media Kit & Dịch vụ xuất bản in ấn thực tế (25M).
+*   **Tăng ngân sách Digital Assets:** Tăng từ 20M lên 35M để đảm bảo chất lượng thiết kế chuẩn và chuyên nghiệp (bao gồm các mẫu Social Media Grids, Email Signature HTML, và Zoom Virtual Backgrounds).
 *   **Giải thích chi tiết về các tài sản số (Digital Assets):**
     *   *Social Media Grids:* File nguồn (Figma/PSD) thiết kế bài đăng chia lưới đồng bộ cho fanpage trường, giúp bài đăng luôn đẹp mắt và không bị vụn vặt.
     *   *Email Signatures:* Mẫu chữ ký thư điện tử HTML chuẩn hóa thông tin cá nhân và định dạng thương hiệu HUCE cho giảng viên và cán bộ trường.
     *   *Zoom/Teams Backgrounds:* Hình nền ảo chất lượng cao phục vụ các buổi họp và giảng dạy trực tuyến, hội thảo khoa học đồng bộ thương hiệu.
 
----
-
-
-## 🛠️ Kết Quả Thử Nghiệm Kỹ Thuật
-
-| Tiêu chí kiểm tra | Trạng thái | Chi tiết kỹ thuật |
-| :--- | :---: | :--- |
-| **Cấu trúc Trang mới** | **ĐẠT** | Trang 1 hiển thị Calculator và Stakeholders; Trang 2 bắt đầu bằng 4 Mục tiêu chiến lược. |
-| **Nút Collapsible** | **ĐẠT** | Các báo cáo chi tiết được xếp gọn gàng trong các collapsible divs và có thể click toggle hoạt động tốt. |
-| **Màu sắc & Tương phản** | **ĐẠT** | Độ tương phản của văn bản trên nút và ô checkmark đáp ứng tiêu chuẩn WCAG, chữ hiển thị rõ ràng, sắc nét. |
-| **Đồng bộ hóa 2 file HTML** | **ĐẠT** | `huce_h60_proposal.html` và `index.html` được đồng bộ hóa hoàn toàn chính xác. |
-| **Git & Deployment** | **ĐẠT** | Code đã được push lên GitHub và host tự động cập nhật trực tuyến. |
-
----
-
-## 📂 Các Tệp Đã Cập Nhật
-
-1. **Bản Trình Bày Tích Hợp (Project):** [huce_h60_proposal.html](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/huce_h60_proposal.html)
-2. **Trang Chủ Live Demo (Project):** [index.html](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/index.html)
-3. **Báo cáo Đánh giá Thương hiệu:** [01_danh_gia_suc_khoe_thuong_hieu.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/01_danh_gia_suc_khoe_thuong_hieu.md)
-4. **Báo cáo Đề xuất Hành động:** [02_de_xuat_hanh_dong_va_co_che.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/02_de_xuat_hanh_dong_va_co_che.md)
-5. **Báo cáo Báo giá chi tiết:** [03_bao_gia_va_specs_chi_tiet.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/03_bao_gia_va_specs_chi_tiet.md)
-6. **Bản Kế hoạch Thực hiện:** [implementation_plan.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/implementation_plan.md)
-7. **Bản Theo dõi Công việc:** [task.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/task.md)
-8. **Báo Cáo Nghiệm Thu Hoàn Thành (Brain):** [walkthrough.md](file:///C:/Users/Admin/.gemini/antigravity/brain/a5bb0902-08f9-4c1c-a377-7c5160196c76/walkthrough.md)
+### 5. Nâng cấp Bố cục in ấn khổ ngang, Ghép Gói & Sửa Font Số (Yêu cầu mới nhất)
+*   **Khổ in ngang A4 (Landscape):**
+    *   Định dạng lại bản in thực tế và màn hình xem trước (Print Preview) theo kích thước A4 nằm ngang (`width: 297mm; height: 210mm`) giúp dàn trang ngang rộng rãi, dễ theo dõi biểu đồ và bảng biểu.
+*   **Bỏ khung bao dạng hộp (Borderless):**
+    *   Loại bỏ hoàn toàn viền (`border`), màu nền (`background`) và bóng đổ (`box-shadow`) của các khối thông tin (`.panel-card`, `.brand-health-dashboard`) trong cả bản in và preview nhằm giải phóng tối đa diện tích lề, giúp trang in thông thoáng, liền mạch và chuyên nghiệp.
+*   **Chia trang và Header/Footer động trên Preview:**
+    *   Tái cấu trúc mã nguồn JS: Khi bấm "Xem Trước Bản In", hệ thống sẽ tự động tách nội dung theo các khối `.print-page-section`, đóng gói riêng biệt từng trang in và đính kèm đầy đủ Header chuẩn (Logo trường, đối tác) và Footer động (Tên tài liệu, đánh số trang thực tế dạng *Trang X / Y*) y hệt như khi xuất bản PDF.
+*   **Ghép Gói 1 và Gói 2 thành Gói Tổng Thể:**
+    *   Gộp Gói 1 (500M) và Gói 2 (300M) thành một gói duy nhất: **I. GÓI TỔNG THỂ: CHUẨN HÓA HỆ THỐNG THƯƠNG HIỆU & VẬN HÀNH TRUYỀN THÔNG ĐỒNG HÀNH (Trị giá 800.000.000 VND)**.
+    *   Cơ cấu lại bảng báo giá tĩnh thành 13 hạng mục đánh số từ 1 đến 13 (Cấu phần A: 1-11; Cấu phần B: 12-13).
+    *   Tích hợp thành một checkbox duy nhất trị giá **800M** trên bộ công cụ tính toán dự toán tương tác (Interactive Calculator).
+*   **Sửa đổi thiết kế gói Quà tặng (Hạng mục 8):**
+    *   Quy định rõ ràng phạm vi bàn giao của gói **50.000.000 VND** là xây dựng **Khung Quy chuẩn Quà tặng Thương hiệu (Brand Gift Design Framework)**. Phân tách rõ ràng định hướng thiết kế theo 4 nhóm đối tượng cụ thể (Lãnh đạo cao cấp khánh tiết, khách hàng & cán bộ, sinh viên & tuyển dụng, và quà tặng theo chiến dịch) để làm định hướng định dạng PDF, tối ưu hóa ngân sách.
+*   **Sửa lỗi vỡ font chữ số:**
+    *   Thay thế toàn bộ các khai báo font chữ địa phương không được hỗ trợ (`UTM Avo`, `Outfit`) bằng các font chữ web chuyên dụng chất lượng cao đã được import sẵn từ Google Fonts: **Plus Jakarta Sans** (cho body & headings) và **Inter** (cho các chữ số và bảng biểu). Số liệu hiển thị sắc nét, thẳng hàng và cực kỳ hiện đại.
