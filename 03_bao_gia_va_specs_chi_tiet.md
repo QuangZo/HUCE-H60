@@ -15,22 +15,43 @@ Giải pháp tập trung chuẩn hóa hệ thống hình ảnh, nâng cao chất
 ### 1. Quy trình triển khai chuẩn hóa
 *   **Giai đoạn 1: Khảo sát hiện trạng & Kiểm toán thương hiệu (02 tuần):** Thu thập toàn bộ dữ liệu lịch sử logo, đo lường các sai lệch màu sắc tại 13+ đơn vị khoa/phòng ban.
 *   **Giai đoạn 2: Tinh chỉnh hình học Logo & Thiết kế Cẩm nang (02 tuần):** Tinh chỉnh lưới hình học biểu trưng gốc (tay nâng sách + hoa cách điệu X + cẩu tháp) và thiết lập quy cách chuẩn hóa thiết kế nhận diện thương hiệu HUCE.
-*   **Giai đoạn 3: Thiết kế Hệ thống website & Khung tiêu chuẩn quà tặng (03 tuần):** Redesign giao diện hệ thống website Portal, Admissions, templates các khoa/viện và đóng gói thiết kế quà tặng.
-*   **Giai đoạn 4: Biên soạn Playbook, Media Kit, Đăng ký SHTT & Bàn giao (03 tuần):** Hoàn thiện hồ sơ pháp lý nộp đơn đăng ký bảo hộ nhãn hiệu lên Cục Sở hữu Trí tuệ, in ấn xuất bản cẩm nang lưu hành nội bộ và bàn giao.
+*   **Giai đoạn 3: Thiết kế Hệ thống website, Quy chuẩn bảng biển & Khung quà tặng (03 tuần):** Redesign giao diện Portal/Admissions, thiết kế quy chuẩn hệ thống bảng biển chỉ dẫn toàn trường và đóng gói thiết kế khung quà tặng.
+*   **Giai đoạn 4: Xây dựng Thư viện số, Đăng ký SHTT & Biên soạn Playbook (03 tuần):** Hoàn thiện hồ sơ pháp lý đăng ký bảo hộ nhãn hiệu lên Cục Sở hữu Trí tuệ, xây dựng cổng thông tin Brand Portal, in ấn xuất bản cẩm nang lưu hành nội bộ và bàn giao.
 
 ### 2. Danh mục bàn giao chi tiết (Deliverables List)
 *   **Tinh chỉnh số hóa logo & Thiết kế bộ cẩm nang thương hiệu:** 01 Logo gốc hoàn chỉnh tối ưu lưới hình học và 04 phiên bản ứng dụng chuẩn (.Ai, .Eps, .Svg). Thiết lập quy cách chuẩn hóa thiết kế nhận diện thương hiệu HUCE, bao gồm: Logo grid, khoảng cách an toàn, bảng màu chuẩn Cobalt Blue, kiểu chữ (typography) tiêu biểu, quy chuẩn ứng dụng trên các chất liệu và kịch bản sử dụng do's/don'ts. Bàn giao file cẩm nang thiết kế định dạng PDF tương tác.
-*   **Office Stationery (Ấn phẩm văn phòng):** Thiết kế danh thiếp, letterhead (bản in & file Word), phong bì thư (A4, A5, DL), kẹp file tài liệu, Slide Template PowerPoint thương hiệu HUCE (30 layout chuyên nghiệp).
+*   **Office Stationery (Bộ ấn phẩm văn phòng - 10 hạng mục thiết kế):** Thiết kế chi tiết hệ thống ấn phẩm hành chính và nhận diện văn phòng đồng bộ của trường:
+    1.  *Danh thiếp (Namecard):* 02 mẫu thiết kế (khổ ngang & khổ đứng tiêu chuẩn 9x5.4cm). Bàn giao file gốc kèm thông tin mẫu của Ban giám hiệu và lãnh đạo các phòng/khoa/viện.
+    2.  *Tiêu đề thư (Letterhead):* 01 mẫu thiết kế bản in A4 (file PDF/Vector) + 01 mẫu file template Microsoft Word (`.dotx`) thiết lập sẵn lề, font chữ chuẩn để soạn thảo văn bản hành chính thông thường.
+    3.  *Phong bì thư (Envelope):* 03 kích thước tiêu chuẩn gồm Phong bì to A4 (25x34cm), Phong bì trung A5 (16x23cm), và Phong bì nhỏ DL (12x22cm).
+    4.  *Kẹp file tài liệu (Folder):* 01 mẫu thiết kế khổ A4 dựng nổi gáy 0.5cm có tai cài danh thiếp, sử dụng cho các buổi họp, hội thảo, ký kết hợp tác.
+    5.  *Mẫu Slide báo cáo (Slide Template):* 01 bộ template PowerPoint (`.potx`) gồm 30 slide layouts chuyên nghiệp (trang mở đầu, mục lục, trang phân đoạn, slide nội dung kết hợp biểu đồ, bảng biểu, ảnh minh họa, và trang kết luận).
+    6.  *Thẻ tên & Thẻ sinh viên:* 01 mẫu thiết kế thẻ tên cán bộ, giảng viên (ngang & đứng) + 01 mẫu thiết kế thẻ sinh viên tích hợp thẻ thư viện/thẻ ngân hàng liên kết.
+    7.  *Túi giấy thương hiệu:* 01 mẫu thiết kế túi giấy đựng tài liệu và quà tặng (kích thước tiêu chuẩn 35x25x10cm).
+    8.  *Mẫu Giấy chứng nhận / Giấy khen:* Thiết kế khung viền và layout 03 cấp độ (Giấy khen của Hiệu trưởng, Giấy khen của Khoa/Viện, Giấy chứng nhận hoàn thành khóa học/sự kiện).
+    9.  *Sổ tay công tác:* Thiết kế bìa sổ da (dập chìm/ép kim logo) và trang ruột sổ (chèn header/footer nhận diện HUCE).
+    10. *Bút ký quà tặng:* Thiết kế marquette in/khắc laser logo và tên trường trên thân bút.
 *   **Digital Assets (Tài sản số):** Thiết kế hệ thống 05 Social Media Grids templates phục vụ đăng tải mạng xã hội (Facebook/Zalo/YouTube), 03 mẫu chữ ký email chuẩn HTML cho các chức danh, và 05 hình nền Zoom/Teams phục vụ họp trực tuyến và hội thảo quốc tế.
+*   **Thiết kế lại Giao diện Website (Web UI/UX Redesign):** Thiết kế UI/UX hiện đại (bàn giao Figma UI Kit) cho trang chủ Portal trường, trang tuyển sinh, và khung giao diện (template) dùng chung cho website 13+ Khoa và Viện nghiên cứu. Tối ưu hiển thị Responsive cho di động.
+*   **Hệ thống quy chuẩn bảng biển chỉ dẫn & thông tin toàn trường (Campus Signage & Wayfinding System):** Thiết lập quy chuẩn nhận diện chi tiết cho toàn bộ hệ thống biển hiệu, bảng tin và chỉ dẫn thông tin trong toàn bộ khuôn viên, giảng đường của nhà trường:
+    1.  *Hệ thống biển chỉ dẫn ngoài trời:* Thiết kế quy chuẩn cổng chính (Logo + tên trường), bảng sơ đồ tổng thể toàn trường (khổ lớn A0 đặt tại sảnh chính hoặc cổng trường), biển chỉ hướng đi đến các khu giảng đường, hội trường, ký túc xá.
+    2.  *Hệ thống biển tên tòa nhà:* Bản vẽ thiết kế marquette biển tên các khu nhà (như nhà H1, H2, A1, v.v.) treo ngoài trời và lối vào sảnh.
+    3.  *Hệ thống biển chỉ dẫn trong nhà (Wayfinding):* Biển sơ đồ tầng (đặt cạnh thang máy/cầu thang bộ), biển chỉ hướng hành lang, biển hướng dẫn thoát hiểm và sơ đồ phòng cháy chữa cháy (PCCC) tiêu chuẩn.
+    4.  *Hệ thống biển phòng ban & giảng đường:* Thiết kế mẫu biển tên phòng làm việc cán bộ, biển phòng học, biển phòng thí nghiệm, phòng hội thảo (quy định rõ kích thước, chất liệu mica/inox, phương án lắp đặt).
+    5.  *Hệ thống bảng thông tin công cộng:* Thiết kế quy chuẩn bảng tin thông báo của nhà trường, bảng tin của các khoa/viện đặt tại hành lang giảng đường.
 *   **Thiết kế Khung Quy chuẩn Quà tặng Thương hiệu (Brand Gift Design Framework):** Thiết lập tiêu chuẩn và định hướng mỹ thuật quà tặng theo phân cấp đối tượng:
     1.  *Quà tặng Lãnh đạo cao cấp:* Mẫu quà khánh tiết và đối ngoại VIP (sổ da dập chìm ép kim, bút ký laser, kỷ niệm chương pha lê chế tác cẩu tháp tinh xảo).
     2.  *Quà tặng Khách hàng & Cán bộ, giảng viên:* Quà tặng hội thảo, sự kiện thường niên (ô cầm tay Cobalt Blue, bình giữ nhiệt, cốc sứ).
     3.  *Quà tặng Sinh viên & Ứng viên tuyển dụng:* Quà tặng quảng bá diện rộng (áo polo cotton thêu logo, túi vải canvas thân thiện môi trường).
     4.  *Quà tặng theo Chiến dịch:* Định hướng thiết kế các ấn phẩm quà tặng lưu niệm theo mốc thời gian.
-*   **Thiết kế lại Giao diện Website (Web UI/UX Redesign):** Thiết kế UI/UX hiện đại (bàn giao Figma UI Kit) cho trang chủ Portal trường, trang tuyển sinh, và khung giao diện (template) dùng chung cho website 13+ Khoa và Viện nghiên cứu. Tối ưu hiển thị Responsive cho di động.
 *   **Bảo hộ sở hữu trí tuệ (IP Protection):** Đại diện thực hiện toàn bộ thủ tục pháp lý, soạn thảo hồ sơ nộp đơn đăng ký bảo hộ độc quyền nhãn hiệu và logo HUCE tại Cục Sở hữu Trí tuệ cho 4 nhóm sản phẩm/dịch vụ cốt lõi (Nhóm 41, 16, 25, 35).
-*   **Landing Page Giới thiệu:** Thiết kế và lập trình Landing Page giới thiệu thương hiệu HUCE tích hợp theo dõi lượt truy cập và cổng VietQR tự động.
-*   **Biên soạn tổng hợp PlayBook - Media Kit & Dịch vụ xuất bản in ấn:** Tổng hợp và đóng gói bộ Brand Playbook hoàn chỉnh, đóng gói Digital Media Kit (bao gồm các file thiết kế gốc chuẩn, logo, icons, templates ready-to-use). Đảm bảo dịch vụ in ấn xuất bản 15 cuốn Playbook cao cấp bìa cứng khổ ngang, giấy mỹ thuật chuyên dụng, bìa ép nhũ lưu hành nội bộ.
+*   **Xây dựng Nền tảng Thư viện số & Cổng thông tin Thương hiệu HUCE (Brand Portal & Resource Hub):** Thiết lập và lập trình cổng thông tin Brand Portal trực tuyến phục vụ lưu trữ số tập trung toàn bộ tài nguyên thương hiệu HUCE:
+    1.  *Chức năng lưu trữ:* Chứa file PDF tương tác cuốn Brand Guidelines, cuốn Brand Playbook, kịch bản truyền thông và toàn bộ tài nguyên số Digital Media Kit.
+    2.  *Đối tượng sử dụng:* Phân quyền tài khoản đăng nhập nội bộ cho cán bộ giảng viên và sinh viên trường để tải tài nguyên chuẩn phục vụ công tác và học tập; cung cấp giao diện công khai một phần để các cơ quan báo chí, đối tác truyền thông tải logo gốc và tài liệu giới thiệu chuẩn của trường.
+    3.  *Đặc tính kỹ thuật:* Website thiết kế hiện đại, responsive hoàn toàn trên di động, hỗ trợ tải tài nguyên nhanh chóng (file .Ai, .Png, .Pdf) kèm mã QR hướng dẫn truy cập nhanh.
+*   **Biên soạn tổng hợp PlayBook - Media Kit & Dịch vụ xuất bản in ấn tài liệu:** Sự khác biệt và định nghĩa rõ ràng giữa hai tài liệu:
+    1.  *Brand Playbook (Sổ tay tác nghiệp thương hiệu):* Là cẩm nang hướng dẫn cách thức triển khai, vận hành và quản lý truyền thông thực tế. Nó bao gồm quy trình tác nghiệp truyền thông (SOPs), kịch bản ứng phó sự cố dư luận trực tuyến, định hướng tông giọng (tone of voice), quy cách tổ chức sự kiện và cách thức phối hợp đa phòng ban. Đây là tài liệu nghiệp vụ hành chính phục vụ vận hành, được in ấn xuất bản thành 15 cuốn cao cấp bìa cứng khổ ngang, giấy mỹ thuật chuyên dụng, bìa ép nhũ lưu hành nội bộ.
+    2.  *Digital Media Kit (Bộ tài nguyên truyền thông số):* Là bộ tài nguyên đồ họa số đã được chuẩn hóa và đóng gói sẵn để sử dụng ngay (ready-to-use). Nó bao gồm các file thiết kế logo gốc ở các định dạng đồ họa (.Ai, .Eps, .Svg, .Png), hệ thống icon đơn sắc, font chữ chuẩn, slide template, mẫu chữ ký email, và các tài liệu hướng dẫn nhanh dạng PDF để cung cấp trực tiếp cho các đối tác truyền thông, báo chí khi cần truyền thông ngoài.
 
 ---
 
@@ -58,15 +79,14 @@ Giải pháp xây dựng quy trình tác nghiệp truyền thông chuyên nghi�
 | :---: | :--- | :---: | :---: | :---: | :---: |
 | **I** | **GÓI 1: CHUẨN HÓA NHẬN DIỆN THƯƠNG HIỆU & BẢO HỘ PHÁP LÝ SHTT** | | | | **500,000,000** |
 | 1 | Tinh chỉnh số hóa logo, thiết kế bộ cẩm nang thương hiệu | 1 | Gói | 75,000,000 | 75,000,000 |
-| 2 | Thiết kế Bộ ấn phẩm văn phòng (Office Stationery) | 1 | Gói | 45,000,000 | 45,000,000 |
+| 2 | Thiết kế Bộ ấn phẩm văn phòng (Office Stationery - 10 hạng mục) | 1 | Gói | 45,000,000 | 45,000,000 |
 | 3 | Thiết kế Bộ tài sản truyền thông số (Digital Assets) | 1 | Gói | 35,000,000 | 35,000,000 |
 | 4 | Thiết kế lại Giao diện hệ thống Website trường (Web UI/UX Redesign) | 1 | Gói | 90,000,000 | 90,000,000 |
-| 5 | Thiết kế Bộ nhận diện khuôn viên trường (Campus Branding) | 1 | Gói | 65,000,000 | 65,000,000 |
-| 6 | Thiết kế Bộ nhận diện Sự kiện và Lễ kỷ niệm (Event Branding) | 1 | Gói | 55,000,000 | 55,000,000 |
-| 7 | Thiết kế Khung Quy chuẩn Quà tặng Thương hiệu (Brand Gift Design Framework) | 1 | Gói | 50,000,000 | 50,000,000 |
-| 8 | Dịch vụ tư vấn pháp lý & Nộp đơn Đăng ký bảo hộ độc quyền nhãn hiệu (SHTT) | 1 | Gói | 30,000,000 | 30,000,000 |
-| 9 | Sản xuất Landing Page Giới thiệu Thương hiệu HUCE | 1 | Gói | 30,000,000 | 30,000,000 |
-| 10 | Biên soạn tổng hợp PlayBook - Media Kit và dịch vụ xuất bản in ấn tài liệu lưu hành | 1 | Gói | 25,000,000 | 25,000,000 |
+| 5 | Quy chuẩn Hệ thống nhận diện bảng biển chỉ dẫn & thông tin toàn trường | 1 | Gói | 65,000,000 | 65,000,000 |
+| 6 | Thiết kế Khung Quy chuẩn Quà tặng Thương hiệu (Brand Gift Design Framework) | 1 | Gói | 50,000,000 | 50,000,000 |
+| 7 | Dịch vụ tư vấn pháp lý & Nộp đơn Đăng ký bảo hộ độc quyền nhãn hiệu (SHTT) | 1 | Gói | 30,000,000 | 30,000,000 |
+| 8 | Xây dựng Nền tảng Thư viện số & Cổng thông tin Thương hiệu HUCE (Brand Portal) | 1 | Gói | 85,000,000 | 85,000,000 |
+| 9 | Biên soạn tổng hợp PlayBook - Media Kit và dịch vụ xuất bản in ấn tài liệu lưu hành | 1 | Gói | 25,000,000 | 25,000,000 |
 | **II** | **GÓI 2: TƯ VẤN QUY TRÌNH QUẢN LÝ & DỊCH VỤ VẬN HÀNH WEBSITE ĐỒNG HÀNH** | | | | **300,000,000** |
 | 1 | Tư vấn quy trình quản lý truyền thông & Nền tảng hoạt động chuẩn hóa | 1 | Gói | 120,000,000 | 120,000,000 |
 | 2 | Dịch vụ chăm sóc, cập nhật nội dung & Điều hành hệ thống website HUCE (12 tháng) | 12 | Tháng | 15,000,000 | 180,000,000 |
@@ -83,6 +103,7 @@ Giải pháp xây dựng quy trình tác nghiệp truyền thông chuyên nghi�
 | 1.1 | Thiết kế Banner/Poster sự kiện lẻ | Thiết kế Key Visual sự kiện, bàn giao file in ấn & định dạng số. | Ấn phẩm | 2,500,000 | Đã gồm 02 phương án lựa chọn. |
 | 1.2 | Biên tập bài viết PR sự kiện | Độ dài 800 - 1200 từ chuẩn SEO, đính kèm 3-5 ảnh xử lý cơ bản. | Bài viết | 1,500,000 | Biên tập viên ConsMedia viết. |
 | 1.3 | Booking đăng bài trên báo chí lớn | VietnamNet, VnExpress, Dân Trí, Tiền Phong hoặc báo Xây dựng. | Lượt | 12,000,000 | Dao động theo vị trí trang mục. |
+| 1.4 | Thiết kế Hệ thống nhận diện Sự kiện & Lễ kỷ niệm trọn gói (Event Branding Kit) | Thiết kế trọn gói hình ảnh sự kiện: Key Visual, Backdrop sân khấu chính, Standee chỉ dẫn, Thư mời (bản in & digital), Băng rôn đường phố, Thẻ BTC & Lễ tân, Hashtag cầm tay và quà lưu niệm lẻ sự kiện. | Gói | 55,000,000 | Áp dụng cho các sự kiện trọng thể như Lễ kỷ niệm H60, khai giảng, bế giảng... |
 | **2** | **Quay phim & Livestream** | | | | |
 | 2.1 | Chụp ảnh sự kiện chuyên nghiệp | 01 photographer máy Sony A7R4, giao file gốc & 100 ảnh retouch. | Buổi | 3,500,000 | Buổi = 4 tiếng. |
 | 2.2 | Quay phim Highlight sự kiện | 02 Cameraman Sony FX3 chuyên nghiệp, sản xuất clip Highlight 3p 4K. | Video | 18,000,000 | Bàn giao sau 3 ngày làm việc. |
