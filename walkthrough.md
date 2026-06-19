@@ -48,6 +48,10 @@ Do rút sản phẩm Playbook khỏi Gói 1, giá trị các hạng mục trong 
     *   *Giai đoạn 5: Đồng hành Vận hành & Duy trì Kênh số*
     *   *Giai đoạn 6: Bảo trì, Gia hạn & Đồng hành Pháp lý*
 
+### 7. Điều chỉnh Bổ sung & Sửa lỗi theo yêu cầu mới nhất (19/06/2026)
+*   **Sửa viết tắt tên trường**: Ở phần **Thông tin chung dự án** ở Trang 1 (Tổng quan), trường thông tin `Khách hàng` đã được cập nhật từ viết tắt `Trường ĐHXD HN` thành tên viết đầy đủ chuẩn xác: **`Trường Đại học Xây dựng Hà Nội`**.
+*   **Ẩn tính năng xuất bản PDF**: Do cơ chế xuất bản in ấn PDF trực tiếp từ trình duyệt đang gặp một số lỗi hiển thị trang và chưa được cấu hình hoàn thiện, toàn bộ mục **Xuất Bản PDF Khổ A4** trong thanh Sidebar điều hướng đã được ẩn tạm thời (`display: none;`) để nâng cao trải nghiệm người dùng trên môi trường chạy trực tuyến.
+
 ---
 
 ## 🛠️ Trạng thái Triển khai Kỹ thuật & Xác minh
@@ -60,4 +64,4 @@ Do rút sản phẩm Playbook khỏi Gói 1, giá trị các hạng mục trong 
     *   Gói 2: 300,000,000 VND (Tư vấn & Playbook: 120M, Điều hành Web 12 tháng: 180M).
     *   Tổng cộng: 800,000,000 VND.
 3.  **Đồng bộ Git & Live Deploy**:
-    *   Tất cả thay đổi đã được staged, commit và push thành công lên repository GitHub: `https://github.com/QuangZo/HUCE-H60.git` (commit `1fad27c`).
+    *   Tất cả thay đổi đã được staged, commit và push thành công lên repository GitHub: `https://github.com/QuangZo/HUCE-H60.git` (commit `245ea07`).
