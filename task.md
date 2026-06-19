@@ -1,26 +1,38 @@
-# Danh mục công việc (TODO List) - Tối giản hóa Sư phạm & Chuẩn hóa Hành chính HUCE H60
+# Danh mục công việc (TODO List) - Tái cơ cấu trọng tâm sang Thương hiệu HUCE
 
-- `[x]` **Cấu hình CSS Giao diện sáng (Light Theme) và UTM Avo:**
-  - `[x]` Cập nhật `:root` variables: đổi nền tối thành trắng/xám sáng, chữ thành slate-900/slate-600, giữ nguyên xanh Royal Blue `#002a5c` cho primary.
-  - `[x]` Thiết lập `font-family` của body và tất cả tiêu đề h1-h6 thành `'UTM Avo', 'Segoe UI', Arial, sans-serif`.
-  - `[x]` Cập nhật giao diện sidebar thành nền xám nhạt `#f1f5f9` với viền `#e2e8f0` và chữ tối màu.
-  - `[x]` Khôi phục hiển thị tự nhiên của logo ConsMedia trên nền sáng (bỏ filter invert).
-  - `[x]` Cấu hình lại các Panel Cards thành nền trắng tinh, bóng đổ rất nhẹ, phẳng, không có glassmorphism hay gradient phát sáng.
-  - `[x]` Làm phẳng các ô SWOT và cột mốc Pillars với viền màu dịu và nền sáng tương ứng.
+## Giai đoạn 1: Hoàn thiện Bộ tài liệu Nghiên cứu (.md)
 
-- `[x]` **Chuyển đổi giả lập Mockup di động và iPad sang giao diện sáng:**
-  - `[x]` Đổi nền màn hình giả lập `.phone-screen` và `.ipad-screen` thành `#f8fafc`.
-  - `[x]` Chuyển header app di động sang màu xanh `#002a5c` chữ trắng đồng bộ.
-  - `[x]` Thiết lập các thẻ card di động và dropdown menu thành nền trắng `#ffffff`, chữ tối `#0f172a` và viền xám nhạt `#e2e8f0`.
-  - `[x]` Đổi footer tabbar di động thành nền trắng `#ffffff` và viền `#e2e8f0`.
+- `[x]` **Cập nhật Báo cáo 01: Đánh giá sức khỏe thương hiệu và cảnh báo bảo hộ pháp lý HUCE:**
+  - `[x]` Thay thế toàn bộ định danh "Chiến dịch H60" bằng "Hệ thống Thương hiệu HUCE".
+  - `[x]` Rephrase các bối cảnh để làm rõ H60 là cột mốc kích hoạt sự cần thiết, còn cốt lõi là Thương hiệu HUCE lâu dài.
+  - `[x]` Chuyển đổi các mô tả mục tiêu và giải pháp tương thích.
 
-- `[x]` **Chuẩn hóa viết hoa và văn phong hành chính Việt Nam (Nghị định 30/2020/NĐ-CP):**
-  - `[x]` Cập nhật mục lục trên sidebar (chữ thường cho danh từ chung).
-  - `[x]` Rà soát và cập nhật tiêu đề các trang chính (Page 0 đến Page 4).
-  - `[x]` Thay thế toàn bộ ký tự `&` trong các tiêu đề thành từ `và`.
-  - `[x]` Đảm bảo viết hoa đúng các danh từ riêng: *Ban Giám hiệu*, *Ban Tổ chức*, *Trường Đại học Xây dựng Hà Nội*, *ConsMedia*, *HUCE*, *MOU*, *cựu sinh viên*, *Đoàn thanh niên*.
+- `[x]` **Cập nhật Báo cáo 02: Bản đề xuất hành động theo cơ chế đối tác truyền thông:**
+  - `[x]` Cập nhật dự án và tiêu đề ba trụ cột hành động chính tập trung vào Thương hiệu HUCE.
+  - `[x]` Sửa đổi mục tiêu Trụ cột 3 phục vụ các hoạt động/ngày lễ lớn thường niên, không đóng khung trong H60.
+  - `[x]` Tái cấu trúc cơ chế phối hợp và phòng ngừa xử lý khủng hoảng nhãn hiệu lâu dài.
 
-- `[x]` **Đồng bộ hóa các file và Xác minh:**
-  - `[x]` Đồng bộ hóa mã nguồn sang 4 tệp HTML trong workspace.
-  - `[x]` Đảm bảo tính toán ngân sách và tag balance cân bằng tuyệt đối.
-  - `[x]` Xác minh hiển thị trực quan offline.
+- `[x]` **Cập nhật Báo cáo 03: Bản đề xuất giải pháp và bảng báo giá chi tiết:**
+  - `[x]` Cập nhật tên dự án và danh mục deliverables (Slide template thương hiệu, áo Polo thương hiệu, Landing Page thương hiệu, bảo hộ SHTT).
+  - `[x]` Cập nhật tên các gói sản phẩm và bảng giá cố định 800M (Gói 1: 500M, Gói 2.1: 120M, Gói 2.2: 180M).
+  - `[x]` Cấu trúc lại bảng giá lẻ cho các sự kiện thường niên của trường.
+
+- `[x]` **Đồng bộ hóa & Báo cáo Giai đoạn 1:**
+  - `[x]` Lưu trữ và đồng bộ hóa các tệp nghiên cứu (.md) sang cả thư mục làm việc và thư mục Brain.
+  - `[x]` Trình bày kết quả nghiên cứu và nhận ý kiến phản hồi của người dùng trước khi chuyển sang Giai đoạn 2 (sửa HTML).
+
+---
+
+## Giai đoạn 2: Cấu trúc lại Giao diện Trang đề xuất HTML
+
+- `[x]` **Điều chỉnh thanh Sidebar:**
+  - `[x]` Đổi tiêu đề dự án từ "HUCE H60" thành "THƯƠNG HIỆU HUCE".
+  - `[x]` Đổi text mô tả dưới logo từ "Đề xuất tư vấn truyền thông tổng thể H60" thành "Đề xuất tư vấn xây dựng hệ thống thương hiệu".
+- `[x]` **Đồng bộ hóa tiêu đề & nội dung các Trang:**
+  - `[x]` Đổi tiêu đề chính Page 0 thành "Xây Dựng và Bảo Vệ Hệ Thống Thương Hiệu HUCE".
+  - `[x]` Đồng bộ hóa các tiêu đề, mô tả và chi tiết của Page 1, Page 2, Page 3 theo đúng specs mới.
+- `[x]` **Đồng bộ hóa Interactive Calculator:**
+  - `[x]` Cập nhật nhãn và tooltip các checkbox tính toán chi phí theo đúng tên gói thương hiệu mới.
+- `[x]` **Xác minh hiển thị & Kiểm thử:**
+  - `[x]` Kiểm tra tính toàn vẹn cấu trúc file HTML (div balance, logic JS).
+  - `[x]` Đẩy lên Git và kiểm tra hiển thị trực tuyến.

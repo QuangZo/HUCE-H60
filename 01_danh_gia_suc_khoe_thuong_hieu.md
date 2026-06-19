@@ -1,6 +1,6 @@
 # BẢN ĐÁNH GIÁ SỨC KHỎE THƯƠNG HIỆU VÀ CẢNH BÁO BẢO HỘ PHÁP LÝ HUCE
 **Tài liệu Tư vấn Chiến lược Thương hiệu & Định vị Truyền thông**  
-**Dự án: Chiến dịch Kỷ niệm 70 năm đào tạo, 60 năm thành lập Trường (HUCE H60)**  
+**Dự án: Chuẩn hóa Nhận diện và Xây dựng Hệ thống Thương hiệu HUCE**  
 
 ---
 
@@ -9,9 +9,9 @@
 Hiện tại, Trường Đại học Xây dựng Hà Nội (HUCE) đang đứng trước 3 nhu cầu cấp thiết về mặt thương hiệu và truyền thông:
 1.  **Chuẩn hóa và Đồng bộ hình ảnh:** Khắc phục triệt để sự phân mảnh hình ảnh và sai lệch màu sắc ở các khoa/phòng ban.
 2.  **Quy trình quản lý và Điều phối truyền thông:** Xây dựng quy chế tác nghiệp, kênh truyền thông thống nhất nhằm nâng cao năng lực phản ứng nhanh, tránh khủng hoảng dư luận.
-3.  **Hạ tầng và các dịch vụ truyền thông sự kiện:** Đồng hành vận hành các nền tảng trực tuyến (website) và sản xuất các ấn phẩm truyền thông, sự kiện thực tế trong năm 2026 (Đại lễ H60).
+3.  **Hạ tầng và các dịch vụ truyền thông sự kiện:** Đồng hành vận hành các nền tảng trực tuyến (website) và sản xuất các ấn phẩm truyền thông, sự kiện thực tế của trường.
 
-*Chiến dịch H60 là đòn bẩy và điều kiện cần thiết để kích hoạt các hành động này nhằm giải quyết các vấn đề cốt lõi dưới đây của nhà trường.*
+*Các hành động này nhằm giải quyết triệt để các vấn đề cốt lõi dưới đây về thương hiệu và truyền thông của nhà trường, trong đó cột mốc Đại lễ H60 đóng vai trò là động lực thúc đẩy.*
 
 ---
 
@@ -66,7 +66,7 @@ Qua khảo sát thực tế bộ tài liệu nhận diện `BỘ NHẬN DIỆN M
 | :--- | :--- |
 | - Lịch sử 70 năm đào tạo, uy tín học thuật cao.<br>- Đạt chuẩn kiểm định HCERES (Pháp) và AUN-QA.<br>- Mạng lưới cựu sinh viên hùng hậu toàn quốc. | - Hệ thống nhận diện số chưa đồng bộ, vỡ nét.<br>- Thương hiệu chưa được đăng ký bảo hộ SHTT.<br>- Giao diện website lỗi thời, tốc độ tải chậm. |
 | **CƠ HỘI (OPPORTUNITIES)** | **THÁCH THỨC (THREATS)** |
-| - Đòn bẩy Đại lễ H60 để kích hoạt tái định vị số.<br>- Nhu cầu nhân lực các ngành công nghệ/đô thị xanh.<br>- Khai thác nguồn lực đối lưu tài trợ doanh nghiệp. | - Xu hướng chọn ngành công nghệ thay vì xây dựng.<br>- Đối thủ cạnh tranh tuyển sinh truyền thông mạnh mẽ.<br>- Rủi ro mất quyền sở hữu trí tuệ thương hiệu HUCE. |
+| - Cột mốc chuyển đổi số để kích hoạt tái định vị thương hiệu.<br>- Nhu cầu nhân lực các ngành công nghệ/đô thị xanh.<br>- Khai thác nguồn lực đối lưu tài trợ doanh nghiệp. | - Xu hướng chọn ngành công nghệ thay vì xây dựng.<br>- Đối thủ cạnh tranh tuyển sinh truyền thông mạnh mẽ.<br>- Rủi ro mất quyền sở hữu trí tuệ thương hiệu HUCE. |
 
 ---
 

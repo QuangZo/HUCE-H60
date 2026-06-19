@@ -1,19 +1,19 @@
 # BẢN ĐỀ XUẤT HÀNH ĐỘNG THEO CƠ CHẾ ĐỐI TÁC TRUYỀN THÔNG (MEDIA PARTNERSHIP ACTION PROPOSAL)
-**Dự án: Chiến dịch Kỷ niệm 70 năm đào tạo, 60 năm thành lập Trường (HUCE H60)**  
+**Dự án: Chuẩn hóa Nhận diện và Xây dựng Hệ thống Thương hiệu HUCE**  
 
 ---
 
 ## 1. BA TRỤ CỘT HÀNH ĐỘNG TRỌNG TÂM
 
-Để giải quyết triệt để các vấn đề cấp bách của HUCE, ConsMedia đề xuất lộ trình hành động tập trung vào 3 trụ cột cốt lõi dưới đây:
+Để giải quyết triệt để các vấn đề của HUCE, ConsMedia đề xuất lộ trình hành động tập trung vào 3 trụ cột cốt lõi dưới đây:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                              BA TRỤ CỘT HÀNH ĐỘNG HUCE H60                             │
+│                             BA TRỤ CỘT HÀNH ĐỘNG THƯƠNG HIỆU HUCE                      │
 ├────────────────────┬────────────────────────────────────┬──────────────────────────────┤
 │     TRỤ CỘT 1      │             TRỤ CỘT 2              │          TRỤ CỘT 3           │
 │ Chuẩn hóa Nhận diện│  Quy trình điều phối & Vận hành   │    Dịch vụ truyền thông      │
-│   & Bảo hộ SHTT    │        kênh truyền thông           │   sự kiện gia tăng (H60)     │
+│   & Bảo hộ SHTT    │        kênh truyền thông           │   sự kiện gia tăng (On-demand)│
 └────────────────────┴────────────────────────────────────┴──────────────────────────────┘
 ```
 
@@ -29,11 +29,11 @@
 *   **Mục tiêu:** Thiết lập quy trình làm việc chuẩn hóa, tăng tốc độ xuất bản thông tin và đảm bảo hệ thống website hoạt động sinh động, an toàn.
 *   **Hành động chủ chốt:**
     1.  Biên soạn bộ quy trình tác nghiệp truyền thông (SOPs) chuẩn từ khâu viết bài, thiết kế banner đến phê duyệt đa cấp di động.
-    2.  Xây dựng lịch biên tập (Editorial Calendar) tổng thể định hướng nội dung đa kênh.
-    3.  Cung cấp dịch vụ **chăm sóc và vận hành website đồng hành 12 tháng năm 2026** (Kỹ thuật bảo trì máy chủ, biên tập tin bài chuẩn SEO, thiết kế banner vận hành thường nhật).
+    2.  Lập khung lịch biên tập (Editorial Calendar) tổng thể định hướng nội dung đa kênh.
+    3.  Cung cấp dịch vụ **chăm sóc và vận hành website đồng hành 12 tháng** (Kỹ thuật bảo trì máy chủ, biên tập tin bài chuẩn SEO, thiết kế banner vận hành thường nhật).
 
 ### Trụ cột 3: Các dịch vụ truyền thông sự kiện gia tăng (On-demand Services)
-*   **Mục tiêu:** Đáp ứng nhu cầu truyền thông sự kiện thực tế trong chuỗi đại lễ H60 và các hội thảo khoa học lớn của trường.
+*   **Mục tiêu:** Đáp ứng nhu cầu truyền thông các sự kiện học thuật, đối ngoại và ngày lễ lớn của trường.
 *   **Hành động chủ chốt:**
     1.  Cung cấp dịch vụ quay phim Highlight 4K, chụp ảnh sự kiện lấy nhanh phục vụ đăng bài mạng xã hội tức thời.
     2.  Cung cấp dịch vụ livestream đa góc máy chất lượng cao phát trực tiếp lên Fanpage & YouTube trường.
@@ -79,6 +79,6 @@ sequenceDiagram
 
 ## 4. KẾT LUẬN & HÀNH ĐỘNG NGAY (IMMEDIATE ACTIONS)
 
-Để đảm bảo tiến độ triển khai kịp thời trước thềm các sự kiện lớn, hai bên thống nhất:
+Để đảm bảo tiến độ triển khai kịp thời, hai bên thống nhất:
 1.  **Triển khai trước các đầu việc thiết kế qua MOU:** Ký kết Biên bản ghi nhớ để ConsMedia bắt tay ngay vào việc tinh chỉnh logo, làm đăng ký bảo hộ sở hữu trí tuệ sớm nhằm tránh rủi ro mất quyền đăng ký nhãn hiệu.
 2.  **Nghiệm thu thanh toán theo giai đoạn:** Thực hiện ký kết hợp đồng và nghiệm thu cuốn chiếu theo từng gói sản phẩm cố định độc lập (Gói 1 hoàn thành nghiệm thu bàn giao file gốc, Gói 2 nghiệm thu dịch vụ vận hành hàng tháng).

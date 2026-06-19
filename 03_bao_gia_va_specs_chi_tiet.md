@@ -1,8 +1,8 @@
-# BẢN ĐỀ XUẤT GIẢI PHÁP & BẢNG BÁO GIÁ CHI TIẾT TRUYỀN THÔNG HUCE
-**Dự án: Chiến dịch Kỷ niệm 70 năm đào tạo, 60 năm thành lập Trường (HUCE H60)**  
+# BẢN ĐỀ XUẤT GIẢI PHÁP & BẢNG BÁO GIÁ CHI TIẾT THƯƠNG HIỆU HUCE
+**Dự án: Chuẩn hóa Nhận diện và Xây dựng Hệ thống Thương hiệu HUCE**  
 
 > [!NOTE]
-> *   **Kính gửi:** PGS.TS. Hoàng Tùng - Hiệu trưởng, Trưởng Ban Tổ chức H60 & Ban Giám hiệu Trường Đại học Xây dựng Hà Nội (HUCE).
+> *   **Kính gửi:** PGS.TS. Hoàng Tùng - Hiệu trưởng & Ban Giám hiệu Trường Đại học Xây dựng Hà Nội (HUCE).
 > *   **Đơn vị thực hiện:** Công ty Cổ phần Truyền thông Xây dựng ConsMedia (CONSMEDIA).
 >     *   *Đại diện:* KTS. Tạ Đức Quang - Tổng Giám đốc.
 
@@ -21,18 +21,18 @@ Giải pháp tập trung chuẩn hóa hệ thống hình ảnh, nâng cao chất
 ### 2. Danh mục bàn giao chi tiết (Deliverables List)
 *   **Logo Refinement:** 01 Logo gốc hoàn chỉnh tối ưu lưới hình học và 04 phiên bản ứng dụng chuẩn (.Ai, .Eps, .Svg).
 *   **Brand Guidelines:** Hệ thống quy chuẩn kiểu chữ (Typography), bảng màu chuẩn HSL Cobalt Blue di sản, hệ lưới đồ họa họa tiết pattern, hướng dẫn sử dụng.
-*   **Office Stationery (Ấn phẩm văn phòng):** Thiết kế danh thiếp, letterhead (bản in & file Word), phong bì thư (A4, A5, DL), kẹp file tài liệu, Slide Template PowerPoint H60 (30 layout chuyên nghiệp).
+*   **Office Stationery (Ấn phẩm văn phòng):** Thiết kế danh thiếp, letterhead (bản in & file Word), phong bì thư (A4, A5, DL), kẹp file tài liệu, Slide Template PowerPoint thương hiệu HUCE (30 layout chuyên nghiệp).
 *   **Digital Assets (Tài sản số):** 05 khung ảnh bài đăng Facebook, email signature, 05 virtual backgrounds cho Zoom/Teams.
-*   **Thiết kế quà tặng thương hiệu (Gift Design):** Sổ da dập chìm, bút ký kim loại khắc laser, kỷ niệm chương pha lê đúc nổi, ô cầm tay gấp ngược Cobalt Blue, bình giữ nhiệt, áo thun Polo H60 (cotton cao cấp thêu logo), túi giấy kraft thân thiện môi trường, hộp quà tặng VIP lót nhung.
+*   **Thiết kế quà tặng thương hiệu (Gift Design):** Sổ da dập chìm, bút ký kim loại khắc laser, kỷ niệm chương pha lê đúc nổi, ô cầm tay gấp ngược Cobalt Blue, bình giữ nhiệt, áo thun Polo thương hiệu HUCE (cotton cao cấp thêu logo), túi giấy kraft thân thiện môi trường, hộp quà tặng VIP lót nhung.
 *   **Thiết kế lại Giao diện Website (Web UI/UX Redesign):** Thiết kế UI/UX hiện đại (bàn giao Figma UI Kit) cho trang chủ Portal trường, trang tuyển sinh, và khung giao diện (template) dùng chung cho website 13+ Khoa và Viện nghiên cứu. Tối ưu hiển thị Responsive cho di động.
 *   **Bảo hộ sở hữu trí tuệ (IP Protection):** Đại diện thực hiện toàn bộ thủ tục pháp lý, soạn thảo hồ sơ nộp đơn đăng ký bảo hộ độc quyền nhãn hiệu và logo HUCE tại Cục Sở hữu Trí tuệ cho 4 nhóm sản phẩm/dịch vụ cốt lõi (Nhóm 41, 16, 25, 35).
-*   **Landing Page H60:** Thiết kế và lập trình Landing Page truyền thông Đại lễ H60 tích hợp theo dõi lượt truy cập và cổng VietQR tự động.
+*   **Landing Page Giới thiệu:** Thiết kế và lập trình Landing Page giới thiệu thương hiệu HUCE tích hợp theo dõi lượt truy cập và cổng VietQR tự động.
 
 ---
 
 ## GÓI 2: TƯ VẤN QUY TRÌNH QUẢN LÝ & VẬN HÀNH WEBSITE ĐỒNG HÀNH (300.000.000 VND)
 
-Giải pháp xây dựng quy trình tác nghiệp truyền thông chuyên nghiệp và trực tiếp đồng hành vận hành hệ thống thông tin của HUCE trong suốt chiến dịch.
+Giải pháp xây dựng quy trình tác nghiệp truyền thông chuyên nghiệp và trực tiếp đồng hành vận hành hệ thống thông tin của HUCE.
 
 ### 1. Cấu phần II.1: Tư vấn quy trình quản lý & Nền tảng hoạt động chuẩn hóa (120.000.000 VND)
 *   Xây dựng quy trình tác nghiệp truyền thông chuẩn (SOPs) từ khâu tiếp nhận thông tin, viết bài, thiết kế banner đến quy trình phê duyệt đa cấp di động.
@@ -40,10 +40,10 @@ Giải pháp xây dựng quy trình tác nghiệp truyền thông chuyên nghi�
 *   Xây dựng Quy chế & Kịch bản phản ứng nhanh phòng ngừa khủng hoảng truyền thông trực tuyến.
 *   Tập huấn nâng cao năng lực (02 buổi) cho Ban Truyền thông trường và cán bộ Đoàn thanh niên về cách thức viết bài chuẩn SEO, quản trị fanpage và xử lý ảnh cơ bản.
 
-### 2. Cấu phần II.2: Dịch vụ chăm sóc, bảo trì và điều hành Website HUCE (180.000.000 VND - Giai đoạn 1: 12 tháng năm 2026)
+### 2. Cấu phần II.2: Dịch vụ chăm sóc, bảo trì và điều hành Website HUCE (180.000.000 VND - Giai đoạn 1: thời hạn 12 tháng)
 *   Bảo trì kỹ thuật máy chủ, tối ưu tốc độ tải trang, cập nhật bảo mật SSL định kỳ, sao lưu dữ liệu hàng tuần.
 *   Biên tập nội dung, đăng tải tin tức, văn bản thông báo, hình ảnh hoạt động của nhà trường lên website chính thức chuẩn quy chuẩn thẩm mỹ và chuẩn SEO.
-*   Thiết kế banner trang chủ và các đồ họa minh họa sự kiện thường nhật của trường trên website (tối đa 15 banner/tháng).
+*   Thiết kế banner trang chủ và các đồ họa minh họa hoạt động thường nhật của trường trên website (tối đa 15 banner/tháng).
 
 ---
 
@@ -59,10 +59,10 @@ Giải pháp xây dựng quy trình tác nghiệp truyền thông chuyên nghi�
 | 4 | Thiết kế Bộ tài sản truyền thông số (Digital Assets) | 1 | Gói | 20,000,000 | 20,000,000 |
 | 5 | Thiết kế lại Giao diện hệ thống Website trường (Web UI/UX Redesign) | 1 | Gói | 90,000,000 | 90,000,000 |
 | 6 | Thiết kế Bộ nhận diện khuôn viên trường (Campus Branding) | 1 | Gói | 65,000,000 | 65,000,000 |
-| 7 | Thiết kế Bộ nhận diện Đại lễ kỷ niệm H60 (Event Branding H60) | 1 | Gói | 55,000,000 | 55,000,000 |
+| 7 | Thiết kế Bộ nhận diện Sự kiện và Lễ kỷ niệm (Event Branding) | 1 | Gói | 55,000,000 | 55,000,000 |
 | 8 | Gói Thiết kế Quà tặng Thương hiệu HUCE (Brand Gift Design) | 1 | Gói | 50,000,000 | 50,000,000 |
 | 9 | Dịch vụ tư vấn pháp lý & Nộp đơn Đăng ký bảo hộ độc quyền nhãn hiệu (SHTT) | 1 | Gói | 30,000,000 | 30,000,000 |
-| 10 | Sản xuất Landing Page Chiến dịch H60 (Landing Page Production) | 1 | Gói | 30,000,000 | 30,000,000 |
+| 10 | Sản xuất Landing Page Giới thiệu Thương hiệu HUCE | 1 | Gói | 30,000,000 | 30,000,000 |
 | **II** | **GÓI 2: TƯ VẤN QUY TRÌNH QUẢN LÝ & DỊCH VỤ VẬN HÀNH WEBSITE ĐỒNG HÀNH** | | | | **300,000,000** |
 | 1 | Tư vấn quy trình quản lý truyền thông & Nền tảng hoạt động chuẩn hóa | 1 | Gói | 120,000,000 | 120,000,000 |
 | 2 | Dịch vụ chăm sóc, cập nhật nội dung & Điều hành hệ thống website HUCE | 12 | Tháng | 15,000,000 | 180,000,000 |
@@ -71,7 +71,7 @@ Giải pháp xây dựng quy trình tác nghiệp truyền thông chuyên nghi�
 ---
 
 ## GÓI 3: DỊCH VỤ TRUYỀN THÔNG SỰ KIỆN GIA TĂNG (ON-DEMAND / BOOK-BY-EVENT MENU)
-*Dành cho các sự kiện cụ thể trong chuỗi sự kiện H60 hoặc các sự kiện thường niên khác của trường, HUCE có thể lựa chọn đăng ký lẻ theo nhu cầu.*
+*Dành cho các sự kiện cụ thể hoặc các sự kiện thường niên của trường, HUCE có thể lựa chọn đăng ký lẻ theo nhu cầu.*
 
 ### BẢNG 2: MENU DỊCH VỤ LẺ TRUYỀN THÔNG SỰ KIỆN
 

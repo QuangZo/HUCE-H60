@@ -1,82 +1,72 @@
-# Kế hoạch Triển khai: Tối giản hóa Sư phạm & Chuẩn hóa Hành chính HUCE H60
+# Kế hoạch Triển khai: Tập trung Trọng tâm vào Hệ thống Thương hiệu HUCE
 
-Kế hoạch này phác thảo các thay đổi về mặt thiết kế giao diện và quy chuẩn văn bản hành chính để nâng cấp Cổng thông tin Đề xuất Tư vấn **HUCE H60** (`huce_h60_proposal.html` và `index.html`) sang phong cách tối giản, sư phạm, nền trắng và đồng bộ hóa ngôn ngữ chuẩn văn bản Việt Nam.
+Kế hoạch này phác thảo lộ trình tái cấu trúc toàn diện nội dung đề xuất từ định danh "Chiến dịch H60" sang trọng tâm cốt lõi là **"Hệ thống Thương hiệu HUCE"** (Xây dựng, chuẩn hóa và bảo vệ pháp lý thương hiệu HUCE). 
+
+Đại lễ kỷ niệm H60 chỉ đóng vai trò là cột mốc thời gian và động lực thúc đẩy tính cần thiết, chứ không phải là tên gọi hay ranh giới giới hạn của chiến dịch.
+
+---
 
 ## Yêu cầu Đánh giá từ Người dùng
 
-Chúng tôi cần người dùng xác nhận các nguyên tắc thiết kế mới:
-1. **Kiểu chữ (Font-family):** Sử dụng `UTM Avo` làm phông chữ chính cho toàn bộ văn bản và tiêu đề. Lớp font dự phòng sẽ là `Segoe UI`, `Arial`, `sans-serif` trong trường hợp thiết bị người xem chưa cài sẵn phông chữ UTM này.
-2. **Màu sắc chủ đạo (Light Theme):** Chuyển đổi toàn bộ giao diện từ màu tối (Dark Mode) sang màu sáng (Light Mode) với nền trắng và xám trung tính, chữ màu tối (Slate-900), đồng thời giữ nguyên màu xanh Royal Blue (`#002a5c`) chính thức của HUCE cho các tiêu đề/thành phần quan trọng để giữ tính trang trọng, sư phạm.
-3. **Quy chuẩn Viết hoa Tiếng Việt:** Chuẩn hóa toàn bộ các tiêu đề, nhãn (labels), bảng biểu, mục lục theo Nghị định 30/2020/NĐ-CP (chỉ viết hoa chữ cái đầu tiên của câu/tiêu đề và danh từ riêng/tên cơ quan, viết thường các danh từ chung). Thay thế ký tự `&` bằng từ `và`.
+> [!IMPORTANT]
+> **TIẾN TRÌNH THỰC HIỆN HAI GIAI ĐOẠN:**
+> Theo yêu cầu của bạn, chúng tôi sẽ triển khai công việc theo đúng trình tự:
+> 1. **Giai đoạn 1 (Hoàn thiện trước):** Tái cấu trúc và cập nhật toàn bộ nội dung của bộ 3 tài liệu nghiên cứu (.md) để loại bỏ định danh "Chiến dịch H60", đưa "Thương hiệu HUCE" làm trọng tâm.
+> 2. **Giai đoạn 2 (Thực hiện sau):** Sau khi bạn duyệt bộ tài liệu nghiên cứu mới, chúng tôi mới tiến hành cập nhật giao diện HTML (`index.html` và `huce_h60_proposal.html`).
 
 ---
 
 ## Các Thay đổi Đề xuất
 
-### 1. Thành phần Giao diện & CSS (Light-Theme & UTM Avo)
+### GIAI ĐOẠN 1: CẬP NHẬT BỘ TÀI LIỆU NGHIÊN CỨU (.MD)
 
-#### [MODIFY] [huce_h60_proposal.html](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/huce_h60_proposal.html) (và bản sao index.html ở cả 2 thư mục)
+#### [MODIFY] [01_danh_gia_suc_khoe_thuong_hieu.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/01_danh_gia_suc_khoe_thuong_hieu.md)
+*   **Tiêu đề & Dự án:** Đổi tiêu đề phụ từ "Dự án: Chiến dịch Kỷ niệm 70 năm đào tạo, 60 năm thành lập Trường (HUCE H60)" thành "Dự án: Đề xuất Chuẩn hóa Nhận diện và Xây dựng Hệ thống Thương hiệu HUCE".
+*   **Văn phong:**
+    *   Rephrase các câu chữ coi H60 là mục tiêu duy nhất thành: HUCE Brand là trọng tâm, H60 là cột mốc kích hoạt sự cần thiết.
+    *   Đổi "Gói dịch vụ sự kiện trong năm 2026 (Đại lễ H60)" thành "sản xuất các ấn phẩm truyền thông, sự kiện thực tế của trường".
+    *   Đổi "đòn bẩy Đại lễ H60" thành "cột mốc chuyển đổi số và phát triển để kích hoạt tái định vị thương hiệu".
 
-*   **CSS Variable `:root` (Light Theme):**
-    *   `--primary`: `#002a5c` (Royal Blue chính thức)
-    *   `--primary-light`: `#0a468c`
-    *   `--bg-dark`: `#f8fafc` (Xám nhạt nền ngoài)
-    *   `--card-dark`: `#ffffff` (Nền thẻ trắng)
-    *   `--card-border`: `#cbd5e1` (Đường viền mỏng)
-    *   `--text-light`: `#0f172a` (Chữ tối chính)
-    *   `--text-muted`: `#475569` (Chữ xám phụ)
-    *   `--white`: `#ffffff`
-    *   `--accent`: `#ff9f1c` (Màu cam nhấn, làm phẳng, không hiệu ứng phát sáng)
-*   **CSS Fonts:**
-    *   Thay đổi phông chữ của `body` và tất cả tiêu đề `h1, h2, h3, h4, h5, h6` thành `'UTM Avo', 'Segoe UI', Arial, sans-serif`.
-*   **CSS Sidebar (Thanh điều hướng):**
-    *   Thay đổi nền sidebar thành màu sáng nhạt `#f1f5f9`, viền `#e2e8f0`.
-    *   Bỏ thuộc tính `filter: brightness(0) invert(1)` trên logo ConsMedia để logo hiển thị dạng tối/nguyên bản trên nền sáng.
-    *   Đổi màu chữ các mục nav-item thành `#475569`. Khi active/hover sẽ có màu `#002a5c` trên nền `#cbd5e1` hoặc `#e2e8f0`.
-*   **CSS Panel Cards (Thẻ nội dung):**
-    *   Đổi nền sang màu trắng tinh `#ffffff`, bỏ hiệu ứng làm mờ kính (backdrop-filter) và các gradient phát sáng ở góc.
-    *   Sử dụng bóng đổ rất nhẹ để tạo chiều sâu sư phạm sạch sẽ.
-*   **CSS SWOT & Pillars:**
-    *   Đưa các khối SWOT về dạng hộp phẳng, viền màu nhạt tương ứng: Điểm mạnh (Xanh lá nhạt), Điểm yếu (Đỏ nhạt), Cơ hội (Xanh dương nhạt), Thách thức (Cam nhạt), chữ tối màu dễ đọc.
-*   **CSS App Simulator Mockup (Giả lập di động & iPad):**
-    *   Giữ nguyên khung viền thiết bị màu tối (như màu máy thật) để tăng tính chân thực.
-    *   Chuyển đổi toàn bộ giao diện bên trong màn hình giả lập (`.phone-screen` và `.ipad-screen`) sang giao diện sáng (Light Theme):
-        *   Nền màn hình: `#f8fafc` hoặc `#ffffff`.
-        *   Thanh header app: Giữ màu xanh `#002a5c` với chữ trắng để tạo tính đồng bộ thương hiệu trường học.
-        *   Các thẻ nội dung bên trong app: Nền trắng `#ffffff`, chữ tối `#0f172a`, viền `#e2e8f0`.
-        *   Footer tabbar app: Nền trắng `#ffffff`, viền trên `#e2e8f0`, các biểu tượng tab viết thường chuẩn hóa.
+#### [MODIFY] [02_de_xuat_hanh_dong_va_co_che.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/02_de_xuat_hanh_dong_va_co_che.md)
+*   **Tiêu đề & Dự án:** Đổi tên dự án thành "Chuẩn hóa Nhận diện và Quy trình Vận hành Thương hiệu HUCE".
+*   **Tái cơ cấu 3 trụ cột:**
+    *   Đổi tên sơ đồ và nội dung từ "BA TRỤ CỘT HÀNH ĐỘNG HUCE H60" thành "BA TRỤ CỘT HÀNH ĐỘNG THƯƠNG HIỆU HUCE".
+    *   Trụ cột 3: Chuyển từ "Dịch vụ sự kiện gia tăng (H60)" thành "Dịch vụ truyền thông sự kiện gia tăng (On-demand)".
+    *   Mục tiêu Trụ cột 3: Đổi từ "chuỗi đại lễ H60 và hội thảo lớn" thành "các sự kiện học thuật, đối ngoại và ngày lễ lớn của nhà trường".
+*   **Văn phong phối hợp:** Loại bỏ các mốc thời gian vĩ mô H60, chuyển sang cơ chế phối hợp tác nghiệp thường nhật và quy trình xử lý khủng hoảng nhãn hiệu lâu dài.
 
-### 2. Chuẩn hóa Quy cách Viết hoa & Viết tắt (Nghị định 30/2020/NĐ-CP)
-
-*   **Mục lục thanh Sidebar:**
-    *   `Trang Chủ Chiến Dịch H60` -> `Trang chủ chiến dịch H60`
-    *   `Đánh Giá Sức Khỏe Thương Hiệu` -> `Đánh giá sức khỏe thương hiệu`
-    *   `Đề Xuất Hành Động & Cơ Chế` -> `Đề xuất hành động và cơ chế`
-    *   `Báo Giá & Thuyết Minh Kỹ Thuật` -> `Báo giá và thuyết minh kỹ thuật`
-    *   `Demo App Quản Trị H60` -> `Giả lập ứng dụng quản trị H60`
-*   **Các tiêu đề trang chính:**
-    *   `TRANG CHỦ ĐỀ XUẤT TƯ VẤN CHIẾN LƯỢC` -> `Trang chủ đề xuất tư vấn chiến lược`
-    *   `ĐẠT VẤN ĐỀ & BỐI CẢNH CHIẾN DỊCH` -> `Đặt vấn đề và bối cảnh chiến dịch`
-    *   `SWOT Grid` -> `Ma trận SWOT thương hiệu`
-    *   `4 Trụ Cột` -> `Bốn trụ cột cốt lõi`
-    *   `MA TRẬN PHÂN ĐỊNH TRÁCH NHIỆM PHỐI HỢP (RACI) CHI TIẾT` -> `Ma trận phân định trách nhiệm phối hợp (RACI) chi tiết`
-    *   `QUẢN TRỊ LANDING PAGE` -> `Quản trị landing page`
-    *   `PHÊ DUYỆT THEO LUỒNG (WORKFLOW APPROVAL)` -> `Phê duyệt theo luồng (Workflow approval)`
-    *   `LỊCH TRÌNH & KÊNH TRUYỀN THÔNG CHÍNH THỨC` -> `Lịch trình và kênh truyền thông chính thức`
-    *   `QUẢN LÝ DỰ ÁN & SỰ KIỆN THÀNH PHẦN` -> `Quản lý dự án và sự kiện thành phần`
-*   **Các danh từ riêng được viết hoa chuẩn:**
-    *   `Ban Giám hiệu`, `Ban Tổ chức`, `Trường Đại học Xây dựng Hà Nội`, `ConsMedia`, `HUCE`, `HUCA`, `VietQR`, `MOU`, `cựu sinh viên`, `Đoàn thanh niên`.
+#### [MODIFY] [03_bao_gia_va_specs_chi_tiet.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/03_bao_gia_va_specs_chi_tiet.md)
+*   **Tiêu đề & Dự án:** Đổi tên dự án tương tự trên.
+*   **Hạng mục deliverables:**
+    *   Đổi tên "Slide Template PowerPoint H60" thành "Slide Template PowerPoint thương hiệu HUCE".
+    *   Đổi tên "áo thun Polo H60" thành "áo thun Polo thương hiệu HUCE".
+    *   Đổi tên "Landing Page Chiến dịch H60" thành "Landing Page Giới thiệu Thương hiệu HUCE".
+    *   Đổi tên "Gói 2.2: ... 12 tháng năm 2026" thành "Gói 2.2: ... thời hạn 12 tháng".
+    *   Bảng 1 (Báo giá tĩnh): Đổi tên hạng mục "Thiết kế bộ nhận diện Đại lễ H60" thành "Thiết kế bộ nhận diện Sự kiện và Lễ kỷ niệm (Event Branding)". Đổi tên "Landing Page Chiến dịch H60" thành "Sản xuất Landing Page Giới thiệu Thương hiệu HUCE".
+    *   Bảng 2 (Menu dịch vụ lẻ): Đổi "chuỗi sự kiện H60" thành "các sự kiện thường niên và ngày lễ của trường".
 
 ---
 
-## Kế hoạch Xác minh
+### GIAI ĐOẠN 2: CẬP NHẬT TRANG ĐỀ XUẤT HTML (SAU KHI BỘ TÀI LIỆU ĐƯỢC DUYỆT)
 
-### Thử nghiệm Tự động / Cú pháp
-*   Sử dụng đoạn mã kiểm tra để xác nhận các biến CSS trong cả 4 file HTML đã được cập nhật thành các giá trị Light Theme.
-*   Đo lượng độ cân bằng mở/đóng thẻ `div` sau khi cập nhật cấu trúc.
+#### [MODIFY] [index.html](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/index.html) & [huce_h60_proposal.html](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/huce_h60_proposal.html)
+*   **Thanh Sidebar:** Đổi tiêu đề dự án ở đầu sidebar từ "HUCE H60" thành "THƯƠNG HIỆU HUCE". Đổi text mô tả dưới logo từ "Đề xuất tư vấn truyền thông tổng thể H60" thành "Đề xuất tư vấn xây dựng hệ thống thương hiệu".
+*   **Tiêu đề trang chủ:** Đổi "Chiến Dịch Kỷ Niệm 70 Năm Đào Tạo, 60 Năm Thành Lập HUCE" thành "Xây Dựng và Bảo Vệ Hệ Thống Thương Hiệu HUCE".
+*   **Mục tiêu chiến lược (Page 0):** Loại bỏ từ khóa "H60" trong tiêu đề mục tiêu, chuyển trọng tâm 4 mục tiêu chiến lược sang bảo tồn di sản thương hiệu, trẻ hóa hình ảnh, đồng bộ hóa quy trình tác nghiệp và tối ưu chi phí đối lưu nhãn hiệu.
+*   **Bảng báo giá & Thuyết minh specs (Page 3):**
+    *   Đồng bộ toàn bộ văn bản mô tả, phân nhóm deliverables (từ nhóm 1 đến nhóm 10 của Gói 1 và Gói 2) theo bộ specs mới đã cập nhật ở Giai đoạn 1.
+    *   Đảm bảo hộp tính tiền động (Interactive Calculator) đồng bộ nhãn: Gói 1: Nhận diện & SHTT (500 triệu), Gói 2.1: Quy trình truyền thông (120 triệu), Gói 2.2: Vận hành website (180 triệu). Tổng mặc định: 800 triệu VND.
 
-### Xác minh Thủ công
-1. Mở trực tiếp các file `index.html` và `huce_h60_proposal.html` bằng trình duyệt web.
-2. Xác minh giao diện hiển thị sáng sủa, nền trắng, chữ đen sậm, phông chữ `UTM Avo` hiển thị chính xác.
-3. Kiểm tra mockup điện thoại và máy tính bảng có nền app sáng, chữ rõ ràng, không bị lem màu hay khó đọc.
-4. Rà soát tất cả các tiêu đề lớn nhỏ và mục lục để đảm bảo không còn lỗi viết hoa bừa bãi kiểu tiếng Anh, sử dụng chữ thường cho danh từ chung.
+---
+
+## Lộ trình Xác minh
+
+### Giao đoạn 1:
+*   Đồng bộ hóa 3 file `.md` mới sang cả thư mục làm việc (Workspace) và thư mục lưu trữ Brain để lưu vết.
+*   Rà soát thủ công để đảm bảo không còn các từ khóa mang tính định danh "Chiến dịch H60", "Dự án H60" mà thay vào đó là "Thương hiệu HUCE", "Hệ thống nhận diện thương hiệu HUCE".
+
+### Giai đoạn 2:
+*   Chạy script node tự động tìm kiếm và thay thế trên file `index.html`.
+*   Sao chép sang `huce_h60_proposal.html`.
+*   Kiểm tra tính toàn vẹn của mã nguồn: không lỗi thẻ div, JS chạy trơn tru, LCD hiển thị đúng 800,000,000 VND mặc định khi tích chọn cả 3 gói.
+*   Đẩy lên GitHub và xác minh trên link trực tuyến `https://huce-proposal.consmedia.com/`.
