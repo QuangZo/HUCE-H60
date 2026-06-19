@@ -44,7 +44,7 @@ ConsMedia trân trọng gửi tới Trường Đại học Xây dựng Hà Nội
 
 ### 4.1. Ba Nhóm Hành Động Trọng Tâm (Bỏ từ Trụ cột)
 1.  **Nhóm hành động 1: Chuẩn hóa Nhận diện & Bảo hộ SHTT**  
-    *Chi tiết:* Tinh chỉnh hình học logo, khóa màu cobalt blue, ban hành Guidelines, redesign UI/UX website, đại diện nộp đơn đăng ký bảo hộ SHTT cho nhãn hiệu HUCE (Nhóm 41, 16, 25, 35).
+    *Chi tiết:* Tinh chỉnh logo, Guidelines, thiết kế ấn phẩm văn phòng & tài sản truyền thông số, redesign UI/UX website, đại diện nộp đơn đăng ký bảo hộ SHTT cho nhãn hiệu HUCE (Nhóm 41, 16, 25, 35).
 2.  **Nhóm hành động 2: Quy trình quản lý & Vận hành website**  
     *Chi tiết:* Biên soạn quy trình tác nghiệp truyền thông (SOPs), kịch bản khủng hoảng, cung cấp dịch vụ chăm sóc và biên tập web Portal 12 tháng.
 3.  **Nhóm hành động 3: Truyền thông sự kiện gia tăng lẻ (On-demand)**  
@@ -67,3 +67,14 @@ ConsMedia trân trọng gửi tới Trường Đại học Xây dựng Hà Nội
 | **I** | **GÓI 1: CHUẨN HÓA NHẬN DIỆN THƯƠNG HIỆU & BẢO HỘ PHÁP LÝ SHTT**<br>• Tinh chỉnh logo, lập Guidelines, thiết kế ấn phẩm văn phòng & tài sản truyền thông số.<br>• Thiết kế giao diện Portal trường (Web Redesign UI Kit) & bảng chỉ dẫn bảng hiệu.<br>• Quy chuẩn quà tặng, biên soạn Playbook & nộp đơn bảo hộ nhãn hiệu tại Cục SHTT. | Cuốn chiếu theo các giai đoạn 1, 2, 3, 4 | **500,000,000** *(Cố định trọn gói)* |
 | **II** | **GÓI 2: TƯ VẤN QUY TRÌNH QUẢN LÝ & VẬN HÀNH WEBSITE ĐỒNG HÀNH**<br>• Xây dựng bộ SOPs tác nghiệp truyền thông & kịch bản khủng hoảng trực tuyến.<br>• Đồng hành chăm sóc kỹ thuật, bảo mật SSL, cập nhật tin bài chuẩn SEO website Portal. | 12 tháng liên tục (Giai đoạn 5 & 6) | **300,000,000** *(25,000,000 / tháng)* |
 | | **TỔNG CỘNG KINH PHÍ CỐ ĐỊNH DỰ ÁN (GÓI 1 + GÓI 2)** | **Thời gian dự án** | **800,000,000** *(Chưa bao gồm VAT)* |
+
+---
+
+## 6. KHUYẾN NGHỊ HÀNH ĐỘNG NGAY (IMMEDIATE ACTIONS)
+
+Để đảm bảo tiến độ triển khai kịp thời và phù hợp với cơ chế tài chính đặc thù của nhà trường, ConsMedia khuyến nghị các hành động ngay sau đây:
+
+1.  **Ký kết Biên bản ghi nhớ (MOU) triển khai sớm**: ConsMedia bắt tay ngay vào tinh chỉnh logo và hoàn tất nộp hồ sơ bảo hộ SHTT trước để kịp tiến độ sự kiện, các thủ tục hợp đồng và thanh toán sẽ được đối chiếu hoàn thiện sau.
+2.  **Triển khai linh hoạt theo gói độc lập**: Ký kết hợp đồng triển khai độc lập theo từng gói sản phẩm thành phần (Gói 1 và Gói 2) để tối ưu tiến độ.
+3.  **Nghiệm thu thanh toán theo giai đoạn**: Phân nhỏ các đợt nghiệm thu theo các mốc bàn giao thực tế của dự án, ConsMedia cam kết hỗ trợ tối đa thủ tục hành chính.
+4.  **Thành lập Ban Điều phối Chung (Co-taskforce)**: Chỉ định nhân sự đầu mối chịu trách nhiệm trực tiếp (Phòng Truyền thông & Tuyển sinh phía HUCE và Giám đốc Sản xuất phía ConsMedia) để giám sát và duyệt nhanh nội dung tác nghiệp hàng tuần.
