@@ -46,17 +46,17 @@
 Lộ trình triển khai được thiết kế tối ưu xoay quanh cột mốc quan trọng là Đại lễ H60 ngày 14/11/2026, với mốc thời gian thực được xác lập cụ thể như sau:
 
 *   **Giai đoạn 1: Khảo sát & Đánh giá Thực trạng truyền thông HUCE (20/05/2026 - 19/06/2026):**
-    *   *Nội dung:* Tiếp cận, khảo sát thực tế di sản hình ảnh tại 13+ đơn vị khoa/phòng ban HUCE, đo lường độ phân mảnh màu sắc và đánh giá rủi ro pháp lý sở hữu trí tuệ của nhãn hiệu (giai đoạn khảo sát trước mốc thời gian thực 20/06/2026).
-*   **Giai đoạn 2: Chuẩn hóa Nhận diện & Nộp hồ sơ bảo hộ SHTT (20/06/2026 - 15/07/2026):**
-    *   *Nội dung:* Tinh chỉnh lưới hình học logo gốc, thiết kế bộ cẩm nang thương hiệu (Brand Guidelines), in ấn 15 cuốn cao cấp lưu hành nội bộ, soạn thảo hồ sơ nộp đơn đăng ký bảo hộ độc quyền nhãn hiệu tại Cục Sở hữu Trí tuệ.
+    *   *Nội dung:* Tiếp cận, khảo sát thực tế di sản hình ảnh tại 13+ đơn vị khoa/phòng ban HUCE, đánh giá độ lệch chuẩn màu sắc nhận diện và phân tích rủi ro pháp lý sở hữu trí tuệ hiện tại.
+*   **Giai đoạn 2: Tinh chỉnh Nhận diện & Biên soạn Cẩm nang số (20/06/2026 - 15/07/2026):**
+    *   *Nội dung:* Tinh chỉnh chi tiết lưới hình học biểu trưng logo gốc, khóa hệ thống mã màu chuẩn Cobalt Blue và thiết lập cẩm nang thương hiệu điện tử (Brand Guidelines PDF) quy định cách ứng dụng chuẩn.
 *   **Giai đoạn 3: Thiết kế Hệ thống Ấn phẩm & UI/UX Kênh số (16/07/2026 - 15/08/2026):**
     *   *Nội dung:* Thiết kế chi tiết 10 hạng mục ấn phẩm văn phòng (Office Stationery), bộ tài sản số (Digital Assets), giao diện hệ thống website Portal/Admissions (Web UI/UX Redesign Figma Kit) và thiết lập quy chuẩn hệ thống bảng biển chỉ dẫn toàn trường.
-*   **Giai đoạn 4: Quy trình Quản lý SOPs & Đóng gói Quà tặng VIP (Phục vụ trước Đại lễ) (16/08/2026 - 15/09/2026):**
-    *   *Nội dung:* Xây dựng quy trình tác nghiệp truyền thông chuẩn (SOPs), kịch bản ứng phó sự cố truyền thông, thiết kế khung tiêu chuẩn quà tặng thương hiệu phân cấp (Lãnh đạo, khách hàng, sinh viên...) để chuẩn bị sản xuất trước thềm Đại lễ H60.
-*   **Giai đoạn 5: Đồng hành Vận hành & Duy trì Kênh số (Hỗ trợ Đại lễ & Hậu H60) (16/09/2026 - 15/11/2026):**
-    *   *Nội dung:* Triển khai và lập trình cổng thông tin Brand Portal trực tuyến để quản trị tài nguyên số. Đồng hành cùng nhà trường vận hành kỹ thuật, bảo trì bảo mật máy chủ website, cập nhật nội dung tin tức chuẩn SEO và thiết kế banner vận hành phục vụ trực tiếp cho chiến dịch Đại lễ H60 (ngày 14/11/2026).
-*   **Giai đoạn 6: Bảo trì, Gia hạn & Đồng hành Pháp lý (Dài Hạn) (16/11/2026 - 15/06/2027):**
-    *   *Nội dung:* Tiếp tục đồng hành chăm sóc kỹ thuật website Portal trong thời hạn 12 tháng, theo dõi tiến trình thẩm định đơn đăng ký bảo hộ độc quyền nhãn hiệu tại Cục Sở hữu Trí tuệ và chuyển giao năng lực tự vận hành cho Ban truyền thông trường.
+*   **Giai đoạn 4: Đóng gói Playbook, Quà tặng VIP & Nộp đơn bảo hộ SHTT (16/08/2026 - 15/09/2026):**
+    *   *Nội dung:* Thiết kế khung quy chuẩn quà tặng thương hiệu, biên soạn hoàn chỉnh sổ tay tác nghiệp truyền thông (Brand Playbook & SOPs), in ấn sản xuất cẩm nang và thực hiện nộp đơn bảo hộ nhãn hiệu độc quyền.
+*   **Giai đoạn 5: Triển khai Brand Portal & Đồng hành Vận hành Chiến dịch H60 (16/09/2026 - 15/11/2026):**
+    *   *Nội dung:* Lập trình và đưa vào hoạt động cổng thông tin Brand Portal trực tuyến phục vụ chia sẻ tài nguyên số. Đồng hành hỗ trợ kỹ thuật máy chủ và cập nhật biên tập nội dung, banner phục vụ chiến dịch Đại lễ H60 (ngày 14/11/2026).
+*   **Giai đoạn 6: Bảo trì, Chuyển giao Năng lực & Theo dõi văn bằng SHTT (16/11/2026 - 15/06/2027):**
+    *   *Nội dung:* Dịch vụ chăm sóc kỹ thuật website Portal dài hạn 12 tháng, tổ chức buổi tập huấn chuyển giao SOPs tác nghiệp cho cán bộ trường và theo dõi tiến trình cấp văn bằng bảo hộ nhãn hiệu độc quyền.
 
 ---
 

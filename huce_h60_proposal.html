@@ -3625,220 +3625,296 @@
 
                 <!-- SECTION 2: LỘ TRÌNH TRIỂN KHAI DỰ ÁN TỔNG THỂ (6 GIAI ĐOẠN) -->
                 <div class="print-page-section"><div class="panel-card" id="p2-sec2">
-                    <h3 style="text-transform: uppercase; color: var(--primary);">2. LỘ TRÌNH TRIỂN KHAI DỰ ÁN TỔNG THỂ (6 GIAI ĐOẠN)</h3>
-                    <p>Dựa trên định hướng chuẩn hóa thương hiệu của Hiệu trưởng PGS.TS. Hoàng Tùng, lộ trình triển khai các hạng mục thương hiệu và truyền thông của HUCE được chia làm <strong>6 giai đoạn hành động</strong> cụ thể như sau:</p>
-                    <div class="timeline-roadmap-dynamic">
+                    <h3 style="text-transform: uppercase; color: var(--primary); display: flex; align-items: center; gap: 8px;">
+                        <span style="font-size: 1.3rem; display: inline-flex; align-items: center;">
+                            <svg class="svg-icon" viewBox="0 0 24 24" style="width: 24px; height: 24px; fill: none; stroke: var(--primary); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                        </span>
+                        2. LỘ TRÌNH TRIỂN KHAI DỰ ÁN TỔNG THỂ (6 GIAI ĐOẠN)
+                    </h3>
+                    <p style="margin-bottom: 1.5rem; color: var(--text-muted); font-size: 0.85rem; line-height: 1.6;">
+                        Dựa trên định hướng chào giá, lộ trình triển khai các hạng mục thương hiệu và vận hành truyền thông HUCE được chia thành <strong>6 giai đoạn hành động</strong> cụ thể dưới đây, giúp đồng bộ hóa các cấu phần thiết kế và bảo vệ nhãn hiệu song song với tiến trình vận hành kỹ thuật:
+                    </p>
+                    
+                    <style>
+                        .simplified-roadmap {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 1.2rem;
+                            margin: 1.5rem 0;
+                        }
+                        .sr-phase-card {
+                            background: #ffffff;
+                            border: 1px solid #e4e4e7;
+                            border-radius: 12px;
+                            padding: 1.25rem;
+                            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+                            transition: all 0.2s ease;
+                            position: relative;
+                        }
+                        .sr-phase-card:hover {
+                            border-color: #cbd5e1;
+                            box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+                            transform: translateY(-1px);
+                        }
+                        /* Color categories */
+                        .phase-design {
+                            border-left: 4px solid var(--primary);
+                        }
+                        .phase-operation {
+                            border-left: 4px solid #10b981;
+                        }
+                        
+                        .sr-phase-header {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            gap: 0.8rem;
+                            margin-bottom: 0.8rem;
+                        }
+                        .sr-phase-title-block {
+                            display: flex;
+                            align-items: center;
+                            gap: 0.8rem;
+                        }
+                        .sr-phase-badge {
+                            font-size: 0.68rem;
+                            font-weight: 800;
+                            padding: 0.25rem 0.6rem;
+                            border-radius: 6px;
+                            text-transform: uppercase;
+                            letter-spacing: 0.3px;
+                            white-space: nowrap;
+                        }
+                        .badge-design {
+                            background: rgba(0, 42, 92, 0.08);
+                            color: var(--primary);
+                        }
+                        .badge-operation {
+                            background: rgba(16, 185, 129, 0.08);
+                            color: #10b981;
+                        }
+                        
+                        .sr-phase-title {
+                            font-size: 0.95rem;
+                            font-weight: 700;
+                            color: #1e293b;
+                            margin: 0;
+                            display: flex;
+                            align-items: center;
+                            gap: 0.5rem;
+                        }
+                        .sr-phase-icon {
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 22px;
+                            height: 22px;
+                        }
+                        .phase-design .sr-phase-icon {
+                            color: var(--primary);
+                        }
+                        .phase-operation .sr-phase-icon {
+                            color: #10b981;
+                        }
+                        .sr-phase-time {
+                            font-size: 0.72rem;
+                            color: var(--text-muted);
+                            display: flex;
+                            align-items: center;
+                            gap: 0.3rem;
+                            font-weight: 600;
+                        }
+                        .sr-phase-time svg {
+                            width: 14px;
+                            height: 14px;
+                            color: #94a3b8;
+                        }
+                        .sr-phase-desc {
+                            font-size: 0.8rem;
+                            color: #475569;
+                            line-height: 1.5;
+                            margin: 0 0 0.8rem 0;
+                        }
+                        .sr-phase-tags {
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 0.5rem;
+                        }
+                        .sr-tag {
+                            background: #f8fafc;
+                            color: #475569;
+                            border: 1px solid #e2e8f0;
+                            padding: 0.25rem 0.6rem;
+                            border-radius: 6px;
+                            font-size: 0.7rem;
+                            font-weight: 600;
+                            display: flex;
+                            align-items: center;
+                            gap: 0.35rem;
+                            transition: all 0.2s ease;
+                        }
+                        .sr-tag:hover {
+                            background: #f1f5f9;
+                            color: #0f172a;
+                        }
+                        .sr-tag svg {
+                            width: 12px;
+                            height: 12px;
+                        }
+                        .phase-design .sr-tag svg {
+                            color: var(--primary);
+                        }
+                        .phase-operation .sr-tag svg {
+                            color: #10b981;
+                        }
+                    </style>
+                    
+                    <div class="simplified-roadmap">
                         <!-- GIAI ĐOẠN 1 -->
-                        <div class="tld-step-card" style="border-left: 4px solid #64748b;">
-                            <div class="tld-header">
-                                <div style="display:flex; align-items:center; gap:0.6rem;">
-                                    <span class="tld-badge" style="background:#e2e8f0; color:#475569;">GĐ 01</span>
-                                    <h4 class="tld-title">Khảo sát &amp; Đánh giá Thực trạng truyền thông HUCE</h4>
+                        <div class="sr-phase-card phase-design">
+                            <div class="sr-phase-header">
+                                <div class="sr-phase-title-block">
+                                    <span class="sr-phase-badge badge-design">Gói 1 | GĐ 1</span>
+                                    <h4 class="sr-phase-title">
+                                        <span class="sr-phase-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:18px; height:18px;"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                                        </span>
+                                        Khảo sát &amp; Đánh giá Thực trạng truyền thông HUCE
+                                    </h4>
                                 </div>
-                                <span class="tld-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> 20/05/2026 - 19/06/2026</span>
+                                <span class="sr-phase-time">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                                    20/05/2026 - 19/06/2026
+                                </span>
                             </div>
-                            <div class="tld-content-grid">
-                                <div class="tld-column">
-                                    <div class="tld-col-title">🎯 Mục Tiêu Chiến Lược</div>
-                                    <ul class="tld-col-list">
-                                        <li>Tiếp cận, khảo sát thực tế di sản hình ảnh tại 13+ đơn vị trực thuộc.</li>
-                                        <li>Đánh giá rủi ro pháp lý sở hữu trí tuệ của toàn bộ thương hiệu HUCE.</li>
-                                    </ul>
-                                </div>
-                                <div class="tld-column">
-                                    <div class="tld-col-title">📦 Sản Phẩm Bàn Giao</div>
-                                    <ul class="tld-col-list">
-                                        <li>Bản đồ số liệu khảo sát hiện trạng sử dụng màu sắc cobalt blue.</li>
-                                        <li>Báo cáo chi tiết phân mảnh nhận diện và lỗ hổng bảo hộ SHTT.</li>
-                                    </ul>
-                                </div>
-                                <div class="tld-column">
-                                    <div class="tld-col-title">🛠️ Hành Động ConsMedia</div>
-                                    <ul class="tld-col-list">
-                                        <li>Khảo sát thực địa và phỏng vấn đại diện các khoa/phòng ban.</li>
-                                        <li>Tra cứu tình trạng bảo hộ nhãn hiệu trên hệ thống Cục SHTT.</li>
-                                    </ul>
-                                </div>
+                            <p class="sr-phase-desc">Tiếp cận, khảo sát thực tế di sản hình ảnh tại 13+ đơn vị khoa/phòng ban HUCE, đánh giá độ lệch chuẩn màu sắc nhận diện và phân tích rủi ro pháp lý sở hữu trí tuệ hiện tại.</p>
+                            <div class="sr-phase-tags">
+                                <span class="sr-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Bản đồ số liệu hiện trạng phân mảnh nhận diện</span>
+                                <span class="sr-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Báo cáo kiểm toán thương hiệu &amp; Rủi ro SHTT</span>
                             </div>
                         </div>
 
                         <!-- GIAI ĐOẠN 2 -->
-                        <div class="tld-step-card" style="border-left: 4px solid #3b82f6;">
-                            <div class="tld-header">
-                                <div style="display:flex; align-items:center; gap:0.6rem;">
-                                    <span class="tld-badge" style="background:#3b82f6; color:#ffffff;">GĐ 02</span>
-                                    <h4 class="tld-title">Chuẩn hóa Nhận diện &amp; Nộp hồ sơ bảo hộ SHTT</h4>
+                        <div class="sr-phase-card phase-design">
+                            <div class="sr-phase-header">
+                                <div class="sr-phase-title-block">
+                                    <span class="sr-phase-badge badge-design">Gói 1 | GĐ 2</span>
+                                    <h4 class="sr-phase-title">
+                                        <span class="sr-phase-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:18px; height:18px;"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                                        </span>
+                                        Tinh chỉnh Nhận diện &amp; Biên soạn Cẩm nang số
+                                    </h4>
                                 </div>
-                                <span class="tld-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> 20/06/2026 - 15/07/2026</span>
+                                <span class="sr-phase-time">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                                    20/06/2026 - 15/07/2026
+                                </span>
                             </div>
-                            <div class="tld-content-grid">
-                                <div class="tld-column">
-                                    <div class="tld-col-title">🎯 Mục Tiêu Chiến Lược</div>
-                                    <ul class="tld-col-list">
-                                        <li>Thực hiện nghiên cứu di sản và khóa chuẩn mực hình học hệ thống logo gốc.</li>
-                                        <li>Thiết lập lá chắn pháp lý chống xâm phạm nhãn hiệu HUCE trên thị trường.</li>
-                                    </ul>
-                                </div>
-                                <div class="tld-column">
-                                    <div class="tld-col-title">📦 Sản Phẩm Bàn Giao</div>
-                                    <ul class="tld-col-list">
-                                        <li>01 Logo tinh chỉnh lưới vector hình học gốc.</li>
-                                        <li>Cẩm nang Brand Guidelines &amp; Playbook hoàn chỉnh.</li>
-                                        <li>In ấn 15 cuốn Playbook cao cấp bìa cứng ép nhũ lưu hành nội bộ.</li>
-                                    </ul>
-                                </div>
-                                <div class="tld-column">
-                                    <div class="tld-col-title">🛠️ Hành Động ConsMedia</div>
-                                    <ul class="tld-col-list">
-                                        <li>Nghiên cứu di sản thương hiệu &amp; tinh chỉnh geometric grid.</li>
-                                        <li>Biên soạn toàn diện cẩm nang &amp; in ấn sản xuất.</li>
-                                        <li>Đại diện pháp lý hoàn thiện hồ sơ nộp lên Cục SHTT.</li>
-                                    </ul>
-                                </div>
+                            <p class="sr-phase-desc">Tinh chỉnh chi tiết lưới hình học biểu trưng logo gốc, khóa hệ thống mã màu chuẩn Cobalt Blue và thiết lập cẩm nang thương hiệu điện tử (Brand Guidelines PDF) quy định cách ứng dụng chuẩn.</p>
+                            <div class="sr-phase-tags">
+                                <span class="sr-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Logo gốc tinh chỉnh lưới vector học chuẩn</span>
+                                <span class="sr-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Cẩm nang Brand Guidelines số (PDF tương tác)</span>
                             </div>
                         </div>
 
                         <!-- GIAI ĐOẠN 3 -->
-                        <div class="tld-step-card" style="border-left: 4px solid #002a5c;">
-                            <div class="tld-header">
-                                <div style="display:flex; align-items:center; gap:0.6rem;">
-                                    <span class="tld-badge" style="background:#eff6ff; color:#002a5c;">GĐ 03</span>
-                                    <h4 class="tld-title">Thiết kế Hệ thống Ấn phẩm &amp; UI/UX Kênh số</h4>
+                        <div class="sr-phase-card phase-design">
+                            <div class="sr-phase-header">
+                                <div class="sr-phase-title-block">
+                                    <span class="sr-phase-badge badge-design">Gói 1 | GĐ 3</span>
+                                    <h4 class="sr-phase-title">
+                                        <span class="sr-phase-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:18px; height:18px;"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                                        </span>
+                                        Thiết kế Hệ thống Ấn phẩm &amp; UI/UX Kênh số
+                                    </h4>
                                 </div>
-                                <span class="tld-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> 16/07/2026 - 31/08/2026</span>
+                                <span class="sr-phase-time">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                                    16/07/2026 - 15/08/2026
+                                </span>
                             </div>
-                            <div class="tld-content-grid">
-                                <div class="tld-column">
-                                    <div class="tld-col-title">🎯 Mục Tiêu Chiến Lược</div>
-                                    <ul class="tld-col-list">
-                                        <li>Đồng bộ hóa toàn bộ ấn phẩm văn phòng của các khoa/phòng ban.</li>
-                                        <li>Nâng cấp toàn diện trải nghiệm người dùng số (UI/UX) trên web.</li>
-                                    </ul>
-                                </div>
-                                <div class="tld-column">
-                                    <div class="tld-col-title">📦 Sản Phẩm Bàn Giao</div>
-                                    <ul class="tld-col-list">
-                                        <li>Thiết kế Office Stationery (Letterhead, phong bì, kẹp file, slide template).</li>
-                                        <li>Thiết kế bộ tài sản số truyền thông (Facebook grids, email signatures).</li>
-                                        <li>Figma UI Kit trang chủ Portal trường/Admissions/mẫu Khoa.</li>
-                                    </ul>
-                                </div>
-                                <div class="tld-column">
-                                    <div class="tld-col-title">🛠️ Hành Động ConsMedia</div>
-                                    <ul class="tld-col-list">
-                                        <li>Thiết kế hệ chữ, grid và các layout ấn phẩm.</li>
-                                        <li>Thiết kế templates grids đăng mạng xã hội.</li>
-                                        <li>Nghiên cứu cấu trúc và vẽ giao diện UI/UX tối ưu di động.</li>
-                                    </ul>
-                                </div>
+                            <p class="sr-phase-desc">Thiết kế hệ thống ấn phẩm văn phòng (10 hạng mục), bộ tài sản truyền thông số (Social &amp; Email signature), thiết kế lại giao diện UI/UX Website Portal và quy chuẩn hệ thống bảng biển chỉ dẫn campus.</p>
+                            <div class="sr-phase-tags">
+                                <span class="sr-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Thiết kế 10 hạng mục văn phòng &amp; Tài sản số</span>
+                                <span class="sr-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Giao diện Web Portal / Tuyển sinh (Figma UI Kit)</span>
+                                <span class="sr-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Thiết kế chỉ dẫn bảng biển campus nội/ngoại khu</span>
                             </div>
                         </div>
 
                         <!-- GIAI ĐOẠN 4 -->
-                        <div class="tld-step-card" style="border-left: 4px solid #ec4899;">
-                            <div class="tld-header">
-                                <div style="display:flex; align-items:center; gap:0.6rem;">
-                                    <span class="tld-badge" style="background:#ec4899; color:#ffffff;">GĐ 04</span>
-                                    <h4 class="tld-title">Quy trình Quản lý SOPs &amp; Đóng gói Quà tặng VIP (Phục vụ Đại lễ H60)</h4>
+                        <div class="sr-phase-card phase-design">
+                            <div class="sr-phase-header">
+                                <div class="sr-phase-title-block">
+                                    <span class="sr-phase-badge badge-design">Gói 1 | GĐ 4</span>
+                                    <h4 class="sr-phase-title">
+                                        <span class="sr-phase-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:18px; height:18px;"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                                        </span>
+                                        Đóng gói Playbook, Quà tặng VIP &amp; Nộp đơn bảo hộ SHTT
+                                    </h4>
                                 </div>
-                                <span class="tld-time" style="background:#fdf2f8; color:#ec4899; border-color:#fbcfe8;"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> 01/09/2026 - 15/10/2026</span>
+                                <span class="sr-phase-time">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                                    16/08/2026 - 15/09/2026
+                                </span>
                             </div>
-                            <div class="tld-content-grid">
-                                <div class="tld-column">
-                                    <div class="tld-col-title">🎯 Mục Tiêu Chiến Lược</div>
-                                    <ul class="tld-col-list">
-                                        <li>Chuẩn hóa quy trình phê duyệt tin bài, tránh khủng hoảng kênh số.</li>
-                                        <li>Thiết kế hệ quà tặng thương hiệu chuyên nghiệp cho đối tác/VIP phục vụ Đại lễ H60 (14/11/2026).</li>
-                                    </ul>
-                                </div>
-                                <div class="tld-column">
-                                    <div class="tld-col-title">📦 Sản Phẩm Bàn Giao</div>
-                                    <ul class="tld-col-list">
-                                        <li>Quy trình SOPs tác nghiệp truyền thông &amp; kịch bản khủng hoảng.</li>
-                                        <li>Thiết kế quà tặng thương hiệu (Sổ da, bút ký, polo, bình giữ nhiệt, ô).</li>
-                                        <li>Bộ ấn phẩm khánh tiết và Landing Page giới thiệu thương hiệu tích hợp VietQR.</li>
-                                    </ul>
-                                </div>
-                                <div class="tld-column">
-                                    <div class="tld-col-title">🛠️ Hành Động ConsMedia</div>
-                                    <ul class="tld-col-list">
-                                        <li>Biên soạn cẩm nang quy trình &amp; kịch bản khủng hoảng 30 phút.</li>
-                                        <li>Thiết kế kiểu dáng quà tặng và quy chuẩn bao bì đóng gói.</li>
-                                        <li>Thiết kế, lập trình và cấu hình Landing Page tích hợp cổng VietQR.</li>
-                                    </ul>
-                                </div>
+                            <p class="sr-phase-desc">Thiết kế khung quy chuẩn quà tặng thương hiệu, biên soạn hoàn chỉnh sổ tay tác nghiệp truyền thông (Brand Playbook &amp; SOPs), in ấn sản xuất cẩm nang và thực hiện nộp đơn bảo hộ nhãn hiệu độc quyền.</p>
+                            <div class="sr-phase-tags">
+                                <span class="sr-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> In ấn 15 cuốn Playbook bìa cứng cao cấp</span>
+                                <span class="sr-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Khung thiết kế quà tặng &amp; SOPs kịch bản xử lý sự cố</span>
+                                <span class="sr-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Hồ sơ nộp đơn đăng ký bảo hộ độc quyền nhãn hiệu (Cục SHTT)</span>
                             </div>
                         </div>
 
                         <!-- GIAI ĐOẠN 5 -->
-                        <div class="tld-step-card" style="border-left: 4px solid #10b981;">
-                            <div class="tld-header">
-                                <div style="display:flex; align-items:center; gap:0.6rem;">
-                                    <span class="tld-badge" style="background:#10b981; color:#ffffff;">GĐ 05</span>
-                                    <h4 class="tld-title">Đồng hành Vận hành &amp; Duy trì Kênh số (Hỗ trợ Đại lễ &amp; Hậu H60)</h4>
+                        <div class="sr-phase-card phase-operation">
+                            <div class="sr-phase-header">
+                                <div class="sr-phase-title-block">
+                                    <span class="sr-phase-badge badge-operation">Gói 2 | GĐ 5</span>
+                                    <h4 class="sr-phase-title">
+                                        <span class="sr-phase-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:18px; height:18px;"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                                        </span>
+                                        Triển khai Brand Portal &amp; Đồng hành Vận hành Chiến dịch H60
+                                    </h4>
                                 </div>
-                                <span class="tld-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> 16/10/2026 - 15/04/2027</span>
+                                <span class="sr-phase-time">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                                    16/09/2026 - 15/11/2026
+                                </span>
                             </div>
-                            <div class="tld-content-grid">
-                                <div class="tld-column">
-                                    <div class="tld-col-title">🎯 Mục Tiêu Chiến Lược</div>
-                                    <ul class="tld-col-list">
-                                        <li>Đảm bảo các kênh số luôn cập nhật tin tức kịp thời, an toàn bảo mật.</li>
-                                        <li>Biên tập bài viết chuẩn SEO tăng cường thứ hạng trực tuyến Webometrics.</li>
-                                    </ul>
-                                </div>
-                                <div class="tld-column">
-                                    <div class="tld-col-title">📦 Sản Phẩm Bàn Giao</div>
-                                    <ul class="tld-col-list">
-                                        <li>Báo cáo bảo trì kỹ thuật định kỳ &amp; sao lưu máy chủ hàng tuần.</li>
-                                        <li>Tin bài hoạt động của trường được biên tập &amp; đăng tải chuẩn SEO.</li>
-                                        <li>Tối đa 15 banner trang chủ hoặc ảnh bìa sự kiện hàng tháng.</li>
-                                    </ul>
-                                </div>
-                                <div class="tld-column">
-                                    <div class="tld-col-title">🛠️ Hành Động ConsMedia</div>
-                                    <ul class="tld-col-list">
-                                        <li>Cập nhật bảo mật SSL, tối ưu mã nguồn và tốc độ tải trang.</li>
-                                        <li>Nhận thông tin hoạt động, biên tập hành văn và chuẩn hóa từ khóa SEO.</li>
-                                        <li>Thiết kế đồ họa thường nhật phục vụ bài đăng cổng thông tin chính.</li>
-                                    </ul>
-                                </div>
+                            <p class="sr-phase-desc">Lập trình và đưa vào hoạt động cổng thông tin Brand Portal trực tuyến phục vụ chia sẻ tài nguyên số. Đồng hành hỗ trợ kỹ thuật máy chủ và cập nhật biên tập nội dung, banner phục vụ chiến dịch Đại lễ H60.</p>
+                            <div class="sr-phase-tags">
+                                <span class="sr-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Cổng lưu trữ và quản trị tài nguyên số Brand Portal</span>
+                                <span class="sr-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Vận hành kỹ thuật &amp; Nội dung web hỗ trợ Đại lễ H60</span>
                             </div>
                         </div>
 
                         <!-- GIAI ĐOẠN 6 -->
-                        <div class="tld-step-card" style="border-left: 4px solid #8b5cf6;">
-                            <div class="tld-header">
-                                <div style="display:flex; align-items:center; gap:0.6rem;">
-                                    <span class="tld-badge" style="background:#8b5cf6; color:#ffffff;">GĐ 06</span>
-                                    <h4 class="tld-title">Bảo trì, Gia hạn &amp; Đồng hành Pháp lý (Dài Hạn)</h4>
+                        <div class="sr-phase-card phase-operation">
+                            <div class="sr-phase-header">
+                                <div class="sr-phase-title-block">
+                                    <span class="sr-phase-badge badge-operation">Gói 2 | GĐ 6</span>
+                                    <h4 class="sr-phase-title">
+                                        <span class="sr-phase-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:18px; height:18px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                                        </span>
+                                        Bảo trì, Chuyển giao Năng lực &amp; Theo dõi văn bằng SHTT
+                                    </h4>
                                 </div>
-                                <span class="tld-time"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7v-5z"/></svg> Dài hạn sau khi bàn giao</span>
+                                <span class="sr-phase-time">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                                    16/11/2026 - 15/06/2027
+                                </span>
                             </div>
-                            <div class="tld-content-grid">
-                                <div class="tld-column">
-                                    <div class="tld-col-title">🎯 Mục Tiêu Chiến Lược</div>
-                                    <ul class="tld-col-list">
-                                        <li>Bảo trì ổn định hạ tầng và hỗ trợ chuyển giao toàn bộ quyền quản trị.</li>
-                                        <li>Đồng hành bảo vệ nhãn hiệu độc quyền HUCE lâu dài.</li>
-                                    </ul>
-                                </div>
-                                <div class="tld-column">
-                                    <div class="tld-col-title">📦 Sản Phẩm Bàn Giao</div>
-                                    <ul class="tld-col-list">
-                                        <li>Báo cáo vận hành kỹ thuật định kỳ hàng năm.</li>
-                                        <li>Bản giao quyền sở hữu tên miền, tài nguyên lưu trữ đám mây.</li>
-                                        <li>Giấy chứng nhận đăng ký bảo hộ độc quyền nhãn hiệu từ Cục SHTT.</li>
-                                    </ul>
-                                </div>
-                                <div class="tld-column">
-                                    <div class="tld-col-title">🛠️ Hành Động ConsMedia</div>
-                                    <ul class="tld-col-list">
-                                        <li>Định kỳ cập nhật hệ thống bảo mật &amp; hỗ trợ kỹ thuật máy chủ.</li>
-                                        <li>Thực hiện các workshop chuyển giao toàn bộ file thiết kế và quy trình.</li>
-                                        <li>Theo dõi tiến trình cấp văn bằng bảo hộ độc quyền SHTT từ Cục SHTT.</li>
-                                    </ul>
-                                </div>
+                            <p class="sr-phase-desc">Dịch vụ chăm sóc kỹ thuật website Portal dài hạn 12 tháng, tổ chức buổi tập huấn chuyển giao SOPs tác nghiệp cho cán bộ trường và theo dõi tiến trình cấp văn bằng bảo hộ nhãn hiệu độc quyền.</p>
+                            <div class="sr-phase-tags">
+                                <span class="sr-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Bảo trì kỹ thuật website Portal trong 12 tháng</span>
+                                <span class="sr-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Tổ chức tập huấn &amp; chuyển giao tài liệu SOPs</span>
+                                <span class="sr-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Cập nhật văn bằng bảo hộ nhãn hiệu độc quyền HUCE</span>
                             </div>
                         </div>
                     </div>
