@@ -46,10 +46,13 @@
             overflow: hidden; /* Desktop App Layout */
             height: 100vh;
         }
+        strong, b {
+            font-weight: 600 !important;
+        }
 
         h1, h2, h3, h4, h5, h6 {
             font-family: 'UTM Avo', 'Segoe UI', Arial, sans-serif;
-            font-weight: 700; letter-spacing: -0.5px;
+            font-weight: 600; letter-spacing: -0.5px;
         }
 
         /* Scrollbar customization */
@@ -152,7 +155,7 @@
             font-size: 0.65rem;
             color: var(--accent);
             text-transform: uppercase;
-            font-weight: 800;
+            font-weight: 600;
             letter-spacing: 1.5px;
             margin-top: 5px;
         }
@@ -208,7 +211,7 @@
 
         .nav-item-num {
             font-size: 0.65rem;
-            font-weight: 800;
+            font-weight: 600;
             background: rgba(56, 189, 248, 0.12);
             color: var(--accent);
             padding: 2px 6px;
@@ -267,7 +270,7 @@
             color: var(--accent);
             font-size: 0.75rem;
             text-transform: uppercase;
-            font-weight: 800;
+            font-weight: 600;
             letter-spacing: 1.5px;
             margin-bottom: 2px;
         }
@@ -305,7 +308,7 @@
 
         .document-vault-bar span {
             color: var(--primary);
-            font-weight: 800;
+            font-weight: 600;
             text-transform: uppercase;
             font-size: 0.72rem;
             letter-spacing: 0.5px;
@@ -366,7 +369,7 @@
             right: 0;
             width: 100px;
             height: 100px;
-            background: radial-gradient(circle at 100% 100%, rgba(56, 189, 248, 0.02) 0%, transparent 70%);
+            background: none;
             pointer-events: none;
         }
 
@@ -466,7 +469,7 @@
         .swot-box h4 {
             font-size: 1.05rem;
             margin-bottom: 0.8rem;
-            font-weight: 800;
+            font-weight: 600;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -514,10 +517,8 @@
         }
         .pillar-icon {
             font-size: 1.8rem;
-            background: linear-gradient(135deg, var(--accent), var(--accent-light));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-weight: 900;
+            color: var(--primary);
+            font-weight: 600;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -541,7 +542,7 @@
         .pillar-tag {
             background: var(--primary);
             border: 1px solid #cbd5e1;
-            color: var(--accent-light);
+            color: var(--primary);
             font-size: 0.72rem;
             font-weight: 600;
             padding: 2px 8px;
@@ -657,7 +658,7 @@
 
         .coexistence-logo-wrap p {
             font-size: 0.72rem;
-            font-weight: 800;
+            font-weight: 600;
             color: var(--primary);
             margin-top: 8px;
             text-transform: uppercase;
@@ -710,7 +711,7 @@
             color: var(--primary);
         }
         .score-tag {
-            font-weight: 800;
+            font-weight: 600;
             font-size: 0.8rem;
             text-transform: uppercase;
             padding: 2px 8px;
@@ -751,7 +752,7 @@
 
         .metric-mini-val {
             font-size: 1.5rem;
-            font-weight: 900;
+            font-weight: 700;
             color: var(--primary);
             font-family: 'Outfit', sans-serif;
         }
@@ -778,7 +779,7 @@
             top: 0;
             height: 100%;
             width: 2px;
-            background: linear-gradient(180deg, var(--accent), var(--primary-light), rgba(255,255,255,0));
+            background: #bfdbfe;
         }
         .timeline-step {
             position: relative;
@@ -814,16 +815,16 @@
         }
         .timeline-step-time {
             font-size: 0.7rem;
-            font-weight: 800;
-            color: var(--primary-dark);
+            font-weight: 600;
+            color: var(--primary);
             text-transform: uppercase;
             letter-spacing: 0.8px;
-            background: linear-gradient(135deg, var(--accent-light), var(--accent));
+            background: var(--accent-light);
             padding: 2px 8px;
             border-radius: 4px;
             display: inline-block;
             margin-bottom: 0.5rem;
-            box-shadow: 0 2px 5px rgba(56, 189, 248, 0.2);
+            box-shadow: 0 2px 5px rgba(0, 42, 92, 0.05);
         }
         .timeline-step h4 {
             font-size: 1.05rem;
@@ -901,7 +902,7 @@
             margin: 2px 0 0 0;
         }
         .pricing-list-val {
-            font-weight: 800;
+            font-weight: 600;
             color: var(--primary);
             font-size: 1.1rem;
             font-family: 'Outfit', sans-serif;
@@ -963,13 +964,13 @@
         .maint-title {
             font-size: 0.85rem;
             text-transform: uppercase;
-            font-weight: 800;
-            color: var(--accent-light);
+            font-weight: 600;
+            color: var(--primary);
             margin-bottom: 0.5rem;
         }
         .maint-price {
             font-size: 1.45rem;
-            font-weight: 900;
+            font-weight: 700;
             color: var(--primary);
             margin: 0.5rem 0;
             font-family: 'Outfit', sans-serif;
@@ -996,7 +997,7 @@
             position: absolute;
             left: 0;
             color: var(--green);
-            font-weight: 800;
+            font-weight: 600;
         }
 
         /* ------------------------------------------------------------------ */
@@ -1014,7 +1015,7 @@
             letter-spacing: 1.2px;
             color: var(--accent);
             margin-bottom: 0.5rem;
-            font-weight: 800;
+            font-weight: 600;
         }
 
         .checklist-scroll {
@@ -1070,7 +1071,7 @@
         .check-indicator::after {
             content: '✓';
             color: var(--primary-dark);
-            font-weight: 900;
+            font-weight: 700;
             font-size: 0.7rem;
             display: none;
         }
@@ -1095,8 +1096,8 @@
         }
         .check-val {
             font-size: 0.82rem;
-            font-weight: 800;
-            color: var(--accent-light);
+            font-weight: 600;
+            color: var(--primary);
             font-family: 'Outfit', sans-serif;
             margin-left: 6px;
         }
@@ -1116,11 +1117,11 @@
             color: var(--accent);
             display: block;
             margin-bottom: 2px;
-            font-weight: 800;
+            font-weight: 600;
         }
         .total-lcd-box h2 {
             font-size: 1.95rem;
-            font-weight: 900;
+            font-weight: 700;
             color: var(--primary);
             font-family: 'Outfit', sans-serif;
             letter-spacing: 0.5px;
@@ -1168,7 +1169,7 @@
             padding: 0.85rem;
             border-radius: 10px;
             font-size: 0.82rem;
-            font-weight: 800;
+            font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.8px;
             cursor: pointer;
@@ -1180,16 +1181,16 @@
             gap: 8px;
         }
         .btn-main.primary {
-            background: linear-gradient(135deg, var(--accent-light) 0%, var(--accent) 100%);
-            color: var(--primary-dark);
-            box-shadow: 0 4px 15px rgba(56, 189, 248, 0.25);
-            border: 1px solid rgba(15,23,42,0.08);
+            background: var(--primary);
+            color: var(--white);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--primary);
         }
         .btn-main.primary:hover {
             transform: translateY(-1.5px);
-            box-shadow: 0 6px 20px rgba(56, 189, 248, 0.4);
-            background: var(--white);
-            color: var(--primary-dark);
+            box-shadow: 0 6px 15px rgba(0, 42, 92, 0.1);
+            background: var(--primary-light);
+            color: var(--white);
         }
         .btn-main.secondary {
             background: rgba(255, 255, 255, 0.02);
@@ -1202,21 +1203,21 @@
         }
         .btn-mini-action {
             background: rgba(56, 189, 248, 0.12);
-            color: var(--accent-light);
+            color: var(--primary);
             border: 1px solid rgba(56, 189, 248, 0.25);
             padding: 2px 8px;
             border-radius: 4px;
             font-size: 0.68rem;
-            font-weight: 800;
+            font-weight: 600;
             text-transform: uppercase;
             cursor: pointer;
             transition: var(--transition);
             margin-left: 10px;
         }
         .btn-mini-action:hover {
-            background: var(--accent);
-            color: var(--primary-dark);
-            box-shadow: 0 0 8px rgba(56,189,248,0.4);
+            background: var(--primary-light);
+            color: var(--white);
+            box-shadow: 0 0 8px rgba(0, 42, 92, 0.1);
         }
 
         /* MODAL PREVIEW FOR EVIDENCE IMAGES */
@@ -1269,7 +1270,7 @@
             padding: 0.8rem;
             color: var(--primary);
             font-size: 1.05rem;
-            font-weight: 800;
+            font-weight: 600;
         }
 
         /* ANIMATED SUCCESS TOAST */
@@ -1305,14 +1306,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-weight: 900;
+            font-weight: 700;
             font-size: 1.2rem;
             flex-shrink: 0;
         }
         .toast-body h4 {
             font-size: 0.95rem;
             margin-bottom: 2px;
-            font-weight: 800;
+            font-weight: 600;
         }
         .toast-body p {
             font-size: 0.78rem;
@@ -1445,16 +1446,16 @@
         }
         .app-header-title span {
             font-size: 0.52rem;
-            color: var(--accent-light);
+            color: var(--primary);
             text-transform: uppercase;
-            font-weight: 900;
+            font-weight: 700;
             display: block;
             letter-spacing: 0.5px;
         }
         .app-header-title h4 {
             font-size: 0.78rem;
             color: var(--white);
-            font-weight: 800;
+            font-weight: 600;
         }
         .app-body {
             flex-grow: 1;
@@ -1480,7 +1481,7 @@
             color: var(--accent);
             margin-bottom: 0.2rem;
             text-transform: uppercase;
-            font-weight: 800;
+            font-weight: 600;
         }
         .app-task-title {
             font-weight: 700;
@@ -1508,7 +1509,7 @@
             align-items: center;
             justify-content: center;
             font-size: 0.45rem;
-            font-weight: 800;
+            font-weight: 600;
             color: var(--white);
             border: 1px solid rgba(255,255,255,0.2);
         }
@@ -1610,7 +1611,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: radial-gradient(circle at 10% 10%, rgba(56, 189, 248, 0.08) 0%, transparent 60%);
+            background: radial-gradient(circle at 10% 10%, rgba(0, 42, 92, 0.03) 0%, transparent 60%);
             pointer-events: none;
         }
         
@@ -1713,7 +1714,7 @@
             align-items: center;
             justify-content: center;
             font-size: 1rem;
-            font-weight: 900;
+            font-weight: 700;
             margin-bottom: 12px;
         }
         .objective-card h3 {
@@ -1801,7 +1802,7 @@
             background: rgba(56, 189, 248, 0.12);
             padding: 1px 6px;
             border-radius: 4px;
-            font-weight: 800;
+            font-weight: 600;
         }
         .del-card p {
             font-size: 0.85rem;
@@ -1989,7 +1990,7 @@
                     <h1 id="page-title-top">Chiến Dịch Kỷ Niệm 70 Năm Đào Tạo, 60 Năm Thành Lập HUCE</h1>
                 </div>
                 <div style="display: flex; align-items: center; gap: 12px;">
-                    <button id="back-to-home-btn" class="btn-main secondary" style="width: auto; padding: 0.45rem 1rem; font-size: 0.75rem; display: none; align-items: center; gap: 6px; margin: 0; cursor: pointer; border-radius: 8px; border: 1px solid var(--accent); background: rgba(56, 189, 248, 0.08); color: var(--accent-light);" onclick="goBackToHome()">
+                    <button id="back-to-home-btn" class="btn-main secondary" style="width: auto; padding: 0.45rem 1rem; font-size: 0.75rem; display: none; align-items: center; gap: 6px; margin: 0; cursor: pointer; border-radius: 8px; border: 1px solid var(--accent); background: rgba(56, 189, 248, 0.08); color: var(--primary);" onclick="goBackToHome()">
                         🏠 Quay Lại Trang Chủ
                     </button>
                     <span class="status-tag">Đề Xuất Chiến Dịch H60</span>
@@ -2059,28 +2060,28 @@
                     </div>
                 </div>
 
-                <div class="panel-card" style="margin-top: 1.5rem; border: 1px solid rgba(56, 189, 248, 0.25); background: linear-gradient(135deg, rgba(4,20,48,0.7) 0%, rgba(2,10,23,0.9) 100%);">
+                <div class="panel-card" style="margin-top: 1.5rem; border: 1px solid rgba(56, 189, 248, 0.25); background:#ffffff; color:#002a5c; border-bottom:1px solid #e4e4e7;">
                     <h3 style="display: flex; align-items: center; gap: 8px; color: var(--primary);"><span style="font-size: 1.3rem;">📚</span> HỆ THỐNG BÁO CÁO CHIẾN LƯỢC TOÀN DIỆN (INTEGRATED REPORTS VAULT)</h3>
                     <p style="margin-bottom: 1.5rem; font-size: 0.9rem; color: var(--text-muted);">Toàn bộ nội dung chi tiết từ 3 văn bản báo cáo chiến lược gốc của Tổ Tư vấn đã được tích hợp đầy đủ, không cắt xén, trình bày theo chuẩn UI cao cấp trực tiếp bên trong ứng dụng. Nhấp vào nút bên dưới các thẻ để xem nhanh từng báo cáo chuyên sâu:</p>
                     
                     <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; margin-bottom: 0.5rem;">
                         <div class="objective-card" style="border: 1px solid rgba(56, 189, 248, 0.15); background: rgba(0, 42, 92, 0.25); cursor: pointer; padding: 1.5rem; border-radius: 12px; transition: var(--transition);" onclick="switchPageView('page1')">
                             <div class="objective-icon-num" style="color: var(--primary); font-size: 1.8rem; font-weight: 800; margin-bottom: 0.5rem;">01</div>
-                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--accent-light);">📄 01. Đánh giá sức khỏe thương hiệu</h3>
+                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--primary);">📄 01. Đánh giá sức khỏe thương hiệu</h3>
                             <p style="font-size: 0.82rem; margin-bottom: 1.2rem; color: var(--text-muted); line-height: 1.5; height: 75px; overflow: hidden;">Nghiên cứu hiện trạng định vị, bối cảnh đổi tên trường năm 2021, khảo sát tài sản thương hiệu, SWOT chi tiết và 4 trụ cột chiến lược để chuẩn bị cho cột mốc kỷ niệm H60.</p>
                             <button class="btn-main" style="padding: 0.45rem 0.9rem; font-size: 0.75rem; width: auto; border-radius: 6px; background: var(--accent); color: var(--primary-dark); cursor: pointer; border: none; font-weight: 600; transition: var(--transition);" onclick="event.stopPropagation(); switchPageView('page1')">📖 Đọc Báo Cáo</button>
                         </div>
                         
                         <div class="objective-card" style="border: 1px solid rgba(56, 189, 248, 0.15); background: rgba(0, 42, 92, 0.25); cursor: pointer; padding: 1.5rem; border-radius: 12px; transition: var(--transition);" onclick="switchPageView('page2')">
                             <div class="objective-icon-num" style="color: var(--primary); font-size: 1.8rem; font-weight: 800; margin-bottom: 0.5rem;">02</div>
-                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--accent-light);">📄 02. Đề Xuất và Cơ Chế Hợp Tác H60</h3>
+                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--primary);">📄 02. Đề Xuất và Cơ Chế Hợp Tác H60</h3>
                             <p style="font-size: 0.82rem; margin-bottom: 1.2rem; color: var(--text-muted); line-height: 1.5; height: 75px; overflow: hidden;">Khung hợp tác chiến lược theo MOU 2025, lộ trình IMC 4 giai đoạn, ma trận phối hợp trách nhiệm RACI chi tiết, quy trình duyệt bài 5 bước và cơ chế xử lý khủng hoảng 30 phút.</p>
                             <button class="btn-main" style="padding: 0.45rem 0.9rem; font-size: 0.75rem; width: auto; border-radius: 6px; background: var(--accent); color: var(--primary-dark); cursor: pointer; border: none; font-weight: 600; transition: var(--transition);" onclick="event.stopPropagation(); switchPageView('page2')">📖 Đọc Báo Cáo</button>
                         </div>
                         
                         <div class="objective-card" style="border: 1px solid rgba(56, 189, 248, 0.15); background: rgba(0, 42, 92, 0.25); cursor: pointer; padding: 1.5rem; border-radius: 12px; transition: var(--transition);" onclick="switchPageView('page3')">
                             <div class="objective-icon-num" style="color: var(--primary); font-size: 1.8rem; font-weight: 800; margin-bottom: 0.5rem;">03</div>
-                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--accent-light);">📄 03. Thuyết Minh Specs và Báo Giá</h3>
+                            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--primary);">📄 03. Thuyết Minh Specs và Báo Giá</h3>
                             <p style="font-size: 0.82rem; margin-bottom: 1.2rem; color: var(--text-muted); line-height: 1.5; height: 75px; overflow: hidden;">Báo giá thiết kế nhận diện thương hiệu (Gói 1), đặc tả công nghệ app điều phối &amp; app HUCA (Gói 2), cơ cấu tài chính đối lưu hỗn hợp, và menu dịch vụ quay chụp media lẻ.</p>
                             <button class="btn-main" style="padding: 0.45rem 0.9rem; font-size: 0.75rem; width: auto; border-radius: 6px; background: var(--accent); color: var(--primary-dark); cursor: pointer; border: none; font-weight: 600; transition: var(--transition);" onclick="event.stopPropagation(); switchPageView('page3')">📖 Đọc Báo Cáo</button>
                         </div>
@@ -2171,13 +2172,12 @@
                     <!-- =================================================================== -->
                     <style>
                         .brand-health-dashboard {
-                            background:rgba(15,23,42,0.02);
-                            border:1px solid #e2e8f0;
-                            backdrop-filter: blur(12px);
+                            background: #ffffff;
+                            border: 1px solid #e4e4e7;
                             border-radius: 16px;
                             padding: 2rem;
                             margin: 2.5rem 0;
-                            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+                            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
                         }
                         .bh-title-container {
                             display: flex;
@@ -2190,7 +2190,7 @@
                             gap: 1rem;
                         }
                         .bh-main-title {
-                            color: var(--accent-light);
+                            color: var(--primary);
                             font-size: 1.5rem;
                             font-weight: 700;
                             display: flex;
@@ -2216,16 +2216,17 @@
                             margin-bottom: 2rem;
                         }
                         .bh-card {
-                            background: rgba(0, 42, 92, 0.2);
-                            border:1px solid #e2e8f0;
+                            background: #ffffff;
+                            border: 1px solid #e4e4e7;
                             border-radius: 12px;
                             padding: 1.25rem;
+                            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
                             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
                         }
                         .bh-card:hover {
-                            transform: translateY(-5px);
-                            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
-                            border-color: rgba(15,23,42,0.08);
+                            transform: translateY(-3px);
+                            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.04);
+                            border-color: #cbd5e1;
                         }
                         /* SWOT colors */
                         .bh-swot-s { border-top: 4px solid #10b981; } /* Emerald */
@@ -2281,14 +2282,15 @@
                             margin-bottom: 1.5rem;
                         }
                         .bh-metric-box {
-                            background:rgba(15,23,42,0.01);
-                            border:1px solid #e2e8f0;
+                            background: #ffffff;
+                            border: 1px solid #e4e4e7;
                             border-radius: 12px;
                             padding: 1.25rem;
+                            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
                         }
                         .bh-metric-header {
                             font-weight: 700;
-                            color: var(--accent-light);
+                            color: var(--primary);
                             margin-bottom: 1.2rem;
                             font-size: 0.95rem;
                             border-bottom:1px solid #e2e8f0;
@@ -2304,7 +2306,7 @@
                             justify-content: space-between;
                             font-size: 0.8rem;
                             margin-bottom: 0.4rem;
-                            color: #e5e7eb;
+                            color: #52525b;
                         }
                         .bh-progress-bar-wrap {
                             height: 8px;
@@ -2332,7 +2334,7 @@
                         }
                         .bh-chan-name {
                             font-weight: 600;
-                            color: #f3f4f6;
+                            color: #0f172a;
                         }
                         .bh-chan-followers {
                             color:#64748b;
@@ -2359,28 +2361,28 @@
                             margin-top: 0.5rem;
                         }
                         .bh-badge-card {
-                            background: rgba(0, 42, 92, 0.3);
-                            border:1px solid #e2e8f0;
+                            background: #ffffff;
+                            border: 1px solid #e4e4e7;
                             border-radius: 8px;
                             padding: 0.8rem 0.6rem;
                             text-align: center;
                             font-size: 0.75rem;
                             font-weight: 600;
-                            color:#475569;
+                            color: #52525b;
                             transition: all 0.3s ease;
                         }
                         .bh-badge-card:hover {
-                            background: var(--accent);
-                            border-color: var(--accent-light);
-                            color:#0f172a;
-                            transform: scale(1.05);
-                            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+                            background: var(--accent-light);
+                            border-color: var(--primary-light);
+                            color: var(--primary);
+                            transform: scale(1.03);
+                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
                         }
                         .bh-badge-card .bh-icon {
                             font-size: 1.3rem;
                             display: block;
                             margin-bottom: 0.4rem;
-                            color: var(--accent-light);
+                            color: var(--primary);
                         }
                         .bh-badge-card:hover .bh-icon {
                             color:#0f172a;
@@ -2983,7 +2985,7 @@
                         .tld-col-title {
                             font-size: 0.8rem;
                             font-weight: 700;
-                            color: var(--accent-light);
+                            color: var(--primary);
                             margin-bottom: 0.7rem;
                             display: flex;
                             align-items: center;
@@ -3387,7 +3389,7 @@
                         }
                         .cs-desc {
                             font-size: 0.78rem;
-                            color: #e5e7eb;
+                            color: #52525b;
                             line-height: 1.45;
                             margin: 0;
                         }
@@ -3532,7 +3534,7 @@
                                     <td>Tinh chỉnh lưới hình học biểu tượng gốc (tay nâng sách + hoa cách điệu X + cẩu tháp Â) và font chữ hành chính đi kèm. Giữ nguyên lõi nhận diện và màu Cobalt Blue truyền thống. Thiết kế 04 phiên bản ứng dụng chuẩn (.Ai, .Eps, .Svg).</td>
                                     <td>1</td>
                                     <td>Gói</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">60,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">60,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
@@ -3540,7 +3542,7 @@
                                     <td>Quy chuẩn Typography hệ chữ, Bảng màu chuẩn HSL Cobalt Blue di sản, Hệ thống lưới Grid kết cấu giàn thép, Pattern ứng dụng, quy định sử dụng logo. Bàn giao File PDF tương tác &amp; 03 cuốn in màu cao cấp cứng khổ ngang A4.</td>
                                     <td>1</td>
                                     <td>Gói</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">55,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">55,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
@@ -3548,7 +3550,7 @@
                                     <td>Danh thiếp, Letterhead (in &amp; file Word), Phong bì (A4, A5, DL), Folder tài liệu, Bộ slide PowerPoint/Keynote H60 (30 layout chuyên nghiệp theo lưới đồ họa mới).</td>
                                     <td>1</td>
                                     <td>Gói</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">45,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">45,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
@@ -3556,7 +3558,7 @@
                                     <td>5 template Social Media Grids, UI Skin Website H60 &amp; Website trường, 3 mẫu chữ ký email, 5 hình nền Zoom/Teams.</td>
                                     <td>1</td>
                                     <td>Gói</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">40,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">40,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
@@ -3564,7 +3566,7 @@
                                     <td>Thiết kế hệ thống biển chỉ dẫn lối đi nội khu, biển tên phòng ban giảng đường G3, T1, bảng tin điện tử, phướn dọc trục đường trường, lá cờ biểu trưng HUCE.</td>
                                     <td>1</td>
                                     <td>Gói</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">65,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">65,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>6</td>
@@ -3572,7 +3574,7 @@
                                     <td>Backdrop sân khấu chính Lễ mít tinh và Gala, Thẻ đeo đại biểu &amp; thẻ BTC VIP (bao gồm bao da), Thiệp mời (giấy mỹ thuật ép kim &amp; thiệp điện tử QR code), Quy chuẩn bộ Hộp quà tặng VIP H60.</td>
                                     <td>1</td>
                                     <td>Gói</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">60,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">60,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>7</td>
@@ -3580,7 +3582,7 @@
                                     <td>Thiết kế giao diện UI/UX chuẩn hóa thương hiệu H60, lập trình và cấu hình Landing Page truyền thông tương thích đa thiết bị, tích hợp hệ thống tracking và form đăng ký/đóng góp tự động qua VietQR.</td>
                                     <td>1</td>
                                     <td>Gói</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">35,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">35,000,000</td>
                                 </tr>
                                 <tr>
                                     <td colspan="5" style="text-align: right; font-weight: 800;">TỔNG PHÍ GÓI 1</td>
@@ -3595,7 +3597,7 @@
                                     <td>Làm việc song song với nhà phát triển App cựu sinh viên HUCA để tư vấn chuẩn hóa nhận diện H60, thiết lập quy trình duyệt, quản trị Admin vận hành Banner Manager tài trợ và cổng VietQR đóng góp tự động.</td>
                                     <td>1</td>
                                     <td>Gói</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">95,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">95,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
@@ -3603,7 +3605,7 @@
                                     <td>Xây dựng Campaign Portal (Web ReactJS/Node.js) cho Ban Tổ chức tích hợp: Lịch truyền thông (Editorial Calendar) đa kênh, Công cụ phê duyệt theo luồng của content &amp; media (Workflow Approval) đa phân cấp, Lịch sự kiện H60 (Event Calendar) đồng bộ, Dashboard chỉ số truyền thông (Media Analytics Dashboard), và Shared Media Cloud đám mây AWS S3 tự động đóng watermark. Bảo trì kỹ thuật trọn đời trong năm 2026.</td>
                                     <td>1</td>
                                     <td>Gói</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">280,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">280,000,000</td>
                                 </tr>
                                 <tr>
                                     <td colspan="5" style="text-align: right; font-weight: 800;">TỔNG PHÍ GÓI 2</td>
@@ -3611,7 +3613,7 @@
                                 </tr>
                                 <tr style="background: rgba(56, 189, 248, 0.12);">
                                     <td colspan="5" style="text-align: right; font-weight: 900; font-size: 1.05rem; color:var(--text-light);">TỔNG CỘNG KINH PHÍ ĐỀ XUẤT TRỌN GÓI (I + II)</td>
-                                    <td style="font-weight: 900; color: var(--accent-light); font-size: 1.15rem; text-shadow:none;">735,000,000</td>
+                                    <td style="font-weight: 900; color: var(--primary); font-size: 1.15rem; text-shadow:none;">735,000,000</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -3965,35 +3967,35 @@
                                     <td><strong>Thiết kế Banner/Poster sự kiện lẻ</strong></td>
                                     <td>Thiết kế key visual chính của sự kiện, bàn giao file in ấn chất lượng cao và định dạng đăng bài số. Trình bày 02 phương án, sửa tối đa 3 lần.</td>
                                     <td>Ấn phẩm</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">2,500,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">2,500,000</td>
                                 </tr>
                                 <tr>
                                     <td>1.2</td>
                                     <td><strong>Thiết kế trọn bộ ấn phẩm offline sự kiện nhỏ</strong></td>
                                     <td>Backdrop chụp ảnh (photo booth), standee đón khách, hashtag cầm tay, thiết kế thẻ ban tổ chức sự kiện lẻ. Áp dụng cho hội thảo nhỏ.</td>
                                     <td>Sự kiện</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">8,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">8,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>1.3</td>
                                     <td><strong>Biên tập tin bài PR / Tin tức sự kiện</strong></td>
                                     <td>Bài viết độ dài 800 - 1,200 từ, hành văn báo chí chuẩn mực, đính kèm 3-5 ảnh xử lý cơ bản, tối ưu chuẩn SEO cho website trường.</td>
                                     <td>Bài viết</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">1,500,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">1,500,000</td>
                                 </tr>
                                 <tr>
                                     <td>1.4</td>
                                     <td><strong>Booking đăng bài PR trên Báo chí lớn</strong></td>
                                     <td>Đăng tải tin bài truyền thông sự kiện trên các trang báo lớn: Dân Trí, VnExpress, VietnamNet, Tiền Phong hoặc các báo chuyên ngành Xây dựng. Chưa bao gồm phí viết bài.</td>
                                     <td>Lượt</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">12,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">12,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>1.5</td>
                                     <td><strong>Thiết kế Slide thuyết trình sự kiện lẻ</strong></td>
                                     <td>Thiết kế Slide PowerPoint giới thiệu sự kiện, báo cáo khoa học theo layout độc quyền. Tối thiểu book từ 15 slide trở lên.</td>
                                     <td>Slide</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">350,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">350,000</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -4017,28 +4019,28 @@
                                     <td><strong>Chụp ảnh sự kiện chuyên nghiệp (Nửa ngày)</strong></td>
                                     <td>01 Nhiếp ảnh gia chuyên nghiệp, sử dụng máy ảnh cao cấp Sony A7RIV/Canon R5. Bàn giao toàn bộ ảnh gốc và tối thiểu 100 ảnh chỉnh sửa màu sắc chi tiết. Trả ảnh nóng nhanh trong 1 giờ để đăng fanpage.</td>
                                     <td>Buổi (4h)</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">3,500,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">3,500,000</td>
                                 </tr>
                                 <tr>
                                     <td>2.2</td>
                                     <td><strong>Chụp ảnh sự kiện cả ngày</strong></td>
                                     <td>01 Nhiếp ảnh gia chuyên nghiệp tác nghiệp cả ngày (8 tiếng), trả ảnh hoàn thiện trong vòng 24 giờ. Phù hợp cho Hội nghị CIB kéo dài nhiều ngày.</td>
                                     <td>Ngày (8h)</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">6,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">6,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>2.3</td>
                                     <td><strong>Quay phim sản xuất Video Highlight sự kiện</strong></td>
                                     <td>02 Cameraman sử dụng máy Sony FX3 chuyên nghiệp, gimbal, thiết bị thu âm hiện đại. Biên tập và dựng video highlight 2-3 phút, chuẩn phân giải 4K, chèn nhạc bản quyền. Bàn giao sau 3 ngày.</td>
                                     <td>Video</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">18,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">18,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>2.4</td>
                                     <td><strong>Dịch vụ Livestream đa góc máy (Multi-cam)</strong></td>
                                     <td>Hệ thống 03 camera Sony chất lượng Full HD/4K, bàn trộn hình Blackmagic ATEM Mini Pro, bộ truyền không dây, kỹ thuật viên switch hình trực tiếp. Phát trực tiếp lên Fanpage và YouTube HUCE. Đã gồm Internet 4G/5G dự phòng.</td>
                                     <td>Buổi (4h)</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">22,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">22,000,000</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -4062,28 +4064,28 @@
                                     <td><strong>Nhân sự Điều phối Kỹ thuật Âm thanh - Ánh sáng</strong></td>
                                     <td>01 Đạo diễn kỹ thuật âm thanh ánh sáng chuyên nghiệp trực tiếp giám sát, căn chỉnh tần số mic, hệ thống đèn chiếu sáng sân khấu sự kiện lớn. Đảm bảo không xảy ra sự cố hú rít.</td>
                                     <td>Ngày</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">8,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">8,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>3.2</td>
                                     <td><strong>Tổng đạo diễn chương trình sự kiện lẻ</strong></td>
                                     <td>01 Đạo diễn sự kiện giàu kinh nghiệm, xây dựng kịch bản chi tiết chương trình (Timeline/Script MC), điều hành trực tiếp toàn bộ các khâu tổng duyệt và chạy sự kiện chính thức. Áp dụng cho đêm nhạc 500-1000 người.</td>
                                     <td>Sự kiện</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">25,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">25,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>3.3</td>
                                     <td><strong>Nhân sự MC (Dẫn chương trình) chuyên nghiệp</strong></td>
                                     <td>01 MC nam/nữ dẫn các sự kiện trang trọng của bộ ngành và trường đại học. Có khả năng dẫn song ngữ Anh - Việt nếu có khách quốc tế (như Hội thảo CIB).</td>
                                     <td>Buổi</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">12,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">12,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>3.4</td>
                                     <td><strong>Cung cấp đội ngũ Tình nguyện viên / Nhân sự Lễ tân</strong></td>
                                     <td>Đội ngũ lễ tân ngoại hình đồng đều (chiều cao nam >1m75, nữ >1m65), mặc áo dài truyền thống Cobalt Blue hoặc vest lịch thiệp, đón khách VIP, hỗ trợ trao giải. Đã gồm chi phí trang phục nhận diện mới.</td>
                                     <td>Buổi</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">800,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">800,000</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -4112,8 +4114,8 @@
                                     <td><strong>Thiết kế trọn bộ ấn phẩm offline sự kiện:</strong> Backdrop sân khấu chính giảng đường G3, backdrop chụp ảnh (photo booth), standee đón khách sảnh chính, hashtag cầm tay, thiết kế phôi thẻ đại biểu sự kiện.</td>
                                     <td>1</td>
                                     <td>Gói</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">8,000,000</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">8,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">8,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">8,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
@@ -4121,8 +4123,8 @@
                                     <td><strong>Biên tập tin bài PR sự kiện:</strong> Sản xuất 02 bài viết truyền thông (01 bài trước và 01 bài sau sự kiện), chèn 3-5 ảnh xử lý màu sắc cơ bản đăng tải Fanpage và Website trường.</td>
                                     <td>2</td>
                                     <td>Bài</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">1,500,000</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">3,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">1,500,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">3,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
@@ -4130,8 +4132,8 @@
                                     <td><strong>Chụp ảnh sự kiện cả ngày:</strong> 01 Nhiếp ảnh gia chuyên nghiệp tác nghiệp 8 tiếng liên tục, bàn giao toàn bộ file ảnh gốc và tối thiểu 150 ảnh chỉnh sửa chi tiết. Trả ảnh nhanh 1 tiếng sau khai mạc phục vụ truyền thông tức thời.</td>
                                     <td>1</td>
                                     <td>Ngày</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">6,000,000</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">6,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">6,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">6,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
@@ -4139,8 +4141,8 @@
                                     <td><strong>Quay phim video Highlight sự kiện:</strong> 02 Cameraman sử dụng máy quay phim Sony FX3 chuyên nghiệp sản xuất 01 Video Highlight 4K dài 2-3 phút, chèn nhạc bản quyền, bàn giao sau 3 ngày.</td>
                                     <td>1</td>
                                     <td>Video</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">18,000,000</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">18,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">18,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">18,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
@@ -4148,8 +4150,8 @@
                                     <td><strong>Livestream đa góc máy (Multi-cam):</strong> Hệ thống 03 camera Sony chất lượng cao, bàn switch hình trực tiếp Blackmagic, truyền dẫn không dây 4G/5G chuyên dụng phát trực tuyến Lễ khai mạc hội thảo (4 tiếng).</td>
                                     <td>1</td>
                                     <td>Buổi</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">22,000,000</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">22,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">22,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">22,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>6</td>
@@ -4157,8 +4159,8 @@
                                     <td><strong>Nhân sự Điều phối Kỹ thuật Âm thanh - Ánh sáng:</strong> 01 Kỹ sư âm thanh ánh sáng trực tiếp căn chỉnh, vận hành hệ thống âm thanh giảng đường.</td>
                                     <td>1</td>
                                     <td>Ngày</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">8,000,000</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">8,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">8,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">8,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>7</td>
@@ -4166,8 +4168,8 @@
                                     <td><strong>Tổng đạo diễn chương trình sự kiện:</strong> 01 Đạo diễn sự kiện xây dựng kịch bản chi tiết chương trình (Timeline/Script MC), điều phối trực tiếp toàn bộ các khâu khánh tiết.</td>
                                     <td>1</td>
                                     <td>Sự kiện</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">25,000,000</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">25,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">25,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">25,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>8</td>
@@ -4175,8 +4177,8 @@
                                     <td><strong>MC (Dẫn chương trình) chuyên nghiệp:</strong> 01 MC dẫn dắt chương trình có kinh nghiệm dẫn các hội nghị khoa học trang trọng.</td>
                                     <td>1</td>
                                     <td>Buổi</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">12,000,000</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">12,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">12,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">12,000,000</td>
                                 </tr>
                                 <tr>
                                     <td>9</td>
@@ -4184,12 +4186,12 @@
                                     <td><strong>Cung cấp đội ngũ Lễ tân:</strong> Đội ngũ lễ tân ngoại hình đồng đều (mặc áo dài nhận diện Cobalt Blue) phục vụ đón tiếp đại biểu VIP và hỗ trợ khánh tiết.</td>
                                     <td>10</td>
                                     <td>Nhân sự</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">800,000</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">8,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">800,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">8,000,000</td>
                                 </tr>
                                 <tr style="background: rgba(56, 189, 248, 0.12);">
                                     <td colspan="6" style="text-align: right; font-weight: 900; font-size: 1.02rem; color:var(--text-light);">TỔNG KINH PHÍ DỰ TOÁN MẪU SỰ KIỆN TIÊU BIỂU (VND)</td>
-                                    <td style="font-weight: 900; color: var(--accent-light); font-size: 1.05rem; text-shadow:none;">110,000,000</td>
+                                    <td style="font-weight: 900; color: var(--primary); font-size: 1.05rem; text-shadow:none;">110,000,000</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -4231,7 +4233,7 @@
                             gap: 0.5rem;
                             font-size: 1.05rem;
                             font-weight: 700;
-                            color: var(--accent-light);
+                            color: var(--primary);
                             border-bottom:1px solid #e2e8f0;
                             padding-bottom: 0.6rem;
                             margin-bottom: 1rem;
@@ -4325,7 +4327,7 @@
                                     <td><strong>Phương án 1: Duy trì kỹ thuật tối thiểu</strong><br><em>(HUCE tự quản trị)</em></td>
                                     <td>Bảo trì kỹ thuật máy chủ AWS, duy trì bảo mật SSL. Phí băng thông và CDN Cloudflare cho thư viện ảnh. Hỗ trợ kỹ thuật 8/5 khắc phục sự cố nghiêm trọng (server down). HUCE tự chịu trách nhiệm vận hành nội dung, admin.</td>
                                     <td>Hàng tháng</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">4,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">4,000,000</td>
                                     <td><em>Ưu điểm:</em> Tiết kiệm ngân sách tối đa.
                                     <br><em>Nhược điểm:</em> Phòng TT&amp;TS trường phải tự phân bổ nhân sự biên tập viên và admin kỹ thuật để cập nhật Banner quảng cáo, duyệt tin bài trên hệ thống.</td>
                                 </tr>
@@ -4334,7 +4336,7 @@
                                     <td><strong>Phương án 2: Đồng vận hành chuyên nghiệp</strong><br><em>(ConsMedia đồng hành)</em></td>
                                     <td>Bao gồm toàn bộ hạ tầng kỹ thuật của Phương án 1. ConsMedia hỗ trợ kỹ thuật 24/7. Cung cấp 01 nhân sự kỹ thuật &amp; 01 biên tập viên part-time của ConsMedia trực tiếp phối hợp admin, xử lý kỹ thuật Banner, hỗ trợ cựu sinh viên khi gặp lỗi App, sao lưu dữ liệu tự động hàng tuần.</td>
                                     <td>Hàng tháng</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">9,000,000</td>
+                                    <td style="font-weight: 700; color: var(--primary);">9,000,000</td>
                                     <td><strong>Khuyến nghị sử dụng:</strong> Đảm bảo hệ thống hoạt động mượt mà, chuyên nghiệp, không gây áp lực công việc cho nhân sự của HUCE.</td>
                                 </tr>
                                 <tr>
@@ -4343,7 +4345,7 @@
                                     <td>ConsMedia chủ trì vận hành kỹ thuật và nội dung (tương đương Phương án 2). <strong>HUCE không thanh toán tiền mặt.</strong>
                                     <br><em>Cơ chế:</em> HUCE cho phép ConsMedia độc quyền khai thác quảng cáo/tài trợ vị trí Banner trên App HUCA đối với các nhãn hàng đối tác. Doanh thu quảng cáo sẽ tự động bù đắp chi phí vận hành hệ thống.</td>
                                     <td>Hàng năm</td>
-                                    <td style="font-weight: 700; color: var(--accent-light);">0</td>
+                                    <td style="font-weight: 700; color: var(--primary);">0</td>
                                     <td><em>Ưu điểm:</em> Trường không tốn ngân sách công.
                                     <br><em>Điều kiện:</em> Đòi hỏi quy chế hợp tác mở để ConsMedia chủ động làm việc thương mại với các doanh nghiệp đối tác ngoài trường.</td>
                                 </tr>
@@ -4353,7 +4355,7 @@
                 </div>
 
                 <!-- Phân tích Hiệu quả Đầu tư & Giá trị Thu lại (ROI & Operation Efficiency) -->
-                <div class="panel-card" id="p3-sec8" style="margin-top: 1.5rem; border: 1px solid rgba(16, 185, 129, 0.25); background: linear-gradient(135deg, rgba(16, 185, 129, 0.05) 0%, rgba(4, 16, 38, 0.75) 100%);">
+                <div class="panel-card" id="p3-sec8" style="margin-top: 1.5rem; border: 1px solid rgba(16, 185, 129, 0.25); background:#f8fafc; color:#52525b; border:1px solid #e4e4e7;">
                     <h3 style="color: var(--green-light); display: flex; align-items: center; gap: 8px;"><span style="font-size: 1.3rem;">📊</span> BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ và GIÁ TRỊ THU LẠI DỰ KIẾN (ROI và SYSTEM EFFICIENCY)</h3>
                     <p style="margin-bottom: 1.5rem;">Đầu tư vào Nhận diện thương hiệu và Hạ tầng Số Công nghệ H60 không chỉ đơn thuần là chi phí tổ chức sự kiện, mà là một khoản <strong>đầu tư chiến lược dài hạn</strong> mang lại các giá trị thặng dư đo lường được cụ thể cho trường HUCE:</p>
                     
@@ -4429,7 +4431,7 @@
                                     <div class="app-header-logo" style="cursor: pointer; display: flex; align-items: center; gap: 5px;" onclick="switchAppScreen('dashboard')">
                                         <img src="brand-assets/huce_logo.png" alt="HUCE logo mini">
                                         <div class="app-header-title" style="text-align: left; margin-left: 3px;">
-                                            <span style="font-size: 0.48rem; color: var(--accent-light); font-weight: 900; letter-spacing: 0.3px; display: block; line-height: 1;">ĐIỀU PHỐI SỐ</span>
+                                            <span style="font-size: 0.48rem; color: var(--primary); font-weight: 900; letter-spacing: 0.3px; display: block; line-height: 1;">ĐIỀU PHỐI SỐ</span>
                                             <h4 style="font-size: 0.65rem; color:var(--text-light); font-weight: 800; margin: 0; line-height: 1.1;">H60 Campaign</h4>
                                         </div>
                                     </div>
@@ -4441,7 +4443,7 @@
                                     
                                     <!-- Dropdown Menu Overlay inside Phone Screen -->
                                     <div id="phone-header-dropdown" style="display: none; position: absolute; top: 38px; right: 0px; width: 160px; background: rgba(9, 18, 37, 0.98); border: 1px solid rgba(56, 189, 248, 0.35); border-radius: 6px; box-shadow: 0 8px 20px rgba(0,0,0,0.6); z-index: 200; padding: 4px; backdrop-filter: blur(6px); transition: all 0.2s;">
-                                        <div style="font-size: 0.45rem; font-weight: bold; color: var(--accent-light); padding: 3px 6px; border-bottom: 1px solid rgba(15,23,42,0.06); margin-bottom: 3px; letter-spacing: 0.3px;">
+                                        <div style="font-size: 0.45rem; font-weight: bold; color: var(--primary); padding: 3px 6px; border-bottom: 1px solid rgba(15,23,42,0.06); margin-bottom: 3px; letter-spacing: 0.3px;">
                                             🧭 ĐIỀU HƯỚNG NHANH
                                         </div>
                                         <div class="app-dropdown-item" onclick="selectAppMenu('dashboard', event)" style="display: flex; align-items: center; gap: 6px; padding: 5px 6px; border-radius: 3px; font-size: 0.58rem; color:#0f172a; cursor: pointer; transition: background 0.15s;" onmouseover="this.style.background='rgba(56,189,248,0.15)'" onmouseout="this.style.background='transparent'">
@@ -4465,7 +4467,7 @@
                                 <!-- Phone Screen 1: Dashboard -->
                                 <div class="app-body" id="phone-screen-dashboard" style="display: flex; flex-direction: column; gap: 8px;">
                                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
-                                        <span style="font-weight:800; font-size:0.62rem; color:var(--accent-light);">DASHBOARD QUẢN LÝ TỔNG THỂ NỀN TẢNG</span>
+                                        <span style="font-weight:800; font-size:0.62rem; color: var(--primary);">DASHBOARD QUẢN LÝ TỔNG THỂ NỀN TẢNG</span>
                                         <span style="font-size:0.55rem; color:var(--green); font-weight:bold;">● LIVE</span>
                                     </div>
                                     
@@ -4476,7 +4478,7 @@
                                         </div>
                                         <div style="display:flex; justify-content:space-between; color:#64748b;">
                                             <span>Cần Duyệt: <strong style="color:#f59e0b;">3 Tin bài</strong></span>
-                                            <span style="cursor:pointer;" onclick="switchAppScreen('project')">Dự án chạy: <strong style="color:var(--accent-light); text-decoration:underline;" id="phone-dash-active-projects">3</strong> 🚀</span>
+                                            <span style="cursor:pointer;" onclick="switchAppScreen('project')">Dự án chạy: <strong style="color: var(--primary); text-decoration:underline;" id="phone-dash-active-projects">3</strong> 🚀</span>
                                         </div>
                                     </div>
                                     
@@ -4490,7 +4492,7 @@
                                     <div class="app-card">
                                         <div style="display:flex; justify-content:space-between; font-size:0.7rem; margin-bottom:4px;">
                                             <span style="font-weight:700;">Facebook Reach (Tiếp cận)</span>
-                                            <span style="color:var(--accent-light); font-weight:bold;">145.2k / 200k (72%)</span>
+                                            <span style="color: var(--primary); font-weight:bold;">145.2k / 200k (72%)</span>
                                         </div>
                                         <div style="width:100%; height:5px; background:rgba(15,23,42,0.04); border-radius:3px; overflow:hidden;">
                                             <div style="width:72%; height:100%; background:var(--accent);"></div>
@@ -4500,7 +4502,7 @@
                                     <div class="app-card">
                                         <div style="display:flex; justify-content:space-between; font-size:0.7rem; margin-bottom:4px;">
                                             <span style="font-weight:700;">TikTok Followers (Theo dõi)</span>
-                                            <span style="color:var(--accent-light); font-weight:bold;">28.5k / 35k (81%)</span>
+                                            <span style="color: var(--primary); font-weight:bold;">28.5k / 35k (81%)</span>
                                         </div>
                                         <div style="width:100%; height:5px; background:rgba(15,23,42,0.04); border-radius:3px; overflow:hidden;">
                                             <div style="width:81%; height:100%; background:var(--green);"></div>
@@ -4525,7 +4527,7 @@
                                 <!-- Phone Screen 2: Workflow Approval -->
                                 <div class="app-screen-overlay" id="phone-screen-approval" style="padding:0.7rem; display:none; flex-direction:column; gap:8px;">
                                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
-                                        <span style="font-weight:800; font-size:0.62rem; color:var(--accent-light);">Phê duyệt theo luồng (Workflow approval)</span>
+                                        <span style="font-weight:800; font-size:0.62rem; color: var(--primary);">Phê duyệt theo luồng (Workflow approval)</span>
                                         <span style="font-size:0.55rem; color:#64748b; cursor:pointer;" onclick="switchAppScreen('dashboard')">🏠 Home</span>
                                     </div>
                                     
@@ -4571,12 +4573,12 @@
                                 <!-- Phone Screen 3: Schedules & Channels -->
                                 <div class="app-screen-overlay" id="phone-screen-calendar" style="padding:0.7rem; display:none; flex-direction:column; gap:8px;">
                                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
-                                        <span style="font-weight:800; font-size:0.62rem; color:var(--accent-light);">Lịch trình và kênh truyền thông chính thức</span>
+                                        <span style="font-weight:800; font-size:0.62rem; color: var(--primary);">Lịch trình và kênh truyền thông chính thức</span>
                                         <span style="font-size:0.55rem; color:#64748b; cursor:pointer;" onclick="switchAppScreen('dashboard')">🏠 Home</span>
                                     </div>
                                     
                                     <div class="app-card" style="padding: 5px; background:rgba(15,23,42,0.02); border:1px solid #e2e8f0; font-size: 0.55rem; margin-bottom: 2px;">
-                                        <div style="font-weight:bold; color:var(--accent-light); margin-bottom:3px; display:flex; justify-content:space-between;">
+                                        <div style="font-weight:bold; color: var(--primary); margin-bottom:3px; display:flex; justify-content:space-between;">
                                             <span>🔗 KÊNH TRUYỀN THÔNG LIÊN KẾT</span>
                                             <span style="font-size:0.5rem; color:#10b981;">API Connected</span>
                                         </div>
@@ -4819,7 +4821,7 @@
                                     <div class="app-header-logo" style="cursor: pointer; display: flex; align-items: center; gap: 5px;" onclick="switchAppScreen('dashboard')">
                                         <img src="brand-assets/huce_logo.png" alt="HUCE logo mini">
                                         <div class="app-header-title" style="text-align: left; margin-left: 3px;">
-                                            <span style="font-size: 0.48rem; color: var(--accent-light); font-weight: 900; letter-spacing: 0.3px; display: block; line-height: 1;">ĐIỀU PHỐI SỐ</span>
+                                            <span style="font-size: 0.48rem; color: var(--primary); font-weight: 900; letter-spacing: 0.3px; display: block; line-height: 1;">ĐIỀU PHỐI SỐ</span>
                                             <h4 style="font-size: 0.65rem; color:var(--text-light); font-weight: 800; margin: 0; line-height: 1.1;">H60 Campaign</h4>
                                         </div>
                                     </div>
@@ -4831,7 +4833,7 @@
                                     
                                     <!-- Dropdown Menu Overlay inside Phone Screen -->
                                     <div id="ipad-header-dropdown" style="display: none; position: absolute; top: 38px; right: 0px; width: 160px; background: rgba(9, 18, 37, 0.98); border: 1px solid rgba(56, 189, 248, 0.35); border-radius: 6px; box-shadow: 0 8px 20px rgba(0,0,0,0.6); z-index: 200; padding: 4px; backdrop-filter: blur(6px); transition: all 0.2s;">
-                                        <div style="font-size: 0.45rem; font-weight: bold; color: var(--accent-light); padding: 3px 6px; border-bottom: 1px solid rgba(15,23,42,0.06); margin-bottom: 3px; letter-spacing: 0.3px;">
+                                        <div style="font-size: 0.45rem; font-weight: bold; color: var(--primary); padding: 3px 6px; border-bottom: 1px solid rgba(15,23,42,0.06); margin-bottom: 3px; letter-spacing: 0.3px;">
                                             🧭 ĐIỀU HƯỚNG NHANH
                                         </div>
                                         <div class="app-dropdown-item" onclick="selectAppMenu('dashboard', event)" style="display: flex; align-items: center; gap: 6px; padding: 5px 6px; border-radius: 3px; font-size: 0.58rem; color:#0f172a; cursor: pointer; transition: background 0.15s;" onmouseover="this.style.background='rgba(56,189,248,0.15)'" onmouseout="this.style.background='transparent'">
@@ -4855,7 +4857,7 @@
                                 <!-- Phone Screen 1: Dashboard -->
                                 <div class="app-body" id="ipad-screen-dashboard" style="display: flex; flex-direction: column; gap: 8px;">
                                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
-                                        <span style="font-weight:800; font-size:0.62rem; color:var(--accent-light);">DASHBOARD QUẢN LÝ TỔNG THỂ NỀN TẢNG</span>
+                                        <span style="font-weight:800; font-size:0.62rem; color: var(--primary);">DASHBOARD QUẢN LÝ TỔNG THỂ NỀN TẢNG</span>
                                         <span style="font-size:0.55rem; color:var(--green); font-weight:bold;">● LIVE</span>
                                     </div>
                                     
@@ -4866,7 +4868,7 @@
                                         </div>
                                         <div style="display:flex; justify-content:space-between; color:#64748b;">
                                             <span>Cần Duyệt: <strong style="color:#f59e0b;">3 Tin bài</strong></span>
-                                            <span style="cursor:pointer;" onclick="switchAppScreen('project')">Dự án chạy: <strong style="color:var(--accent-light); text-decoration:underline;" id="ipad-dash-active-projects">3</strong> 🚀</span>
+                                            <span style="cursor:pointer;" onclick="switchAppScreen('project')">Dự án chạy: <strong style="color: var(--primary); text-decoration:underline;" id="ipad-dash-active-projects">3</strong> 🚀</span>
                                         </div>
                                     </div>
                                     
@@ -4880,7 +4882,7 @@
                                     <div class="app-card">
                                         <div style="display:flex; justify-content:space-between; font-size:0.7rem; margin-bottom:4px;">
                                             <span style="font-weight:700;">Facebook Reach (Tiếp cận)</span>
-                                            <span style="color:var(--accent-light); font-weight:bold;">145.2k / 200k (72%)</span>
+                                            <span style="color: var(--primary); font-weight:bold;">145.2k / 200k (72%)</span>
                                         </div>
                                         <div style="width:100%; height:5px; background:rgba(15,23,42,0.04); border-radius:3px; overflow:hidden;">
                                             <div style="width:72%; height:100%; background:var(--accent);"></div>
@@ -4890,7 +4892,7 @@
                                     <div class="app-card">
                                         <div style="display:flex; justify-content:space-between; font-size:0.7rem; margin-bottom:4px;">
                                             <span style="font-weight:700;">TikTok Followers (Theo dõi)</span>
-                                            <span style="color:var(--accent-light); font-weight:bold;">28.5k / 35k (81%)</span>
+                                            <span style="color: var(--primary); font-weight:bold;">28.5k / 35k (81%)</span>
                                         </div>
                                         <div style="width:100%; height:5px; background:rgba(15,23,42,0.04); border-radius:3px; overflow:hidden;">
                                             <div style="width:81%; height:100%; background:var(--green);"></div>
@@ -4915,7 +4917,7 @@
                                 <!-- Phone Screen 2: Workflow Approval -->
                                 <div class="app-screen-overlay" id="ipad-screen-approval" style="padding:0.7rem; display:none; flex-direction:column; gap:8px;">
                                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
-                                        <span style="font-weight:800; font-size:0.62rem; color:var(--accent-light);">Phê duyệt theo luồng (Workflow approval)</span>
+                                        <span style="font-weight:800; font-size:0.62rem; color: var(--primary);">Phê duyệt theo luồng (Workflow approval)</span>
                                         <span style="font-size:0.55rem; color:#64748b; cursor:pointer;" onclick="switchAppScreen('dashboard')">🏠 Home</span>
                                     </div>
                                     
@@ -4961,12 +4963,12 @@
                                 <!-- Phone Screen 3: Schedules & Channels -->
                                 <div class="app-screen-overlay" id="ipad-screen-calendar" style="padding:0.7rem; display:none; flex-direction:column; gap:8px;">
                                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
-                                        <span style="font-weight:800; font-size:0.62rem; color:var(--accent-light);">Lịch trình và kênh truyền thông chính thức</span>
+                                        <span style="font-weight:800; font-size:0.62rem; color: var(--primary);">Lịch trình và kênh truyền thông chính thức</span>
                                         <span style="font-size:0.55rem; color:#64748b; cursor:pointer;" onclick="switchAppScreen('dashboard')">🏠 Home</span>
                                     </div>
                                     
                                     <div class="app-card" style="padding: 5px; background:rgba(15,23,42,0.02); border:1px solid #e2e8f0; font-size: 0.55rem; margin-bottom: 2px;">
-                                        <div style="font-weight:bold; color:var(--accent-light); margin-bottom:3px; display:flex; justify-content:space-between;">
+                                        <div style="font-weight:bold; color: var(--primary); margin-bottom:3px; display:flex; justify-content:space-between;">
                                             <span>🔗 KÊNH TRUYỀN THÔNG LIÊN KẾT</span>
                                             <span style="font-size:0.5rem; color:#10b981;">API Connected</span>
                                         </div>
@@ -5379,7 +5381,7 @@
                     btn.innerHTML = "💾 Lưu Phương Án Dự Toán";
                     btn.disabled = false;
                     btn.style.opacity = '1';
-                    btn.style.background = 'linear-gradient(135deg, var(--accent-light) 0%, var(--accent) 100%)';
+                    btn.style.background = 'var(--primary)';
                     btn.style.color = 'var(--primary-dark)';
                 }, 4000);
             }, 1200);
