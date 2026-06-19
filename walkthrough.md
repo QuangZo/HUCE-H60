@@ -56,3 +56,26 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp, đồng bộ
 
 *   **HTML Files:** Cả hai tệp [index.html](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/index.html) và [huce_h60_proposal.html](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/huce_h60_proposal.html) đã được cập nhật đồng bộ hoàn toàn và hoạt động ổn định không lỗi console.
 *   **Markdown Files:** Đã đồng bộ tiêu đề và nội dung cấu trúc mới sang cả thư mục làm việc và Brain artifacts.
+
+---
+
+## 🚀 Cập nhật Ngày 19/06/2026: Tinh chỉnh Báo cáo 02 & Đồng bộ Báo cáo 03 theo Spec md
+
+### 1. Tinh chỉnh Báo cáo 02 (Đề xuất Hành động & Lộ trình triển khai):
+*   **Loại bỏ Mục 4 (Xử lý khủng hoảng):** Xóa bỏ hoàn toàn "4. CƠ CHẾ PHÒNG NGỪA & XỬ XỬ LÝ KHỦNG HOẢNG TRUYỀN THÔNG (QUY TẮC 30 PHÚT)" khỏi giao diện HTML và tệp [02_de_xuat_hanh_dong_va_co_che.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/02_de_xuat_hanh_dong_va_co_che.md).
+*   **Renumber và Restyle Mục 5 (ROI):** 
+    - Tiêu đề chuyển từ Section 5 thành Section 4: `4. BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ và GIÁ TRỊ THU LẠI DỰ KIẾN (ROI & SYSTEM EFFICIENCY)`.
+    - Loại bỏ màu xanh nhạt (`color: var(--green-light)`) và đường viền xanh lá trên panel-card, chuyển về màu tiêu đề chính thống và giao diện card chuẩn cao cấp của hệ thống.
+    - Renumber các tiêu đề con thành `4.1`, `4.2`, `4.3`. Sửa lỗi chính tả "Tài Chỉ" thành "Tài Chính".
+*   **Renumber Mục 6 (Kết luận):** Chuyển tiêu đề thành `5. KẾT LUẬN và ĐỀ XUẤT HÀNH ĐỘNG NGAY (IMMEDIATE ACTIONS)`.
+*   **Cập nhật Anchor Bar Page 2:** Điều chỉnh các nút cuộn nhanh liên kết đúng theo cấu trúc 5 mục mới.
+
+### 2. Đồng bộ hóa Báo cáo 03 (Đề xuất Chào giá) theo file md:
+*   **Dọn dẹp các phần dư thừa HTML-only:** Loại bỏ các phần không có trong file Markdown:
+    - *Gói 1:* Bỏ phần `A. Triết lý Thiết kế và Định hướng Sáng tạo`. Giữ lại đúng quy trình triển khai 4 giai đoạn và đặc tả.
+    - *Bảng giá:* Bỏ mục `3.4. Cơ sở tham chiếu...` và `3.5. Cơ cấu Tài chính Hỗn hợp...`.
+    - *Menu dịch vụ lẻ:* Bỏ bảng `BẢNG 3: BẢNG DỰ TOÁN DEMO MẪU CHO SỰ KIỆN TIÊU BIỂU`.
+*   **Cơ cấu thanh toán và Cam kết đồng hành mới:** Thay thế phần Chiến lược đồng hành (Mục 7 cũ) bằng: `6. CƠ CẤU THANH TOÁN VÀ CAM KẾT ĐỒNG HÀNH` chứa đúng 2 điều khoản theo file md (phân đoạn nghiệm thu và cam kết trích đóng góp 5% thực thu cho Quỹ Cựu sinh viên HUCA).
+*   **Cập nhật Anchor Bar Page 3:** Điều chỉnh các liên kết cuộn nhanh trên Page 3 tương ứng cấu trúc 6 mục mới.
+*   **Sửa lỗi Tag Balancing:** Di chuyển vị trí đóng thẻ `</main>` và `.app-container` về đúng cuối trang `page3-content` thay vì đóng sớm tại `page2-content`, khôi phục hiển thị hoàn hảo của toàn bộ ứng dụng đề xuất trên mọi trình duyệt.
+

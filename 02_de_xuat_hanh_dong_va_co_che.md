@@ -85,18 +85,7 @@ sequenceDiagram
 
 ---
 
-## 4. CƠ CHẾ PHÒNG NGỪA & XỬ LÝ KHỦNG HOẢNG TRUYỀN THÔNG
-
-*   **Tổ phản ứng nhanh:** Thành lập nhóm chat điều phối khẩn cấp gồm Trưởng phòng Truyền thông & Tuyển sinh HUCE và Giám đốc điều hành dự án ConsMedia.
-*   **Quét thông tin tự động:** Sử dụng các công cụ lắng nghe mạng xã hội (Social Listening) để phát hiện sớm các bài đăng, bình luận tiêu cực liên quan đến HUCE trên các hội nhóm sinh viên tự phát.
-*   **Nguyên tắc xử lý sự cố:**
-    1.  *Trong vòng 15 phút:* Phát hiện và báo cáo mức độ ảnh hưởng của tin tiêu cực lên nhóm điều phối.
-    2.  *Trong vòng 30 phút:* Lập phương án xử lý kỹ thuật (yêu cầu ẩn bình luận tiêu cực, khóa bài viết giả mạo hoặc soạn thảo thông cáo đính chính).
-    3.  *Phát ngôn chính thức:* Chỉ có Hiệu trưởng hoặc người được ủy quyền bằng văn bản mới đại diện HUCE phát ngôn trước báo chí.
-
----
-
-## 5. BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ VÀ GIÁ TRỊ THU LẠI DỰ KIẾN (ROI & SYSTEM EFFICIENCY)
+## 4. BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ VÀ GIÁ TRỊ THU LẠI DỰ KIẾN (ROI & SYSTEM EFFICIENCY)
 
 Đầu tư vào Nhận diện thương hiệu và Quy trình Vận hành Website không chỉ đơn thuần là chi phí truyền thông ngắn hạn, mà là một khoản **đầu tư chiến lược dài hạn** mang lại các giá trị thặng dư đo lường được cụ thể cho trường HUCE:
 
@@ -125,7 +114,7 @@ sequenceDiagram
 
 ---
 
-## 6. KẾT LUẬN & HÀNH ĐỘNG NGAY (IMMEDIATE ACTIONS)
+## 5. KẾT LUẬN & HÀNH ĐỘNG NGAY (IMMEDIATE ACTIONS)
 
 Để đảm bảo tiến độ triển khai kịp thời, hai bên thống nhất:
 1.  **Triển khai trước các đầu việc thiết kế qua MOU:** Ký kết Biên bản ghi nhớ để ConsMedia bắt tay ngay vào việc tinh chỉnh logo, làm đăng ký bảo hộ sở hữu trí tuệ sớm nhằm tránh rủi ro mất quyền đăng ký nhãn hiệu.

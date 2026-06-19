@@ -52,3 +52,24 @@
   - `[x]` Đồng bộ hóa Deliverables Hub của Gói 1 (thêm Phân nhóm 11: Playbook & Ấn phẩm in ấn).
   - `[x]` Kiểm tra tổng ngân sách Gói 1 (500M) và tổng dự án (800M) không đổi.
 
+---
+
+## Giai đoạn 4: Tinh chỉnh Báo cáo 02 và Đồng bộ Báo cáo 03 (Yêu cầu ngày 19/06/2026)
+
+- `[x]` **Tinh chỉnh Báo cáo 02:**
+  - `[x]` Loại bỏ Section 4 (Cơ chế phòng ngừa & xử lý khủng hoảng truyền thông).
+  - `[x]` Renumber và restyle Section 5 (ROI & System Efficiency) thành Section 4 (màu sắc tiêu đề chuẩn var(--primary), không dùng màu xanh nhạt).
+  - `[x]` Renumber Section 6 (Kết luận & Hành động ngay) thành Section 5.
+  - `[x]` Cập nhật các liên kết cuộn nhanh trên Page 2 Anchor Bar.
+  - `[x]` Đồng bộ hóa file markdown [02_de_xuat_hanh_dong_va_co_che.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/02_de_xuat_hanh_dong_va_co_che.md).
+
+- `[x]` **Đồng bộ hóa Báo cáo 03 theo file md:**
+  - `[x]` Loại bỏ các phần HTML-only dư thừa (A. Triết lý Thiết kế, 3.4. Cơ sở tham chiếu, 3.5. Cơ cấu Tài chính, Bảng 3: Dự toán mẫu, Section 7: Chiến lược đồng hành).
+  - `[x]` Cập nhật và định dạng lại Gói 1 và Gói 2 nội dung theo file md.
+  - `[x]` Tạo Section 6 mới cho "Cơ cấu thanh toán và cam kết đồng hành" với 2 điều khoản chuẩn từ file md (trích 5% cho quỹ cựu sinh viên HUCA).
+  - `[x]` Cập nhật các liên kết cuộn nhanh trên Page 3 Anchor Bar.
+
+- `[x]` **Đẩy lên Git và Triển khai:**
+  - `[x]` Commit và push toàn bộ thay đổi lên branch `main` của remote.
+
+
