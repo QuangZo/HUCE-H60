@@ -41,7 +41,8 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp, đồng bộ
 
 ### 6. Cập nhật Menu Sidebar & Tái cấu trúc Trang 1
 *   **Số thứ tự Menu Sidebar:** Thay đổi ký hiệu số thứ tự vòng tròn từ `01, 02, 03, 04` thành `00` cho Trang Tổng quan, và `01, 02, 03` tương ứng với Báo cáo 01, Báo cáo 02, Báo cáo 03. Việc này giải quyết triệt để sự trùng lặp và lệch số thứ tự báo cáo (tránh tình trạng Badge 02 đi kèm với Báo cáo 01).
-*   **Tái cấu trúc nội dung Trang 1:** Tái cấu trúc nội dung Trang 1 từ 7 phần cũ thành đúng 5 phần tương thích hoàn toàn với tệp nghiên cứu `01_danh_gia_suc_khoe_thuong_hieu.md` (bao gồm: 1. Nhu cầu cấp thiết, 2. Cảnh báo pháp lý, 3. Khảo sát thực trạng, 4. Phân tích SWOT rút gọn, và 5. Đề xuất giải pháp trọng tâm), đồng thời bảo toàn trọn vẹn Bản đồ Chỉ số Sức khỏe Thương hiệu (Interactive Dashboard) hoạt động động.
+*   **Tái cấu trúc nội dung Trang 1:** Tái cấu trúc nội dung Trang 1 thành đúng **4 phần chính** bằng cách ghép phần Cảnh báo pháp lý khẩn cấp vào dưới mục *1. Nhu cầu cấp thiết* (thành mục *1.2. Cảnh báo pháp lý khẩn cấp*, còn nhu cầu là mục *1.1. Các nhu cầu cấp thiết*). Các phần tiếp theo (Khảo sát thực trạng, SWOT, Đề xuất giải pháp) được đánh số lại thành 2, 3, 4 tương thích hoàn toàn với tệp nghiên cứu `01_danh_gia_suc_khoe_thuong_hieu.md`, đồng thời bảo toàn trọn vẹn Bản đồ Chỉ số Sức khỏe Thương hiệu hoạt động động.
+*   **Định dạng ngày tháng đầu trang:** Loại bỏ chữ "Ngày", đưa ngày tháng năm động lên cùng hàng với "Hà Nội" sau ký tự `|` (Ví dụ: `Hà Nội | 19/06/2026`).
 *   **Lộ trình Giai đoạn 3, 4, 5, 6:** Cập nhật ngày tháng chuẩn hóa và tên Giai đoạn 4 phục vụ trước Đại lễ trên cả sơ đồ Page 2 và timeline Page 0.
 
 ---
@@ -49,4 +50,4 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp, đồng bộ
 ## 🛠️ Trạng thái Triển khai Kỹ thuật
 
 *   **HTML Files:** Cả hai tệp [index.html](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/index.html) và [huce_h60_proposal.html](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/huce_h60_proposal.html) đã được cập nhật đồng bộ hoàn toàn và hoạt động ổn định không lỗi console.
-*   **Markdown Files:** Đã đồng bộ tiêu đề chuẩn hóa sang cả thư mục làm việc và Brain artifacts.
+*   **Markdown Files:** Đã đồng bộ tiêu đề và nội dung cấu trúc mới sang cả thư mục làm việc và Brain artifacts.
