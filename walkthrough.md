@@ -79,3 +79,33 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp, đồng bộ
 *   **Cập nhật Anchor Bar Page 3:** Điều chỉnh các liên kết cuộn nhanh trên Page 3 tương ứng cấu trúc 6 mục mới.
 *   **Sửa lỗi Tag Balancing:** Di chuyển vị trí đóng thẻ `</main>` và `.app-container` về đúng cuối trang `page3-content` thay vì đóng sớm tại `page2-content`, khôi phục hiển thị hoàn hảo của toàn bộ ứng dụng đề xuất trên mọi trình duyệt.
 
+---
+
+## 🚀 Cập nhật Ngày 19/06/2026 (Lần 2): Tái cấu trúc Trang 1 và Trang 2 theo Flow Tuyến tính Mới
+
+### 1. Tái cấu trúc Nội dung Trang 1 (Phần 1: Đánh giá sơ bộ & Đề xuất Giải pháp)
+Đã sắp xếp lại toàn bộ nội dung của Trang 1 thành một mạch tuyến tính liền mạch, hợp lý theo đúng yêu cầu mới:
+1.  **Mục 1: Nhu Cầu Cấp Thiết & Định Hướng Tiếp Cận** (Giữ nguyên mục 1.1 và cảnh báo pháp lý 1.2).
+2.  **Mục 2: Khảo Sát Thực Trạng** (Giữ nguyên phần 2.1 phân mảnh màu sắc, 2.2 hiệu suất kênh truyền thông, và Bản Đồ Chỉ Số Sức Khỏe Thương Hiệu HUCE).
+3.  **Mục 3: Đề xuất hành động** (Di chuyển phần "Ba Trụ Cột" từ Trang 2 sang). Đã thực hiện thay đổi tên mục thành **Đề xuất hành động**, đồng thời xóa bỏ hoàn toàn từ **"trụ cột"** (pillar) ở cả phần đầu sách, biểu đồ ASCII vẽ tay và các thẻ mô tả hành động (thay bằng cụm từ **Nhóm hành động**).
+4.  **Mục 4: Lộ trình triển khai** (Di chuyển phần sơ đồ 6 giai đoạn từ Trang 2 sang).
+5.  **Mục 5: Tổng hợp báo giá** (Di chuyển bảng biểu phí trọn gói Bảng 1 từ Trang 3 sang làm cấu phần tổng hợp kinh phí).
+6.  **Mục 6: Kết luận** (Di chuyển phần KẾT LUẬN & ĐỀ XUẤT HÀNH ĐỘNG NGAY từ cuối Trang 2 sang cuối Trang 1).
+
+### 2. Loại bỏ các Phần dư thừa & Omit ROI trên Trang 1
+*   **Loại bỏ SWOT & Giải pháp cũ:** Loại bỏ phần bảng SWOT (cũ) và cấu phần giải pháp A & B cũ trên Trang 1 để không bị trùng lặp thông tin sau khi chuyển đổi.
+*   **Loại bỏ ROI:** Xóa bỏ hoàn toàn phần **4. BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ và GIÁ TRỊ THU LẠI DỰ KIẾN (ROI & SYSTEM EFFICIENCY)** khi sao chép nội dung sang Trang 1.
+
+### 3. Giữ nguyên Trang 2 và Trang 3 làm các Báo cáo chi tiết độc lập
+*   **Không cắt xén hay đổi tên Trang 2:** Khôi phục hoàn toàn cấu trúc Trang 2 (tên gọi giữ nguyên **Phần 2: Đề xuất Hành động & Lộ trình triển khai**) chứa đầy đủ 5 mục gốc bao gồm: Ba Trụ Cột, Lộ trình, Quy trình & RACI, ROI, Kết luận.
+*   **Không cắt xén hay đổi tên Trang 3:** Khôi phục hoàn toàn Trang 3 (tên gọi giữ nguyên **Phần 3: Đề xuất Chào giá**) chứa đầy đủ thông tin đặc tả Gói 1, Gói 2, Bảng 1 pricing table, Deliverables, Dịch vụ lẻ, Thanh toán & Cam kết.
+*   **Lợi ích:** Đảm bảo toàn bộ hệ thống menu điều hướng sidebar và JavaScript trang hoạt động hoàn hảo, không bị trắng xóa hoặc mất nội dung khi người dùng chuyển tab.
+
+### 4. Loại bỏ Tiêu đề thừa Trang 0
+*   Đã xóa bỏ tiêu đề `KHÁI QUÁT SỨC KHỎE THƯƠNG HIỆU HUCE` thừa ở trên cùng phần Bản đồ chỉ số sức khỏe của trang chủ Page 0 (Tổng Quan). Giờ đây bản đồ hiển thị gọn gàng, tinh tế trực diện với tiêu đề nội bộ `Bản Đồ Chỉ Số Sức Khỏe Thương Hiệu HUCE`.
+
+### 5. Đồng bộ hóa tài liệu Markdown (.md)
+*   [01_danh_gia_suc_khoe_thuong_hieu.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/01_danh_gia_suc_khoe_thuong_hieu.md): Viết lại để tích hợp hoàn toàn 6 phần theo đúng cấu trúc tuyến tính mới của Trang 1 HTML.
+*   [02_de_xuat_hanh_dong_va_co_che.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/02_de_xuat_hanh_dong_va_co_che.md): Được giữ nguyên vẹn chứa đầy đủ các phần của Phần 2 để đồng bộ 100% với Trang 2 HTML.
+
+

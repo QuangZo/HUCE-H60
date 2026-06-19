@@ -72,4 +72,35 @@
 - `[x]` **Đẩy lên Git và Triển khai:**
   - `[x]` Commit và push toàn bộ thay đổi lên branch `main` của remote.
 
+---
+
+## Giai đoạn 5: Tái cấu trúc Trang 1 và Trang 2 (Yêu cầu ngày 19/06/2026)
+
+- `[x]` **Loại bỏ SWOT và Đề xuất Giải pháp gốc trên Trang 1:**
+  - `[x]` Loại bỏ SWOT table và Cấu phần A & B cũ của Trang 1.
+- `[x]` **Di chuyển Đề xuất hành động từ Trang 2 sang Trang 1:**
+  - `[x]` Di chuyển "Ba Trụ Cột" sang Trang 1 dưới tên "Đề xuất hành động".
+  - `[x]` Loại bỏ hoàn toàn từ "trụ cột" trong biểu đồ ASCII và toàn bộ văn bản của phần này.
+- `[x]` **Di chuyển Lộ trình triển khai từ Trang 2 sang Trang 1:**
+  - `[x]` Bê nguyên lộ trình 6 giai đoạn sang Trang 1.
+- `[x]` **Di chuyển Bảng giá trọn gói từ Trang 3 sang Trang 1:**
+  - `[x]` Bê bảng báo giá trọn gói (Bảng 1) sang Trang 1 dưới dạng Tổng hợp báo giá.
+- `[x]` **Loại bỏ hoàn toàn phần Phân tích ROI:**
+  - `[x]` Xóa bỏ hoàn toàn phần ROI (Section 4 của Page 2).
+- `[x]` **Di chuyển Kết luận sang Trang 1:**
+  - `[x]` Di chuyển phần Kết luận xuống cuối cùng của Trang 1.
+- `[x]` **Cập nhật Anchor Bars:**
+  - `[x]` Anchor Bar Trang 1 cập nhật thành: 1. Nhu Cầu & Cảnh Báo | 2. Sức Khỏe Thương Hiệu | 3. Đề Xuất Hành Động | 4. Lộ Trình Triển Khai | 5. Tổng Hợp Báo Giá | 6. Kết Luận.
+  - `[x]` Anchor Bar Trang 2 cập nhật thành: 1. Quy Trình & RACI.
+- `[x]` **Cập nhật Tên Trang 2:**
+  - `[x]` Đổi tên Trang 2 thành "Phần 2: Quy trình Phối hợp & RACI Matrix" trong menu, JS tiêu đề, selector.
+- `[x]` **Loại bỏ Tiêu đề thừa:**
+  - `[x]` Loại bỏ tiêu đề "KHÁI QUÁT SỨC KHỎE THƯƠNG HIỆU HUCE" thừa ở Trang 0 (Tổng Quan).
+- `[x]` **Đồng bộ hóa tài liệu Markdown:**
+  - `[x]` Cập nhật [01_danh_gia_suc_khoe_thuong_hieu.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/01_danh_gia_suc_khoe_thuong_hieu.md).
+  - `[x]` Cập nhật [02_de_xuat_hanh_dong_va_co_che.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/02_de_xuat_hanh_dong_va_co_che.md).
+- `[x]` **Commit và push lên Git:**
+  - `[ ]` Commit và push toàn bộ thay đổi lên branch `main` của remote.
+
+
 
