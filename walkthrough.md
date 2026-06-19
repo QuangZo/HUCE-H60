@@ -8,9 +8,9 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp, đồng bộ
 
 ### 1. Thống nhất tên gọi 03 Báo cáo Chiến lược
 Đã chuẩn hóa và đồng bộ hóa tuyệt đối tên gọi của 03 báo cáo chính ở tất cả các vị trí (trong file Markdown tiêu đề đầu trang, menu điều hướng sidebar HTML, menu xem trước bản in A4, các thẻ tóm tắt trang chủ Page 0, và script JS hiển thị tiêu đề động):
-*   **Báo cáo 01:** *Đánh giá sơ bộ Sức khỏe thương hiệu HUCE*
-*   **Báo cáo 02:** *Đề xuất Hành động &amp; Lộ trình triển khai*
-*   **Báo cáo 03:** *Đề xuất Chào giá*
+*   **Phần 1:** *Đánh giá sơ bộ Sức khỏe thương hiệu HUCE*
+*   **Phần 2:** *Đề xuất Hành động &amp; Lộ trình triển khai*
+*   **Phần 3:** *Đề xuất Chào giá*
 
 ### 2. Tách biệt các Gói ngân sách trong Interactive Calculator
 *   **Calculator Checkboxes:** Đã hủy bỏ checkbox gộp chung 800M cũ. Thay vào đó, thiết lập 03 checkbox tách biệt hoạt động trơn tru:
@@ -40,9 +40,9 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp, đồng bộ
 *   Đánh số lại hạng mục Thiết kế Slide thuyết trình sự kiện lẻ thành **1.6** (Đơn giá 350.000 VND/slide).
 
 ### 6. Cập nhật Menu Sidebar & Tái cấu trúc Trang 1
-*   **Số thứ tự Menu Sidebar:** Thay đổi ký hiệu số thứ tự vòng tròn từ `01, 02, 03, 04` thành `00` cho Trang Tổng quan, và `01, 02, 03` tương ứng với Báo cáo 01, Báo cáo 02, Báo cáo 03. Việc này giải quyết triệt để sự trùng lặp và lệch số thứ tự báo cáo (tránh tình trạng Badge 02 đi kèm với Báo cáo 01).
+*   **Số thứ tự Menu Sidebar:** Thay đổi ký hiệu số thứ tự vòng tròn từ `01, 02, 03, 04` thành `00` cho Trang Tổng quan, và `01, 02, 03` tương ứng với Phần 1, Phần 2, Phần 3. Việc này giải quyết triệt để sự trùng lặp và lệch số thứ tự báo cáo (tránh tình trạng Badge 02 đi kèm với Phần 1).
 *   **Đổi tên Trang tổng quan:** Trang đầu tiên trong mục lục (Page 0) đã được rút gọn tên từ "Tổng quan &amp; Khái quát Chào giá" thành **Tổng Quan** thống nhất ở cả menu sidebar và JavaScript tiêu đề trang.
-*   **Tái cấu trúc nội dung Trang 1 (Báo cáo 01):** Ghép phần Cảnh báo pháp lý khẩn cấp vào dưới mục *1. Nhu cầu cấp thiết* (thành mục *1.2. Cảnh báo pháp lý khẩn cấp*, còn nhu cầu là mục *1.1. Các nhu cầu cấp thiết*). Các phần tiếp theo (Khảo sát thực trạng, SWOT, Đề xuất giải pháp) được đánh số lại thành 2, 3, 4 tương thích hoàn toàn với tệp nghiên cứu `01_danh_gia_suc_khoe_thuong_hieu.md`.
+*   **Tái cấu trúc nội dung Trang 1 (Phần 1):** Ghép phần Cảnh báo pháp lý khẩn cấp vào dưới mục *1. Nhu cầu cấp thiết* (thành mục *1.2. Cảnh báo pháp lý khẩn cấp*, còn nhu cầu là mục *1.1. Các nhu cầu cấp thiết*). Các phần tiếp theo (Khảo sát thực trạng, SWOT, Đề xuất giải pháp) được đánh số lại thành 2, 3, 4 tương thích hoàn toàn với tệp nghiên cứu `01_danh_gia_suc_khoe_thuong_hieu.md`.
 *   **Sửa lỗi Trang 2 và 3 bị trắng:** Khắc phục triệt để lỗi unclosed tags (thừa/thiếu thẻ `div` khi trích xuất Dashboard tự động) bằng thuật toán đếm thẻ mở/đóng lồng nhau, giúp giao diện phân trang hiển thị chuẩn xác 100%.
 *   **Căn chỉnh thông tin chung dự án:** Nâng cấp grid layout phần thông tin dự án trên Trang Tổng Quan thành dạng lưới 2 cột co giãn cân đối (Item Tên dự án chiếm trọn 2 cột ở đầu để tránh wrap chữ, 4 cụm thông tin còn lại phân bổ đều đặn).
 *   **Bê nguyên Dashboard Sức khỏe Thương hiệu sang Trang Tổng Quan:** Thay thế phần health grid cũ trên Trang Tổng Quan (Page 0) bằng toàn bộ **Bản Đồ Chỉ Số Sức Khỏe Thương Hiệu HUCE** (bao gồm cả Style CSS & markup HTML hoàn chỉnh) giúp người dùng tương tác ngay từ trang đầu.
@@ -59,9 +59,9 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp, đồng bộ
 
 ---
 
-## 🚀 Cập nhật Ngày 19/06/2026: Tinh chỉnh Báo cáo 02 & Đồng bộ Báo cáo 03 theo Spec md
+## 🚀 Cập nhật Ngày 19/06/2026: Tinh chỉnh Phần 2 & Đồng bộ Phần 3 theo Spec md
 
-### 1. Tinh chỉnh Báo cáo 02 (Đề xuất Hành động & Lộ trình triển khai):
+### 1. Tinh chỉnh Phần 2 (Đề xuất Hành động & Lộ trình triển khai):
 *   **Loại bỏ Mục 4 (Xử lý khủng hoảng):** Xóa bỏ hoàn toàn "4. CƠ CHẾ PHÒNG NGỪA & XỬ XỬ LÝ KHỦNG HOẢNG TRUYỀN THÔNG (QUY TẮC 30 PHÚT)" khỏi giao diện HTML và tệp [02_de_xuat_hanh_dong_va_co_che.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/02_de_xuat_hanh_dong_va_co_che.md).
 *   **Renumber và Restyle Mục 5 (ROI):** 
     - Tiêu đề chuyển từ Section 5 thành Section 4: `4. BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ và GIÁ TRỊ THU LẠI DỰ KIẾN (ROI & SYSTEM EFFICIENCY)`.
@@ -70,7 +70,7 @@ Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp, đồng bộ
 *   **Renumber Mục 6 (Kết luận):** Chuyển tiêu đề thành `5. KẾT LUẬN và ĐỀ XUẤT HÀNH ĐỘNG NGAY (IMMEDIATE ACTIONS)`.
 *   **Cập nhật Anchor Bar Page 2:** Điều chỉnh các nút cuộn nhanh liên kết đúng theo cấu trúc 5 mục mới.
 
-### 2. Đồng bộ hóa Báo cáo 03 (Đề xuất Chào giá) theo file md:
+### 2. Đồng bộ hóa Phần 3 (Đề xuất Chào giá) theo file md:
 *   **Dọn dẹp các phần dư thừa HTML-only:** Loại bỏ các phần không có trong file Markdown:
     - *Gói 1:* Bỏ phần `A. Triết lý Thiết kế và Định hướng Sáng tạo`. Giữ lại đúng quy trình triển khai 4 giai đoạn và đặc tả.
     - *Bảng giá:* Bỏ mục `3.4. Cơ sở tham chiếu...` và `3.5. Cơ cấu Tài chính Hỗn hợp...`.

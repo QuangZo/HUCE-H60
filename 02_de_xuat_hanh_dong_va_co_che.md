@@ -1,4 +1,4 @@
-# BÁO CÁO 02: ĐỀ XUẤT HÀNH ĐỘNG THEO CƠ CHẾ ĐỐI TÁC TRUYỀN THÔNG
+# PHẦN 2: ĐỀ XUẤT HÀNH ĐỘNG THEO CƠ CHẾ ĐỐI TÁC TRUYỀN THÔNG
 **Dự án: Chuẩn hóa Thương hiệu & Tái cấu trúc Hệ thống Vận hành Truyền thông**  
 
 ---

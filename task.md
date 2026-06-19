@@ -2,17 +2,17 @@
 
 ## Giai đoạn 1: Hoàn thiện Bộ tài liệu Nghiên cứu (.md)
 
-- `[x]` **Cập nhật Báo cáo 01: Đánh giá sức khỏe thương hiệu và cảnh báo bảo hộ pháp lý HUCE:**
+- `[x]` **Cập nhật Phần 1: Đánh giá sức khỏe thương hiệu và cảnh báo bảo hộ pháp lý HUCE:**
   - `[x]` Thay thế toàn bộ định danh "Chiến dịch H60" bằng "Hệ thống Thương hiệu HUCE".
   - `[x]` Rephrase các bối cảnh để làm rõ H60 là cột mốc kích hoạt sự cần thiết, còn cốt lõi là Thương hiệu HUCE lâu dài.
   - `[x]` Chuyển đổi các mô tả mục tiêu và giải pháp tương thích.
 
-- `[x]` **Cập nhật Báo cáo 02: Bản đề xuất hành động theo cơ chế đối tác truyền thông:**
+- `[x]` **Cập nhật Phần 2: Bản đề xuất hành động theo cơ chế đối tác truyền thông:**
   - `[x]` Cập nhật dự án và tiêu đề ba trụ cột hành động chính tập trung vào Thương hiệu HUCE.
   - `[x]` Sửa đổi mục tiêu Trụ cột 3 phục vụ các hoạt động/ngày lễ lớn thường niên, không đóng khung trong H60.
   - `[x]` Tái cấu trúc cơ chế phối hợp và phòng ngừa xử lý khủng hoảng nhãn hiệu lâu dài.
 
-- `[x]` **Cập nhật Báo cáo 03: Bản đề xuất giải pháp và bảng báo giá chi tiết:**
+- `[x]` **Cập nhật Phần 3: Bản đề xuất giải pháp và bảng báo giá chi tiết:**
   - `[x]` Cập nhật tên dự án và danh mục deliverables (Slide template thương hiệu, áo Polo thương hiệu, Landing Page thương hiệu, bảo hộ SHTT).
   - `[x]` Cập nhật tên các gói sản phẩm và bảng giá cố định 800M (Gói 1: 500M, Gói 2.1: 120M, Gói 2.2: 180M).
   - `[x]` Cấu trúc lại bảng giá lẻ cho các sự kiện thường niên của trường.
@@ -54,16 +54,16 @@
 
 ---
 
-## Giai đoạn 4: Tinh chỉnh Báo cáo 02 và Đồng bộ Báo cáo 03 (Yêu cầu ngày 19/06/2026)
+## Giai đoạn 4: Tinh chỉnh Phần 2 và Đồng bộ Phần 3 (Yêu cầu ngày 19/06/2026)
 
-- `[x]` **Tinh chỉnh Báo cáo 02:**
+- `[x]` **Tinh chỉnh Phần 2:**
   - `[x]` Loại bỏ Section 4 (Cơ chế phòng ngừa & xử lý khủng hoảng truyền thông).
   - `[x]` Renumber và restyle Section 5 (ROI & System Efficiency) thành Section 4 (màu sắc tiêu đề chuẩn var(--primary), không dùng màu xanh nhạt).
   - `[x]` Renumber Section 6 (Kết luận & Hành động ngay) thành Section 5.
   - `[x]` Cập nhật các liên kết cuộn nhanh trên Page 2 Anchor Bar.
   - `[x]` Đồng bộ hóa file markdown [02_de_xuat_hanh_dong_va_co_che.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/02_de_xuat_hanh_dong_va_co_che.md).
 
-- `[x]` **Đồng bộ hóa Báo cáo 03 theo file md:**
+- `[x]` **Đồng bộ hóa Phần 3 theo file md:**
   - `[x]` Loại bỏ các phần HTML-only dư thừa (A. Triết lý Thiết kế, 3.4. Cơ sở tham chiếu, 3.5. Cơ cấu Tài chính, Bảng 3: Dự toán mẫu, Section 7: Chiến lược đồng hành).
   - `[x]` Cập nhật và định dạng lại Gói 1 và Gói 2 nội dung theo file md.
   - `[x]` Tạo Section 6 mới cho "Cơ cấu thanh toán và cam kết đồng hành" với 2 điều khoản chuẩn từ file md (trích 5% cho quỹ cựu sinh viên HUCA).
