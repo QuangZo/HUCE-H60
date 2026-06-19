@@ -1,5 +1,5 @@
 # BÁO CÁO 03: ĐỀ XUẤT GIẢI PHÁP & BẢNG BÁO GIÁ CHI TIẾT HỆ THỐNG THƯƠNG HIỆU
-**Dự án: Chuẩn hóa Nhận diện và Xây dựng Hệ thống Thương hiệu HUCE**  
+**Dự án: Chuẩn hóa Thương hiệu & Tái cấu trúc Hệ thống Vận hành Truyền thông**  
 
 > [!NOTE]
 > *   **Kính gửi:** PGS.TS. Hoàng Tùng - Hiệu trưởng & Ban Giám hiệu Trường Đại học Xây dựng Hà Nội (HUCE).

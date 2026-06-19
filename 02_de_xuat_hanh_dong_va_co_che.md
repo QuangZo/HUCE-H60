@@ -1,5 +1,5 @@
 # BÁO CÁO 02: ĐỀ XUẤT HÀNH ĐỘNG THEO CƠ CHẾ ĐỐI TÁC TRUYỀN THÔNG
-**Dự án: Chuẩn hóa Nhận diện và Xây dựng Hệ thống Thương hiệu HUCE**  
+**Dự án: Chuẩn hóa Thương hiệu & Tái cấu trúc Hệ thống Vận hành Truyền thông**  
 
 ---
 
