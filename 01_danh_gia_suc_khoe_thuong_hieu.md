@@ -27,7 +27,7 @@ Hiện tại, Trường Đại học Xây dựng Hà Nội (HUCE) đang đứng 
 *   **Tranh chấp tên miền và kênh truyền thông số:** Việc thiếu văn bằng bảo hộ nhãn hiệu gây khó khăn lớn khi yêu cầu các nền tảng mạng xã hội (Facebook, TikTok, Google) xác minh tích xanh chính chủ hoặc xử lý các trang giả mạo trường.
 
 ### Đề xuất hành động:
-*   Bổ sung ngay dịch vụ **Tư vấn và thực hiện thủ tục đăng ký bảo hộ nhãn hiệu độc quyền** vào Gói 1 của đề xuất này.
+*   Bổ sung ngay dịch vụ **Tư vấn và thực hiện thủ tục đăng ký bảo hộ nhãn hiệu độc quyền** làm cấu phần cốt lõi trong Gói Tổng Thể của đề xuất này.
 *   Đăng ký tối thiểu tại các nhóm ngành thiết yếu:
     *   **Nhóm 41:** Giáo dục, đào tạo, tổ chức sự kiện văn hóa, thể thao.
     *   **Nhóm 16:** Sách, tài liệu, giáo trình, ấn phẩm in ấn học thuật.
@@ -72,13 +72,13 @@ Qua khảo sát thực tế bộ tài liệu nhận diện `BỘ NHẬN DIỆN M
 
 ## 5. ĐỀ XUẤT GIẢI PHÁP TRỌNG TÂM
 
-Để giải quyết triệt để các vấn đề trên, nhà trường cần tập trung thực thi 2 nhóm giải pháp lớn tương ứng với 2 gói chào thầu:
-1.  **Gói 1: Chuẩn hóa Nhận diện thương hiệu & Đăng ký bảo hộ sở hữu trí tuệ**
+Để giải quyết triệt để các vấn đề trên, nhà trường cần tập trung thực thi các nhóm giải pháp tích hợp trong Gói Tổng Thể:
+1.  **Cấu phần A: Chuẩn hóa Nhận diện thương hiệu & Đăng ký bảo hộ sở hữu trí tuệ**
     *   Tinh chỉnh hình học logo, khóa mã màu chuẩn HSL Cobalt Blue.
     *   Ban hành cuốn Brand Guidelines toàn diện.
     *   Thiết kế lại toàn bộ giao diện hệ thống website của trường (bàn giao Figma UI Kit).
-    *   Đóng gói thiết kế quà tặng thương hiệu đồng bộ.
+    *   Đóng gói thiết kế khung quy chuẩn quà tặng thương hiệu đồng bộ.
     *   **Thực hiện trọn gói thủ tục đăng ký bảo hộ SHTT cho logo và nhãn hiệu HUCE.**
-2.  **Gói 2: Tư vấn quy trình quản lý truyền thông & Dịch vụ vận hành website đồng hành**
+2.  **Cấu phần B: Tư vấn quy trình quản lý truyền thông & Dịch vụ vận hành website đồng hành**
     *   Xây dựng quy chế phối hợp, quy trình phê duyệt tin bài và xử lý khủng hoảng truyền thông.
     *   Cung cấp nhân sự chuyên nghiệp chăm sóc, cập nhật nội dung website trường liên tục trong 12 tháng.

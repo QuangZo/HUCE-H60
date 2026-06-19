@@ -81,4 +81,4 @@ sequenceDiagram
 
 Để đảm bảo tiến độ triển khai kịp thời, hai bên thống nhất:
 1.  **Triển khai trước các đầu việc thiết kế qua MOU:** Ký kết Biên bản ghi nhớ để ConsMedia bắt tay ngay vào việc tinh chỉnh logo, làm đăng ký bảo hộ sở hữu trí tuệ sớm nhằm tránh rủi ro mất quyền đăng ký nhãn hiệu.
-2.  **Nghiệm thu thanh toán theo giai đoạn:** Thực hiện ký kết hợp đồng và nghiệm thu cuốn chiếu theo từng gói sản phẩm cố định độc lập (Gói 1 hoàn thành nghiệm thu bàn giao file gốc, Gói 2 nghiệm thu dịch vụ vận hành hàng tháng).
+2.  **Nghiệm thu thanh toán theo giai đoạn:** Thực hiện ký kết hợp đồng và nghiệm thu cuốn chiếu theo từng cấu phần của Gói Tổng Thể (Cấu phần A hoàn thành nghiệm thu bàn giao file thiết kế gốc & nộp đơn bảo hộ SHTT, Cấu phần B nghiệm thu dịch vụ vận hành hàng tháng).
