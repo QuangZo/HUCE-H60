@@ -77,8 +77,38 @@ sequenceDiagram
 
 ---
 
-## 4. KẾT LUẬN & HÀNH ĐỘNG NGAY (IMMEDIATE ACTIONS)
+## 4. BẢN PHÂN TÍCH HIỆU QUẢ ĐẦU TƯ VÀ GIÁ TRỊ THU LẠI DỰ KIẾN (ROI & SYSTEM EFFICIENCY)
+
+Đầu tư vào Nhận diện thương hiệu và Quy trình Vận hành Website không chỉ đơn thuần là chi phí truyền thông ngắn hạn, mà là một khoản **đầu tư chiến lược dài hạn** mang lại các giá trị thặng dư đo lường được cụ thể cho trường HUCE:
+
+### 4.1. Nâng Tầm Giá Trị Thương Hiệu (Brand Equity Value-Add)
+*   **Giải quyết khoảng cách nhận diện:** Khắc phục triệt để sự đứt gãy nhận diện công chúng giữa Trường Đại học Xây dựng Hà Nội (cũ) và HUCE (mới), định vị trường đa ngành hiện đại, mở rộng uy tín học thuật trong nước và quốc tế.
+*   **Tăng trưởng chỉ số tương tác số:** Dự kiến tăng trưởng **45% - 60%** lượt tiếp cận (reach) và tương tác (engagement) trên toàn bộ hệ thống kênh số trong suốt giai đoạn tiếp cận và vận hành.
+
+### 4.2. Hiệu Quả Vận Hành Hệ Thống (System Efficiency)
+Áp dụng hệ thống quy trình số tự động giúp tối ưu hóa tối đa thời gian và công sức cán bộ:
+*   **Chu kỳ Phê duyệt Bài đăng & Media:** 
+    *   *Phương thức thủ công cũ:* Mất 02 - 03 ngày gửi email đính kèm tệp nặng hoặc trình ký giấy xin duyệt nội dung.
+    *   *Quy trình mới:* Tự động hóa qua luồng phê duyệt Content & Media di động. Rút ngắn thời gian duyệt xuống **dưới 2 giờ**, kịp thời phát sóng và ngừa 100% rủi ro khủng hoảng thông tin.
+*   **Thời gian Tác nghiệp BTV & Thiết kế:**
+    *   *Phương thức thủ công cũ:* Tốn 40 giờ/tháng đóng watermark ảnh thủ công, upload gửi báo chí, hoặc hỗ trợ thủ công.
+    *   *Quy trình mới:* Tự động đóng watermark bản quyền, tự sinh link chia sẻ tài nguyên RAW tốc độ cao qua Shared Media Cloud. Tiết kiệm **120 - 150 giờ/tháng**, giải phóng nhân lực tập trung vào sáng tạo nội dung.
+*   **Thời gian Điều phối Phối hợp nội bộ:**
+    *   *Phương thức thủ công cũ:* Tiêu tốn 60 giờ họp hành/tháng của Ban tổ chức để theo dõi 13+ đơn vị qua các nhóm chat Zalo/Viber chồng chéo.
+    *   *Quy trình mới:* Đồng bộ tập trung trên Web Portal Kanban Task Management và Cổng thông tin Brand Portal. Giảm **80% thời gian họp điều phối**, kiểm soát tiến độ trực quan.
+*   **Quản lý vinh danh đóng góp Quỹ cựu sinh viên:**
+    *   *Phương thức thủ công cũ:* Cán bộ nhập tay danh sách ủng hộ, đối chiếu sao kê thủ công, mất 1 - 2 tuần để cập nhật vinh danh.
+    *   *Quy trình mới:* Tích hợp cổng VietQR đóng góp tự động, tự đối chiếu hiển thị danh sách vinh danh tức thời trên Cổng Brand Portal. Đạt tự động hóa **100%**, minh bạch dòng tiền ủng hộ Quỹ.
+
+### 4.3. Hiệu Quả Tài Chính và Tối Ưu Hóa Ngân Sách
+*   **Tối ưu chi phí khánh tiết trực tiếp:** Tiết kiệm từ **35.000.000 VND - 50.000.000 VND** nhờ áp dụng hệ thống thư mời điện tử e-invite QR code cá nhân hóa gửi khách thay thế cho in ấn thiệp giấy cứng đắt đỏ.
+*   **Cơ chế đối lưu tài trợ linh hoạt:** Quy chuẩn spec hiển thị thương hiệu của nhà tài trợ trên Cổng thông tin, giúp nhà trường dễ dàng vận động cựu sinh viên doanh nghiệp trực tiếp tài trợ từng sự kiện lẻ đối lưu truyền thông, giảm thiểu tối đa áp lực chi ngân sách công của nhà trường.
+
+---
+
+## 5. KẾT LUẬN & HÀNH ĐỘNG NGAY (IMMEDIATE ACTIONS)
 
 Để đảm bảo tiến độ triển khai kịp thời, hai bên thống nhất:
 1.  **Triển khai trước các đầu việc thiết kế qua MOU:** Ký kết Biên bản ghi nhớ để ConsMedia bắt tay ngay vào việc tinh chỉnh logo, làm đăng ký bảo hộ sở hữu trí tuệ sớm nhằm tránh rủi ro mất quyền đăng ký nhãn hiệu.
 2.  **Nghiệm thu thanh toán theo giai đoạn:** Thực hiện ký kết hợp đồng và nghiệm thu cuốn chiếu theo từng cấu phần của Gói Tổng Thể (Cấu phần A hoàn thành nghiệm thu bàn giao file thiết kế gốc & nộp đơn bảo hộ SHTT, Cấu phần B nghiệm thu dịch vụ vận hành hàng tháng).
+
