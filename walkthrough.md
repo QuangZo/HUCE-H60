@@ -1,58 +1,47 @@
-# Báo cáo Nghiệm thu Hoàn thành: Tái cơ cấu và Chuẩn hóa Đề xuất Thương hiệu HUCE
+# Báo cáo Nghiệm thu Hoàn thành: Xây dựng & Tái cấu trúc Hệ thống Tài liệu Thương hiệu HUCE
 
-Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp và tái cơ cấu toàn diện hệ thống tài liệu nghiên cứu cùng giao diện đề xuất (`huce_h60_proposal.html` và `index.html`) nhằm tập trung định vị lại trọng tâm từ **Chiến dịch H60** sang **Thương hiệu HUCE** (Thương hiệu cốt lõi lâu dài), với cột mốc H60 đóng vai trò là động lực thúc đẩy triển khai.
+Tài liệu này tổng hợp kết quả nghiệm thu nâng cấp, đồng bộ hóa và thống nhất toàn bộ hệ thống báo cáo, biểu phí cùng deliverables trong cả các tệp nghiên cứu (.md) và trang đề xuất tương tác HTML (`index.html` và `huce_h60_proposal.html`).
 
 ---
 
 ## 🚀 Các Hạng Mục Đã Cập Nhật & Hoàn Thành
 
-### 1. Hoàn thiện Bộ tài liệu Nghiên cứu (.md) - Giai đoạn 1
-Đã chuẩn hóa và đồng bộ hóa cả 3 báo cáo nghiên cứu gốc trong thư mục làm việc và Brain:
-*   [01_danh_gia_suc_khoe_thuong_hieu.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/01_danh_gia_suc_khoe_thuong_hieu.md): Chuyển đổi trọng tâm từ chiến dịch IMC H60 sang Hệ thống thương hiệu HUCE lâu dài; bổ sung cảnh báo pháp lý về việc nhãn hiệu viết tắt "HUCE" chưa được đăng ký bảo hộ nhãn hiệu độc quyền.
-*   [02_de_xuat_hanh_dong_va_co_che.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/02_de_xuat_hanh_dong_va_co_che.md): Cập nhật cơ chế hợp tác dài hạn, ba trụ cột truyền thông và quy trình quản trị khủng hoảng nhãn hiệu.
-*   [03_bao_gia_va_specs_chi_tiet.md](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/03_bao_gia_va_specs_chi_tiet.md): Chuẩn hóa danh mục bàn giao và cơ cấu báo giá trọn gói 800M (Gói 1: 500M - Thiết kế nhận diện & bảo hộ SHTT; Gói 2.1: 120M - Quy trình quản lý truyền thông; Gói 2.2: 180M - Dịch vụ chăm sóc website).
+### 1. Thống nhất tên gọi 03 Báo cáo Chiến lược
+Đã chuẩn hóa và đồng bộ hóa tuyệt đối tên gọi của 03 báo cáo chính ở tất cả các vị trí (trong file Markdown tiêu đề đầu trang, menu điều hướng sidebar HTML, menu xem trước bản in A4, các thẻ tóm tắt trang chủ Page 0, và script JS hiển thị tiêu đề động):
+*   **Báo cáo 01:** *Đánh giá Sức khỏe Thương hiệu & Cảnh báo Bảo hộ Pháp lý HUCE*
+*   **Báo cáo 02:** *Đề xuất Hành động theo Cơ chế Đối tác Truyền thông*
+*   **Báo cáo 03:** *Đề xuất Giải pháp & Bảng báo giá Chi tiết Hệ thống Thương hiệu*
 
-### 2. Tái cấu trúc và Đơn giản hóa giao diện HTML (`index.html` và `huce_h60_proposal.html`) - Giai đoạn 2 & 3
-Đã loại bỏ toàn bộ định danh chiến dịch H60 và tối giản hóa, trực quan hóa giao diện:
-*   **Xây dựng Cấu trúc Trang trực quan:**
-    *   **Trang 1: 01. Tổng quan & Khái quát Chào giá (Page 0):** Chứa thông tin chào mừng,Stakeholders (BÊN A / BÊN B), **Bộ tính toán dự toán tương tác (Interactive Calculator)** được đưa lên đầu trang, danh mục báo cáo rút gọn (Reports Vault) và siêu dữ liệu mốc thời gian.
-    *   **Trang 2: 02. Đánh giá Sức khỏe Thương hiệu (Page 1):** Bắt đầu bằng 🎯 4 Mục Tiêu Chiến Lược, theo sau là SWOT, Bản đồ Giao diện chỉ số và Cảnh báo Sở hữu trí tuệ độc quyền khẩn cấp.
-    *   **Trang 3: 03. Lộ trình & Cơ chế Phối hợp (Page 2):** Lộ trình triển khai, Ma trận RACI phối hợp và Quy chế ứng phó xử lý khủng hoảng.
-    *   **Trang 4: 04. Báo giá Chi tiết & Đặc tả (Page 3):** Thuyết minh chi tiết các gói, Bảng báo giá tĩnh, Deliverables Hub và Menu dịch vụ lẻ.
-*   **Cô đọng thông tin bằng Collapsible Section:**
-    *   Tất cả các báo cáo văn bản dài được ẩn mặc định sau nút **📂 Xem báo cáo chi tiết**. Người dùng có thể nhấn nút để mở rộng và đọc chi tiết mà không làm loãng cấu trúc tổng quan trực quan của trang.
-*   **Chuẩn hóa Hệ màu & Tương phản:**
-    *   Sửa lỗi dìm chữ trên nút sẫm: Các nút Vault Report và Primary Buttons chuyển sang màu trắng rõ nét trên nền xanh Royal Blue đậm.
-    *   Sửa lỗi checkbox: Dấu checkmark hiển thị màu trắng rõ ràng trên nền ô xanh Royal Blue khi được chọn.
-    *   Thay đổi nền hộp Calculator từ xám tối sẫm sang màu xám nhạt (`#f8fafc`) có viền zinc tinh giản, làm cho bảng tính nhẹ nhàng và ăn khớp hoàn toàn với trang web.
-    *   Chuyển các card Report Vault sang nền xanh nhạt sang trọng (`rgba(0, 42, 92, 0.03)`) giúp dễ đọc.
+### 2. Tách biệt các Gói ngân sách trong Interactive Calculator
+*   **Calculator Checkboxes:** Đã hủy bỏ checkbox gộp chung 800M cũ. Thay vào đó, thiết lập 03 checkbox tách biệt hoạt động trơn tru:
+    1.  **Gói 1: Chuẩn hóa Nhận diện &amp; Bảo hộ SHTT (Trị giá 500.000.000 VND)**
+    2.  **Gói 2.1: Tư vấn Quy trình quản lý truyền thông (Trị giá 120.000.000 VND)**
+    3.  **Gói 2.2: Dịch vụ vận hành website đồng hành (Trị giá 180.000.000 VND)**
+*   **LCD Display:** Hiển thị tổng cộng mặc định là **800,000,000** (cả 3 gói chọn mặc định) và cập nhật số liệu thời gian thực dạng `toLocaleString` khi người dùng click chọn/bỏ chọn.
 
-### 3. Đẩy code lên Git và Triển khai trực tuyến
-*   Đã thực hiện dọn dẹp các script phân tích tạm thời.
-*   Staged, Committed và Pushed thành công tất cả thay đổi lên nhánh `main` của repository GitHub: `https://github.com/QuangZo/HUCE-H60.git`.
-*   Trang web đã được cập nhật và triển khai trực tiếp tại: `https://huce-proposal.consmedia.com/`.
+### 3. Tách biệt các Gói trong Bảng Báo giá Tĩnh (Bảng 1)
+*   Cơ cấu lại bảng báo giá tĩnh trên Page 3 hiển thị rõ rệt phân mục:
+    *   **I. GÓI 1: CHUẨN HÓA NHẬN DIỆN THƯƠNG HIỆU &amp; BẢO HỘ PHÁP LÝ SHTT** (Gồm 9 hạng mục chi tiết, tổng cộng 500,000,000 VND).
+    *   **II. GÓI 2: TƯ VẤN QUY TRÌNH QUẢN LÝ &amp; VẬN HÀNH WEBSITE ĐỒNG HÀNH** (Gồm 2 cấu phần chính, tổng cộng 300,000,000 VND).
+    *   **TỔNG CỘNG KINH PHÍ CỐ ĐỊNH DỰ ÁN (GÓI 1 + GÓI 2):** 800,000,000 VND.
 
-### 4. Tái cơ cấu Gói 1 - Chuẩn hóa Nhận diện & SHTT (Yêu cầu mới)
-Đã thực hiện cập nhật lại cơ cấu giá của Gói 1 nhằm tách bạch phần in ấn và cân chỉnh ngân sách Digital Assets hợp lý hơn:
-*   **Tách hạng mục in ấn:** Hạng mục *Biên soạn và In ấn Cẩm nang thương hiệu* (85M) được tách làm 2 phần: Thiết kế Cẩm nang thương hiệu thuần túy (45M) và Biên soạn tổng hợp PlayBook - Media Kit & Dịch vụ xuất bản in ấn thực tế (25M).
-*   **Tăng ngân sách Digital Assets:** Tăng từ 20M lên 35M để đảm bảo chất lượng thiết kế chuẩn và chuyên nghiệp (bao gồm các mẫu Social Media Grids, Email Signature HTML, và Zoom Virtual Backgrounds).
-*   **Giải thích chi tiết về các tài sản số (Digital Assets):**
-    *   *Social Media Grids:* File nguồn (Figma/PSD) thiết kế bài đăng chia lưới đồng bộ cho fanpage trường, giúp bài đăng luôn đẹp mắt và không bị vụn vặt.
-    *   *Email Signatures:* Mẫu chữ ký thư điện tử HTML chuẩn hóa thông tin cá nhân và định dạng thương hiệu HUCE cho giảng viên và cán bộ trường.
-    *   *Zoom/Teams Backgrounds:* Hình nền ảo chất lượng cao phục vụ các buổi họp và giảng dạy trực tuyến, hội thảo khoa học đồng bộ thương hiệu.
+### 4. Tái cấu trúc Deliverables Hub Gói 1 (Từ 11 còn 9 Phân nhóm)
+*   **Gộp Phân nhóm 1 &amp; 2:** Tinh chỉnh lưới logo gốc và biên soạn Cẩm nang nhận diện thương hiệu thành một hạng mục thống nhất (Trị giá 75M).
+*   **Bộ ấn phẩm văn phòng (Phân nhóm 2):** Liệt kê chi tiết 10 hạng mục in ấn và file nguồn số hóa (Danh thiếp, Letterhead, 3 cỡ phong bì, Folder, Giấy mời sự kiện lẻ, bút viết, túi giấy, PowerPoint template 30 layout).
+*   **Digital Assets (Phân nhóm 3):** Cập nhật ngân sách nâng cấp 35M và quy chuẩn chi tiết (Social Grids, Email Signature HTML, Zoom backgrounds).
+*   **Bảng biển chỉ dẫn (Phân nhóm 5):** Đổi tên từ Campus Branding thành Quy chuẩn bảng biển chỉ dẫn nội khu và thông tin hành lang.
+*   **Quà tặng (Phân nhóm 6):** Cấu trúc lại theo Khung Quy chuẩn Quà tặng Thương hiệu 4 đối tượng.
+*   **Brand Portal (Phân nhóm 8):** Nâng cấp Landing Page thành Cổng thư viện số lưu trữ tài nguyên chuẩn hóa (Brand Portal &amp; Resource Hub) phân quyền truy cập.
+*   **Chuyển giao Event Branding (Phân nhóm 7 cũ):** Đưa Event Branding trọn gói (55M) ra khỏi Gói 1 sang Menu dịch vụ lẻ sự kiện.
+*   **Playbook &amp; Media Kit (Phân nhóm 9):** Định nghĩa rõ rệt sự khác nhau giữa Brand Playbook (Sách cẩm nang tác nghiệp hành chính in 15 cuốn cao cấp) và Digital Media Kit (Bộ file đồ họa số nén gửi nhanh đối ngoại).
 
-### 5. Nâng cấp Bố cục in ấn khổ ngang, Ghép Gói & Sửa Font Số (Yêu cầu mới nhất)
-*   **Khổ in ngang A4 (Landscape):**
-    *   Định dạng lại bản in thực tế và màn hình xem trước (Print Preview) theo kích thước A4 nằm ngang (`width: 297mm; height: 210mm`) giúp dàn trang ngang rộng rãi, dễ theo dõi biểu đồ và bảng biểu.
-*   **Bỏ khung bao dạng hộp (Borderless):**
-    *   Loại bỏ hoàn toàn viền (`border`), màu nền (`background`) và bóng đổ (`box-shadow`) của các khối thông tin (`.panel-card`, `.brand-health-dashboard`) trong cả bản in và preview nhằm giải phóng tối đa diện tích lề, giúp trang in thông thoáng, liền mạch và chuyên nghiệp.
-*   **Chia trang và Header/Footer động trên Preview:**
-    *   Tái cấu trúc mã nguồn JS: Khi bấm "Xem Trước Bản In", hệ thống sẽ tự động tách nội dung theo các khối `.print-page-section`, đóng gói riêng biệt từng trang in và đính kèm đầy đủ Header chuẩn (Logo trường, đối tác) và Footer động (Tên tài liệu, đánh số trang thực tế dạng *Trang X / Y*) y hệt như khi xuất bản PDF.
-*   **Ghép Gói 1 và Gói 2 thành Gói Tổng Thể:**
-    *   Gộp Gói 1 (500M) và Gói 2 (300M) thành một gói duy nhất: **I. GÓI TỔNG THỂ: CHUẨN HÓA HỆ THỐNG THƯƠNG HIỆU & VẬN HÀNH TRUYỀN THÔNG ĐỒNG HÀNH (Trị giá 800.000.000 VND)**.
-    *   Cơ cấu lại bảng báo giá tĩnh thành 13 hạng mục đánh số từ 1 đến 13 (Cấu phần A: 1-11; Cấu phần B: 12-13).
-    *   Tích hợp thành một checkbox duy nhất trị giá **800M** trên bộ công cụ tính toán dự toán tương tác (Interactive Calculator).
-*   **Sửa đổi thiết kế gói Quà tặng (Hạng mục 8):**
-    *   Quy định rõ ràng phạm vi bàn giao của gói **50.000.000 VND** là xây dựng **Khung Quy chuẩn Quà tặng Thương hiệu (Brand Gift Design Framework)**. Phân tách rõ ràng định hướng thiết kế theo 4 nhóm đối tượng cụ thể (Lãnh đạo cao cấp khánh tiết, khách hàng & cán bộ, sinh viên & tuyển dụng, và quà tặng theo chiến dịch) để làm định hướng định dạng PDF, tối ưu hóa ngân sách.
-*   **Sửa lỗi vỡ font chữ số:**
-    *   Thay thế toàn bộ các khai báo font chữ địa phương không được hỗ trợ (`UTM Avo`, `Outfit`) bằng các font chữ web chuyên dụng chất lượng cao đã được import sẵn từ Google Fonts: **Plus Jakarta Sans** (cho body & headings) và **Inter** (cho các chữ số và bảng biểu). Số liệu hiển thị sắc nét, thẳng hàng và cực kỳ hiện đại.
+### 5. Cập nhật Menu Dịch Vụ Lẻ (Bảng 2)
+*   Chèn thêm hạng mục **1.5 | Thiết kế Hệ thống nhận diện Sự kiện &amp; Lễ kỷ niệm trọn gói (Event Branding Kit) | Trị giá 55.000.000 VND** vào bảng giá dịch vụ lẻ sự kiện.
+*   Đánh số lại hạng mục Thiết kế Slide thuyết trình sự kiện lẻ thành **1.6** (Đơn giá 350.000 VND/slide).
+
+---
+
+## 🛠️ Trạng thái Triển khai Kỹ thuật
+
+*   **HTML Files:** Cả hai tệp [index.html](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/index.html) và [huce_h60_proposal.html](file:///C:/Users/Admin/.gemini/antigravity/scratch/huce_h60_project/huce_h60_proposal.html) đã được cập nhật đồng bộ hoàn toàn và hoạt động ổn định không lỗi console.
+*   **Markdown Files:** Đã đồng bộ tiêu đề chuẩn hóa sang cả thư mục làm việc và Brain artifacts.

@@ -1,4 +1,4 @@
-# BẢN ĐỀ XUẤT HÀNH ĐỘNG THEO CƠ CHẾ ĐỐI TÁC TRUYỀN THÔNG (MEDIA PARTNERSHIP ACTION PROPOSAL)
+# BÁO CÁO 02: ĐỀ XUẤT HÀNH ĐỘNG THEO CƠ CHẾ ĐỐI TÁC TRUYỀN THÔNG
 **Dự án: Chuẩn hóa Nhận diện và Xây dựng Hệ thống Thương hiệu HUCE**  
 
 ---

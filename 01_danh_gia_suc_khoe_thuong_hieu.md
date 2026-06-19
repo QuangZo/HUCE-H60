@@ -1,4 +1,4 @@
-# BẢN ĐÁNH GIÁ SỨC KHỎE THƯƠNG HIỆU VÀ CẢNH BÁO BẢO HỘ PHÁP LÝ HUCE
+# BÁO CÁO 01: ĐÁNH GIÁ SỨC KHỎE THƯƠNG HIỆU & CẢNH BÁO BẢO HỘ PHÁP LÝ HUCE
 **Tài liệu Tư vấn Chiến lược Thương hiệu & Định vị Truyền thông**  
 **Dự án: Chuẩn hóa Nhận diện và Xây dựng Hệ thống Thương hiệu HUCE**  
 

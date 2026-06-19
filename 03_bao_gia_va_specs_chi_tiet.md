@@ -1,4 +1,4 @@
-# BẢN ĐỀ XUẤT GIẢI PHÁP & BẢNG BÁO GIÁ CHI TIẾT THƯƠNG HIỆU HUCE
+# BÁO CÁO 03: ĐỀ XUẤT GIẢI PHÁP & BẢNG BÁO GIÁ CHI TIẾT HỆ THỐNG THƯƠNG HIỆU
 **Dự án: Chuẩn hóa Nhận diện và Xây dựng Hệ thống Thương hiệu HUCE**  
 
 > [!NOTE]
