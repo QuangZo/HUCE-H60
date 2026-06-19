@@ -6,6 +6,7 @@
 
 ## 1. NHU CẦU CẤP THIẾT & ĐỊNH HƯỚNG TIẾP CẬN
 
+### 1.1. Các nhu cầu cấp thiết về thương hiệu và truyền thông
 Hiện tại, Trường Đại học Xây dựng Hà Nội (HUCE) đang đứng trước 3 nhu cầu cấp thiết về mặt thương hiệu và truyền thông:
 1.  **Chuẩn hóa và Đồng bộ hình ảnh:** Khắc phục triệt để sự phân mảnh hình ảnh và sai lệch màu sắc ở các khoa/phòng ban.
 2.  **Quy trình quản lý và Điều phối truyền thông:** Xây dựng quy chế tác nghiệp, kênh truyền thông thống nhất nhằm nâng cao năng lực phản ứng nhanh, tránh khủng hoảng dư luận.
@@ -13,20 +14,18 @@ Hiện tại, Trường Đại học Xây dựng Hà Nội (HUCE) đang đứng 
 
 *Các hành động này nhằm giải quyết triệt để các vấn đề cốt lõi dưới đây về thương hiệu và truyền thông của nhà trường, trong đó cột mốc Đại lễ H60 đóng vai trò là động lực thúc đẩy.*
 
----
-
-## 2. CẢNH BÁO PHÁP LÝ KHẨN CẤP: CHƯA ĐĂNG KÝ BẢO HỘ SỞ HỮU TRÍ TUỆ
+### 1.2. Cảnh báo pháp lý khẩn cấp: Chưa đăng ký bảo hộ Sở hữu trí tuệ
 
 > [!CAUTION]
 > **RỦI RO PHÁP LÝ NGHIÊM TRỌNG:**
 > Qua rà soát dữ liệu tại Cục Sở hữu Trí tuệ Việt Nam, toàn bộ hệ thống nhận diện thương hiệu mới của trường kể từ khi đổi tên năm 2021 bao gồm: **Tên viết tắt "HUCE"** và **Logo mới (lưới tinh chỉnh hình học cẩu tháp - quyển sách)** hiện **CHƯA ĐƯỢC ĐĂNG KÝ BẢO HỘ NHÃN HIỆU ĐỘC QUYỀN**.
 
-### Các rủi ro cụ thể nếu không hành động ngay:
+#### Các rủi ro cụ thể nếu không hành động ngay:
 *   **Nguy cơ mất thương hiệu (Bị nộp đơn trước):** Theo nguyên tắc ưu tiên nộp đơn trước (First-to-file) của Việt Nam, nếu có một đơn vị khác đăng ký trước tên viết tắt "HUCE" hoặc logo tương tự trong nhóm ngành Giáo dục/Truyền thông, nhà trường có thể bị buộc phải đổi tên hoặc mất quyền sử dụng hợp pháp bộ nhận diện hiện tại.
 *   **Tranh chấp và Xâm phạm nhãn hiệu:** Các tổ chức giáo dục tư nhân hoặc doanh nghiệp có thể sử dụng trái phép tên "HUCE" để tuyển sinh, quảng cáo trục lợi mà nhà trường không có đủ công cụ pháp lý mạnh để cưỡng chế dừng vi phạm.
 *   **Tranh chấp tên miền và kênh truyền thông số:** Việc thiếu văn bằng bảo hộ nhãn hiệu gây khó khăn lớn khi yêu cầu các nền tảng mạng xã hội (Facebook, TikTok, Google) xác minh tích xanh chính chủ hoặc xử lý các trang giả mạo trường.
 
-### Đề xuất hành động:
+#### Đề xuất hành động:
 *   Bổ sung ngay dịch vụ **Tư vấn và thực hiện thủ tục đăng ký bảo hộ nhãn hiệu độc quyền** làm cấu phần cốt lõi trong Gói Tổng Thể của đề xuất này.
 *   Đăng ký tối thiểu tại các nhóm ngành thiết yếu:
     *   **Nhóm 41:** Giáo dục, đào tạo, tổ chức sự kiện văn hóa, thể thao.
@@ -36,7 +35,7 @@ Hiện tại, Trường Đại học Xây dựng Hà Nội (HUCE) đang đứng 
 
 ---
 
-## 3. KHẢO SÁT THỰC TRẠNG TÀI SẢN & KÊNH TRUYỀN THÔNG HUCE (SỐ LIỆU ĐỊNH LƯỢNG)
+## 2. KHẢO SÁT THỰC TRẠNG TÀI SẢN & KÊNH TRUYỀN THÔNG HUCE (SỐ LIỆU ĐỊNH LƯỢNG)
 
 Qua khảo sát thực tế bộ tài liệu nhận diện `BỘ NHẬN DIỆN MÀU MỚI 27_02.pdf` và các kênh truyền thông trực tuyến của HUCE, Tổ tư vấn ghi nhận các chỉ số cụ thể sau:
 
@@ -60,7 +59,7 @@ Qua khảo sát thực tế bộ tài liệu nhận diện `BỘ NHẬN DIỆN M
 
 ---
 
-## 4. PHÂN TÍCH SWOT RÚT GỌN
+## 3. PHÂN TÍCH SWOT RÚT GỌN
 
 | ĐIỂM MẠNH (STRENGTHS) | ĐIỂM YẾU (WEAKNESSES) |
 | :--- | :--- |
@@ -70,7 +69,7 @@ Qua khảo sát thực tế bộ tài liệu nhận diện `BỘ NHẬN DIỆN M
 
 ---
 
-## 5. ĐỀ XUẤT GIẢI PHÁP TRỌNG TÂM
+## 4. ĐỀ XUẤT GIẢI PHÁP TRỌNG TÂM
 
 Để giải quyết triệt để các vấn đề trên, nhà trường cần tập trung thực thi các nhóm giải pháp tích hợp trong Gói Tổng Thể:
 1.  **Cấu phần A: Chuẩn hóa Nhận diện thương hiệu & Đăng ký bảo hộ sở hữu trí tuệ**
